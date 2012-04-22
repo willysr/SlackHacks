@@ -1,7 +1,7 @@
 This repository is list of my hacks in Slackware-Current
 
 The content of this repository are:
-- SlackBuilds 	: List of SlackBuilds i used and updated to work with Slackware-Current
+- SlackBuilds 	: Updated SlackBuild scripts tested for Slackware-Current
 - VMware 	: VMware patches for some spesific kernels
 - slackbook 	: Latest Indonesian SlackBook Translations
 - slackbasics 	: Latest Indonesian SlackBasics Translations
