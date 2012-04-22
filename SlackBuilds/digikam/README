@@ -5,5 +5,5 @@ by directory layout or by custom collections. An easy to use interface
 is provided that enables you to connect to your camera and preview,
 download and/or delete your images.
 
-OpenCV, QJson, lensfun and liblqr (available at SBo) are optional build 
+OpenCV, QJson, and lensfun (available at SBo) are optional build 
 time dependencies. 
