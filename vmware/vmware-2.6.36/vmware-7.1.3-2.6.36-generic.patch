@@ -1,0 +1,11 @@
+diff -ru8 original//vmmon-only/linux/driver.c patched//vmmon-only/linux/driver.c
+--- original//vmmon-only/linux/driver.c	2010-11-11 20:37:22.000000000 +0000
++++ patched//vmmon-only/linux/driver.c	2010-11-19 17:27:01.000000000 +0000
+@@ -170,6 +170,7 @@ static int LinuxDriver_Open(struct inode
+ static int LinuxDriver_Ioctl(struct inode *inode, struct file *filp,
+                            u_int iocmd, unsigned long ioarg);
+ #if defined(HAVE_UNLOCKED_IOCTL) || defined(HAVE_COMPAT_IOCTL)
++#define VMW_HAVE_UNLOCKED_IOCTL
+ static long LinuxDriver_UnlockedIoctl(struct file *filp,
+                            u_int iocmd, unsigned long ioarg);
+ #endif

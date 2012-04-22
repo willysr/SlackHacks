@@ -1,0 +1,83 @@
+diff -ru original//vmci-only/include/compat_semaphore.h patched//vmci-only/include/compat_semaphore.h
+--- original//vmci-only/include/compat_semaphore.h	2010-11-11 15:37:25.000000000 -0500
++++ patched//vmci-only/include/compat_semaphore.h	2010-11-20 10:11:56.000000000 -0500
+@@ -28,7 +28,7 @@
+ #endif
+ 
+ 
+-#if defined CONFIG_PREEMPT_RT && LINUX_VERSION_CODE >= KERNEL_VERSION(2, 6, 31)
++#if (defined CONFIG_PREEMPT_RT && LINUX_VERSION_CODE >= KERNEL_VERSION(2, 6, 31)) || LINUX_VERSION_CODE >= KERNEL_VERSION(2, 6, 37)
+    /*
+     * The -rt patch series changes the name of semaphore/mutex initialization
+     * routines (across the entire kernel).  Probably to identify locations that
+@@ -41,7 +41,7 @@
+       #define DECLARE_MUTEX(_m)  DEFINE_SEMAPHORE(_m)
+    #endif
+    #ifndef init_MUTEX
+-      #define init_MUTEX(_m) semaphore_init(_m)
++      #define init_MUTEX(_m) sema_init(_m,1)
+    #endif
+ #endif
+ 
+diff -ru original//vmmon-only/linux/driver.c patched//vmmon-only/linux/driver.c
+--- original//vmmon-only/linux/driver.c	2010-11-11 15:37:22.000000000 -0500
++++ patched//vmmon-only/linux/driver.c	2010-11-29 23:09:16.000000000 -0500
+@@ -145,7 +145,7 @@
+ #endif
+ #if LINUX_VERSION_CODE >= KERNEL_VERSION(2, 6, 0) && \
+     (defined(CONFIG_SMP) || defined(CONFIG_PREEMPT))
+-#  define kernel_locked_by_current() kernel_locked()
++#  define kernel_locked_by_current() (current->lock_depth >= 0)
+ #else
+ #  define kernel_locked_by_current() 0
+ #endif
+@@ -170,6 +170,7 @@
+ static int LinuxDriver_Ioctl(struct inode *inode, struct file *filp,
+                            u_int iocmd, unsigned long ioarg);
+ #if defined(HAVE_UNLOCKED_IOCTL) || defined(HAVE_COMPAT_IOCTL)
++#define VMW_HAVE_UNLOCKED_IOCTL
+ static long LinuxDriver_UnlockedIoctl(struct file *filp,
+                            u_int iocmd, unsigned long ioarg);
+ #endif
+diff -ru original//vmnet-only/compat_semaphore.h patched//vmnet-only/compat_semaphore.h
+--- original//vmnet-only/compat_semaphore.h	2010-11-11 15:37:23.000000000 -0500
++++ patched//vmnet-only/compat_semaphore.h	2010-11-20 10:11:56.000000000 -0500
+@@ -28,7 +28,7 @@
+ #endif
+ 
+ 
+-#if defined CONFIG_PREEMPT_RT && LINUX_VERSION_CODE >= KERNEL_VERSION(2, 6, 31)
++#if (defined CONFIG_PREEMPT_RT && LINUX_VERSION_CODE >= KERNEL_VERSION(2, 6, 31)) || LINUX_VERSION_CODE >= KERNEL_VERSION(2, 6, 37)
+    /*
+     * The -rt patch series changes the name of semaphore/mutex initialization
+     * routines (across the entire kernel).  Probably to identify locations that
+@@ -41,7 +41,7 @@
+       #define DECLARE_MUTEX(_m)  DEFINE_SEMAPHORE(_m)
+    #endif
+    #ifndef init_MUTEX
+-      #define init_MUTEX(_m) semaphore_init(_m)
++      #define init_MUTEX(_m) sema_init(_m,1)
+    #endif
+ #endif
+ 
+diff -ru original//vsock-only/shared/compat_semaphore.h patched//vsock-only/shared/compat_semaphore.h
+--- original//vsock-only/shared/compat_semaphore.h	2010-11-11 13:04:44.000000000 -0500
++++ patched//vsock-only/shared/compat_semaphore.h	2010-11-20 10:11:56.000000000 -0500
+@@ -28,7 +28,7 @@
+ #endif
+ 
+ 
+-#if defined CONFIG_PREEMPT_RT && LINUX_VERSION_CODE >= KERNEL_VERSION(2, 6, 31)
++#if (defined CONFIG_PREEMPT_RT && LINUX_VERSION_CODE >= KERNEL_VERSION(2, 6, 31)) || LINUX_VERSION_CODE >= KERNEL_VERSION(2, 6, 37)
+    /*
+     * The -rt patch series changes the name of semaphore/mutex initialization
+     * routines (across the entire kernel).  Probably to identify locations that
+@@ -41,7 +41,7 @@
+       #define DECLARE_MUTEX(_m)  DEFINE_SEMAPHORE(_m)
+    #endif
+    #ifndef init_MUTEX
+-      #define init_MUTEX(_m) semaphore_init(_m)
++      #define init_MUTEX(_m) sema_init(_m,1)
+    #endif
+ #endif
+ 
