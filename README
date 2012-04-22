@@ -1,0 +1,10 @@
+This repository is list of my hacks in Slackware-Current
+
+The content of this repository are:
+- SlackBuilds : List of SlackBuilds i used and updated to work with Slackware-Current
+- VMware : VMware patches for some spesific kernels
+
+DISCLAIMER: Every scripts or patches i placed on this repository is tested on MY MACHINE (latest Slackware-Current on 32 bit machine).
+If you wanted to use it on your machine which has different architecture or version, use it on your own risk.
+
+Copyright 2012  Willy Sudiarto Raharjo <willysr@gmail.com>
