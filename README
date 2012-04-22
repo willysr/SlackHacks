@@ -5,6 +5,7 @@ The content of this repository are:
 - VMware 	: VMware patches for some spesific kernels
 - slackbook 	: Latest Indonesian SlackBook Translations
 - slackbasics 	: Latest Indonesian SlackBasics Translations
+- scripts	: Other scripts which are not part of SlackBuilds
 
 DISCLAIMER: Every scripts or patches i placed on this repository are tested on MY MACHINE (latest Slackware-Current on 32 bit machine).
 If you wanted to use it on your machine which has different architecture or version, use it on your own risk.
