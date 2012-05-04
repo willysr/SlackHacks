@@ -20,9 +20,12 @@
 #  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+# Updated by Willy Sudiarto Raharjo <willysr@slackware-id.org>
+# Changelog
+# May 4, 2012 : Updated the script to remove libffi package to avoid conflict with gcc-java package
 
 VERSION=${VERSION:-$(echo gtk+-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
-BUILD=${BUILD:-1}
+BUILD=${BUILD:-2}
 
 NUMJOBS=${NUMJOBS:-" -j7 "}
 
@@ -91,6 +94,11 @@ autoreconf -vif
 # Our host is $ARCH-slackware-linux not $ARCH-slackware-linux-gnu:
 sed -i -e 's#linux|linux-gnu|#linux|linux|#' config.sub
 
+# It seems that libffi conflicts with gcc-java
+# http://lists.slackbuilds.org/pipermail/slackbuilds-users/2012-February/008555.html
+# Robby Workman has suggested to remove some stuffs from gcc-java package before compiling
+rm -f /usr/lib${LIBDIRSUFFIX}/libffi.{a,so.4*}
+
 CFLAGS="$SLKCFLAGS -DHOST='"'"${ARCH}-slackware-linux"'"'" \
 ./configure \
   --prefix=/usr \
@@ -115,6 +123,8 @@ make install \
   RUN_QUERY_IMMODULES_TEST=false RUN_QUERY_LOADER_TEST=false \
   DESTDIR=$PKG \
   || exit 1
+
+
 
 # You'll probably need to install the newly made package right away to
 # fix the result of this next line, but we had to clear this.  Sorry.
