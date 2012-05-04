@@ -1,0 +1,12 @@
+#! /bin/sh
+#
+# This is a wrapper script that calls update-gtk-immodules-2.0 (GTK+2)
+# and/or update-gtk-immodules-3.0 (GTK+3) to do the actual updating.
+
+if [ -x /usr/bin/update-gtk-immodules-2.0 ]; then
+  /usr/bin/update-gtk-immodules-2.0 $*
+fi
+if [ -x /usr/bin/update-gtk-immodules-3.0 ]; then
+  /usr/bin/update-gtk-immodules-3.0 $*
+fi
+
