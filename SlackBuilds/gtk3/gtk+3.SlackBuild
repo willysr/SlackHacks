@@ -23,7 +23,7 @@
 # Updated by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # Changelog
 # May 4, 2012 : Updated the script to remove libffi package to avoid conflict with gcc-java package
-# May 6, 2012 : Added the --with-x, --enable-x11-backend, fix some compilation process
+# May 5, 2012 : Added the --with-x, --enable-x11-backend, fix some compilation process
 
 VERSION=${VERSION:-$(echo gtk+-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
 BUILD=${BUILD:-1}
