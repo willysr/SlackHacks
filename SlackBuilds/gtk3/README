@@ -1,0 +1,17 @@
+This is my personal attempt to build GTK+3 on Slackware-Current
+This script is based on Slackware's official SlackBuild script with some modifications
+required to build correctly
+
+Known Problems:
+- libgtk-x11 is not available, so it breaks some applications that requires this library
+
+TODO:
+- Migration from GTK+2 still needs to be tweaked 
+
+Requirements: 
+- gobject-introspection 1.32.1 (Available on SBo)
+- pango-1.30
+   - gdk-pixbuf 2.26.1
+- atk-2.4.0
+   - glib2-2.32.1
+     - libffi-3.0.11 (Available on SBo)
