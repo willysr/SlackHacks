@@ -1,6 +1,5 @@
 This is my personal attempt to build GTK+3 on Slackware-Current
-This script is based on Slackware's official SlackBuild script with some modifications
-required to build correctly
+This script is based on Slackware's official SlackBuild script with some modifications required to build correctly
 
 Known Problems:
 - libgtk-x11 is not available, so it breaks some applications that requires this library. 
