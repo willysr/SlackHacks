@@ -3,10 +3,8 @@ This script is based on Slackware's official SlackBuild script with some modific
 required to build correctly
 
 Known Problems:
-- libgtk-x11 is not available, so it breaks some applications that requires this library
-
-TODO:
-- Migration from GTK+2 still needs to be tweaked 
+- libgtk-x11 is not available, so it breaks some applications that requires this library. 
+Solution: Do not use upgradepkg. Use installpkg instead so that this package is installed alongside with GTK+2
 
 Requirements: 
 - gobject-introspection 1.32.1 (Available on SBo)
