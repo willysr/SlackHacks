@@ -6,7 +6,7 @@ Known Problems:
 Solution: Do not use upgradepkg. Use installpkg instead so that this package is installed alongside with GTK+2
 
 Requirements: 
-- gobject-introspection 1.32.1 (Available on SBo)
+- gobject-introspection 1.32.1
 - pango-1.30
    - gdk-pixbuf 2.26.1
 - atk-2.4.0
