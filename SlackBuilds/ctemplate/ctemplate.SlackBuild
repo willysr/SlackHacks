@@ -25,8 +25,7 @@
 
 PRGNAM=ctemplate
 VERSION=${VERSION:-2.2}
-BUILD=${BUILD:-1}
-TAG=${TAG:-_SBo}
+BUILD=${BUILD:-1wsr}
 
 # Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
@@ -89,4 +88,4 @@ mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
 cd $PKG
-/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.${PKGTYPE:-tgz}
+/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD.${PKGTYPE:-tgz}
