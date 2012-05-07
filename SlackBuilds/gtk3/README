@@ -11,4 +11,4 @@ Requirements:
    - gdk-pixbuf 2.26.1
 - atk-2.4.0
    - glib2-2.32.1
-     - libffi-3.0.11 (Available on SBo)
+     - libffi-3.0.11

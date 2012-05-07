@@ -3,6 +3,10 @@
 # Slackware build script for libffi
 # Written by Andrew Rowland, darowland@ieee.org
 
+# Updated by Willy Sudiarto Raharjo <willysr@slackware-id.org>
+# Changelog
+# May 7, 2012 : Bumped to 3.0.11
+
 PRGNAM=libffi
 VERSION=3.0.11
 BUILD=${BUILD:-1}
