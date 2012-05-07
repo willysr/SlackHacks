@@ -29,7 +29,7 @@
 
 PKGNAM=gdk-pixbuf
 VERSION=${VERSION:-$(echo $PKGNAM-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
-BUILD=${BUILD:-2}
+BUILD=${BUILD:-2wsr}
 
 # Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then

@@ -9,8 +9,7 @@
 
 PRGNAM=libffi
 VERSION=3.0.11
-BUILD=${BUILD:-1}
-TAG=${TAG:-_SBo}
+BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
