@@ -1,0 +1,203 @@
+#!/bin/sh
+
+# Copyright 2008, 2009, 2010, 2011, 2012  Patrick J. Volkerding, Sebeka, Minnesota, USA
+# All rights reserved.
+#
+# Redistribution and use of this script, with or without modification, is
+# permitted provided that the following conditions are met:
+#
+# 1. Redistributions of this script must retain the above copyright
+#    notice, this list of conditions and the following disclaimer.
+#
+#  THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
+#  WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+#  MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO
+#  EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+#  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+#  PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+#  OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+#  WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+#  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+#  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+# CUPS build script by volkerdi@slackware.com.
+
+# Updated by Willy Sudiarto Raharjo
+# Changelog
+# May 8 : Bumped to 1.5.2, remove unneeded patches
+
+
+VERSION=1.5.2
+BUILD=${BUILD:-1wsr}
+
+# Automatically determine the architecture we're building on:
+if [ -z "$ARCH" ]; then
+  case "$( uname -m )" in
+    i?86) export ARCH=i486 ;;
+    arm*) export ARCH=arm ;;
+    # Unless $ARCH is already set, use uname -m for all other archs:
+       *) export ARCH=$( uname -m ) ;;
+  esac
+fi
+
+if [ "$ARCH" = "x86_64" ]; then
+  LIBDIRSUFFIX="64"
+else
+  LIBDIRSUFFIX=""
+fi
+
+NUMJOBS=${NUMJOBS:-" -j7 "}
+
+CWD=$(pwd)
+TMP=${TMP:-/tmp}
+PKG=$TMP/package-cups
+
+rm -rf $PKG
+mkdir -p $TMP $PKG
+
+cd $TMP
+rm -rf cups-$VERSION
+tar xvf $CWD/cups-$VERSION-source.tar.?z* || exit 1
+cd cups-$VERSION
+
+sed -i.orig -e 's#$exec_prefix/lib/cups#$libdir/cups#g' configure
+./configure \
+  --libdir=/usr/lib${LIBDIRSUFFIX} \
+  --enable-ssl \
+  --enable-openssl=yes \
+  --enable-gnutls=no \
+  --enable-cdsassl=no \
+  --docdir=/usr/doc \
+  --without-php \
+  --disable-pam \
+  --build=$ARCH-slackware-linux
+
+make $NUMJOBS || exit 1
+mkdir -p $PKG/etc/cups
+mkdir -p $PKG/var/spool
+make BUILDROOT=$PKG install || exit 1
+
+# I've added so many things like /etc/init.d/ to Slackware that CUPS
+# is now installing init scripts to the Red Hat locations.  We'll move
+# them to the usual locations:
+mkdir -p $PKG/etc/rc.d
+# Handle this as a config file, and non-executable in a default install:
+mv $PKG/etc/init.d/cups $PKG/etc/rc.d/rc.cups.new
+chmod 644 $PKG/etc/rc.d/rc.cups.new
+# Clear out the additions:
+rm -rf $PKG/etc/init.d $PKG/etc/rc{0,2,3,5}.d
+
+### OBSOLETE.  The USB backend is patched to support usblp again. ###
+## From 1.4.x, CUPS no longer uses usblp, and having the module loaded
+## will interfere with USB printers.  So, we will add a blacklist rule
+## so that the module is not loaded:
+#mkdir -p $PKG/etc/modprobe.d
+#cat << EOF > $PKG/etc/modprobe.d/cups.blacklist.usblp.conf.new
+## Do not load the kernel usblp module, since it interferes with
+## versions of CUPS 1.4.0 and newer:
+#blacklist usblp
+#EOF
+
+# I'm not sure if overwriting this blindly could have ill effects,
+# but it never hurts to play it safe.  According to the dbus-daemon
+# manpage, only files ending in .conf will be used, so there won't
+# be any unintended doubling up.
+mv $PKG/etc/dbus-1/system.d/cups.conf $PKG/etc/dbus-1/system.d/cups.conf.new
+
+# For full CUPS SMB support, you'll need to install the cups-samba
+# package from the source in this directory.  There's no easy way
+# to add that to a package build, and the requests aren't pouring in,
+# so you'll have to install it yourself.  It's easy to do.
+
+# However, this will get you the most useful SMB support for free.
+# Thanks to Boris Kurktchiev for the tip.  :-)
+( cd $PKG/usr/lib${LIBDIRSUFFIX}/cups/backend
+  if [ ! -e smb ]; then
+    ln -sf /usr/bin/smbspool smb
+  fi
+)
+
+mkdir -p $PKG/install
+cat $CWD/slack-desc > $PKG/install/slack-desc
+
+# Remove preformatted manpages and move the manpages to /usr/man:
+( cd $PKG/usr/share/man
+  find . -type d -name "cat*" | xargs rm -rf
+  cd ..
+  mv man ..
+)
+
+# Adjust/expand docs:
+( mkdir -p $PKG/usr/doc
+  mv $PKG/usr/share/doc/cups $PKG/usr/doc/cups-$VERSION
+  rmdir $PKG/usr/share/doc
+  cd $PKG/usr/doc
+  ln -sf cups-$VERSION cups )
+
+# If there's a ChangeLog, installing at least part of the recent history
+# is useful, but don't let it get totally out of control:
+if [ -r CHANGES.txt ]; then
+  DOCSDIR=$(echo $PKG/usr/doc/*-$VERSION)
+  cat CHANGES.txt | head -n 1000 > $DOCSDIR/CHANGES.txt
+  touch -r CHANGES.txt $DOCSDIR/CHANGES.txt
+fi
+
+# I'm sorry, but PDF files are almost as bloated and annoying as
+# MS Word documents.  We'll retain the HTML files in /usr/doc.
+( cd $PKG/usr/doc
+  find . -name "*.pdf" -exec rm -f {} \; )
+
+# Apply no-clobber fix to conffiles:
+( cd $PKG/etc/cups
+  for file in * ; do
+    if [ -f $file ]; then
+      mv $file $file.new
+    fi
+  done )
+
+# Strip stuff:
+find $PKG | xargs file | grep -e "executable" -e "shared object" \
+  | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
+
+# Use symlinks to certain binaries so that CUPS and LPRng can coexist:
+SUFFIX=cups
+for file in \
+usr/bin/cancel \
+usr/bin/lp \
+usr/bin/lpq \
+usr/bin/lpr \
+usr/bin/lprm \
+usr/bin/lpstat \
+usr/sbin/lpc ; do
+  ( cd $PKG
+    mv ${file} ${file}-${SUFFIX}
+    ( cd `dirname ${file}` ; ln -sf `basename ${file}`-${SUFFIX} `basename ${file}` )
+  )
+done
+# Now fix the associated man pages:
+mv $PKG/usr/man/man1/cancel.1.gz $PKG/usr/man/man1/cancel-${SUFFIX}.1.gz
+mv $PKG/usr/man/man1/lp.1.gz $PKG/usr/man/man1/lp-${SUFFIX}.1.gz
+mv $PKG/usr/man/man1/lpq.1.gz $PKG/usr/man/man1/lpq-${SUFFIX}.1.gz
+mv $PKG/usr/man/man1/lpr.1.gz $PKG/usr/man/man1/lpr-${SUFFIX}.1.gz
+mv $PKG/usr/man/man1/lprm.1.gz $PKG/usr/man/man1/lprm-${SUFFIX}.1.gz
+mv $PKG/usr/man/man1/lpstat.1.gz $PKG/usr/man/man1/lpstat-${SUFFIX}.1.gz
+mv $PKG/usr/man/man8/lpc.8.gz $PKG/usr/man/man8/lpc-${SUFFIX}.8.gz
+( cd $PKG/usr/man/man1
+  ln -sf cancel-${SUFFIX}.1.gz cancel.1.gz
+  ln -sf lp-${SUFFIX}.1.gz lp.1.gz
+  ln -sf lpq-${SUFFIX}.1.gz lpq.1.gz
+  ln -sf lpr-${SUFFIX}.1.gz lpr.1.gz
+  ln -sf lprm-${SUFFIX}.1.gz lprm.1.gz
+  ln -sf lpstat-${SUFFIX}.1.gz lpstat.1.gz
+)
+( cd $PKG/usr/man/man8
+  ln -sf lpc-${SUFFIX}.8.gz lpc.8.gz
+)
+
+# Add the doinst.sh that installs the .new conffiles:
+zcat $CWD/doinst.sh.gz > $PKG/install/doinst.sh
+
+# Build the package:
+cd $PKG
+/sbin/makepkg -l y -c n $TMP/cups-$VERSION-$ARCH-$BUILD.txz
+
