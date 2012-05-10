@@ -1,0 +1,45 @@
++--------------------------+
+Fri May 10 17:24 GMT+7 2012
+opencv: Added 
+  This is a SlackBuild for OpenCV-2.4.0
+  digiKam users will have to rebuilt after upgrading to this version
+
++--------------------------+
+Wed May 8 15:13:58 GMT+7 2012
+cups: Added
+  This is a SlackBuild for cups-1.5.2
+  Please test this package on your environment
+
++--------------------------+
+Mon May 7 11:46:00 2012
+mysql-workbench: Added
+  This is a SlackBuild for mysql-workbench-5.2.39
+  depends on libsigc++, glibmm, atkmm, cairomm, pangomm, gtkmm, ctemplate-2.2
+libsigc++: Added
+glibmm: Added
+atkmm: Added
+cairomm: Added
+gtkmm: Added
+ctemplate: Added
+
++--------------------------+
+Mon May 7 10:15:45 2012
+gobject-introspection: Added
+  This package is required before compiling GTK+3
+
++--------------------------+
+Sat May 5 07:29:05 2012
+gtk+3: Added
+  This package is meant to be installed alongside with GTK+2, not replacing it
+  Depends on gobject-introspection, pango, gdk-pixbuf, atk, glib2, libffi
+
++--------------------------+
+Fri May 4 07:22:50 2012
+gimp: Added
+  This is a SlackBuild for GIMP-2.8.0
+  Depends on babl, gegl, atk, glib2, libffi, gtk+, pango, gdk-pixbuf
+pango: Added
+gdk-pixbuf: Added
+atk: Added
+glib2: Added
+libffi: Added
