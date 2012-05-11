@@ -1,4 +1,9 @@
 +--------------------------+
+Fri May 11 11:48:49 GMT+7 2012
+powertop: rebuilt
+  Comment the patch as it's not upstream patch
+
++--------------------------+
 Fri May 11 07:13:25 GMT+7 2012
 powertop: Added
   This is a SlackBuild for PowerTop-2.0
