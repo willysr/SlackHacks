@@ -25,6 +25,7 @@
 # Modified by Willy Sudiarto Raharjo
 # Changelog
 # May, 7 : Added
+# May, 12 : Rebuilt, added --disable-static
 
 
 PRGNAM=ctemplate
