@@ -12,6 +12,11 @@ environment for:
 
 The Community (OSS) Edition is available under the GPL.
 
+Notes:
+You need to allow MySQL to accept incoming connection from outside
+Open /etc/rc.d/rc.mysqld, you have to comment this line
+SKIP="--skip-networking"
+
 Requirements: 
 - lua (available on Slackware)
 - wxGTK-2.8.12/wxPython-2.8.12 (available on SBo)
@@ -25,3 +30,5 @@ Requirements:
 - pangomm-2.28.4
 - gtkmm-2.24.2
 - ctemplate-2.2
+- paramiko-1.7.7.1 (available on SBo)
+  - pycrypto-2.5

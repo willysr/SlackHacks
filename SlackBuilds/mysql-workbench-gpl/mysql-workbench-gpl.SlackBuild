@@ -8,10 +8,11 @@
 # Modified by Willy Sudiarto Raharjo
 # Changelog
 # May, 7 : Bumped to 5.2.39, Added patch to work with glib-2.3x
+# May, 12: Rebuilt, Added patch to fix problems with newer automake
 
 PRGNAM=mysql-workbench-gpl
 VERSION=${VERSION:-5.2.39}
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 SRCVERSION=$VERSION-src
 
@@ -57,13 +58,23 @@ find . \
  \( -perm 666 -o -perm 664 -o -perm 600 -o -perm 444 -o -perm 440 -o -perm 400 \) \
  -exec chmod 644 {} \;
 
+# remove when http://bugs.mysql.com/bug.php?id=63898 gets fixed
+# Using pkglib_DATA is invalid since automake 1.11.2
+# This is only for precautions, just in case Slackware-Current decided to upgrade automake to 1.11.2 or newer
+# Since it doesn't break with previous version, it's safe to include the change
+fgrep -rlZ pkglib_DATA --include Makefile.am . | xargs -0 sed -i 's/pkglib_DATA/pkgdata_DATA/g'
+
 # Added patch to fix compilation with glib
 # This will be fixed in mysql-workbench-gpl-5.2.40
 patch -p1 < $CWD/glib-single-include.patch
 
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
-./autogen.sh \
+./autogen.sh
+libtoolize --force
+autoreconf -vif
+
+./configure \
   --prefix=/usr \
   --libdir=/usr/lib${LIBDIRSUFFIX} \
   --sysconfdir=/etc \
@@ -74,8 +85,6 @@ CXXFLAGS="$SLKCFLAGS" \
   --disable-debug \
   --enable-shared=yes \
   --enable-static=no \
-  --enable-python-modules \
-  --enable-readline
 
 make
 make install DESTDIR=$PKG
