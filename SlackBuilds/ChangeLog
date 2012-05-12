@@ -1,4 +1,11 @@
 +--------------------------+
+Sat May 12 09:22:55 GMT+7 2012
+mysql-workbench: rebuilt
+  Updated README for MySQL information and additional runtime dependencies: pycrypto, paramiko
+pycrypto: Added
+  This is a SlackBuild for pycrypto-2.5
+
++--------------------------+
 Fri May 11 11:48:49 GMT+7 2012
 powertop: rebuilt
   Comment the patch as it's not upstream patch
