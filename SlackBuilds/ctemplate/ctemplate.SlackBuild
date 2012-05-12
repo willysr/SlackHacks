@@ -29,7 +29,7 @@
 
 PRGNAM=ctemplate
 VERSION=${VERSION:-2.2}
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 # Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
@@ -79,6 +79,7 @@ CXXFLAGS="$SLKCFLAGS" \
   --sysconfdir=/etc \
   --localstatedir=/var \
   --docdir=/usr/doc/$PRGNAM-$VERSION \
+  --disable-static \
   --build=$ARCH-slackware-linux
 
 make install-strip DESTDIR=$PKG 
