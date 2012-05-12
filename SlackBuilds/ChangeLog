@@ -5,6 +5,10 @@ mysql-workbench: rebuilt
 pycrypto: Added
   This is a SlackBuild for pycrypto-2.5
 
+Sat May 12 12:10:28 GMT+7 2012
+pexpect: Added
+  This is a SlackBuild for pexpect, needed by MySQL Workbench to import data
+
 +--------------------------+
 Fri May 11 11:48:49 GMT+7 2012
 powertop: rebuilt

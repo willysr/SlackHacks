@@ -35,3 +35,4 @@ Requirements:
 - ctemplate-2.2
 - paramiko-1.7.7.1 (available on SBo)
   - pycrypto-2.5
+- pexpect-2.3
