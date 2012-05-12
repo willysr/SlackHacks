@@ -12,10 +12,13 @@ environment for:
 
 The Community (OSS) Edition is available under the GPL.
 
-Notes:
+Note:
 You need to allow MySQL to accept incoming connection from outside
 Open /etc/rc.d/rc.mysqld, you have to comment this line
 SKIP="--skip-networking"
+and restart MySQL Daemon
+/etc/rc.d/rc.mysqld stop
+/etc/rc.d/rc.mysqld start
 
 Requirements: 
 - lua (available on Slackware)
