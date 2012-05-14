@@ -1,3 +1,8 @@
+Tue May 15 06:56:50 GMT+7 2012
+opencv: Removed
+  The same version has been uploaded to SlackBuild Project
+
++--------------------------+
 Sat May 12 12:28:55 GMT+7 2012
 ctemplate: rebuilt
   Added --disable-static configure parameter as suggested by Walesa
