@@ -1,3 +1,8 @@
+Fri May 18 06:00:44 GMT+7 2012
+powertop: rebuilt
+  Remove non-existence directory for man pages
+
++--------------------------+
 Thu May 17 07:56:33 GMT+7 2012 
 cups: Upgraded
   Cups is now upgraded to 1.5.3
