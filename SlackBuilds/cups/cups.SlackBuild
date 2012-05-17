@@ -25,9 +25,9 @@
 # Updated by Willy Sudiarto Raharjo
 # Changelog
 # May 8 : Bumped to 1.5.2, remove unneeded patches
+# May 17 : Bumped to 1.5.3
 
-
-VERSION=1.5.2
+VERSION=1.5.3
 BUILD=${BUILD:-1wsr}
 
 # Automatically determine the architecture we're building on:
