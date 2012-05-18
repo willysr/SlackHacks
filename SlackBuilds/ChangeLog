@@ -1,3 +1,17 @@
+Fri May 18 07:20:06 GMT+7 2012
+cnijfilter: Added
+  This is a SlackBuild for cnijfilter-3.4.0, Canon Printer Driver for Linux
+  This driver supports 
+     mp250
+     mp280
+     mp495
+     mg5100
+     ip4800
+     mg5200
+     mg6100
+     mg8100
+
++--------------------------+
 Fri May 18 06:00:44 GMT+7 2012
 powertop: rebuilt
   Remove non-existence directory for man pages

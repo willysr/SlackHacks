@@ -1,0 +1,280 @@
+#!/bin/sh
+
+# SlackBuild script for "cnijfilter".
+
+# Copyright 2012 Willy Sudiarto Raharjo, Jogja, Indonesia (willysr@slackware-id.org)
+# All  rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are
+# met:
+#
+# * Redistributions of source code must retain the above copyright
+# notice, this list of conditions and the following disclaimer.
+#
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+# "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+# LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+# A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+# OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+# SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+# LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+# DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+# THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+# (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+# OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+# Changelog
+# May 17: Initial release
+
+PRGNAM=cnijfilter
+VERSION=${VERSION:-3.40-1}
+BUILD=${BUILD:-1wsr}
+
+SRCVERSION=source-$VERSION
+
+if [ -z "$ARCH" ]; then
+  case "$( uname -m )" in
+    i?86) ARCH=i486 ;;
+    arm*) ARCH=arm ;;
+       *) ARCH=$( uname -m ) ;;
+  esac
+fi
+
+CWD=$(pwd)
+TMP=${TMP:-/tmp/build}
+PKG=$TMP/package-$PRGNAM
+OUTPUT=${OUTPUT:-/tmp}
+
+if [ "$ARCH" = "i486" ]; then
+  SLKCFLAGS="-O2 -march=i486 -mtune=i686"
+  LIBDIRSUFFIX=""
+  LIBS_BIN="libs_bin32"
+elif [ "$ARCH" = "i686" ]; then
+  SLKCFLAGS="-O2 -march=i686 -mtune=i686"
+  LIBDIRSUFFIX=""
+  LIBS_BIN="libs_bin32"
+elif [ "$ARCH" = "x86_64" ]; then
+  SLKCFLAGS="-O2 -fPIC"
+  LIBDIRSUFFIX="64"
+  LIBS_BIN="libs_bin64"
+else
+  SLKCFLAGS="-O2"
+  LIBDIRSUFFIX=""
+  LIBS_BIN="libs_bin32"
+fi
+
+# Set PRINTER_ID based on the MODEL variable
+if [ "${MODEL}" = "mp250" ]; then
+  PRINTER_ID="356"
+elif [ "${MODEL}" = "mp280" ]; then
+  PRINTER_ID="370"
+elif [ "${MODEL}" = "mp495" ]; then
+  PRINTER_ID="369"
+elif [ "${MODEL}" = "mg5100" ]; then
+  PRINTER_ID="373"
+elif [ "${MODEL}" = "ip4800" ]; then
+  PRINTER_ID="375"
+elif [ "${MODEL}" = "mg5200" ]; then
+  PRINTER_ID="374"
+elif [ "${MODEL}" = "mg6100" ]; then
+  PRINTER_ID="376"
+elif [ "${MODEL}" = "mg8100" ]; then
+  PRINTER_ID="377"
+fi
+
+if [ -z "$PRINTER_ID" ]; then
+  echo "You have to set MODEL variable to one of these options :"
+  echo "- mp250"
+  echo "- mp280"
+  echo "- mp495"
+  echo "- mg5100"
+  echo "- ip4800"
+  echo "- mg5200"
+  echo "- mg6100"
+  echo "- mg8100"
+  echo "example : MODEL=mp250 ./cnijfilter.SlackBuild"
+  exit 1
+fi
+set -e
+
+rm -rf $PKG
+mkdir -p $TMP $PKG $OUTPUT
+cd $TMP
+rm -rf $PRGNAM-$SRCVERSION
+tar xvf $CWD/$PRGNAM-$SRCVERSION.tar.gz
+cd $PRGNAM-$SRCVERSION
+chown -R root:root .
+find . \
+ \( -perm 777 -o -perm 775 -o -perm 711 -o -perm 555 -o -perm 511 \) \
+ -exec chmod 755 {} \; -o \
+ \( -perm 666 -o -perm 664 -o -perm 600 -o -perm 444 -o -perm 440 -o -perm 400 \) \
+ -exec chmod 644 {} \;
+
+CFLAGS="$SLKCFLAGS"
+CXXFLAGS="$SLKCFLAGS"
+
+patch -p0 < $CWD/fix.patch
+sed -i -e 's/png_p->jmpbuf/png_jmpbuf(png_p)/' cnijfilter/src/bjfimage.c
+
+cd $TMP/$PRGNAM-$SRCVERSION/libs
+./autogen.sh \
+  --prefix=/usr \
+  --libdir=/usr/lib${LIBDIRSUFFIX} \
+  --sysconfdir=/etc \
+  --localstatedir=/var \
+  --mandir=/usr/man \
+  --docdir=/usr/doc/$PRGNAM-$VERSION \
+  --disable-static \
+  --program-suffix=$MODEL \
+  --build=$ARCH-slackware-linux
+
+make || return 1
+make install DESTDIR=$PKG || return 1
+
+cd $TMP/$PRGNAM-$SRCVERSION/cngpij
+./autogen.sh \
+  --prefix=/usr \
+  --libdir=/usr/lib${LIBDIRSUFFIX} \
+  --sysconfdir=/etc \
+  --localstatedir=/var \
+  --enable-progpath=/usr/bin \
+  --mandir=/usr/man \
+  --docdir=/usr/doc/$PRGNAM-$VERSION \
+  --disable-static \
+  --program-suffix=$MODEL \
+  --build=$ARCH-slackware-linux
+
+make || return 1
+make install DESTDIR=$PKG || return 1
+
+cd $TMP/$PRGNAM-$SRCVERSION/cnijfilter
+./autogen.sh \
+  --prefix=/usr \
+  --libdir=/usr/lib${LIBDIRSUFFIX} \
+  --sysconfdir=/etc \
+  --localstatedir=/var \
+  --mandir=/usr/man \
+  --docdir=/usr/doc/$PRGNAM-$VERSION \
+  --program-suffix=$MODEL \
+  --build=$ARCH-slackware-linux
+make || return 1
+make install DESTDIR=$PKG || return 1
+
+cd $TMP/$PRGNAM-$SRCVERSION/pstocanonij
+./autogen.sh \
+  --prefix=/usr \
+  --libdir=/usr/lib${LIBDIRSUFFIX} \
+  --sysconfdir=/etc \
+  --localstatedir=/var \
+  --enable-progpath=/usr/bin \
+  --mandir=/usr/man \
+  --docdir=/usr/doc/$PRGNAM-$VERSION \
+  --disable-static \
+  --program-suffix=$MODEL \
+  --build=$ARCH-slackware-linux
+make || return 1
+make install DESTDIR=$PKG || return 1
+
+cd $TMP/$PRGNAM-$SRCVERSION/lgmon
+./autogen.sh \
+  --prefix=/usr \
+  --libdir=/usr/lib${LIBDIRSUFFIX} \
+  --sysconfdir=/etc \
+  --localstatedir=/var \
+  --enable-progpath=/usr/bin \
+  --mandir=/usr/man \
+  --docdir=/usr/doc/$PRGNAM-$VERSION \
+  --program-suffix=$MODEL \
+  --build=$ARCH-slackware-linux
+make || return 1
+make install DESTDIR=$PKG || return 1
+
+cd $TMP/$PRGNAM-$SRCVERSION/ppd
+./autogen.sh \
+  --prefix=/usr \
+  --libdir=/usr/lib${LIBDIRSUFFIX} \
+  --sysconfdir=/etc \
+  --localstatedir=/var \
+  --mandir=/usr/man \
+  --docdir=/usr/doc/$PRGNAM-$VERSION \
+  --program-suffix=$MODEL \
+  --build=$ARCH-slackware-linux
+make || return 1
+make install DESTDIR=$PKG || return 1
+
+cd $TMP/$PRGNAM-$SRCVERSION/cngpijmon/cnijnpr
+./autogen.sh \
+  --prefix=/usr \
+  --libdir=/usr/lib${LIBDIRSUFFIX} \
+  --sysconfdir=/etc \
+  --localstatedir=/var \
+  --mandir=/usr/man \
+  --docdir=/usr/doc/$PRGNAM-$VERSION \
+  --program-suffix=$MODEL \
+  --build=$ARCH-slackware-linux LIBS="-ldl"
+make || return 1
+make install DESTDIR=$PKG || return 1
+
+cd $TMP/$PRGNAM-$SRCVERSION/backend
+./autogen.sh \
+  --prefix=/usr \
+  --libdir=/usr/lib${LIBDIRSUFFIX} \
+  --sysconfdir=/etc \
+  --localstatedir=/var \
+  --enable-progpath=/usr/bin \
+  --mandir=/usr/man \
+  --docdir=/usr/doc/$PRGNAM-$VERSION \
+  --disable-static \
+  --program-suffix=$MODEL \
+  --build=$ARCH-slackware-linux
+make || return 1
+make install DESTDIR=$PKG || return 1
+
+cd $TMP/$PRGNAM-$SRCVERSION/backendnet
+./autogen.sh \
+  --prefix=/usr \
+  --libdir=/usr/lib${LIBDIRSUFFIX} \
+  --sysconfdir=/etc \
+  --localstatedir=/var \
+  --enable-progpath=/usr/bin \
+  --mandir=/usr/man \
+  --docdir=/usr/doc/$PRGNAM-$VERSION \
+  --disable-static \
+  --program-suffix=$MODEL \
+  --build=$ARCH-slackware-linux
+make || return 1
+make install DESTDIR=$PKG || return 1
+
+cd $TMP/$PRGNAM-$SRCVERSION/
+mkdir $PKG/usr/lib${LIBDIRSUFFIX}/bjlib
+cp -a $PRINTER_ID/database/* $PKG/usr/lib${LIBDIRSUFFIX}/bjlib
+
+install -p -m 755 $TMP/$PRGNAM-$SRCVERSION/$PRINTER_ID/$LIBS_BIN/libcnbpcmcm$PRINTER_ID.so.8.0.1 $PKG/usr/lib${LIBDIRSUFFIX}/
+install -p -m 755 $TMP/$PRGNAM-$SRCVERSION/$PRINTER_ID/$LIBS_BIN/libcnbpcnclapi$PRINTER_ID.so.3.5.0 $PKG/usr/lib${LIBDIRSUFFIX}
+install -p -m 755 $TMP/$PRGNAM-$SRCVERSION/$PRINTER_ID/$LIBS_BIN/libcnbpcnclbjcmd$PRINTER_ID.so.3.3.0 $PKG/usr/lib${LIBDIRSUFFIX}
+install -p -m 755 $TMP/$PRGNAM-$SRCVERSION/$PRINTER_ID/$LIBS_BIN/libcnbpcnclui$PRINTER_ID.so.3.6.0 $PKG/usr/lib${LIBDIRSUFFIX}
+install -p -m 755 $TMP/$PRGNAM-$SRCVERSION/$PRINTER_ID/$LIBS_BIN/libcnbpess$PRINTER_ID.so.3.3.3 $PKG/usr/lib${LIBDIRSUFFIX}
+install -p -m 755 $TMP/$PRGNAM-$SRCVERSION/$PRINTER_ID/$LIBS_BIN/libcnbpess$PRINTER_ID.so.3.3.3 $PKG/usr/lib${LIBDIRSUFFIX}
+install -p -m 755 $TMP/$PRGNAM-$SRCVERSION/$PRINTER_ID/$LIBS_BIN/libcnbpo$PRINTER_ID.so.1.0.? $PKG/usr/lib${LIBDIRSUFFIX}
+install -p -m 755 $TMP/$PRGNAM-$SRCVERSION/com/$LIBS_BIN/libcnnet.so.1.2.0 $PKG/usr/lib${LIBDIRSUFFIX}
+
+# Make a symlink to point to pstocanonij without suffix
+( 
+  ln -s usr/lib${LIBDIRSUFFIX}/cups/filter/pstocanonij$MODEL $PKG/usr/lib${LIBDIRSUFFIX}/cups/filter/pstocanonij
+)
+
+find $PKG | xargs file | grep -e "executable" -e "shared object" | grep ELF \
+  | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
+
+mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
+cp -a \
+  README LICENSE* \
+  $PKG/usr/doc/$PRGNAM-$VERSION
+cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
+
+mkdir -p $PKG/install
+cat $CWD/slack-desc > $PKG/install/slack-desc
+
+cd $PKG
+/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$MODEL-$VERSION-$ARCH-$BUILD.${PKGTYPE:-txz}

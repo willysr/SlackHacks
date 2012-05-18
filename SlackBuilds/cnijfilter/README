@@ -1,0 +1,16 @@
+Canon IJ Printer Driver for Linux
+
+This driver supports:
+     mp250
+     mp280
+     mp495
+     mg5100
+     ip4800
+     mg5200
+     mg6100
+     mg8100
+
+You have to set MODEL variable to one of the above options before the SlackBuild script
+eg. MODEL=mp250 ./cnijfilter.SlackBuild
+
+Source: http://support-au.canon.com.au/contents/AU/EN/0100302002.html
