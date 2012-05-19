@@ -1,3 +1,8 @@
+Sun May 20 06:23:55 GMT+7 2012
+mysql-workbench: Upgraded to 5.2.40
+  Removed glib patch since it's now included upstream
+
++--------------------------+
 Fri May 18 07:20:06 GMT+7 2012
 cnijfilter: Added
   This is a SlackBuild for cnijfilter-3.4.0, Canon Printer Driver for Linux

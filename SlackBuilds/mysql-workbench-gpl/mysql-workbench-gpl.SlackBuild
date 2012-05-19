@@ -4,15 +4,15 @@
 
 # Written by André Geraldo Vieira <andre.geraldo@gmail.com>
 
-# Modified by the SlackBuilds.org team
 # Modified by Willy Sudiarto Raharjo
 # Changelog
 # May, 7 : Bumped to 5.2.39, Added patch to work with glib-2.3x
 # May, 12: Rebuilt, Added patch to fix problems with newer automake
+# May, 20: Upgraded to 5.2.40, Remove glib patch since it's included upstream
 
 PRGNAM=mysql-workbench-gpl
-VERSION=${VERSION:-5.2.39}
-BUILD=${BUILD:-2wsr}
+VERSION=${VERSION:-5.2.40}
+BUILD=${BUILD:-1wsr}
 
 SRCVERSION=$VERSION-src
 
@@ -63,10 +63,6 @@ find . \
 # This is only for precautions, just in case Slackware-Current decided to upgrade automake to 1.11.2 or newer
 # Since it doesn't break with previous version, it's safe to include the change
 fgrep -rlZ pkglib_DATA --include Makefile.am . | xargs -0 sed -i 's/pkglib_DATA/pkgdata_DATA/g'
-
-# Added patch to fix compilation with glib
-# This will be fixed in mysql-workbench-gpl-5.2.40
-patch -p1 < $CWD/glib-single-include.patch
 
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
