@@ -1,3 +1,7 @@
+Mon May 21 09:32:00 GMT+7 2012
+wesnoth: Upgraded to 1.10.3
+
++--------------------------+
 Sun May 20 06:23:55 GMT+7 2012
 mysql-workbench: Upgraded to 5.2.40
   Removed glib patch since it's now included upstream
