@@ -1,3 +1,13 @@
+Wed May 23 05:59:37 GMT+7 2012
+gstreamer: Added
+gst-plugins-base: Added
+gst-plugins-good: Added
+gst-plugins-bad: Added
+gst-plugins-ugly: Added
+  This is a SlackBuilds for GStreamer and gst-plugins-*
+  I need this package to support GStreamer Phonon Backend and make amaroK plays MP3 files
+
++--------------------------+
 Mon May 21 09:32:00 GMT+7 2012
 wesnoth: Upgraded to 1.10.3
 
