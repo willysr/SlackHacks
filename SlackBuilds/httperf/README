@@ -1,0 +1,3 @@
+Httperf is a tool for measuring web server performance. 
+It provides a flexible facility for generating various 
+HTTP workloads and for measuring server performance. 
