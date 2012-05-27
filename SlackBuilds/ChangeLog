@@ -1,3 +1,9 @@
+Sun May 27 07:06:07 GMT+7 2012
+guvcview: Upgraded to 1.6.0
+  New optional dependency: PulseAudio
+  Please read the README for configure option
+  
++--------------------------+
 Thu May 24 06:40:44 GMT+7 2012
 powertop: Removed
   This version has been included in the -Current update per May 24

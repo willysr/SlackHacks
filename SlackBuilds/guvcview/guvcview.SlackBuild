@@ -22,9 +22,10 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-
+# ChangeLog
+# May, 27 : Added check for PulseAudio
 PRGNAM=guvcview
-VERSION=${VERSION:-1.5.3}
+VERSION=${VERSION:-1.6.0}
 BUILD=${BUILD:-1wsr}
 
 DOCS="ABOUT-NLS AUTHORS COPYING ChangeLog INSTALL NEWS README"
@@ -56,6 +57,12 @@ else
   LIBDIRSUFFIX=""
 fi
 
+if [ "${PULSE:-YES}" = "NO" ]; then
+  pulseaudio="--disable-pulse"
+else
+  pulseaudio="--enable-pulse"
+fi
+
 set -e
 
 rm -rf $PKG
@@ -78,6 +85,7 @@ CXXFLAGS="$SLKCFLAGS" \
   --libdir=/usr/lib${LIBDIRSUFFIX} \
   --sysconfdir=/etc \
   --localstatedir=/var \
+  $pulseaudio \
   --build=$ARCH-slackware-linux
 
 make
@@ -98,4 +106,4 @@ cat $CWD/slack-desc > $PKG/install/slack-desc
 cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
 cd $PKG
-/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD.${PKGTYPE:-tgz}
+/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD.${PKGTYPE:-txz}
