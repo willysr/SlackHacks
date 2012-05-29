@@ -8,7 +8,7 @@ do
   location=$(dirname $sb)
   if [ -f $location/$name.info ]; then
     echo "SLACKBUILD NAME: $name"
-    echo "SLACKBUILD LOCATION: $location"
+    echo "SLACKBUILD LOCATION: ./$name"
     files=$(cd $location && find .  -type f -printf '%P\n' | sort | xargs)
     echo "SLACKBUILD FILES: $files"
 
