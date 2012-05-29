@@ -108,6 +108,16 @@ SLACKBUILD MD5SUM: 28997d14055f15db063eb92e1c8a7ebb
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  gimp (The GNU Image Manipulation Program)
 
+SLACKBUILD NAME: glib2
+SLACKBUILD LOCATION: SlackBuilds/glib2
+SLACKBUILD FILES: doinst.sh.gz glib2.SlackBuild glib2.info libglib2.csh libglib2.sh slack-desc
+SLACKBUILD VERSION: 2.32.2
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/glib/2.32/glib-2.32.3.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 9bd3ac535c24b6c162be13b2c43c5adc
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  glib2 (library of C routines)
+
 SLACKBUILD NAME: glibmm
 SLACKBUILD LOCATION: SlackBuilds/glibmm
 SLACKBUILD FILES: README glibmm.SlackBuild glibmm.info slack-desc
