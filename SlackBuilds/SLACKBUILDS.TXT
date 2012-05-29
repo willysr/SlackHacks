@@ -1,0 +1,302 @@
+SLACKBUILD NAME: atk
+SLACKBUILD LOCATION: SlackBuilds/atk
+SLACKBUILD FILES: atk.SlackBuild atk.info slack-desc
+SLACKBUILD VERSION: 1.6.0
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/atk/2.4/atk-2.4.0.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 2184a140f71d50276669d6eda5cce5db
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  atk (accessibility functions library)
+
+SLACKBUILD NAME: atkmm
+SLACKBUILD LOCATION: SlackBuilds/atkmm
+SLACKBUILD FILES: README atkmm.SlackBuild atkmm.info slack-desc
+SLACKBUILD VERSION: 2.22.6
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/atkmm/2.22/atkmm-2.22.6.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 7c35324dd3c081a385deb7523ed6f287
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  atkmm (C++ bindings for ATK)
+
+SLACKBUILD NAME: babl
+SLACKBUILD LOCATION: SlackBuilds/babl
+SLACKBUILD FILES: babl.SlackBuild babl.info slack-desc
+SLACKBUILD VERSION: 0.1.10
+SLACKBUILD DOWNLOAD: ftp://ftp.gtk.org/pub/babl/0.1/babl-0.1.10.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 9e1542ab5c0b12ea3af076a9a2f02d79
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  babl (pixel format translation library)
+
+SLACKBUILD NAME: cairomm
+SLACKBUILD LOCATION: SlackBuilds/cairomm
+SLACKBUILD FILES: README cairomm.SlackBuild cairomm.info slack-desc
+SLACKBUILD VERSION: 1.10.0
+SLACKBUILD DOWNLOAD: http://cairographics.org/releases/cairomm-1.10.0.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 9c63fb1c04c8ecd3c5e6473075b8c39f
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  cairomm (C++ wrapper for the cairo graphics library)
+
+SLACKBUILD NAME: cnijfilter
+SLACKBUILD LOCATION: SlackBuilds/cnijfilter
+SLACKBUILD FILES: README cnijfilter.SlackBuild cnijfilter.info fix.patch slack-desc
+SLACKBUILD VERSION: 3.40-1
+SLACKBUILD DOWNLOAD: http://gdlp01.c-wss.com/gds/0/0100003020/01/cnijfilter-source-3.40-1.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 609975a05d6050fcca88f312d3f35c6a
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  cnijfilter (IJ Printer Driver for Linux)
+
+SLACKBUILD NAME: ctemplate
+SLACKBUILD LOCATION: SlackBuilds/ctemplate
+SLACKBUILD FILES: README ctemplate.SlackBuild ctemplate.info slack-desc
+SLACKBUILD VERSION: 2.2
+SLACKBUILD DOWNLOAD: https://ctemplate.googlecode.com/files/ctemplate-2.2.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 1de89d9073f473c1e31862c4581636f3
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  Ctemplate (template language for C++)
+
+SLACKBUILD NAME: cups
+SLACKBUILD LOCATION: SlackBuilds/cups
+SLACKBUILD FILES: cups.SlackBuild cups.info doinst.sh.gz slack-desc
+SLACKBUILD VERSION: 1.6.0
+SLACKBUILD DOWNLOAD: http://ftp.easysw.com/pub/cups/1.5.3/cups-1.5.3-source.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: e1ad15257aa6f162414ea3beae0c5df8
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  CUPS (Common UNIX Printing System)
+
+SLACKBUILD NAME: digikam
+SLACKBUILD LOCATION: SlackBuilds/digikam
+SLACKBUILD FILES: README digikam-boost.patch digikam-gcc4.7.0.patch digikam.SlackBuild digikam.info doinst.sh patch1.diff slack-desc
+SLACKBUILD VERSION: 2.5.0
+SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/digikam/digikam/2.5.0/digikam-2.5.0.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 770355060d2033a044c21b0f155be00c
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  digiKam (KDE Photo Management Application)
+
+SLACKBUILD NAME: filezilla
+SLACKBUILD LOCATION: SlackBuilds/filezilla
+SLACKBUILD FILES: README doinst.sh filezilla.SlackBuild filezilla.info slack-desc
+SLACKBUILD VERSION: 3.5.3
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/filezilla/FileZilla_3.5.3_src.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: a1a2848db0c5c8f3321ebe4ee3842e31
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  filezilla (the free FTP solution)
+
+SLACKBUILD NAME: gegl
+SLACKBUILD LOCATION: SlackBuilds/gegl
+SLACKBUILD FILES: gegl.SlackBuild gegl.info slack-desc
+SLACKBUILD VERSION: 0.2.0
+SLACKBUILD DOWNLOAD: ftp://ftp.gimp.org/pub/gegl/0.2/gegl-0.2.0.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 32b00002f1f1e316115c4ed922e1dec8
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  GEGL (Generic Graphics Library)
+
+SLACKBUILD NAME: gimp
+SLACKBUILD LOCATION: SlackBuilds/gimp
+SLACKBUILD FILES: BUILD_ORDER gimp.SlackBuild gimp.info slack-desc
+SLACKBUILD VERSION: 2.8.0
+SLACKBUILD DOWNLOAD: ftp://ftp.gimp.org/pub/gimp/v2.8/gimp-2.8.0.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 28997d14055f15db063eb92e1c8a7ebb
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  gimp (The GNU Image Manipulation Program)
+
+SLACKBUILD NAME: glibmm
+SLACKBUILD LOCATION: SlackBuilds/glibmm
+SLACKBUILD FILES: README glibmm.SlackBuild glibmm.info slack-desc
+SLACKBUILD VERSION: 2.32.0
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.32/glibmm-2.32.0.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 6be829ac2830ff44f75526f015c930e1
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  glibmm (C++ bindings for glib)
+
+SLACKBUILD NAME: gobject-introspection
+SLACKBUILD LOCATION: SlackBuilds/gobject-introspection
+SLACKBUILD FILES: README gobject-introspection.SlackBuild gobject-introspection.info slack-desc
+SLACKBUILD VERSION: 1.32.1
+SLACKBUILD DOWNLOAD: ftp://ftp.gnome.org/pub/GNOME/sources/gobject-introspection/1.32/gobject-introspection-1.32.1.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 7bbdb696c37bb98aef5af02c4b8975e3
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  gobject-introspection (GObject interface introspection library)
+
+SLACKBUILD NAME: gst-plugins-bad
+SLACKBUILD LOCATION: SlackBuilds/gst-plugins-bad
+SLACKBUILD FILES: README doinst.sh gst-plugins-bad.SlackBuild gst-plugins-bad.info slack-desc
+SLACKBUILD VERSION: 0.10.23
+SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-0.10.23.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: e4822fa2cc933768e2998311a1565979
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  gst-plugins-bad (a set GStreamer plugins)
+
+SLACKBUILD NAME: gst-plugins-base
+SLACKBUILD LOCATION: SlackBuilds/gst-plugins-base
+SLACKBUILD FILES: README doinst.sh gst-plugins-base.SlackBuild gst-plugins-base.info slack-desc
+SLACKBUILD VERSION: 0.10.36
+SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-0.10.36.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 3d2337841b132fe996e5eb2396ac9438
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  gst-plugins-base (a set GStreamer plugins)
+
+SLACKBUILD NAME: gst-plugins-good
+SLACKBUILD LOCATION: SlackBuilds/gst-plugins-good
+SLACKBUILD FILES: README gst-plugins-good.SlackBuild gst-plugins-good.info slack-desc
+SLACKBUILD VERSION: 0.10.31
+SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-0.10.31.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 555845ceab722e517040bab57f9ace95
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  gst-plugins-good (good set of GStreamer plugins)
+
+SLACKBUILD NAME: gst-plugins-ugly
+SLACKBUILD LOCATION: SlackBuilds/gst-plugins-ugly
+SLACKBUILD FILES: README gst-plugins-ugly.SlackBuild gst-plugins-ugly.info slack-desc
+SLACKBUILD VERSION: 0.10.19
+SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-0.10.19.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: ba26045c8c8c91f0d48d327ccf53ac0c
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  gst-plugins-ugly (a set of GStreamer plugins)
+
+SLACKBUILD NAME: gstreamer
+SLACKBUILD LOCATION: SlackBuilds/gstreamer
+SLACKBUILD FILES: README gstreamer.SlackBuild gstreamer.info slack-desc
+SLACKBUILD VERSION: 0.10.36
+SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gstreamer/gstreamer-0.10.36.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 15389c73e091b1dda915279c388b9cb2
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  GStreamer (streaming multimedia framework)
+
+SLACKBUILD NAME: gtk+2
+SLACKBUILD LOCATION: SlackBuilds/gtk
+SLACKBUILD FILES: doinst.sh.gz fix_build_issues_on_tutorial_and_faq.diff.gz gtk+-2.24.x.icon-compat.am.diff.gz gtk+-2.24.x.icon-compat.diff.gz gtk+2.SlackBuild gtk+2.info gtk.xid.nowarningflood.diff.gz profile.d/gtk+.csh profile.d/gtk+.sh slack-desc update-gtk-immodules update-gtk-immodules-2.0 use_host_triplet_for_gtk_immodules.diff.gz
+SLACKBUILD VERSION: 2.24.10
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/gtk+/2.24/gtk+-2.24.10.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 7fdcb407dd174010a695b555bf9b65e2
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION: gtk+2: GTK+ version 2 (multi-platform GUI toolkit)
+
+SLACKBUILD NAME: gtk+3
+SLACKBUILD LOCATION: SlackBuilds/gtk3
+SLACKBUILD FILES: README doinst.sh.gz gtk+3.SlackBuild gtk+3.info gtk.xid.nowarningflood.diff.gz profile.d/gtk+.csh profile.d/gtk+.sh slack-desc update-gtk-immodules update-gtk-immodules-3.0 use_host_triplet_for_gtk_immodules.diff.gz
+SLACKBUILD VERSION: 3.4.3
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/gtk+/3.4/gtk+-3.4.3.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: e552d52c3b0824eb99842dc9c5f4875f
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION: gtk+3: GTK+ version 3 (multi-platform GUI toolkit)
+
+SLACKBUILD NAME: gtkmm
+SLACKBUILD LOCATION: SlackBuilds/gtkmm
+SLACKBUILD FILES: README gtkmm.SlackBuild gtkmm.info slack-desc
+SLACKBUILD VERSION: 2.24.2
+SLACKBUILD DOWNLOAD: http://ftp.acc.umu.se/pub/GNOME/sources/gtkmm/2.24/gtkmm-2.24.2.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: e552d52c3b0824eb99842dc9c5f4875f
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  gtkmm (C++ interface for GTK+)
+
+SLACKBUILD NAME: guvcview
+SLACKBUILD LOCATION: SlackBuilds/guvcview
+SLACKBUILD FILES: README doinst.sh guvcview.SlackBuild guvcview.info slack-desc
+SLACKBUILD VERSION: 1.6.0
+SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/guvcview/source/guvcview-src-1.6.0.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: a8c9b1f1267fbf9982266b5f36d87b2b
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  guvcview (GTK+ UVC Viewer)
+
+SLACKBUILD NAME: httperf
+SLACKBUILD LOCATION: SlackBuilds/httperf
+SLACKBUILD FILES: README httperf.SlackBuild httperf.info slack-desc
+SLACKBUILD VERSION: 0.9.0
+SLACKBUILD DOWNLOAD: https://httperf.googlecode.com/files/httperf-0.9.0.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 2968c36b9ecf3d98fc1f2c1c9c0d9341
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  httperf (http load generator)
+
+SLACKBUILD NAME: libffi
+SLACKBUILD LOCATION: SlackBuilds/libffi
+SLACKBUILD FILES: README libffi.SlackBuild libffi.info slack-desc
+SLACKBUILD VERSION: 3.0.11
+SLACKBUILD DOWNLOAD: ftp://sourceware.org/pub/libffi/libffi-3.0.11.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: f69b9693227d976835b4857b1ba7d0e3
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  libffi (Foreign Function Interface library)
+
+SLACKBUILD NAME: libusb
+SLACKBUILD LOCATION: SlackBuilds/libusb
+SLACKBUILD FILES: README libusb.SlackBuild libusb.info slack-desc
+SLACKBUILD VERSION: 1.0.9
+SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/libusb/libusb-1.0/libusb-1.0.9/libusb-1.0.9.tar.bz2
+http://nchc.dl.sourceforge.net/project/libusb/libusb-compat-0.1/libusb-compat-0.1.4/libusb-compat-0.1.4.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 7f5a02375ad960d4e33a6dae7d63cfcb
+2ca521fffadd0c28fdf174e6ec73865b
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  libusb (USB library)
+
+SLACKBUILD NAME: mysql-workbench-gpl
+SLACKBUILD LOCATION: SlackBuilds/mysql-workbench-gpl
+SLACKBUILD FILES: README doinst.sh mysql-workbench-gpl.SlackBuild mysql-workbench-gpl.info slack-desc
+SLACKBUILD VERSION: 5.2.40
+SLACKBUILD DOWNLOAD: http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQLGUITools/mysql-workbench-gpl-5.2.40-src.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: ac5c2058cd39c796a1c7bed2647f74b6
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  mysql-workbench - MySQL Workbench (GUI Tool)
+
+SLACKBUILD NAME: pango
+SLACKBUILD LOCATION: SlackBuilds/pango
+SLACKBUILD FILES: pango.SlackBuild pango.etc.host.location.diff.gz pango.info slack-desc update-pango-querymodules
+SLACKBUILD VERSION: 1.30.0
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/pango/1.30/pango-1.30.0.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 2a70627ffd9f43c52c04cc0b05fe359f
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  pango (library for layout and rendering of text)
+
+SLACKBUILD NAME: pangomm
+SLACKBUILD LOCATION: SlackBuilds/pangomm
+SLACKBUILD FILES: README pangomm.SlackBuild pangomm.info slack-desc
+SLACKBUILD VERSION: 2.28.4
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/pangomm/2.28/pangomm-2.28.4.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 40b3b34dbbefbc411a81d05dba5275ca
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  pangomm (C++ API for Pango)
+
+SLACKBUILD NAME: pexpect
+SLACKBUILD LOCATION: SlackBuilds/pexpect
+SLACKBUILD FILES: README pexpect.SlackBuild pexpect.info slack-desc
+SLACKBUILD VERSION: 2.3
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/pexpect/pexpect-2.3.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: bf107cf54e67bc6dec5bea1f3e6a65c3
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  pexpect (Python module for spawning child applications)
+
+SLACKBUILD NAME: wesnoth
+SLACKBUILD LOCATION: SlackBuilds/wesnoth
+SLACKBUILD FILES: README doinst.sh slack-desc terrain_translation.patch wesnoth.SlackBuild wesnoth.info
+SLACKBUILD VERSION: 1.10.3
+SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/wesnoth/wesnoth-1.10/wesnoth-1.10.3/wesnoth-1.10.3.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: b25354c71d58f82c2c60cc12c6f09c36
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  Wesnoth (The Battle for Wesnoth)
+
