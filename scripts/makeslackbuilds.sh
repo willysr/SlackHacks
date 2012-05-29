@@ -1,7 +1,8 @@
 #!/bin/bash
 set -e
+cd ..
 
-for sb in $(find ../SlackBuilds/ -name '*.SlackBuild' | sort)
+for sb in $(find SlackBuilds/ -name '*.SlackBuild' | sort)
 do
   name=$(basename $sb | sed -re 's/\.SlackBuild$//')
   location=$(dirname $sb)
@@ -40,4 +41,4 @@ do
 
 done > SLACKBUILDS.TXT
 gzip -9 SLACKBUILDS.TXT -c > SLACKBUILDS.TXT.gz
-mv SLACKBUILDS.TXT* ../SlackBuilds
+mv SLACKBUILDS.TXT* SlackBuilds/
