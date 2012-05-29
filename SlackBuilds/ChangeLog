@@ -1,3 +1,7 @@
+Tue May 29 15:16:44 GMT+7 2012
+pycrypto: Upgraded to 2.6
+
++--------------------------+
 Sun May 27 07:06:07 GMT+7 2012
 guvcview: Upgraded to 1.6.0
   New optional dependency: PulseAudio

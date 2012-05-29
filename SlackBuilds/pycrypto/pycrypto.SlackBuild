@@ -25,9 +25,10 @@
 # Modified by Willy Sudiarto Raharjo
 # Changelog
 # May, 12 : Bumped to 2.5
+# May, 29 : Upgraded to 2.6
 
 PRGNAM=pycrypto
-VERSION=2.5
+VERSION=2.6
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
