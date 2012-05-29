@@ -5,5 +5,3 @@ DOWNLOAD="http://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-0
 MD5SUM="e4822fa2cc933768e2998311a1565979"
 DOWNLOAD_x86_64=""
 MD5SUM_x86_64=""
-MAINTAINER="Willy Sudiarto Raharjo"
-EMAIL="willysr@slackware-id.org"
