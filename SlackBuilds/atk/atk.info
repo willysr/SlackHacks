@@ -1,5 +1,5 @@
 PRGNAM="atk"
-VERSION="1.6.0"
+VERSION="2.4.0"
 HOMEPAGE="http://www.gtk.org/"
 DOWNLOAD="http://ftp.gnome.org/pub/gnome/sources/atk/2.4/atk-2.4.0.tar.xz"
 MD5SUM="2184a140f71d50276669d6eda5cce5db"

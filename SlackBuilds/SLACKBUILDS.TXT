@@ -1,7 +1,7 @@
 SLACKBUILD NAME: atk
 SLACKBUILD LOCATION: ./atk
 SLACKBUILD FILES: atk.SlackBuild atk.info slack-desc
-SLACKBUILD VERSION: 1.6.0
+SLACKBUILD VERSION: 2.4.0
 SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/atk/2.4/atk-2.4.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
 SLACKBUILD MD5SUM: 2184a140f71d50276669d6eda5cce5db
@@ -61,7 +61,7 @@ SLACKBUILD SHORT DESCRIPTION:  Ctemplate (template language for C++)
 SLACKBUILD NAME: cups
 SLACKBUILD LOCATION: ./cups
 SLACKBUILD FILES: cups.SlackBuild cups.info doinst.sh.gz slack-desc
-SLACKBUILD VERSION: 1.6.0
+SLACKBUILD VERSION: 1.5.3
 SLACKBUILD DOWNLOAD: http://ftp.easysw.com/pub/cups/1.5.3/cups-1.5.3-source.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
 SLACKBUILD MD5SUM: e1ad15257aa6f162414ea3beae0c5df8
@@ -299,6 +299,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: bf107cf54e67bc6dec5bea1f3e6a65c3
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  pexpect (Python module for spawning child applications)
+
+SLACKBUILD NAME: pycrypto
+SLACKBUILD LOCATION: ./pycrypto
+SLACKBUILD FILES: README pycrypto.SlackBuild pycrypto.info slack-desc
+SLACKBUILD VERSION: 2.6
+SLACKBUILD DOWNLOAD: http://ftp.dlitz.net/pub/dlitz/crypto/pycrypto/pycrypto-2.6.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 88dad0a270d1fe83a39e0467a66a22bb
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  pycrypto (Python Cryptography Toolkit)
 
 SLACKBUILD NAME: wesnoth
 SLACKBUILD LOCATION: ./wesnoth

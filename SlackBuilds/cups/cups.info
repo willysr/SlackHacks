@@ -1,5 +1,5 @@
 PRGNAM="cups"
-VERSION="1.6.0"
+VERSION="1.5.3"
 HOMEPAGE="http://cups.org/"
 DOWNLOAD="http://ftp.easysw.com/pub/cups/1.5.3/cups-1.5.3-source.tar.bz2"
 MD5SUM="e1ad15257aa6f162414ea3beae0c5df8"
