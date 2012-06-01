@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+      |-----handy-ruler------------------------------------------------------|
+taglib: taglib (audio meta-data library)
+taglib:
+taglib: TagLib is a library for reading and editing the meta-data of several 
+taglib: popular audio formats. Currently it supports both ID3v1 and ID3v2 for 
+taglib: MP3 files, Ogg Vorbis comments and ID3 tags and Vorbis comments in 
+taglib: FLAC, MPC, Speex, WavPack TrueAudio, WAV, AIFF, MP4 and ASF files. 
+taglib:
+taglib:
+taglib:
+taglib:
+taglib:

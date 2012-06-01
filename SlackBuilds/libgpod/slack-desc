@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+       |-----handy-ruler------------------------------------------------------|
+libgpod: libgpod (A library for connecting to some sort of media device ;-)
+libgpod:
+libgpod: libgpod for accessing iPod content. It provides an easy to use way
+libgpod: to retrieve the list of files and playlist stored on an iPod, to
+libgpod: modify them and to save them back to the iPod.
+libgpod:
+libgpod: If you decide to make improvements please contact us so we can work
+libgpod: together. Just drop a mail to:  Gtkpod-devel@lists.sourceforge.net
+libgpod: (you may ask to be CC in the answer).
+libgpod:
+libgpod:

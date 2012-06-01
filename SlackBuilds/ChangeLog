@@ -1,3 +1,10 @@
+Fri Jun  1 07:50:45 GMT+7 2012
+libgpod: Added
+taglib: Added
+  These two new libraries are taken from Slackware's Slackbuild script and upgraded 
+  to the latest version in preparations to compile Amarok 2.6.0 Beta 1
+
++--------------------------+
 Tue May 29 15:16:44 GMT+7 2012
 pycrypto: Upgraded to 2.6
 
