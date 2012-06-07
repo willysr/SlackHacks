@@ -187,7 +187,7 @@ fi
 
 mkdir -p $PKG/usr/doc/gtk+-$VERSION
 cp -a \
-  AUTHORS CHANGELOGHACKING NEWS \
+  AUTHORS CHANGELOG HACKING NEWS \
   $PKG/usr/doc/gtk+-$VERSION
 ( cd $PKG/usr/doc/gtk+-$VERSION
   ln -s ../../share/gtk-doc/html/gail-libgail-util .
