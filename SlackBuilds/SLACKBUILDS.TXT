@@ -70,7 +70,7 @@ SLACKBUILD SHORT DESCRIPTION:  CUPS (Common UNIX Printing System)
 
 SLACKBUILD NAME: digikam
 SLACKBUILD LOCATION: ./digikam
-SLACKBUILD FILES: README digikam-boost.patch digikam-gcc4.7.0.patch digikam.SlackBuild digikam.info doinst.sh patch1.diff slack-desc
+SLACKBUILD FILES: README digikam-2.5.0.tar.bz2 digikam-boost.patch digikam-gcc4.7.0.patch digikam.SlackBuild digikam.info doinst.sh patch1.diff slack-desc
 SLACKBUILD VERSION: 2.5.0
 SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/digikam/digikam/2.5.0/digikam-2.5.0.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
@@ -279,6 +279,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: ac5c2058cd39c796a1c7bed2647f74b6
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  mysql-workbench - MySQL Workbench (GUI Tool)
+
+SLACKBUILD NAME: opencv
+SLACKBUILD LOCATION: ./opencv
+SLACKBUILD FILES: README opencv.SlackBuild opencv.info slack-desc
+SLACKBUILD VERSION: 2.4.1
+SLACKBUILD DOWNLOAD: http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.4.1/OpenCV-2.4.1.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 144aafa12260150490ce77d8debc1a23
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  OpenCV (Open Source Computer Vision)
 
 SLACKBUILD NAME: pango
 SLACKBUILD LOCATION: ./pango
