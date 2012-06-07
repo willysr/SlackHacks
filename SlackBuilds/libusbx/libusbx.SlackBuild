@@ -23,8 +23,9 @@
 # Modified by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # ChangeLog
 # May 17: Bumped to libusb 1.0.9 and libusb-compat 0.1.4
+# June 7: Switched to libusbx 
 
-VERSION=${VERSION:-1.0.9}	# libusb version
+VERSION=${VERSION:-1.0.11}	# libusbx version
 USBCOMPAT=${USBCOMPAT:-0.1.4}	# libusb-compat version
 
 BUILD=${BUILD:-1wsr}
@@ -41,7 +42,7 @@ fi
 
 CWD=$(pwd)
 TMP=${TMP:-/tmp}
-PKG=$TMP/package-libusb
+PKG=$TMP/package-libusbx
 
 if [ "$ARCH" = "i486" ]; then
   SLKCFLAGS="-O2 -march=i486 -mtune=i686"
@@ -63,8 +64,8 @@ mkdir -p $TMP $PKG
 # First we'll do the main libusb stuff
 cd $TMP
 rm -rf libusb-$VERSION
-tar xvf $CWD/libusb-$VERSION.tar.bz2
-cd libusb-$VERSION
+tar xvf $CWD/libusbx-$VERSION.tar.bz2
+cd libusbx-$VERSION
 
 chown -R root:root .
 find . \
@@ -78,7 +79,7 @@ CFLAGS="$SLKCFLAGS" \
   --prefix=/usr \
   --libdir=/usr/lib${LIBDIRSUFFIX} \
   --mandir=/usr/man \
-  --docdir=/usr/doc/libusb-$VERSION \
+  --docdir=/usr/doc/libusbx-$VERSION \
   --disable-static \
   --build=$ARCH-slackware-linux
 
@@ -89,15 +90,15 @@ if [ ! -r /usr/lib${LIBDIRSUFFIX}/pkgconfig/libusb-1.0.pc ]; then
   make install
 fi
 
-mkdir -p $PKG/usr/doc/libusb-$VERSION
+mkdir -p $PKG/usr/doc/libusbx-$VERSION
 cp -a \
   AUTHORS COPYING INSTALL NEWS PORTING README THANKS TODO \
-  $PKG/usr/doc/libusb-$VERSION
+  $PKG/usr/doc/libusbx-$VERSION
 
 # If there's a ChangeLog, installing at least part of the recent history
 # is useful, but don't let it get totally out of control:
 if [ -r ChangeLog ]; then
-  DOCSDIR=$(echo $PKG/usr/doc/libusb-$VERSION)
+  DOCSDIR=$(echo $PKG/usr/doc/libusbx-$VERSION)
   cat ChangeLog | head -n 1000 > $DOCSDIR/ChangeLog
   touch -r ChangeLog $DOCSDIR/ChangeLog
 fi
@@ -119,22 +120,22 @@ CFLAGS="$SLKCFLAGS" \
   --prefix=/usr \
   --libdir=/usr/lib${LIBDIRSUFFIX} \
   --mandir=/usr/man \
-  --docdir=/usr/doc/libusb-$VERSION \
+  --docdir=/usr/doc/libusbx-$VERSION \
   --disable-static \
   --build=$ARCH-slackware-linux
 
 make $NUMJOBS || make || exit 1
 make install DESTDIR=$PKG
 
-mkdir -p $PKG/usr/doc/libusb-$VERSION/libusb-compat-$USBCOMPAT
+mkdir -p $PKG/usr/doc/libusbx-$VERSION/libusb-compat-$USBCOMPAT
 cp -a \
   AUTHORS COPYING INSTALL LICENSE NEWS README \
-  $PKG/usr/doc/libusb-$VERSION/libusb-compat-$USBCOMPAT
+  $PKG/usr/doc/libusbx-$VERSION/libusb-compat-$USBCOMPAT
 
 # If there's a ChangeLog, installing at least part of the recent history
 # is useful, but don't let it get totally out of control:
 if [ -r ChangeLog ]; then
-  DOCSDIR=$(echo $PKG/usr/doc/libusb-compat-$USBCOMPAT)
+  DOCSDIR=$(echo $PKG/usr/doc/libusbx-$VERSION/libusb-compat-$USBCOMPAT)
   cat ChangeLog | head -n 1000 > $DOCSDIR/ChangeLog
   touch -r ChangeLog $DOCSDIR/ChangeLog
 fi
@@ -162,5 +163,5 @@ mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
 cd $PKG
-/sbin/makepkg -l y -c n $TMP/libusb-$VERSION-$ARCH-$BUILD.txz
+/sbin/makepkg -l y -c n $TMP/libusbx-$VERSION-$ARCH-$BUILD.txz
 

@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+       |-----handy-ruler------------------------------------------------------|
+libusbx: libusbx (USB library)
+libusbx:
+libusbx: libusbx is a library that provides generic access to USB devices. As 
+libusbx: a library, it is meant to be used by developers, to facilitate the 
+libusbx: development of applications that communicate with USB hardware.
+libusbx:
+libusbx: This package also contains libusb-compat for the "old" libusb users.
+libusbx: 
+libusbx: Project Web site: http://libusbx.sourceforge.net/
+libusbx:
+libusbx:
