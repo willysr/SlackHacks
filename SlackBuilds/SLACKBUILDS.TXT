@@ -258,17 +258,17 @@ SLACKBUILD MD5SUM: ff0fd875fa08f2a6a49dec57ce3367ab
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  libgpod (A library for connecting to some sort of media device ;-)
 
-SLACKBUILD NAME: libusb
-SLACKBUILD LOCATION: ./libusb
-SLACKBUILD FILES: README libusb.SlackBuild libusb.info slack-desc
-SLACKBUILD VERSION: 1.0.9
-SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/libusb/libusb-1.0/libusb-1.0.9/libusb-1.0.9.tar.bz2
+SLACKBUILD NAME: libusbx
+SLACKBUILD LOCATION: ./libusbx
+SLACKBUILD FILES: README libusbx.SlackBuild libusbx.info slack-desc
+SLACKBUILD VERSION: 1.0.11
+SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/libusbx/releases/1.0.11/source/libusbx-1.0.11.tar.bz2
 http://nchc.dl.sourceforge.net/project/libusb/libusb-compat-0.1/libusb-compat-0.1.4/libusb-compat-0.1.4.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 7f5a02375ad960d4e33a6dae7d63cfcb
+SLACKBUILD MD5SUM: 9aaab6aee72f65900cc731ecbffb4cf4
 2ca521fffadd0c28fdf174e6ec73865b
 SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  libusb (USB library)
+SLACKBUILD SHORT DESCRIPTION:  libusbx (USB library)
 
 SLACKBUILD NAME: mysql-workbench-gpl
 SLACKBUILD LOCATION: ./mysql-workbench-gpl
