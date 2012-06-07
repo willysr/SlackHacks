@@ -70,7 +70,7 @@ SLACKBUILD SHORT DESCRIPTION:  CUPS (Common UNIX Printing System)
 
 SLACKBUILD NAME: digikam
 SLACKBUILD LOCATION: ./digikam
-SLACKBUILD FILES: README digikam-2.5.0.tar.bz2 digikam-boost.patch digikam-gcc4.7.0.patch digikam.SlackBuild digikam.info doinst.sh patch1.diff slack-desc
+SLACKBUILD FILES: README digikam-boost.patch digikam-gcc4.7.0.patch digikam.SlackBuild digikam.info doinst.sh patch1.diff slack-desc
 SLACKBUILD VERSION: 2.5.0
 SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/digikam/digikam/2.5.0/digikam-2.5.0.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
