@@ -1,3 +1,9 @@
+Fri Jun  8 07:46:38 GMT+7 2012
+digiKam: Upgraded to 2.6.0
+lensfun: Added
+  This is an optional requirement for digiKam
+  
++--------------------------+
 Thu Jun  7 14:00:21 GMT+7 2012
 OpenCV: Added
   This package is needed to compile digiKam

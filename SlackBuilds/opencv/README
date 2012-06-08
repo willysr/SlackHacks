@@ -5,5 +5,4 @@ aimed at real-time computer vision.
 
 FFmpeg and Numpy are optional runtime dependencies.
 
-*NOTE*
-If compiling with FFmpeg you must use 0.8.7 or newer.
+Note: I'm using AlienBOB's ffmpeg (0.11) to build this package

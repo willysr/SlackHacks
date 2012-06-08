@@ -70,11 +70,11 @@ SLACKBUILD SHORT DESCRIPTION:  CUPS (Common UNIX Printing System)
 
 SLACKBUILD NAME: digikam
 SLACKBUILD LOCATION: ./digikam
-SLACKBUILD FILES: README digikam-boost.patch digikam-gcc4.7.0.patch digikam.SlackBuild digikam.info doinst.sh patch1.diff slack-desc
-SLACKBUILD VERSION: 2.5.0
-SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/digikam/digikam/2.5.0/digikam-2.5.0.tar.bz2
+SLACKBUILD FILES: README digikam.SlackBuild digikam.info doinst.sh slack-desc
+SLACKBUILD VERSION: 2.6.0
+SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/digikam/digikam/2.6.0/digikam-2.6.0.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 770355060d2033a044c21b0f155be00c
+SLACKBUILD MD5SUM: 5caf799b9a74d3bed3490d2cf66021dd
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  digiKam (KDE Photo Management Application)
 
@@ -237,6 +237,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 2968c36b9ecf3d98fc1f2c1c9c0d9341
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  httperf (http load generator)
+
+SLACKBUILD NAME: lensfun
+SLACKBUILD LOCATION: ./lensfun
+SLACKBUILD FILES: README lensfun.SlackBuild lensfun.info slack-desc
+SLACKBUILD VERSION: 0.2.5
+SLACKBUILD DOWNLOAD: http://download.berlios.de/lensfun/lensfun-0.2.5.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: a10438dffae68a5988fc54b0393a3755
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  lensfun (photographic lens characteristics database library)
 
 SLACKBUILD NAME: libffi
 SLACKBUILD LOCATION: ./libffi
