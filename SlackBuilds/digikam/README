@@ -5,6 +5,10 @@ by directory layout or by custom collections. An easy to use interface
 is provided that enables you to connect to your camera and preview,
 download and/or delete your images.
 
-ffmpeg, QJson, and OPenCV are build time dependencies. 
-lensfun is optional build time dependencies. 
-All of them are available in SBo
+Requirements
+  - ffmpeg
+  - QJson (Available on SBo)
+  - OPenCV 
+  - lensfun (optional)
+
+Note: I'm using AlienBOB's ffmpeg (0.11) to build this package
