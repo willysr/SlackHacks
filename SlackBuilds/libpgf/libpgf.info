@@ -1,0 +1,7 @@
+PRGNAM="libpgf"
+VERSION="6.11.42"
+HOMEPAGE="http://www.libpgf.org"
+DOWNLOAD="http://ncu.dl.sourceforge.net/project/libpgf/libpgf/6.11.42%20-%20latest/libpgf-6.11.42-src.zip"
+MD5SUM="9a3c700f0b3e36755f9044a348d6e0ce"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""

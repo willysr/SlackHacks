@@ -268,6 +268,16 @@ SLACKBUILD MD5SUM: ff0fd875fa08f2a6a49dec57ce3367ab
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  libgpod (A library for connecting to some sort of media device ;-)
 
+SLACKBUILD NAME: libpgf
+SLACKBUILD LOCATION: ./libpgf
+SLACKBUILD FILES: README libpgf.SlackBuild libpgf.info slack-desc
+SLACKBUILD VERSION: 6.11.42
+SLACKBUILD DOWNLOAD: http://ncu.dl.sourceforge.net/project/libpgf/libpgf/6.11.42%20-%20latest/libpgf-6.11.42-src.zip
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 9a3c700f0b3e36755f9044a348d6e0ce
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  libpgf (Image file format)
+
 SLACKBUILD NAME: libusbx
 SLACKBUILD LOCATION: ./libusbx
 SLACKBUILD FILES: README libusbx.SlackBuild libusbx.info slack-desc
