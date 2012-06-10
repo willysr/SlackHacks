@@ -11,5 +11,6 @@ Requirements
   - OPenCV 
   - lensfun (optional)
   - libdc1394 (optional)
+  - libpgf (optional)
 
 Note: I'm using AlienBOB's ffmpeg (0.11) to build this package
