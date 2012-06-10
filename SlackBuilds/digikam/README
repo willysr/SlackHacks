@@ -10,5 +10,6 @@ Requirements
   - QJson (Available on SBo)
   - OPenCV 
   - lensfun (optional)
+  - libdc1394 (optional)
 
 Note: I'm using AlienBOB's ffmpeg (0.11) to build this package
