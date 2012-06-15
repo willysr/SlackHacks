@@ -1,0 +1,12 @@
+By default this SlackBuild is going to build a dynamically linked skype
+package, but in some cases a staticly linked one might be preferred.
+
+First, get the skype_static tarball from here:
+
+http://download.skype.com/linux/skype_static-4.0.0.7.tar.bz2
+(md5sum: d948b8f04ad27b92297a99bcacc7b00b)
+
+Then run skype.SlackBuild like this:
+  STATIC=yes ./skype.SlackBuild
+
+Enjoy :-)

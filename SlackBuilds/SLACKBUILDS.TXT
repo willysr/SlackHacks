@@ -360,6 +360,18 @@ SLACKBUILD MD5SUM: 88dad0a270d1fe83a39e0467a66a22bb
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  pycrypto (Python Cryptography Toolkit)
 
+SLACKBUILD NAME: skype
+SLACKBUILD LOCATION: ./skype
+SLACKBUILD FILES: README README.STATIC doinst.sh skype.SlackBuild skype.info slack-desc
+SLACKBUILD VERSION: 4.0.0.7
+SLACKBUILD DOWNLOAD: http://download.skype.com/linux/skype-4.0.0.7.tar.bz2
+http://download.skype.com/linux/skype_static-4.0.0.7.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: b57a3a5e178ae40fc96583b7c1851663
+f92b977460d9fc4f090c2bf14b692438
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  Skype (a P2P Voice Over IP program)
+
 SLACKBUILD NAME: taglib
 SLACKBUILD LOCATION: ./taglib
 SLACKBUILD FILES: README slack-desc taglib.SlackBuild taglib.info
