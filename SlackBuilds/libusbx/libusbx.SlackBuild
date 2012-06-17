@@ -24,8 +24,9 @@
 # ChangeLog
 # May 17: Bumped to libusb 1.0.9 and libusb-compat 0.1.4
 # June 7: Switched to libusbx 
+# June 17: Upgraded to 1.0.12
 
-VERSION=${VERSION:-1.0.11}	# libusbx version
+VERSION=${VERSION:-1.0.12}	# libusbx version
 USBCOMPAT=${USBCOMPAT:-0.1.4}	# libusb-compat version
 
 BUILD=${BUILD:-1wsr}
