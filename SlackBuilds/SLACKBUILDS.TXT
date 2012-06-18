@@ -323,10 +323,10 @@ SLACKBUILD SHORT DESCRIPTION:  OpenCV (Open Source Computer Vision)
 SLACKBUILD NAME: pango
 SLACKBUILD LOCATION: ./pango
 SLACKBUILD FILES: pango.SlackBuild pango.etc.host.location.diff.gz pango.info slack-desc update-pango-querymodules
-SLACKBUILD VERSION: 1.30.0
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/pango/1.30/pango-1.30.0.tar.xz
+SLACKBUILD VERSION: 1.30.1
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/pango/1.30/pango-1.30.1.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 2a70627ffd9f43c52c04cc0b05fe359f
+SLACKBUILD MD5SUM: ec3c1f236ee9bd4a982a5f46fcaff7b9
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  pango (library for layout and rendering of text)
 

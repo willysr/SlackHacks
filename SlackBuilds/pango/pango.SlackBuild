@@ -139,7 +139,7 @@ for i in $(find $PKG/usr/man -type l) ; do ln -s $(readlink $i).gz $i.gz ; rm $i
 
 mkdir -p $PKG/usr/doc/pango-$VERSION
 cp -a \
-  AUTHORS COPYING* NEWS README* TODO \
+  AUTHORS COPYING* NEWS README* \
   $PKG/usr/doc/pango-$VERSION
 ln -s /usr/share/gtk-doc/html/pango $PKG/usr/doc/pango-$VERSION/html
 
