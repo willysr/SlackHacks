@@ -10,3 +10,5 @@ Then run skype.SlackBuild like this:
   STATIC=yes ./skype.SlackBuild
 
 Enjoy :-)
+
+Skype requires libtiff-4.0.x

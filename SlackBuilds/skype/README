@@ -6,3 +6,5 @@ and to normal land lines and mobile phones.
 This script repackages the shared tarball provided by Skype, wich
 has been built dynamically. For more information on how to repackage
 a static version, check README.STATIC wich came with this package.
+
+Skype requires libtiff-4.0.x
