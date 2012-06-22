@@ -402,3 +402,13 @@ SLACKBUILD MD5SUM: b25354c71d58f82c2c60cc12c6f09c36
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Wesnoth (The Battle for Wesnoth)
 
+SLACKBUILD NAME: wireshark
+SLACKBUILD LOCATION: ./wireshark
+SLACKBUILD FILES: README doinst.sh slack-desc wireshark.SlackBuild wireshark.info
+SLACKBUILD VERSION: 1.8.0
+SLACKBUILD DOWNLOAD: http://wiresharkdownloads.riverbed.com/wireshark/src/wireshark-1.8.0.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 3eca81253800a0089d0f957e75853b05
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  WireShark (packet sniffer and protocol analyzer)
+
