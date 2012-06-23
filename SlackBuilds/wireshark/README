@@ -22,3 +22,5 @@ Requirement:
  - lua
  - GeoIP (optional, available on SBo)
  - c-ares (optional)
+ - PortAudio (optional, available on SBo)
+ - SMI (optional, available on SBo)
