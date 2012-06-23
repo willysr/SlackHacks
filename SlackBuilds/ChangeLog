@@ -1,3 +1,11 @@
+Sat Jun 23 10:16:17 GMT+7 2012
+wireshark: Rebuilt
+  Fixed problem with newer automake and symlink problem
+  Added more information in README about optional dependencies
+c-ares: Added
+  This is an optional requirement for wireshark
+
++--------------------------+
 Fri Jun 22 10:06:44 GMT+7 2012
 wireshark: Added
   This is an updated Skype SlackBuild script from SBo project

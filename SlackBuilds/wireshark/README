@@ -17,3 +17,8 @@ If you use a filesystem that supports posix capabilities, an easy way to
 start wireshark as a normal user, while still providing it with all of the 
 access permissions it requires, is by issuing the following command:
   $ setcap cap_net_raw,cap_net_admin=eip /usr/bin/dumpcap
+
+Requirement:
+ - lua
+ - GeoIP (optional, available on SBo)
+ - c-ares (optional)

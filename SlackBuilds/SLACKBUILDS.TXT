@@ -28,6 +28,16 @@ SLACKBUILD MD5SUM: 9e1542ab5c0b12ea3af076a9a2f02d79
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  babl (pixel format translation library)
 
+SLACKBUILD NAME: c-ares
+SLACKBUILD LOCATION: ./c-ares
+SLACKBUILD FILES: README c-ares.SlackBuild c-ares.info slack-desc
+SLACKBUILD VERSION: 1.9.1
+SLACKBUILD DOWNLOAD: http://c-ares.haxx.se/download/c-ares-1.9.1.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 389db4917a3b58c4ce4ebfe961fd84c4
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  c-ares (C library for DNS requests)
+
 SLACKBUILD NAME: cairomm
 SLACKBUILD LOCATION: ./cairomm
 SLACKBUILD FILES: README cairomm.SlackBuild cairomm.info slack-desc

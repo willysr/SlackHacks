@@ -28,10 +28,11 @@
 # Updated by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # Changelog
 # June 22, 2012 : Upgraded to 1.8.0, removed unknown configure parameters
+# June 23, 2012 : Fixed automake bug and symlink creation
 
 PRGNAM=wireshark
 VERSION=${VERSION:-1.8.0}
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
@@ -72,6 +73,10 @@ find . \
   \( -perm 666 -o -perm 664 -o -perm 600 -o -perm 444 -o -perm 440 -o -perm 400 \) \
   -exec chmod 644 {} \;
 
+# Regenerate ./configure:
+libtoolize --force
+autoreconf -vif
+
 # Ammend hardcoded paths to /usr/lib/ which will give a problem when compiling on
 # systems with 32bit compat libs install. Thanks to Heinz Wiesinger.
 sed -i "s|/lib)|/lib$LIBDIRSUFFIX)|g" configure.in
@@ -111,9 +116,9 @@ done
 
 # Fix the wrong version of wiretap and wsutil library
 (
-  cd /usr/lib${LIBDIRSUFFIX}
-  ln -s libwiretap.so.2 libwiretap.so.1
-  ln -s libwsutil.so.2 libwsutil.so.1
+  cd $PKG/usr/lib${LIBDIRSUFFIX}  
+  ln -s libwiretap.so.2.0.0 libwiretap.so.1
+  ln -s libwsutil.so.2.0.0 libwsutil.so.1
 )
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
