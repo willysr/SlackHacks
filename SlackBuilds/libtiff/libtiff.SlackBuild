@@ -23,10 +23,11 @@
 # Modified by Willy Sudiarto Raharjo
 # Changelog
 # June, 19 : Upgraded to 4.0.2
+# June, 25 : Fixed symlink on libtiff.so.4
 
 
 VERSION=${VERSION:-$(echo tiff-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
-BUILD=1wsr
+BUILD=2wsr
 
 # Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
@@ -94,6 +95,13 @@ rm -r $PKG/usr/share
 )
 strip -g $PKG/usr/lib${LIBDIRSUFFIX}/lib*.a
 chmod 755 $PKG/usr/lib${LIBDIRSUFFIX}/libtiff*.so.*
+
+# Fix the wrong version of libtiff
+(
+  cd $PKG/usr/lib${LIBDIRSUFFIX}  
+  ln -s libtiff.so.5 libtiff.so.4  
+)
+
 mkdir -p $PKG/usr/doc/libtiff-$VERSION
 cp -a \
   COPYRIGHT README RELEASE-DATE TODO VERSION \

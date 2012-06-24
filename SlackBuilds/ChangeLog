@@ -1,3 +1,8 @@
+Mon Jun 25 06:35:14 GMT+7 2012
+libtiff: Rebuilt
+  Fixed symlink creation
+
++--------------------------+
 Sun Jun 24 22:56:22 GMT+7 2012
 wireshark: Rebuilt
   Simplify the workaround for new automake

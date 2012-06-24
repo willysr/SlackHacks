@@ -210,7 +210,7 @@ SLACKBUILD SHORT DESCRIPTION: gtk+2: GTK+ version 2 (multi-platform GUI toolkit)
 
 SLACKBUILD NAME: gtk+3
 SLACKBUILD LOCATION: ./gtk+3
-SLACKBUILD FILES: README automake.patch doinst.sh.gz gtk+3.SlackBuild gtk+3.info gtk.xid.nowarningflood.diff.gz profile.d/gtk+.csh profile.d/gtk+.sh slack-desc update-gtk-immodules update-gtk-immodules-3.0 use_host_triplet_for_gtk_immodules.diff.gz
+SLACKBUILD FILES: README doinst.sh.gz gtk+3.SlackBuild gtk+3.info gtk.xid.nowarningflood.diff.gz profile.d/gtk+.csh profile.d/gtk+.sh slack-desc update-gtk-immodules update-gtk-immodules-3.0 use_host_triplet_for_gtk_immodules.diff.gz
 SLACKBUILD VERSION: 3.4.3
 SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/gtk+/3.4/gtk+-3.4.3.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
@@ -424,7 +424,7 @@ SLACKBUILD SHORT DESCRIPTION:  Wesnoth (The Battle for Wesnoth)
 
 SLACKBUILD NAME: wireshark
 SLACKBUILD LOCATION: ./wireshark
-SLACKBUILD FILES: .wireshark.SlackBuild.kate-swp README doinst.sh slack-desc wireshark.SlackBuild wireshark.info
+SLACKBUILD FILES: README doinst.sh slack-desc wireshark.SlackBuild wireshark.info
 SLACKBUILD VERSION: 1.8.0
 SLACKBUILD DOWNLOAD: http://wiresharkdownloads.riverbed.com/wireshark/src/wireshark-1.8.0.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
