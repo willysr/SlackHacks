@@ -424,7 +424,7 @@ SLACKBUILD SHORT DESCRIPTION:  Wesnoth (The Battle for Wesnoth)
 
 SLACKBUILD NAME: wireshark
 SLACKBUILD LOCATION: ./wireshark
-SLACKBUILD FILES: README doinst.sh slack-desc wireshark.SlackBuild wireshark.info
+SLACKBUILD FILES: .wireshark.SlackBuild.kate-swp README doinst.sh slack-desc wireshark.SlackBuild wireshark.info
 SLACKBUILD VERSION: 1.8.0
 SLACKBUILD DOWNLOAD: http://wiresharkdownloads.riverbed.com/wireshark/src/wireshark-1.8.0.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 

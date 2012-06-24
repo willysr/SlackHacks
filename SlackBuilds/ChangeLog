@@ -1,3 +1,8 @@
+Sun Jun 24 22:56:22 GMT+7 2012
+wireshark: Rebuilt
+  Simplify the workaround for new automake
+
++--------------------------+
 Sun Jun 24 09:16:57 GMT+7 2012
 gutenprint: Added
   This is an updated version of gutenprint from Slackware package
