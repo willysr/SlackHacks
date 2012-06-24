@@ -1,0 +1,7 @@
+PRGNAM="gutenprint"
+VERSION="5.2.8"
+HOMEPAGE="http://sourceforge.net/projects/gimp-print/"
+DOWNLOAD="http://heanet.dl.sourceforge.net/project/gimp-print/gutenprint-5.2/5.2.8/gutenprint-5.2.8.tar.bz2"
+MD5SUM="5ed64c0f994245852da8e9fa6a137060"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""

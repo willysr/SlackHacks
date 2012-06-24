@@ -1,3 +1,8 @@
+Sun Jun 24 09:16:57 GMT+7 2012
+gutenprint: Added
+  This is an updated version of gutenprint from Slackware package
+
++--------------------------+
 Sat Jun 23 10:16:17 GMT+7 2012
 wireshark: Rebuilt
   Fixed problem with newer automake and symlink problem

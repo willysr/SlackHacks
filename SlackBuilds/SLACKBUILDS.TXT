@@ -210,7 +210,7 @@ SLACKBUILD SHORT DESCRIPTION: gtk+2: GTK+ version 2 (multi-platform GUI toolkit)
 
 SLACKBUILD NAME: gtk+3
 SLACKBUILD LOCATION: ./gtk+3
-SLACKBUILD FILES: README doinst.sh.gz gtk+3.SlackBuild gtk+3.info gtk.xid.nowarningflood.diff.gz profile.d/gtk+.csh profile.d/gtk+.sh slack-desc update-gtk-immodules update-gtk-immodules-3.0 use_host_triplet_for_gtk_immodules.diff.gz
+SLACKBUILD FILES: README automake.patch doinst.sh.gz gtk+3.SlackBuild gtk+3.info gtk.xid.nowarningflood.diff.gz profile.d/gtk+.csh profile.d/gtk+.sh slack-desc update-gtk-immodules update-gtk-immodules-3.0 use_host_triplet_for_gtk_immodules.diff.gz
 SLACKBUILD VERSION: 3.4.3
 SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/gtk+/3.4/gtk+-3.4.3.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
@@ -227,6 +227,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: e552d52c3b0824eb99842dc9c5f4875f
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  gtkmm (C++ interface for GTK+)
+
+SLACKBUILD NAME: gutenprint
+SLACKBUILD LOCATION: ./gutenprint
+SLACKBUILD FILES: README gutenprint.SlackBuild gutenprint.info slack-desc
+SLACKBUILD VERSION: 5.2.8
+SLACKBUILD DOWNLOAD: http://heanet.dl.sourceforge.net/project/gimp-print/gutenprint-5.2/5.2.8/gutenprint-5.2.8.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 5ed64c0f994245852da8e9fa6a137060
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  gutenprint (IJS printer driver for Ghostscript and CUPS)
 
 SLACKBUILD NAME: guvcview
 SLACKBUILD LOCATION: ./guvcview
