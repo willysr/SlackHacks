@@ -228,16 +228,6 @@ SLACKBUILD MD5SUM: e552d52c3b0824eb99842dc9c5f4875f
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  gtkmm (C++ interface for GTK+)
 
-SLACKBUILD NAME: gutenprint
-SLACKBUILD LOCATION: ./gutenprint
-SLACKBUILD FILES: README gutenprint.SlackBuild gutenprint.info slack-desc
-SLACKBUILD VERSION: 5.2.8
-SLACKBUILD DOWNLOAD: http://heanet.dl.sourceforge.net/project/gimp-print/gutenprint-5.2/5.2.8/gutenprint-5.2.8.tar.bz2
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 5ed64c0f994245852da8e9fa6a137060
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  gutenprint (IJS printer driver for Ghostscript and CUPS)
-
 SLACKBUILD NAME: guvcview
 SLACKBUILD LOCATION: ./guvcview
 SLACKBUILD FILES: README doinst.sh guvcview.SlackBuild guvcview.info slack-desc
@@ -288,16 +278,6 @@ SLACKBUILD MD5SUM: f69b9693227d976835b4857b1ba7d0e3
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  libffi (Foreign Function Interface library)
 
-SLACKBUILD NAME: libgpod
-SLACKBUILD LOCATION: ./libgpod
-SLACKBUILD FILES: README doinst.sh.gz libgpod.SlackBuild libgpod.info slack-desc
-SLACKBUILD VERSION: 0.8.2
-SLACKBUILD DOWNLOAD: http://ncu.dl.sourceforge.net/project/gtkpod/libgpod/libgpod-0.8/libgpod-0.8.2.tar.bz2
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: ff0fd875fa08f2a6a49dec57ce3367ab
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  libgpod (A library for connecting to some sort of media device ;-)
-
 SLACKBUILD NAME: libpgf
 SLACKBUILD LOCATION: ./libpgf
 SLACKBUILD FILES: README libpgf.SlackBuild libpgf.info slack-desc
@@ -307,16 +287,6 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 9a3c700f0b3e36755f9044a348d6e0ce
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  libpgf (Image file format)
-
-SLACKBUILD NAME: libtiff
-SLACKBUILD LOCATION: ./libtiff
-SLACKBUILD FILES: README libtiff.SlackBuild libtiff.info slack-desc
-SLACKBUILD VERSION: 4.0.2
-SLACKBUILD DOWNLOAD: ftp://ftp.remotesensing.org/pub/libtiff/tiff-4.0.2.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 04a08fa1e07e696e820a0c3f32465a13
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  libtiff (a library for reading and writing TIFF files)
 
 SLACKBUILD NAME: libusbx
 SLACKBUILD LOCATION: ./libusbx
@@ -401,16 +371,6 @@ SLACKBUILD MD5SUM: b57a3a5e178ae40fc96583b7c1851663
 f92b977460d9fc4f090c2bf14b692438
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Skype (a P2P Voice Over IP program)
-
-SLACKBUILD NAME: taglib
-SLACKBUILD LOCATION: ./taglib
-SLACKBUILD FILES: README slack-desc taglib.SlackBuild taglib.info
-SLACKBUILD VERSION: 1.7.2
-SLACKBUILD DOWNLOAD: http://developer.kde.org/~wheeler/files/src/taglib-1.7.2.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: b0a9e797d3833fb933c7c3176de3d720
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  taglib (audio meta-data library)
 
 SLACKBUILD NAME: wesnoth
 SLACKBUILD LOCATION: ./wesnoth
