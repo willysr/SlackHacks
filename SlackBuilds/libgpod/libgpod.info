@@ -1,7 +1,0 @@
-PRGNAM="libgpod"
-VERSION="0.8.2"
-HOMEPAGE="http://www.gtkpod.org/wiki/Libgpod"
-DOWNLOAD="http://ncu.dl.sourceforge.net/project/gtkpod/libgpod/libgpod-0.8/libgpod-0.8.2.tar.bz2"
-MD5SUM="ff0fd875fa08f2a6a49dec57ce3367ab"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""

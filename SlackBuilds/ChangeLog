@@ -1,3 +1,14 @@
+Tue Jun 26 21:54:17 GMT+7 2012
+gutenprint: Removed
+  This package is now included in -Current per June 25
+libgpod: Removed
+  This package is now included in -Current per June 25
+libtiff: Removed
+  This package is now included in -Current per June 25
+taglib: Removed
+  This package is now included in -Current per June 25
+
++--------------------------+
 Mon Jun 25 06:35:14 GMT+7 2012
 libtiff: Rebuilt
   Fixed symlink creation

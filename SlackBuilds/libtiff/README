@@ -1,5 +1,0 @@
-libtiff is a library for reading and writing TIFF files.
-This package provides support for the Tag Image File Format (TIFF),
-a widely used format for storing image data.  Included is the libtiff
-library (for reading and writing TIFF files), and a collection of
-tools for working with TIFF images.
