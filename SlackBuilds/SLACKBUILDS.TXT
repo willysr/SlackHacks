@@ -251,10 +251,10 @@ SLACKBUILD SHORT DESCRIPTION:  httperf (http load generator)
 SLACKBUILD NAME: lensfun
 SLACKBUILD LOCATION: ./lensfun
 SLACKBUILD FILES: README lensfun.SlackBuild lensfun.info slack-desc
-SLACKBUILD VERSION: 0.2.5
-SLACKBUILD DOWNLOAD: http://download.berlios.de/lensfun/lensfun-0.2.5.tar.bz2
+SLACKBUILD VERSION: 0.2.6
+SLACKBUILD DOWNLOAD: http://download.berlios.de/lensfun/lensfun-0.2.6.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: a10438dffae68a5988fc54b0393a3755
+SLACKBUILD MD5SUM: 740e4749db04da0a597630dd6339b966
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  lensfun (photographic lens characteristics database library)
 

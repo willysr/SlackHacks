@@ -1,3 +1,8 @@
+Thu Jun 28 17:51:07 GMT+7 2012
+lensfun: Upgraded
+  Upgraded to 0.2.6. You will need to recompile digiKam if you upgrade lensfun
+
++--------------------------+
 Tue Jun 26 21:54:17 GMT+7 2012
 gutenprint: Removed
   This package is now included in -Current per June 25

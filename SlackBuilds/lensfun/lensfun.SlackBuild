@@ -25,9 +25,10 @@
 # Updated by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # Changelog
 # June 8, 2012 : Updated for lensfun 0.2.5
+# June 27, 2012: Upgraded to 0.2.6
 
 PRGNAM=lensfun
-VERSION=0.2.5
+VERSION=0.2.6
 BUILD=${BUILD:-1wsr}
 
 # Automatically determine the architecture we're building on:
