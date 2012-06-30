@@ -6,5 +6,5 @@ it should also work with any v4l2 compatible device.
 
 This requires portaudio, PulseAudio (optional), gtk+3 and ffmpeg.
 
-If you don't have PulseAudio, please use
-PULSE=NO ./guvcview.SlackBuild (default: YES)
+If you have PulseAudio and want to use it, please use
+PULSE=YES ./guvcview.SlackBuild (default: NO)

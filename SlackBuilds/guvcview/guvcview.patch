@@ -1,0 +1,19 @@
+--- src/vcodecs.c	2012-05-26 21:35:50.000000000 +0700
++++ /tmp/build/guvcview-src-1.6.0/src/vcodecs.c	2012-06-30 17:31:40.203792888 +0700
+@@ -34,7 +34,15 @@
+ #ifndef CODEC_FLAG2_INTRA_REFRESH
+ #define CODEC_FLAG2_INTRA_REFRESH 0
+ #endif
+-
++#ifndef CODEC_FLAG2_BPYRAMID
++#define CODEC_FLAG2_BPYRAMID 0 
++#endif
++#ifndef CODEC_FLAG2_WPRED
++#define CODEC_FLAG2_WPRED 0
++#endif
++#ifndef CODEC_FLAG2_FASTPSKIP
++#define CODEC_FLAG2_FASTPSKIP 0
++#endif
+ #define __FMUTEX &global->file_mutex
+ 
+ static BITMAPINFOHEADER mkv_codecPriv =

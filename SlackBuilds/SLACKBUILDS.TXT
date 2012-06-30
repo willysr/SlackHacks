@@ -260,7 +260,7 @@ SLACKBUILD SHORT DESCRIPTION:  gtkmm (C++ interface for GTK+)
 
 SLACKBUILD NAME: guvcview
 SLACKBUILD LOCATION: ./guvcview
-SLACKBUILD FILES: README doinst.sh guvcview.SlackBuild guvcview.info slack-desc
+SLACKBUILD FILES: README doinst.sh guvcview.SlackBuild guvcview.info guvcview.patch slack-desc
 SLACKBUILD VERSION: 1.6.0
 SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/guvcview/source/guvcview-src-1.6.0.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 

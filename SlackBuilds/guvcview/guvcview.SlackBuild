@@ -24,9 +24,13 @@
 
 # ChangeLog
 # May, 27 : Added check for PulseAudio
+# June, 30: Rebuilt, added new parameter to disable debian menu
+#           Added patch to fix after -Current updates per june 25
+#	    Change the default condition of PulseAudio to NO instead of YES
+
 PRGNAM=guvcview
 VERSION=${VERSION:-1.6.0}
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 DOCS="ABOUT-NLS AUTHORS COPYING ChangeLog INSTALL NEWS README"
 
@@ -57,10 +61,10 @@ else
   LIBDIRSUFFIX=""
 fi
 
-if [ "${PULSE:-YES}" = "NO" ]; then
-  pulseaudio="--disable-pulse"
-else
+if [ "${PULSE:-NO}" = "YES" ]; then
   pulseaudio="--enable-pulse"
+else
+  pulseaudio="--disable-pulse"
 fi
 
 set -e
@@ -78,6 +82,8 @@ find . \
  \( -perm 666 -o -perm 664 -o -perm 600 -o -perm 444 -o -perm 440 -o -perm 400 \) \
  -exec chmod 644 {} \;
 
+patch -p0 < $CWD/guvcview.patch
+
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
 ./configure \
@@ -85,6 +91,7 @@ CXXFLAGS="$SLKCFLAGS" \
   --libdir=/usr/lib${LIBDIRSUFFIX} \
   --sysconfdir=/etc \
   --localstatedir=/var \
+  --disable-debian-menu \
   $pulseaudio \
   --build=$ARCH-slackware-linux
 
