@@ -88,6 +88,16 @@ SLACKBUILD MD5SUM: 5caf799b9a74d3bed3490d2cf66021dd
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  digiKam (KDE Photo Management Application)
 
+SLACKBUILD NAME: farsight2
+SLACKBUILD LOCATION: ./farsight2
+SLACKBUILD FILES: README farsight2.SlackBuild farsight2.info slack-desc
+SLACKBUILD VERSION: 0.0.31
+SLACKBUILD DOWNLOAD: http://farsight.freedesktop.org/releases/farsight2/farsight2-0.0.31.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 3771d8268f025b28261cc1e977fab27f
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  Farsight (Audio/Video Communications Framework)
+
 SLACKBUILD NAME: filezilla
 SLACKBUILD LOCATION: ./filezilla
 SLACKBUILD FILES: README doinst.sh filezilla.SlackBuild filezilla.info slack-desc
@@ -148,6 +158,16 @@ SLACKBUILD MD5SUM: 7bbdb696c37bb98aef5af02c4b8975e3
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  gobject-introspection (GObject interface introspection library)
 
+SLACKBUILD NAME: graphviz
+SLACKBUILD LOCATION: ./graphviz
+SLACKBUILD FILES: README doinst.sh graphviz.SlackBuild graphviz.info graphviz.ini slack-desc
+SLACKBUILD VERSION: 2.28.0
+SLACKBUILD DOWNLOAD: http://graphviz.org/pub/graphviz/stable/SOURCES/graphviz-2.28.0.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 8d26c1171f30ca3b1dc1b429f7937e58
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  Graphviz (Graph Visualization)
+
 SLACKBUILD NAME: gst-plugins-bad
 SLACKBUILD LOCATION: ./gst-plugins-bad
 SLACKBUILD FILES: README doinst.sh gst-plugins-bad.SlackBuild gst-plugins-bad.info slack-desc
@@ -187,6 +207,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: ba26045c8c8c91f0d48d327ccf53ac0c
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  gst-plugins-ugly (a set of GStreamer plugins)
+
+SLACKBUILD NAME: gst-python
+SLACKBUILD LOCATION: ./gst-python
+SLACKBUILD FILES: README gst-python.SlackBuild gst-python.info slack-desc
+SLACKBUILD VERSION: 0.10.22
+SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gst-python/gst-python-0.10.22.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 937152fe896241f827689f4b53e79b22
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  gst-python (GStreamer python bindings)
 
 SLACKBUILD NAME: gstreamer
 SLACKBUILD LOCATION: ./gstreamer
@@ -268,6 +298,16 @@ SLACKBUILD MD5SUM: ed10e06987c76c79961c6906e02acf00
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  libdc1394 (1394-Based Digital Camera Control Library)
 
+SLACKBUILD NAME: libnice
+SLACKBUILD LOCATION: ./libnice
+SLACKBUILD FILES: README libnice.SlackBuild libnice.info slack-desc
+SLACKBUILD VERSION: 0.1.2
+SLACKBUILD DOWNLOAD: http://nice.freedesktop.org/releases/libnice-0.1.2.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 1914dd98380dd68632d3d448cc23f1e8
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  libnice (The GLib ICE implementation)
+
 SLACKBUILD NAME: libpgf
 SLACKBUILD LOCATION: ./libpgf
 SLACKBUILD FILES: README libpgf.SlackBuild libpgf.info slack-desc
@@ -300,6 +340,16 @@ SLACKBUILD MD5SUM: ac5c2058cd39c796a1c7bed2647f74b6
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  mysql-workbench - MySQL Workbench (GUI Tool)
 
+SLACKBUILD NAME: numpy
+SLACKBUILD LOCATION: ./numpy
+SLACKBUILD FILES: README numpy.SlackBuild numpy.info slack-desc
+SLACKBUILD VERSION: 1.6.1
+SLACKBUILD DOWNLOAD: http://freefr.dl.sourceforge.net/project/numpy/NumPy/1.6.1/numpy-1.6.1.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 2bce18c08fc4fce461656f0f4dd9103e
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  NumPy (a Python extension for scientific computing)
+
 SLACKBUILD NAME: opencv
 SLACKBUILD LOCATION: ./opencv
 SLACKBUILD FILES: README opencv.SlackBuild opencv.info slack-desc
@@ -330,6 +380,16 @@ SLACKBUILD MD5SUM: 40b3b34dbbefbc411a81d05dba5275ca
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  pangomm (C++ API for Pango)
 
+SLACKBUILD NAME: paramiko
+SLACKBUILD LOCATION: ./paramiko
+SLACKBUILD FILES: README paramiko.SlackBuild paramiko.info slack-desc
+SLACKBUILD VERSION: 1.7.7.1
+SLACKBUILD DOWNLOAD: http://www.lag.net/paramiko/download/paramiko-1.7.7.1.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: ce8e2c254378312a264206f65c354d72
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  paramiko (Python SSH module)
+
 SLACKBUILD NAME: pexpect
 SLACKBUILD LOCATION: ./pexpect
 SLACKBUILD FILES: README pexpect.SlackBuild pexpect.info slack-desc
@@ -339,6 +399,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: bf107cf54e67bc6dec5bea1f3e6a65c3
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  pexpect (Python module for spawning child applications)
+
+SLACKBUILD NAME: pychm
+SLACKBUILD LOCATION: ./pychm
+SLACKBUILD FILES: README pychm.SlackBuild pychm.info slack-desc
+SLACKBUILD VERSION: 0.8.4
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/gnochm/pychm-0.8.4.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: ff7f0baf94290c44263a1618e7e6a116
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  PyCHM (Python bindings for CHMLIB) 
 
 SLACKBUILD NAME: pycrypto
 SLACKBUILD LOCATION: ./pycrypto
@@ -381,4 +451,14 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 3eca81253800a0089d0f957e75853b05
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  WireShark (packet sniffer and protocol analyzer)
+
+SLACKBUILD NAME: xchm
+SLACKBUILD LOCATION: ./xchm
+SLACKBUILD FILES: README slack-desc xchm.SlackBuild xchm.info
+SLACKBUILD VERSION: 1.20
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/xchm/xchm-1.20.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 85943645d20af536704a20b58ebd5849
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  xchm (viewer for .chm files)
 

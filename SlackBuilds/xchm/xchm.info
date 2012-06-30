@@ -1,0 +1,7 @@
+PRGNAM="xchm"
+VERSION="1.20"
+HOMEPAGE="http://xchm.sourceforge.net/"
+DOWNLOAD="http://downloads.sourceforge.net/xchm/xchm-1.20.tar.gz"
+MD5SUM="85943645d20af536704a20b58ebd5849"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""

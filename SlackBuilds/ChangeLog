@@ -1,3 +1,14 @@
+Sat Jun 30 14:16:50 GMT+7 2012
+farsight2: Added  
+libnice: Added
+graphviz: Added
+gst-phython: Added
+numpy: Added
+paramiko: Added
+pychm: Added
+xchm: Added
+
++--------------------------+
 Fri Jun 29 07:43:06 GMT+7 2012
 libffi: Removed
   This package is now included in -Current per June 25
