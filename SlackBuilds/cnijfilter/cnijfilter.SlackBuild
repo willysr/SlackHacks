@@ -26,10 +26,11 @@
 
 # Changelog
 # May 17: Initial release
+# July 1: Added some patches for MG5200 and change the versioning number, Thanks to Ruario
 
 PRGNAM=cnijfilter
 VERSION=${VERSION:-3.40-1}
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 SRCVERSION=source-$VERSION
 
@@ -114,8 +115,11 @@ find . \
 CFLAGS="$SLKCFLAGS"
 CXXFLAGS="$SLKCFLAGS"
 
+# Added patches from ArchLinux
+# https://aur.archlinux.org/packages.php?ID=46944
 patch -p0 < $CWD/fix.patch
-sed -i -e 's/png_p->jmpbuf/png_jmpbuf(png_p)/' cnijfilter/src/bjfimage.c
+patch -p1 < $CWD/fix_mg5200_ppd.patch
+patch -p1 < $CWD/fix_png.patch
 
 cd $TMP/$PRGNAM-$SRCVERSION/libs
 ./autogen.sh \
@@ -277,4 +281,4 @@ mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
 cd $PKG
-/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$MODEL-$VERSION-$ARCH-$BUILD.${PKGTYPE:-txz}
+/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$MODEL-$(echo $VERSION | tr - .)-$ARCH-$BUILD.${PKGTYPE:-txz}
