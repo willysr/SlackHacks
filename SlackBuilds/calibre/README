@@ -13,7 +13,7 @@ calibre home: http://calibre-ebook.com/
 
 In order to build Calibre, you will need these packages:
 - Python 2.7.x (Available in -Current)
-- pil (Available in -Current)
+- pil (Available in Slackware)
 - icu4c
 - podofo
 - BeautifulSoup
