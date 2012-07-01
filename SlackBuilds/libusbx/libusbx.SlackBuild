@@ -25,11 +25,11 @@
 # May 17: Bumped to libusb 1.0.9 and libusb-compat 0.1.4
 # June 7: Switched to libusbx 
 # June 17: Upgraded to 1.0.12
+# July 1: Rebuilt and remove libusb-compat since it's now included in -Current
 
-VERSION=${VERSION:-1.0.12}	# libusbx version
-USBCOMPAT=${USBCOMPAT:-0.1.4}	# libusb-compat version
+VERSION=${VERSION:-1.0.12}
 
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 NUMJOBS=${NUMJOBS:--j6}
 
@@ -87,7 +87,6 @@ CFLAGS="$SLKCFLAGS" \
 make $NUMJOBS || make || exit 1
 make install DESTDIR=$PKG
 if [ ! -r /usr/lib${LIBDIRSUFFIX}/pkgconfig/libusb-1.0.pc ]; then
-  # We have to install this to proceed:
   make install
 fi
 
@@ -104,44 +103,6 @@ if [ -r ChangeLog ]; then
   touch -r ChangeLog $DOCSDIR/ChangeLog
 fi
 
-# Now build the libusb-compat stuff
-cd $TMP
-rm -rf libusb-compat-$USBCOMPAT
-tar xvf $CWD/libusb-compat-$USBCOMPAT.tar.bz2
-cd libusb-compat-$USBCOMPAT
-chown -R root:root .
-find . \
-  \( -perm 777 -o -perm 775 -o -perm 711 -o -perm 555 -o -perm 511 \) \
-  -exec chmod 755 {} \; -o \
-  \( -perm 666 -o -perm 664 -o -perm 600 -o -perm 444 -o -perm 440 -o -perm 400 \) \
-  -exec chmod 644 {} \;
-
-CFLAGS="$SLKCFLAGS" \
-./configure \
-  --prefix=/usr \
-  --libdir=/usr/lib${LIBDIRSUFFIX} \
-  --mandir=/usr/man \
-  --docdir=/usr/doc/libusbx-$VERSION \
-  --disable-static \
-  --build=$ARCH-slackware-linux
-
-make $NUMJOBS || make || exit 1
-make install DESTDIR=$PKG
-
-mkdir -p $PKG/usr/doc/libusbx-$VERSION/libusb-compat-$USBCOMPAT
-cp -a \
-  AUTHORS COPYING INSTALL LICENSE NEWS README \
-  $PKG/usr/doc/libusbx-$VERSION/libusb-compat-$USBCOMPAT
-
-# If there's a ChangeLog, installing at least part of the recent history
-# is useful, but don't let it get totally out of control:
-if [ -r ChangeLog ]; then
-  DOCSDIR=$(echo $PKG/usr/doc/libusbx-$VERSION/libusb-compat-$USBCOMPAT)
-  cat ChangeLog | head -n 1000 > $DOCSDIR/ChangeLog
-  touch -r ChangeLog $DOCSDIR/ChangeLog
-fi
-
-# Now handle the package-wide stuff
 find $PKG | xargs file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
 
@@ -165,4 +126,3 @@ cat $CWD/slack-desc > $PKG/install/slack-desc
 
 cd $PKG
 /sbin/makepkg -l y -c n $TMP/libusbx-$VERSION-$ARCH-$BUILD.txz
-

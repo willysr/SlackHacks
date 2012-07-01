@@ -1,3 +1,8 @@
+Sun Jul  1 17:56:22 GMT+7 2012
+libusbx: Rebuilt
+  Remove libusb-compat from the package since it's included in -Current
+
++--------------------------+
 Sun Jul  1 10:21:58 GMT+7 2012
 calibre: Added
   This is a simplified SlackBuild script from Eric Hameleers
