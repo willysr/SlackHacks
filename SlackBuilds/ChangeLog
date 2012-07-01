@@ -1,3 +1,29 @@
+Sun Jul  1 10:21:58 GMT+7 2012
+calibre: Added
+  This is a simplified SlackBuild script from Eric Hameleers
+  All the dependencies are now installed as separate packages.
+  This results big time saving in compilation process and space consumed
+  You will need Python 2.7.x and pil (Available in -Current), icu4c, podofo,
+  BeautifulSoup, dnspython, pysetuptools, python-cssutils, lxml, 
+  python-dateutil, mechanize, pycrypto which are already added previously
+icu4c: Added
+podofo: Added
+  This are dependencies of Calibre 
+
++--------------------------+
+Sun Jul  1 09:19:11 GMT+7 2012
+BeautifulSoup: Added
+cssutils: Added
+dnspython: Added
+mechanize: Added
+pysetuptools: Added
+python-dateutil: Added
+  This are dependencies of Calibre that will be added soon
+  Since Slackware-Current has include Python 2.7.3, it's best to have
+  this packages installed internally rather than compile it in Calibre
+  This should reduce compile time and also space consumed by Calibre
+
++--------------------------+
 Sat Jun 30 17:42:55 GMT+7 2012
 guvcview: Rebuilt
   Patched to allow it compiles after -Current update per June 25

@@ -1,3 +1,13 @@
+SLACKBUILD NAME: BeautifulSoup
+SLACKBUILD LOCATION: ./BeautifulSoup
+SLACKBUILD FILES: BeautifulSoup.SlackBuild BeautifulSoup.info README slack-desc
+SLACKBUILD VERSION: 4.1.0
+SLACKBUILD DOWNLOAD: http://www.crummy.com/software/BeautifulSoup/bs4/download/4.0/beautifulsoup4-4.1.0.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: bf69362be7d0c32515872f944763658b
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  BeautifulSoup (Python HTML/XML parser)
+
 SLACKBUILD NAME: atk
 SLACKBUILD LOCATION: ./atk
 SLACKBUILD FILES: atk.SlackBuild atk.info slack-desc
@@ -48,6 +58,16 @@ SLACKBUILD MD5SUM: 9c63fb1c04c8ecd3c5e6473075b8c39f
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  cairomm (C++ wrapper for the cairo graphics library)
 
+SLACKBUILD NAME: calibre
+SLACKBUILD LOCATION: ./calibre
+SLACKBUILD FILES: README calibre.SlackBuild calibre.info slack-desc
+SLACKBUILD VERSION: 0.8.58
+SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.8.58.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 9c04d48150156aa8b7464039a3680217
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  calibre (e-book library management application)
+
 SLACKBUILD NAME: cnijfilter
 SLACKBUILD LOCATION: ./cnijfilter
 SLACKBUILD FILES: README cnijfilter.SlackBuild cnijfilter.info fix.patch slack-desc
@@ -57,6 +77,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 609975a05d6050fcca88f312d3f35c6a
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  cnijfilter (IJ Printer Driver for Linux)
+
+SLACKBUILD NAME: cssutils
+SLACKBUILD LOCATION: ./cssutils
+SLACKBUILD FILES: README cssutils.SlackBuild cssutils.info slack-desc
+SLACKBUILD VERSION: 0.9.9
+SLACKBUILD DOWNLOAD: http://pypi.python.org/packages/source/c/cssutils/cssutils-0.9.9.zip
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 5f8ea824cc0e0518b574da20e895be08
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  cssutils (CSS parser and builder)
 
 SLACKBUILD NAME: ctemplate
 SLACKBUILD LOCATION: ./ctemplate
@@ -87,6 +117,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 5caf799b9a74d3bed3490d2cf66021dd
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  digiKam (KDE Photo Management Application)
+
+SLACKBUILD NAME: dnspython
+SLACKBUILD LOCATION: ./dnspython
+SLACKBUILD FILES: README dnspython.SlackBuild dnspython.info slack-desc
+SLACKBUILD VERSION: 1.10.0
+SLACKBUILD DOWNLOAD: http://www.dnspython.org/kits/1.10.0/dnspython-1.10.0.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: b4f60852fd7ba64fc7c3a1fa239eba33
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  dnspython (Python API for DNS)
 
 SLACKBUILD NAME: farsight2
 SLACKBUILD LOCATION: ./farsight2
@@ -278,6 +318,16 @@ SLACKBUILD MD5SUM: 2968c36b9ecf3d98fc1f2c1c9c0d9341
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  httperf (http load generator)
 
+SLACKBUILD NAME: icu4c
+SLACKBUILD LOCATION: ./icu4c
+SLACKBUILD FILES: README icu4c.SlackBuild icu4c.info slack-desc
+SLACKBUILD VERSION: 49.1.2
+SLACKBUILD DOWNLOAD: http://download.icu-project.org/files/icu4c/49.1.2/icu4c-49_1_2-src.tgz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: da64675d85f0c2191cef93a8cb5eea88
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  icu4c (International Components for Unicode)
+
 SLACKBUILD NAME: lensfun
 SLACKBUILD LOCATION: ./lensfun
 SLACKBUILD FILES: README lensfun.SlackBuild lensfun.info slack-desc
@@ -339,6 +389,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 61d4ad80726b984b35c9a81aa2510b4d
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  lxml (Python bindings for the libxml2 and libxslt)
+
+SLACKBUILD NAME: mechanize
+SLACKBUILD LOCATION: ./mechanize
+SLACKBUILD FILES: README mechanize.SlackBuild mechanize.info slack-desc
+SLACKBUILD VERSION: 0.2.5
+SLACKBUILD DOWNLOAD: http://pypi.python.org/packages/source/m/mechanize/mechanize-0.2.5.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 32657f139fc2fb75bcf193b63b8c60b2
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  mechanize (Stateful programmatic web browsing in Python)
 
 SLACKBUILD NAME: mysql-workbench-gpl
 SLACKBUILD LOCATION: ./mysql-workbench-gpl
@@ -410,6 +470,16 @@ SLACKBUILD MD5SUM: bf107cf54e67bc6dec5bea1f3e6a65c3
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  pexpect (Python module for spawning child applications)
 
+SLACKBUILD NAME: podofo
+SLACKBUILD LOCATION: ./podofo
+SLACKBUILD FILES: README podofo.SlackBuild podofo.info slack-desc
+SLACKBUILD VERSION: 0.9.1
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/podofo/podofo-0.9.1.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: cec586ab69f92bc88d38b5d4b8eee5a0
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  PoDoFo (a library to work with the PDF file format)
+
 SLACKBUILD NAME: pychm
 SLACKBUILD LOCATION: ./pychm
 SLACKBUILD FILES: README pychm.SlackBuild pychm.info slack-desc
@@ -429,6 +499,26 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 88dad0a270d1fe83a39e0467a66a22bb
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  pycrypto (Python Cryptography Toolkit)
+
+SLACKBUILD NAME: pysetuptools
+SLACKBUILD LOCATION: ./pysetuptools
+SLACKBUILD FILES: README pysetuptools.SlackBuild pysetuptools.info slack-desc
+SLACKBUILD VERSION: 0.6c11
+SLACKBUILD DOWNLOAD: http://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 7df2a529a074f613b509fb44feefe74e
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  pysetuptools (a collection of enhancements to Python distutils)
+
+SLACKBUILD NAME: python-dateutil
+SLACKBUILD LOCATION: ./python-dateutil
+SLACKBUILD FILES: README python-dateutil.SlackBuild python-dateutil.info slack-desc
+SLACKBUILD VERSION: 1.5
+SLACKBUILD DOWNLOAD: http://labix.org/download/python-dateutil/python-dateutil-1.5.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 35f3732db3f2cc4afdc68a8533b60a52
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  python-dateutil (extensions to the standard datetime module)
 
 SLACKBUILD NAME: skype
 SLACKBUILD LOCATION: ./skype

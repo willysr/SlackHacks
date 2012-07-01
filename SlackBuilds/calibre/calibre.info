@@ -1,0 +1,7 @@
+PRGNAM="calibre"
+VERSION="0.8.58"
+HOMEPAGE="http://calibre-ebook.com/"
+DOWNLOAD="https://calibre-ebook.googlecode.com/files/calibre-0.8.58.tar.xz"
+MD5SUM="9c04d48150156aa8b7464039a3680217"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""

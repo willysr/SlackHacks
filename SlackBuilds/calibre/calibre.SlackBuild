@@ -1,0 +1,374 @@
+#!/bin/sh
+# $Id: calibre.SlackBuild,v 1.66 2012/06/15 11:09:03 root Exp root $
+# Copyright 2010, 2011, 2012  Eric Hameleers, Eindhoven, NL
+# All rights reserved.
+#
+#   Permission to use, copy, modify, and distribute this software for
+#   any purpose with or without fee is hereby granted, provided that
+#   the above copyright notice and this permission notice appear in all
+#   copies.
+#
+#   THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESSED OR IMPLIED
+#   WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+#   MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+#   IN NO EVENT SHALL THE AUTHORS AND COPYRIGHT HOLDERS AND THEIR
+#   CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+#   SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+#   LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF
+#   USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+#   ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+#   OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
+#   OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+#   SUCH DAMAGE.
+# -----------------------------------------------------------------------------
+#
+# Slackware SlackBuild script 
+# ===========================
+# By:         Eric Hameleers <alien@slackware.com>
+# For:        calibre
+# Descr:      e-book library management application
+# URL:        http://calibre-ebook.com/
+# Needs:      icu4c, podofo;
+#             And if your system already has python2.7, you will also need:
+#             BeautifulSoup, dnspython, pysetuptools, python-cssutils,
+#             python-imaging, python-lxml, python-dateutil, python-mechanize 
+# Changelog:  
+# 0.7.20-1:   25/Sep/2010 by Eric Hameleers <alien@slackware.com>
+#             * Initial build.
+# 0.7.23-1:   12/oct/2010 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.3-1:    02/jun/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update. Optionally, include the required python 2.7.x plus
+#               additional modules in the package.
+# 0.8.6-1:    17/jun/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update. Added dbus-python to the internal python 2.7 libraries,
+# 0.8.7-1:    26/jun/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.8-1:    03/jul/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.11-1:   28/jul/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.12-1:   30/jul/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.13-1:   06/aug/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.14-1:   12/aug/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.15-1:   19/aug/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.16-1:   26/aug/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.17-1:   02/sep/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.18-1:   09/sep/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.19-1:   16/sep/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.20-1:   24/sep/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.21-1:   30/sep/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.21-2:   12/oct/2011 by Eric Hameleers <alien@slackware.com>
+#             * Add pycrypto to the internal dependencies.
+#               This allows you to use the instructions found at
+#               http://epubee.com/remove-drm-from-epub-on-adobe.html
+# 0.8.22-1:   14/oct/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.23-1:   21/oct/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.24-1:   28/oct/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.25-1:   06/nov/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.26-1:   11/nov/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.27-1:   18/nov/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.28-1:   25/nov/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.29-1:   02/dec/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.30-1:   09/dec/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.31-1:   16/dec/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.32-1:   23/dec/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.33-1:   30/dec/2011 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.34-1:   06/jan/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.35-1:   13/jan/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.36-1:   20/jan/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.37-1:   27/jan/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.38-1:   03/feb/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.39-1:   10/feb/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.40-1:   17/feb/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.41-1:   24/feb/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.42-1:   12/mar/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.43-1:   16/mar/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.44-1:   23/mar/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.45-1:   30/mar/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.46-1:   06/apr/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.47-1:   13/apr/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.48-1:   20/apr/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.49-1:   27/apr/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.49-2:   01/may/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update several internal libraries. Especially cssutils needed
+#               an update in order to fix the broken format conversion.
+# 0.8.50-1:   04/may/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.51-1:   11/may/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.52-1:   18/may/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update. Man pages are no longer included as all utilities
+#               have more comprehensive command line "--help". 
+# 0.8.53-1:   25/may/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.54-1:   31/may/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.55-1:   06/jun/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.56-1:   15/jun/2012 by Eric Hameleers <alien@slackware.com>
+#             * Update.
+# 0.8.57-1:   22/jun/2012 by Eric Hameleers <alien@slackware.com>
+#             * New release. Upgraded the internal pycrypto library.
+# 0.8.58-1:   29/jun/2012 by Eric Hameleers <alien@slackware.com>
+#             * New release.
+# 
+# Run 'sh calibre.SlackBuild' to build a Slackware package.
+# The package (.txz) and .txt file as well as build logs are created in /tmp .
+# Install it using 'installpkg'. 
+#
+# -----------------------------------------------------------------------------
+
+# Set initial variables:
+
+# Modified by Willy Sudiarto Raharjo
+# Changelog
+# July, 1: Upgraded to 0.8.58
+#	   Simplify the SlackBuild since we have all dependencies out of this package
+
+
+PRGNAM=calibre
+VERSION=${VERSION:-0.8.58}
+BUILD=${BUILD:-1wsr}
+NUMJOBS=${NUMJOBS:" -j4 "}
+
+DOCS="LICENSE* Changelog* COPYRIGHT README*"
+
+PYTHON=$(python -c 'import sys; print sys.version[:3]')
+SLACKVER=$(cat /etc/slackware-version |cut -d' ' -f2)
+
+REQUIRED_PYTHON="2.7"
+
+if [ "$PYTHON" != "$REQUIRED_PYTHON" ]; then
+  echo "You must have Python 2.7.x installed on your system to continue"
+  exit 1;
+fi
+
+# Where do we look for sources?
+SRCDIR=$(cd $(dirname $0); pwd)
+CWD=$(pwd)
+
+# Place to build (TMP) package (PKG) and output (OUTPUT) the program:
+TMP=${TMP:-/tmp/build}
+PKG=$TMP/package-$PRGNAM
+OUTPUT=${OUTPUT:-/tmp}
+
+##
+## --- with a little luck, you won't have to edit below this point --- ##
+##
+
+# Automatically determine the architecture we're building on:
+if [ -z "$ARCH" ]; then
+  case "$( uname -m )" in
+    i?86) export ARCH=i486 ;;
+    arm*) export ARCH=arm ;;
+    # Unless $ARCH is already set, use uname -m for all other archs:
+       *) export ARCH=$( uname -m ) ;;
+  esac
+fi
+
+case "$ARCH" in
+  i486)      SLKCFLAGS="-O2 -march=i486 -mtune=i686"
+             SLKLDFLAGS=""; LIBDIRSUFFIX=""
+             ;;
+  x86_64)    SLKCFLAGS="-O2 -fPIC"
+             SLKLDFLAGS="-L/usr/lib64"; LIBDIRSUFFIX="64"
+             ;;
+  *)         SLKCFLAGS="-O2"
+             SLKLDFLAGS=""; LIBDIRSUFFIX=""
+             ;;
+esac
+
+# Exit the script on errors:
+set -e
+trap 'echo "$0 FAILED at line ${LINENO}" | tee $OUTPUT/error-${PRGNAM}.log' ERR
+# Catch unitialized variables:
+set -u
+P1=${1:-1}
+
+# Save old umask and set to 0022:
+_UMASK_=$(umask)
+umask 0022
+
+# Create working directories:
+mkdir -p $OUTPUT          # place for the package to be saved
+mkdir -p $TMP/tmp-$PRGNAM # location to build the source
+mkdir -p $PKG             # place for the package to be built
+rm -rf $PKG/*             # always erase old package's contents
+rm -rf $TMP/tmp-$PRGNAM/* # remove the remnants of previous build
+
+echo -e "\n**  calibre  **\n"
+cd $TMP
+tar xvf $CWD/${PRGNAM}-${VERSION}.tar.xz
+cd $TMP/$PRGNAM/
+chown -R root:root .
+chmod -R u+w,go+r-w,a+X-s .
+# Calibre 0.8.6 has a version bug:
+INTERNAL_VERSION=$(echo $VERSION | sed -e 's/\./, /g')
+VERSION_CONSTANT=$(grep "^numeric_version" src/calibre/constants.py)
+if [ "$VERSION_CONSTANT" != "numeric_version = ($INTERNAL_VERSION)" ]; then
+  echo "** Changing '$VERSION_CONSTANT' to:"
+  echo "**          'numeric_version = ($INTERNAL_VERSION)'"
+  sed -i -e "s/^numeric_version.*$/numeric_version = ($INTERNAL_VERSION)/" \
+  src/calibre/constants.py
+fi
+
+# See if we picked up any linker flags for python:
+LDFLAGS=${LDFLAGS:-""}
+
+# Place where we have to install stuff:
+PYTHONLIB=$( python -c "from distutils.sysconfig import get_python_lib; print get_python_lib()" )
+
+# Create the directory for calibre's environment module:
+mkdir -p $PKG$PYTHONLIB
+
+# Find the prefix python was installed to (may be different from calibre's):
+PYTHONROOT=$( python -c "from distutils.sysconfig import get_python_lib; print get_python_lib(prefix='/')" )
+PYTHONPREF="${PYTHONLIB%$PYTHONROOT}"
+
+# Massage the install script to actually install to that python libdir:
+sed -e "/s.get_python_lib(prefix=/s,(prefix=.*),(prefix='$PKG$PYTHONPREF')," \
+  -i setup/install.py 
+
+# Cut out the DOS crap:
+sed -i -e 's/\r//' src/calibre/web/feeds/recipes/*
+
+OVERRIDE_LDFLAGS="$LDFLAGS $SLKLDFLAGS" \
+OVERRIDE_CFLAGS="$SLKCFLAGS" \
+python setup.py build
+
+# Create the directories the xdg-utils expects to be present:
+mkdir -p $PKG/usr/share/{applications,icons/hicolor,mime/packages}
+mkdir -p $PKG/usr/share/{desktop-directories,packages}
+
+XDG_DATA_DIRS="$PKG/usr/share" \
+XDG_UTILS_INSTALL_MODE="system" \
+LIBPATH="/usr/lib${LIBDIRSUFFIX}" \
+python setup.py install \
+  --prefix=/usr \
+  --libdir=/usr/lib${LIBDIRSUFFIX} \
+  --staging-root=$PKG/usr \
+  --staging-libdir=$PKG/usr/lib${LIBDIRSUFFIX}
+
+
+# The bash completion files need to be in /etc :
+mv $PKG/usr/etc $PKG/
+
+# Mime type definition files end in .xml :
+mv $PKG/usr/share/mime/packages/calibre-mimetypes{,.xml}
+
+# This is stupid:
+rm -f $PKG/usr/bin/calibre-uninstall
+
+# I'd rather not ship 1.6MB of redundant fonts:
+( cd $PKG/usr/share/calibre/fonts/liberation/
+  for FONT in *.ttf ; do
+  rm $FONT
+  ln -sf /usr/share/fonts/TTF/$FONT
+  done
+)
+
+# All these files will be generated by update-mime-database:
+find $PKG/usr/share/mime -maxdepth 1 -type f | xargs rm -f
+
+# These files are generated by update-desktop-database while installing:
+rm -f $PKG/usr/share/applications/defaults.list
+rm -f $PKG/usr/share/applications/mimeinfo.cache
+
+# These two served their purpose:
+rmdir $PKG/usr/share/{desktop-directories,packages}
+
+# And then some additions or it won't all look nice in your menu:
+
+# Add a MimeType icon for lrf, and add an application icon:
+for i in 16 24 32 48 64 96 128; do
+  mkdir -p $PKG/usr/share/icons/hicolor/${i}x${i}/{apps,mimetypes}
+    convert imgsrc/mimetypes/lrf.svg -scale $i \
+    $PKG/usr/share/icons/hicolor/${i}x${i}/mimetypes/application-x-sony-bbeb.png
+    convert resources/images/library.png -resize ${i}x${i} \
+    $PKG/usr/share/icons/hicolor/${i}x${i}/apps/calibre-gui.png
+    convert imgsrc/viewer.svg -scale $i \
+    $PKG/usr/share/icons/hicolor/${i}x${i}/apps/calibre-viewer.png
+done
+
+# Create a doinst.sh:
+mkdir -p $PKG/install
+cat <<EOT >> $PKG/install/doinst.sh
+# Update the desktop and mime database:
+if [ -x usr/bin/update-desktop-database ]; then
+  chroot . /usr/bin/update-desktop-database usr/share/applications > /dev/null 2>&1
+fi
+if [ -x usr/bin/update-mime-database ]; then
+  chroot . /usr/bin/update-mime-database usr/share/mime > /dev/null 2>&1
+fi
+if [ -x usr/bin/gtk-update-icon-cache ] ; then
+  chroot . /usr/bin/gtk-update-icon-cache --quiet usr/share/icons/hicolor 
+fi
+
+EOT
+
+# Add documentation:
+mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
+# First, the calibre documentation files:
+cp -a $DOCS $PKG/usr/doc/$PRGNAM-$VERSION || true
+
+# And finally, add this SlackBuild script:
+cat $SRCDIR/$(basename $0) > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
+chown -R root:root $PKG/usr/doc/$PRGNAM-$VERSION
+find $PKG/usr/doc -type f -exec chmod 644 {} \;
+
+# Strip binaries (if any):
+find $PKG | xargs file | grep -e "executable" -e "shared object" | grep ELF \
+  | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
+
+# Add a package description:
+mkdir -p $PKG/install
+cat $SRCDIR/slack-desc > $PKG/install/slack-desc
+
+# Build the package:
+cd $PKG
+makepkg --linkadd y --chown n $OUTPUT/${PRGNAM}-${VERSION}-${ARCH}-${BUILD}.${PKGTYPE:-txz}
+cd $OUTPUT
+cd -
+
+# Restore the original umask:
+umask ${_UMASK_}
+
