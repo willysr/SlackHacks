@@ -27,10 +27,11 @@
 # Changelog
 # May 17: Initial release
 # July 1: Added some patches for MG5200 and change the versioning number, Thanks to Ruario
+# July 2: Added hacky trick from Ruario to correct building on x86_64 machines 
 
 PRGNAM=cnijfilter
 VERSION=${VERSION:-3.40-1}
-BUILD=${BUILD:-2wsr}
+BUILD=${BUILD:-3wsr}
 
 SRCVERSION=source-$VERSION
 
@@ -263,6 +264,20 @@ install -p -m 755 $TMP/$PRGNAM-$SRCVERSION/$PRINTER_ID/$LIBS_BIN/libcnbpess$PRIN
 install -p -m 755 $TMP/$PRGNAM-$SRCVERSION/$PRINTER_ID/$LIBS_BIN/libcnbpo$PRINTER_ID.so.1.0.? $PKG/usr/lib${LIBDIRSUFFIX}
 install -p -m 755 $TMP/$PRGNAM-$SRCVERSION/com/$LIBS_BIN/libcnnet.so.1.2.0 $PKG/usr/lib${LIBDIRSUFFIX}
 
+# Thanks to Ruario for building in x86_64 VMs and his hacky trick
+mkdir -p $PKG/usr/share/cngpijmon$MODEL/pixmaps/
+cp  $TMP/$PRGNAM-$SRCVERSION/cngpijmon/pixmaps/*.xpm $PKG/usr/share/cngpijmon$MODEL/pixmaps/
+
+mkdir -p $PKG/usr/share/printui$MODEL/pixmaps/
+cp  $TMP/$PRGNAM-$SRCVERSION/printui/pixmaps/*.xpm $PKG/usr/share/printui$MODEL/pixmaps/
+
+if [ -d "$PKG/usr/lib" ] && [ -n "${LIBDIRSUFFIX}" ]; then
+  cd $PKG/usr/lib
+  find . -depth -print | cpio -pmd ../lib${LIBDIRSUFFIX}
+  cd ..
+  rm -fr lib
+fi
+
 # Make a symlink to point to pstocanonij without suffix
 ( 
   ln -s usr/lib${LIBDIRSUFFIX}/cups/filter/pstocanonij$MODEL $PKG/usr/lib${LIBDIRSUFFIX}/cups/filter/pstocanonij
@@ -271,6 +286,7 @@ install -p -m 755 $TMP/$PRGNAM-$SRCVERSION/com/$LIBS_BIN/libcnnet.so.1.2.0 $PKG/
 find $PKG | xargs file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
 
+cd  $TMP/$PRGNAM-$SRCVERSION/
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 cp -a \
   README LICENSE* \

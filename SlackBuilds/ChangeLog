@@ -1,3 +1,8 @@
+Mon Jul  2 15:55:20 GMT+7 2012
+cnijfilter: Rebuilt
+  Update the SlackBuild to produce correct directory layout for x86_64 machine
+  Thanks to Ruario
++--------------------------+
 Sun Jul  1 17:56:22 GMT+7 2012
 libusbx: Rebuilt
   Remove libusb-compat from the package since it's included in -Current
