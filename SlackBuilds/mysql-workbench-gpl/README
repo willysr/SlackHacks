@@ -33,6 +33,6 @@ Requirements:
 - pangomm-2.28.4
 - gtkmm-2.24.2
 - ctemplate-2.2
-- paramiko-1.7.7.1 (available on SBo)
-  - pycrypto-2.5
+- paramiko-1.7.7.1
+  - pycrypto-2.6
 - pexpect-2.3
