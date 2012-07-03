@@ -1,0 +1,7 @@
+PRGNAM="netatalk"
+VERSION="2.2.3"
+HOMEPAGE="http://netatalk.sourceforge.net/"
+DOWNLOAD="http://sourceforge.net/projects/netatalk/files/netatalk/2.2.3/netatalk-2.2.3.tar.bz2/download"
+MD5SUM="0b5a0645836183b0e548ccfbd5c022f8"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""

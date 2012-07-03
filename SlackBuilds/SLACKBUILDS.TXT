@@ -428,6 +428,16 @@ SLACKBUILD MD5SUM: ac5c2058cd39c796a1c7bed2647f74b6
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  mysql-workbench - MySQL Workbench (GUI Tool)
 
+SLACKBUILD NAME: netatalk
+SLACKBUILD LOCATION: ./netatalk
+SLACKBUILD FILES: README afppasswd doinst.sh.gz netatalk.SlackBuild netatalk.etc2ps.diff.gz netatalk.info rc.atalk.new slack-desc
+SLACKBUILD VERSION: 2.2.3
+SLACKBUILD DOWNLOAD: http://sourceforge.net/projects/netatalk/files/netatalk/2.2.3/netatalk-2.2.3.tar.bz2/download
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 0b5a0645836183b0e548ccfbd5c022f8
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  netatalk (Appletalk file and print server)
+
 SLACKBUILD NAME: numpy
 SLACKBUILD LOCATION: ./numpy
 SLACKBUILD FILES: README numpy.SlackBuild numpy.info slack-desc

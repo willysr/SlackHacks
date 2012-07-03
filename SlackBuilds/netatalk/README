@@ -1,0 +1,10 @@
+netatalk (Appletalk file and print server)
+
+Netatalk is an Appletalk file and print server for Linux.  Using 
+Netatalk, Macintosh computers on your local network can mount Linux 
+volumes as if they were standard Appletalk network drives, and can
+print to the Linux box's printer as if it were a network printer
+supporting PostScript.
+
+Netatalk was originally written by the Research Systems Unix Group at
+The University of Michigan, and is maintained by the Netatalk Team.
