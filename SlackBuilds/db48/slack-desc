@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+    |-----handy-ruler------------------------------------------------------|
+db48: db4 (Berkeley database library version 4.8.x)
+db48:
+db48: The Berkeley Database (Berkeley DB) library provides embedded database
+db48: support for both traditional and client/server applications.
+db48:
+db48: This package should be installed if compatibility is needed with
+db48: databases created with the Berkeley DB version 4.8.x.
+db48:
+db48:
+db48:
+db48:

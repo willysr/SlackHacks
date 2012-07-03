@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+        |-----handy-ruler------------------------------------------------------|
+netatalk: netatalk (Appletalk file and print server)
+netatalk:
+netatalk: Netatalk is an Appletalk file and print server for Linux.  Using 
+netatalk: Netatalk, Macintosh computers on your local network can mount Linux 
+netatalk: volumes as if they were standard Appletalk network drives, and can
+netatalk: print to the Linux box's printer as if it were a network printer
+netatalk: supporting PostScript.
+netatalk:
+netatalk: Netatalk was originally written by the Research Systems Unix Group at
+netatalk: The University of Michigan, and is maintained by the Netatalk Team.
+netatalk:

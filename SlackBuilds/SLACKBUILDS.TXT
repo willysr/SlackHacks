@@ -70,7 +70,7 @@ SLACKBUILD SHORT DESCRIPTION:  calibre (e-book library management application)
 
 SLACKBUILD NAME: cnijfilter
 SLACKBUILD LOCATION: ./cnijfilter
-SLACKBUILD FILES: README cnijfilter.SlackBuild cnijfilter.info fix.patch slack-desc
+SLACKBUILD FILES: README cnijfilter.SlackBuild cnijfilter.info fix.patch fix_mg5200_ppd.patch fix_png.patch slack-desc
 SLACKBUILD VERSION: 3.40-1
 SLACKBUILD DOWNLOAD: http://gdlp01.c-wss.com/gds/0/0100003020/01/cnijfilter-source-3.40-1.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
@@ -107,6 +107,26 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: e1ad15257aa6f162414ea3beae0c5df8
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  CUPS (Common UNIX Printing System)
+
+SLACKBUILD NAME: db48
+SLACKBUILD LOCATION: ./db48
+SLACKBUILD FILES: README db48.SlackBuild db48.info slack-desc
+SLACKBUILD VERSION: 4.8.30
+SLACKBUILD DOWNLOAD: http://download.oracle.com/berkeley-db/db-4.8.30.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: f80022099c5742cd179343556179aa8c
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  db4 (Berkeley database library version 4.8.x)
+
+SLACKBUILD NAME: db53
+SLACKBUILD LOCATION: ./db53
+SLACKBUILD FILES: README db53.SlackBuild db53.info slack-desc
+SLACKBUILD VERSION: 5.3.21
+SLACKBUILD DOWNLOAD: http://download.oracle.com/otn/berkeley-db/db-5.3.21.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 3fda0b004acdaa6fa350bfc41a3b95ca
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  db5 (Berkeley database library version 5.3.x)
 
 SLACKBUILD NAME: digikam
 SLACKBUILD LOCATION: ./digikam

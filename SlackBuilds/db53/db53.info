@@ -1,0 +1,7 @@
+PRGNAM="db43"
+VERSION="5.3.21"
+HOMEPAGE="http://www.oracle.com/us/products/database/berkeley-db/overview/index.html"
+DOWNLOAD="http://download.oracle.com/otn/berkeley-db/db-5.3.21.tar.gz"
+MD5SUM="3fda0b004acdaa6fa350bfc41a3b95ca"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""

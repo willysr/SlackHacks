@@ -1,0 +1,56 @@
+#
+# AppleTalk daemons. Make sure not to start atalkd in the background:
+# its data structures must have time to stablize before running the
+# other processes.
+#
+
+netatalk_start() {
+  echo -n 'starting appletalk daemons: '
+  if [ -x /usr/sbin/atalkd ]; then
+    echo -n ' atalkd'
+    /usr/sbin/atalkd
+  fi
+  if [ -x /usr/bin/nbprgstr ]; then
+    echo -n ' nbprgstr'
+    /usr/bin/nbprgstr -p 4 `hostname|sed 's/\..*$//'`:Workstation
+    /usr/bin/nbprgstr -p 4 `hostname|sed 's/\..*$//'`:netatalk
+  fi
+  if [ -x /usr/sbin/papd ]; then
+    echo -n ' papd'
+    /usr/sbin/papd
+  fi
+  if [ -x /usr/sbin/afpd ]; then
+    echo -n ' afpd'
+    /usr/sbin/afpd
+  fi
+  if [ -x /usr/sbin/timelord ]; then
+    echo -n ' timelord'
+    /usr/sbin/timelord
+  fi
+  echo
+}
+
+netatalk_stop() {
+  killall atalkd nbprgstr papd afpd timelord 2> /dev/null
+}
+
+netatalk_restart() {
+  netatalk_stop
+  sleep 1
+  netatalk_start
+}
+
+case "$1" in
+'start')
+  netatalk_start
+  ;;
+'stop')
+  netatalk_stop
+  ;;
+'restart')
+  netatalk_restart
+  ;;
+*)
+  netatalk_start
+esac
+
