@@ -7,10 +7,11 @@
 # Updated by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # Changelog
 # June 7, 2012 : Upgraded to 2.4.1
+# July 9, 2012: Upgraded to 2.4.2
 
 PRGNAM=opencv
 SRCNAM=OpenCV
-VERSION=${VERSION:-2.4.1}
+VERSION=${VERSION:-2.4.2}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
