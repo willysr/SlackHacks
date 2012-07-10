@@ -28,10 +28,12 @@
 # April 18, 2012 : Added patch to work with GCC 4.7.0 and Boost 1.48+
 # June 4, 2012 : Updated for digiKam 2.6.0 rc
 # June 8, 2012 : Updated for digiKam 2.6.0
+# July 8, 2012: Upgraded to digiKam 2.7.0
+# July 10, 2012: Rebuilt against libpgf 6.12.24
 
 PRGNAM=digikam
 VERSION=${VERSION:-2.7.0}
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in

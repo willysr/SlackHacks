@@ -22,9 +22,10 @@
 
 # Changelog
 # June, 8, 2012 : Initial Release
+# July, 10, 2012: Upgraded to 6.12.24
 
 PKGNAM=libpgf
-VERSION=6.11.42
+VERSION=6.12.24
 BUILD=${BUILD:-1wsr}
 
 # Automatically determine the architecture we're building on:
@@ -63,7 +64,7 @@ fi
 
 cd $TMP
 rm -rf ${PKGNAM}-${VERSION}
-unzip $CWD/${PKGNAM}-$VERSION-src.zip || exit 1
+tar xvf $CWD/${PKGNAM}-$VERSION-src.tar.gz || exit 1
 cd ${PKGNAM} || exit 1
 
 # Make sure ownerships and permissions are sane:
