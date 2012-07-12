@@ -1,7 +1,7 @@
 Thu Jul 12 09:33:41 GMT+7 2012
 avbin: Added
 brainworkshop: Added
-  This requires Python 2.7, avbin and OpenAL
+  This requires Python, avbin and OpenAL
 OpenAL: Added
 
 +--------------------------+
