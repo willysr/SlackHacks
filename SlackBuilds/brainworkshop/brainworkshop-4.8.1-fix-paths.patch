@@ -1,0 +1,15 @@
+--- brainworkshop.pyw.orig	2012-07-12 08:22:20.653168715 +0700
++++ brainworkshop.pyw	2012-07-12 08:23:36.435966866 +0700
+@@ -35,8 +35,10 @@
+ NOVBO = True
+ VSYNC = False
+ DEBUG = False
+-FOLDER_RES = 'res'
+-FOLDER_DATA = 'data'
++FOLDER_RES = '/usr/share/games/brainworkshop'
++FOLDER_DATA = os.path.expanduser('~/brainworkshop')
++if not os.path.isdir(FOLDER_DATA):
++	os.mkdir(FOLDER_DATA)
+ CONFIGFILE = 'config.ini'
+ STATS_BINARY = 'logfile.dat'
+ USER = 'default'

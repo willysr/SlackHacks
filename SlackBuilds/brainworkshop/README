@@ -1,0 +1,7 @@
+Brain Workshop is a free open-source version of the dual n-back 
+brain training exercise.
+
+Requirements:
+- Python 2.7 (Available on -Current)
+- avbin
+- OpenAL

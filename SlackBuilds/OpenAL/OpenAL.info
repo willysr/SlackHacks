@@ -1,0 +1,7 @@
+PRGNAM="OpenAL"
+VERSION="1.14"
+HOMEPAGE="http://kcat.strangesoft.net/openal.html"
+DOWNLOAD="http://kcat.strangesoft.net/openal-releases/openal-soft-1.14.tar.bz2"
+MD5SUM="3d8b86c21a2f87a2a5e60f78f3b3f03d"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""

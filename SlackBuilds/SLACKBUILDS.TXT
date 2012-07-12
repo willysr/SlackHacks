@@ -8,6 +8,16 @@ SLACKBUILD MD5SUM: bf69362be7d0c32515872f944763658b
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  BeautifulSoup (Python HTML/XML parser)
 
+SLACKBUILD NAME: OpenAL
+SLACKBUILD LOCATION: ./OpenAL
+SLACKBUILD FILES: OpenAL.SlackBuild OpenAL.info README slack-desc
+SLACKBUILD VERSION: 1.14
+SLACKBUILD DOWNLOAD: http://kcat.strangesoft.net/openal-releases/openal-soft-1.14.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 3d8b86c21a2f87a2a5e60f78f3b3f03d
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  OpenAL (a cross-platform 3D audio API)
+
 SLACKBUILD NAME: atk
 SLACKBUILD LOCATION: ./atk
 SLACKBUILD FILES: atk.SlackBuild atk.info slack-desc
@@ -28,6 +38,16 @@ SLACKBUILD MD5SUM: 7c35324dd3c081a385deb7523ed6f287
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  atkmm (C++ bindings for ATK)
 
+SLACKBUILD NAME: avbin
+SLACKBUILD LOCATION: ./avbin
+SLACKBUILD FILES: README avbin.SlackBuild avbin.info slack-desc
+SLACKBUILD VERSION: 7
+SLACKBUILD DOWNLOAD: https://github.com/downloads/AVbin/AVbin/avbin-linux-x86-32-7.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: https://github.com/downloads/AVbin/AVbin/avbin-linux-x86-64-7.tar.gz
+SLACKBUILD MD5SUM: 28038f3dba33da284972463216e1da0d
+SLACKBUILD MD5SUM_x86_64: 4dff910202080e706a3db311e1e42094
+SLACKBUILD SHORT DESCRIPTION:  AVbin (cross platform wrapper)
+
 SLACKBUILD NAME: babl
 SLACKBUILD LOCATION: ./babl
 SLACKBUILD FILES: babl.SlackBuild babl.info slack-desc
@@ -37,6 +57,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 9e1542ab5c0b12ea3af076a9a2f02d79
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  babl (pixel format translation library)
+
+SLACKBUILD NAME: brainworkshop
+SLACKBUILD LOCATION: ./brainworkshop
+SLACKBUILD FILES: README brainworkshop-4.8.1-fix-paths.patch brainworkshop.SlackBuild brainworkshop.desktop brainworkshop.info brainworkshop.png brainworkshop.sh slack-desc
+SLACKBUILD VERSION: 4.8.1
+SLACKBUILD DOWNLOAD: http://ncu.dl.sourceforge.net/project/brainworkshop/brainworkshop/Brain%20Workshop%204.8/brainworkshop-4.8.1.zip
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: a3621f8302bc102589ac15bb7971dbce
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  Brainworkshop (a Dual N-Back game)
 
 SLACKBUILD NAME: c-ares
 SLACKBUILD LOCATION: ./c-ares
