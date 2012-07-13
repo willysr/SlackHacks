@@ -10,7 +10,7 @@ SLACKBUILD SHORT DESCRIPTION:  BeautifulSoup (Python HTML/XML parser)
 
 SLACKBUILD NAME: OpenAL
 SLACKBUILD LOCATION: ./OpenAL
-SLACKBUILD FILES: OpenAL.SlackBuild OpenAL.info README slack-desc
+SLACKBUILD FILES: OpenAL.SlackBuild OpenAL.info README openal-soft-1.14.tar.bz2 slack-desc
 SLACKBUILD VERSION: 1.14
 SLACKBUILD DOWNLOAD: http://kcat.strangesoft.net/openal-releases/openal-soft-1.14.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
@@ -221,10 +221,10 @@ SLACKBUILD SHORT DESCRIPTION:  gimp (The GNU Image Manipulation Program)
 SLACKBUILD NAME: glib2
 SLACKBUILD LOCATION: ./glib2
 SLACKBUILD FILES: doinst.sh.gz glib2.SlackBuild glib2.info libglib2.csh libglib2.sh slack-desc
-SLACKBUILD VERSION: 2.32.2
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/glib/2.32/glib-2.32.3.tar.xz
+SLACKBUILD VERSION: 2.33.3
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/glib/2.33/glib-2.33.3.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 9bd3ac535c24b6c162be13b2c43c5adc
+SLACKBUILD MD5SUM: ce922596fd8182d62cee39ca1bfb81e9
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  glib2 (library of C routines)
 
@@ -471,10 +471,10 @@ SLACKBUILD SHORT DESCRIPTION:  netatalk (Appletalk file and print server)
 SLACKBUILD NAME: numpy
 SLACKBUILD LOCATION: ./numpy
 SLACKBUILD FILES: README numpy.SlackBuild numpy.info slack-desc
-SLACKBUILD VERSION: 1.6.1
-SLACKBUILD DOWNLOAD: http://freefr.dl.sourceforge.net/project/numpy/NumPy/1.6.1/numpy-1.6.1.tar.gz
+SLACKBUILD VERSION: 1.6.2
+SLACKBUILD DOWNLOAD: http://freefr.dl.sourceforge.net/project/numpy/NumPy/1.6.2/numpy-1.6.2.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 2bce18c08fc4fce461656f0f4dd9103e
+SLACKBUILD MD5SUM: 95ed6c9dcc94af1fc1642ea2a33c1bba
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  NumPy (a Python extension for scientific computing)
 
