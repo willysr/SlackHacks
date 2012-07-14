@@ -23,6 +23,7 @@
 # Updated by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # Changelog
 # May 4, 2012 : Updated the script for GIMP-2.8.0
+# July 14 : Synced with -Current
 
 PKGNAM=gimp
 VERSION=${VERSION:-$(echo $PKGNAM-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
@@ -41,8 +42,10 @@ fi
 NUMJOBS=${NUMJOBS:-" -j7 "}
 
 CWD=$(pwd)
-TMP=${TMP:-/tmp}
+TMP=${TMP:-/tmp/build}
 PKG=$TMP/package-gimp
+OUT=${OUT:-/tmp}
+
 rm -rf $PKG
 mkdir -p $TMP $PKG
 
@@ -82,7 +85,6 @@ CFLAGS="$SLKCFLAGS" \
   --infodir=/usr/info \
   --docdir=/usr/doc/gimp-$VERSION \
   --disable-static \
-  --without-gvfs \
   --with-libcurl \
   --build=$ARCH-slackware-linux
 
@@ -93,10 +95,20 @@ make install DESTDIR=$PKG || exit 1
 # Add a manpage symlink for POLA-compliance
 ( cd $PKG/usr/man/man1 ; ln -sf gimptool-2.?.1 gimptool.1 )
 
-( cd $PKG/usr/man
-  find . -type f -exec gzip -9 {} \;
-  for i in $(find . -type l) ; do ln -s $(readlink $i).gz $i.gz ; rm $i ; done
-)
+# Compress and link manpages, if any:
+if [ -d $PKG/usr/man ]; then
+  ( cd $PKG/usr/man
+    for manpagedir in $(find . -type d -name "man*") ; do
+      ( cd $manpagedir
+        for eachpage in $( find . -type l -maxdepth 1) ; do
+          ln -s $( readlink $eachpage ).gz $eachpage.gz
+          rm $eachpage
+        done
+        gzip -9 *.?
+      )
+    done
+  )
+fi
 
 mkdir -p $PKG/usr/doc/gimp-$VERSION
 cp -a \
@@ -125,5 +137,5 @@ mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
 cd $PKG
-/sbin/makepkg -l y -c n $TMP/gimp-$VERSION-$ARCH-$BUILD.txz
+/sbin/makepkg -l y -c n $OUT/gimp-$VERSION-$ARCH-$BUILD.txz
 

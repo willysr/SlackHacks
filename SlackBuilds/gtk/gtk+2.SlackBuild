@@ -23,9 +23,10 @@
 # Updated by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # Changelog
 # May 4, 2012 : Updated the script to remove libffi package to avoid conflict with gcc-java package
+# July 14 : Synced with -Current
 
 VERSION=${VERSION:-$(echo gtk+-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
-BUILD=${BUILD:-2wsr}
+BUILD=${BUILD:-3wsr}
 
 NUMJOBS=${NUMJOBS:-" -j7 "}
 
@@ -40,8 +41,9 @@ if [ -z "$ARCH" ]; then
 fi
 
 CWD=$(pwd)
-TMP=${TMP:-/tmp}
+TMP=${TMP:-/tmp/build}
 PKG=$TMP/package-gtk2
+OUT=${OUTPUT:-/tmp}
 
 if [ "$ARCH" = "i486" ]; then
   SLKCFLAGS="-O2 -march=i486 -mtune=i686"
@@ -94,11 +96,6 @@ autoreconf -vif
 # Our host is $ARCH-slackware-linux not $ARCH-slackware-linux-gnu:
 sed -i -e 's#linux|linux-gnu|#linux|linux|#' config.sub
 
-# It seems that libffi conflicts with gcc-java
-# http://lists.slackbuilds.org/pipermail/slackbuilds-users/2012-February/008555.html
-# Robby Workman has suggested to remove some stuffs from gcc-java package before compiling
-rm -f /usr/lib${LIBDIRSUFFIX}/libffi.{a,so.4*}
-
 CFLAGS="$SLKCFLAGS -DHOST='"'"${ARCH}-slackware-linux"'"'" \
 ./configure \
   --prefix=/usr \
@@ -107,7 +104,7 @@ CFLAGS="$SLKCFLAGS -DHOST='"'"${ARCH}-slackware-linux"'"'" \
   --mandir=/usr/man \
   --with-xinput=yes \
   --enable-xkb \
-  --disable-introspection \
+  --enable-introspection \
   --build=$ARCH-slackware-linux
 
 make $NUMJOBS || make || exit 1
@@ -214,5 +211,5 @@ cat $CWD/slack-desc > $PKG/install/slack-desc
 zcat $CWD/doinst.sh.gz > $PKG/install/doinst.sh
 
 cd $PKG
-/sbin/makepkg -l y -c n $TMP/gtk+2-$VERSION-$ARCH-$BUILD.txz
+/sbin/makepkg -l y -c n $OUT/gtk+2-$VERSION-$ARCH-$BUILD.txz
 

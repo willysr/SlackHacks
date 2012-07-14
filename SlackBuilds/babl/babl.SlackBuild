@@ -21,6 +21,9 @@
 #  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+# Updated by Willy Sudiarto Raharjo
+# Changelog
+# July 14 : Synced with -Current
 
 PKGNAM=babl
 VERSION=${VERSION:-$(echo $PKGNAM-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
@@ -39,8 +42,9 @@ fi
 NUMJOBS=${NUMJOBS:-" -j7 "}
 
 CWD=$(pwd)
-TMP=${TMP:-/tmp}
+TMP=${TMP:-/tmp/build}
 PKG=$TMP/package-babl
+OUT=${OUT:-/tmp}
 
 if [ "$ARCH" = "i486" ]; then
   SLKCFLAGS="-O2 -march=i486 -mtune=i686"
@@ -70,15 +74,16 @@ find . \
  \( -perm 666 -o -perm 664 -o -perm 600 -o -perm 444 -o -perm 440 -o -perm 400 \) \
  -exec chmod 644 {} \;
 
-# I'm not sure about --enable-sse  
 CFLAGS="$SLKCFLAGS" \
 ./configure \
   --prefix=/usr \
   --libdir=/usr/lib${LIBDIRSUFFIX} \
   --docdir=/usr/doc/babl-$VERSION \
-  --enable-mmx \
-  --disable-sse \
   --build=$ARCH-slackware-linux
+  # Trust defaults:
+  #--enable-mmx \
+  #--disable-sse \
+  #--enable-introspection \
 
 make $NUMJOBS || make || exit 1
 make install DESTDIR=$PKG
@@ -91,10 +96,17 @@ cp -a \
   AUTHORS COPYING* INSTALL NEWS README* TODO \
   $PKG/usr/doc/babl-$VERSION
 
+# If there's a ChangeLog, installing at least part of the recent history
+# is useful, but don't let it get totally out of control:
+if [ -r ChangeLog ]; then
+  DOCSDIR=$(echo $PKG/usr/doc/*-$VERSION)
+  cat ChangeLog | head -n 1000 > $DOCSDIR/ChangeLog
+  touch -r ChangeLog $DOCSDIR/ChangeLog
+fi
+
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
 # Build the package:
 cd $PKG
-/sbin/makepkg -l y -c n $TMP/babl-$VERSION-$ARCH-$BUILD.txz
-
+/sbin/makepkg -l y -c n $OUT/babl-$VERSION-$ARCH-$BUILD.txz

@@ -20,6 +20,9 @@
 #  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+# Updated by Willy Sudiarto Raharjo <willysr@slackware-id.org>
+# Changelog
+# July 14 : Synced with -Current
 
 VERSION=${VERSION:-$(echo glib-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
 BUILD=${BUILD:-1wsr}
@@ -37,8 +40,9 @@ if [ -z "$ARCH" ]; then
 fi
 
 CWD=$(pwd)
-TMP=${TMP:-/tmp}
+TMP=${TMP:-/tmp/build}
 PKG=$TMP/package-glib2
+OUT=${OUT:-/tmp}
 
 if [ "$ARCH" = "i486" ]; then
   SLKCFLAGS="-O2 -march=i486 -mtune=i686"
@@ -90,10 +94,20 @@ mv $PKG/etc/profile.d/libglib2.sh $PKG/etc/profile.d/libglib2.sh.new
 find $PKG | xargs file | grep -e "executable" -e "shared object" \
   | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
 
-( cd $PKG/usr/man
-  find . -type f -exec gzip -9 {} \;
-  for i in $(find . -type l) ; do ln -s $(readlink $i).gz $i.gz ; rm $i ; done
-)
+# Compress and link manpages, if any:
+if [ -d $PKG/usr/man ]; then
+  ( cd $PKG/usr/man
+    for manpagedir in $(find . -type d -name "man*") ; do
+      ( cd $manpagedir
+        for eachpage in $( find . -type l -maxdepth 1) ; do
+          ln -s $( readlink $eachpage ).gz $eachpage.gz
+          rm $eachpage
+        done
+        gzip -9 *.?
+      )
+    done
+  )
+fi
 
 mkdir -p $PKG/usr/doc/glib-$VERSION
 cp -a \
@@ -111,8 +125,8 @@ fi
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
-zcat $CWD/doinst.sh.gz > $PKG/install/doinst.sh
+zcat $CWD/doinst.sh.gz | sed "s,@LIBDIR@,/usr/lib${LIBDIRSUFFIX}," > $PKG/install/doinst.sh
 
 cd $PKG
-/sbin/makepkg -l y -c n --prepend $TMP/glib2-$VERSION-$ARCH-$BUILD.txz
+/sbin/makepkg -l y -c n --prepend $OUT/glib2-$VERSION-$ARCH-$BUILD.txz
 

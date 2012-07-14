@@ -26,6 +26,7 @@
 # Updated by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # Changelog
 # May 23, 2012 : Bumped to 0.10.31
+# July 14 : Synced with -Current
 
 PKGNAM=gst-plugins-good
 VERSION=0.10.31
@@ -46,7 +47,7 @@ NUMJOBS=${NUMJOBS:-" -j7 "}
 CWD=$(pwd)
 TMP=${TMP:-/tmp/build}
 PKG=$TMP/package-$PKGNAM
-OUTPUT=${OUTPUT:-/tmp}
+OUT=${OUT:-/tmp}
 
 if [ "$ARCH" = "i486" ]; then
   SLKCFLAGS="-O2 -march=i486 -mtune=i686"
@@ -89,7 +90,6 @@ CXXFLAGS="$SLKCFLAGS" \
   --mandir=/usr/man \
   --disable-debug \
   --disable-static \
-  --disable-jack \
   --build=$ARCH-slackware-linux || exit 1
 
 make $NUMJOBS || make || exit 1
@@ -115,7 +115,7 @@ fi
 
 mkdir -p $PKG/usr/doc/$PKGNAM-$VERSION
 cp -a \
-  ABOUT-NLS AUTHORS COPYING* INSTALL NEWS README* RELEASE REQUIREMENTS \
+  AUTHORS COPYING* INSTALL NEWS README* RELEASE REQUIREMENTS \
   $PKG/usr/doc/$PKGNAM-$VERSION
 
 # If there's a ChangeLog, installing at least part of the recent history
@@ -130,5 +130,5 @@ mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
 cd $PKG
-/sbin/makepkg -l y -c n $OUTPUT/$PKGNAM-$VERSION-$ARCH-$BUILD.txz
+/sbin/makepkg -l y -c n $OUT/$PKGNAM-$VERSION-$ARCH-$BUILD.txz
 

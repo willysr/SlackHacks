@@ -25,6 +25,7 @@
 # May 4, 2012 : Updated the script to remove libffi package to avoid conflict with gcc-java package
 # May 5, 2012 : Added the --with-x, --enable-x11-backend, fix some compilation process
 # July 14, 2012: Fixed Makefile for mismatch compile host_triplet
+# July 14, 2012 : Synced with -Current
 
 VERSION=${VERSION:-$(echo gtk+-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
 BUILD=${BUILD:-2wsr}
@@ -42,8 +43,9 @@ if [ -z "$ARCH" ]; then
 fi
 
 CWD=$(pwd)
-TMP=${TMP:-/tmp}
+TMP=${TMP:-/tmp/build}
 PKG=$TMP/package-gtk3
+OUT=${OUTPUT:-/tmp}
 
 if [ "$ARCH" = "i486" ]; then
   SLKCFLAGS="-O2 -march=i486 -mtune=i686"
@@ -73,10 +75,6 @@ find . \
   \( -perm 666 -o -perm 664 -o -perm 600 -o -perm 444 -o -perm 440 -o -perm 400 \) \
   -exec chmod 644 {} \;
 
-# Do not flood the console or .xsession-errors with "trouble ahead"
-# warnings (most noticable when using Firefox and Flash):
-zcat $CWD/gtk.xid.nowarningflood.diff.gz | patch -p1 --verbose || exit 1
-
 # Use /etc/gtk-2.0/$ARCH-slackware-linux instead of /etc/gtk-2.0/ for gtk.immodules
 zcat $CWD/use_host_triplet_for_gtk_immodules.diff.gz | patch -p1 --verbose || exit 1
 
@@ -88,22 +86,19 @@ autoreconf -vif
 # Our host is $ARCH-slackware-linux not $ARCH-slackware-linux-gnu:
 # sed -i -e 's#linux|linux-gnu|#linux|linux|#' config.status
 
-# It seems that libffi conflicts with gcc-java
-# http://lists.slackbuilds.org/pipermail/slackbuilds-users/2012-February/008555.html
-# Robby Workman has suggested to remove some stuffs from gcc-java package before compiling
-rm -f /usr/lib${LIBDIRSUFFIX}/libffi.{a,so.4*}
-
 CFLAGS="$SLKCFLAGS -DHOST='"'"${ARCH}-slackware-linux"'"'" \
 ./configure \
   --prefix=/usr \
   --libdir=/usr/lib${LIBDIRSUFFIX} \
   --sysconfdir=/etc \
   --mandir=/usr/man \
-  --enable-introspection=no \
   --enable-xkb \
   --with-x \
   --enable-x11-backend \
-  --build=$ARCH-slackware-linux
+  --build=$ARCH-slackware-linux \
+  --host=$ARCH-slackware-linux \
+  --target=$ARCH-slackware-linux
+
 sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
 if [ "$ARCH" = "i486" ]; then
   sed -i -e 's/i486-slackware-linux-gnu/i486-slackware-linux/' gtk/Makefile
@@ -111,7 +106,10 @@ elif [ "$ARCH" = "x86_64" ]; then
   sed -i -e 's/x86_64-slackware-linux-gnu/x86_64-slackware-linux/' gtk/Makefile
 fi
 
-make $NUMJOBS || make || exit 1
+# See modules/input/Makefile.am
+make \
+  imconffiledir=/etc/gtk-3.0/$ARCH-slackware-linux \
+  $NUMJOBS || make || exit 1
 
 # Check the host value that is passed to the compile to the one in this script:
 host="$ARCH-slackware-linux"
@@ -121,6 +119,7 @@ if [ "x$compile_host" != "x$host" ]; then
 fi
 
 make install \
+  imconffiledir=/etc/gtk-3.0/$ARCH-slackware-linux \
   RUN_QUERY_IMMODULES_TEST=false RUN_QUERY_LOADER_TEST=false \
   DESTDIR=$PKG \
   || exit 1
@@ -130,14 +129,13 @@ make install \
 # fix the result of this next line, but we had to clear this.  Sorry.
 rm -rf /etc/gtk-3.0
 # I'm spamming your root partition because /etc/gtk-3.0 won't install to $DESTDIR...
-make install 
-cp -a /etc/gtk-3.0/* $PKG/etc/gtk-3.0/ || exit 1
-rm -rf $PKG/etc/gtk-3.0/$host
-mkdir -p $PKG/etc/gtk-3.0/$host
-mv $PKG/etc/gtk-3.0/gtk.immodules $PKG/etc/gtk-3.0/$host/
-
-# Don't clobber im-multipress.conf
-mv $PKG/etc/gtk-3.0/im-multipress.conf $PKG/etc/gtk-3.0/im-multipress.conf.new || exit 1
+make install imconffiledir=/etc/gtk-3.0/$ARCH-slackware-linux
+cp -a /etc/gtk-3.0 $PKG/etc || exit 1
+mv $PKG/etc/gtk-3.0/$host/im-multipress.conf $PKG/etc/gtk-3.0/im-multipress.conf.new
+rm -f $PKG/etc/gtk-3.0/$host/*
+if [ -r $PKG/etc/gtk-3.0/gtk.immodules ]; then
+  mv $PKG/etc/gtk-3.0/gtk.immodules $PKG/etc/gtk-3.0/$host/
+fi
 
 # Install a "starter" gtkrc
 echo 'gtk-theme-name="GTK+"' > $PKG/etc/gtk-3.0/gtkrc.new
@@ -161,22 +159,12 @@ case "$host" in
 esac
 
 # Install wrappers for the binaries:
-cp -a $CWD/update-gtk-immodules* $PKG/usr/bin
-chown root:root $PKG/usr/bin/update-*
+cp $CWD/update-gtk-immodules-3.0 $PKG/usr/bin/update-gtk-immodules-3.0
 chmod 0755 $PKG/usr/bin/update-*
 
-# Add profile scripts to set up GTK+ environment:
-mkdir -p $PKG/etc/profile.d
-cp -a $CWD/profile.d/* $PKG/etc/profile.d
-chmod 0755 $PKG/etc/profile.d/*
+find $PKG | xargs file | egrep "executable|shared object" | grep "ELF" | \
+  cut -d: -f1 | xargs strip --strip-unneeded 2>/dev/null
 
-# Strip binaries:
-( cd $PKG
-  find . | xargs file | grep "executable" | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
-  find . | xargs file | grep "shared object" | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
-)
-
-# Compress and if needed symlink the man pages:
 if [ -d $PKG/usr/man ]; then
   ( cd $PKG/usr/man
     for manpagedir in $(find . -type d -name "man*") ; do
@@ -185,26 +173,28 @@ if [ -d $PKG/usr/man ]; then
           ln -s $( readlink $eachpage ).gz $eachpage.gz
           rm $eachpage
         done
-        gzip -9 *.?
+        gzip -9 *.*
       )
     done
   )
 fi
 
-mkdir -p $PKG/usr/doc/gtk+-$VERSION
+# Copy extra documentation into package.
+mkdir -p $PKG/usr/doc/gtk+3-$VERSION
 cp -a \
-  AUTHORS CHANGELOG HACKING NEWS \
-  $PKG/usr/doc/gtk+-$VERSION
-( cd $PKG/usr/doc/gtk+-$VERSION
-  ln -s ../../share/gtk-doc/html/gail-libgail-util .
-  ln -s ../../share/gtk-doc/html/gdk .
-  ln -s ../../share/gtk-doc/html/gtk .
+  AUTHORS COPYING NEWS README \
+  $PKG/usr/doc/gtk+3-$VERSION
+( cd $PKG/usr/doc/gtk+3-$VERSION
+  ln -s /usr/share/gtk-doc/html/gail-libgail-util .
+  ln -s /usr/share/gtk-doc/html/gdk .
+  ln -s /usr/share/gtk-doc/html/gtk .
 )
+find $PKG/usr/doc/gtk+3-$VERSION/ -type f -exec chmod 644 {} \;
+chown -R root:root $PKG/usr/doc/gtk+3-$VERSION
 
-mkdir -p $PKG/install
+mkdir -p $PKG/install 
+zcat $CWD/doinst.sh > $PKG/install/doinst.sh
 cat $CWD/slack-desc > $PKG/install/slack-desc
-zcat $CWD/doinst.sh.gz > $PKG/install/doinst.sh
 
 cd $PKG
-/sbin/makepkg -l y -c n $TMP/gtk+3-$VERSION-$ARCH-$BUILD.txz
-
+/sbin/makepkg -p -l y -c n $TMP/gtk+3-${VERSION}-$ARCH-${BUILD}.txz
