@@ -24,9 +24,10 @@
 # Changelog
 # May 4, 2012 : Updated the script to remove libffi package to avoid conflict with gcc-java package
 # May 5, 2012 : Added the --with-x, --enable-x11-backend, fix some compilation process
+# July 14, 2012: Fixed Makefile for mismatch compile host_triplet
 
 VERSION=${VERSION:-$(echo gtk+-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 NUMJOBS=${NUMJOBS:-" -j7 "}
 
@@ -104,7 +105,12 @@ CFLAGS="$SLKCFLAGS -DHOST='"'"${ARCH}-slackware-linux"'"'" \
   --enable-x11-backend \
   --build=$ARCH-slackware-linux
 sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
-sed -i -e 's/i486-slackware-linux-gnu/i486-slackware-linux/' gtk/Makefile
+if [ "$ARCH" = "i486" ]; then
+  sed -i -e 's/i486-slackware-linux-gnu/i486-slackware-linux/' gtk/Makefile
+elif [ "$ARCH" = "x86_64" ]; then
+  sed -i -e 's/x86_64-slackware-linux-gnu/x86_64-slackware-linux/' gtk/Makefile
+fi
+
 make $NUMJOBS || make || exit 1
 
 # Check the host value that is passed to the compile to the one in this script:

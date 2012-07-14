@@ -37,11 +37,12 @@
 # Changelog
 # July, 1: Upgraded to 0.8.58
 #	   Simplify the SlackBuild since we have all dependencies out of this package
-# July, 7: Upgraded to 0.9.59
+# July, 7: Upgraded to 0.8.59
+# July, 12: Upgraded to 0.8.60
 
 # Set initial variables:
 PRGNAM=calibre
-VERSION=${VERSION:-0.8.59}
+VERSION=${VERSION:-0.8.60}
 BUILD=${BUILD:-1wsr}
 NUMJOBS=${NUMJOBS:" -j4 "}
 

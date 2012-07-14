@@ -10,7 +10,7 @@ SLACKBUILD SHORT DESCRIPTION:  BeautifulSoup (Python HTML/XML parser)
 
 SLACKBUILD NAME: OpenAL
 SLACKBUILD LOCATION: ./OpenAL
-SLACKBUILD FILES: OpenAL.SlackBuild OpenAL.info README openal-soft-1.14.tar.bz2 slack-desc
+SLACKBUILD FILES: OpenAL.SlackBuild OpenAL.info README slack-desc
 SLACKBUILD VERSION: 1.14
 SLACKBUILD DOWNLOAD: http://kcat.strangesoft.net/openal-releases/openal-soft-1.14.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
