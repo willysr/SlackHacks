@@ -17,7 +17,7 @@
 #  PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
 #  OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
 #  WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
-#  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+#  OTHERWISE) ARISING IN ANY WAY OUTPUT OF THE USE OF THIS SOFTWARE, EVEN IF
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 # Updated by Willy Sudiarto Raharjo <willysr@slackware-id.org>
@@ -57,7 +57,7 @@ NUMJOBS=${NUMJOBS:-" -j7 "}
 CWD=$(pwd)
 TMP=${TMP:-/tmp/build}
 PKG=$TMP/package-pango
-OUT=${OUTPUT:-/tmp}
+OUTPUT=${OUTPUTPUT:-/tmp}
 
 rm -rf $PKG
 mkdir -p $TMP $PKG/usr
@@ -152,5 +152,5 @@ mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
 cd $PKG
-/sbin/makepkg -l y -c n --prepend $OUT/pango-$VERSION-$ARCH-$BUILD.txz
+/sbin/makepkg -l y -c n --prepend $OUTPUT/pango-$VERSION-$ARCH-$BUILD.txz
 
