@@ -1,3 +1,8 @@
+Mon Jul 16 21:11:42 GMT+7 2012
+dropbox: Added
+  This is an updated version of DropBox from SBo project
+
++--------------------------+
 Sat Jul 14 17:24:30 GMT+7 2012
 atk: rebuilt
 babl: rebuilt
@@ -15,6 +20,7 @@ gtk3: rebuilt
 pango: rebuilt
   Synced with -Current update per 14 July 2012
 
++--------------------------+
 Sat Jul 14 07:37:55 GMT+7 2012
 calibre: Upgraded to 0.8.60
 gtk+3: rebuilt to fix host_mismatch on x86_64 machine

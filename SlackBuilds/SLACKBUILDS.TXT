@@ -178,6 +178,16 @@ SLACKBUILD MD5SUM: b4f60852fd7ba64fc7c3a1fa239eba33
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  dnspython (Python API for DNS)
 
+SLACKBUILD NAME: dropbox
+SLACKBUILD LOCATION: ./dropbox
+SLACKBUILD FILES: README doinst.sh dropbox.SlackBuild dropbox.desktop dropbox.info dropbox.png slack-desc terms.txt
+SLACKBUILD VERSION: 1.5.4
+SLACKBUILD DOWNLOAD: http://dl-web.dropbox.com/u/17/dropbox-lnx.x86-1.5.4.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: http://dl-web.dropbox.com/u/17/dropbox-lnx.x86_64-1.5.4.tar.gz
+SLACKBUILD MD5SUM: 33e281c0fe8a9cf6da754e73cc21fb57
+SLACKBUILD MD5SUM_x86_64: fec3bc32c8c4200b47c76af3ecfd60e1
+SLACKBUILD SHORT DESCRIPTION:  dropbox (store, sync and share files online)
+
 SLACKBUILD NAME: farsight2
 SLACKBUILD LOCATION: ./farsight2
 SLACKBUILD FILES: README farsight2.SlackBuild farsight2.info slack-desc

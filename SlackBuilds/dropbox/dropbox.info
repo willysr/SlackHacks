@@ -1,0 +1,7 @@
+PRGNAM="dropbox"
+VERSION="1.5.4"
+HOMEPAGE="http://www.dropbox.com"
+DOWNLOAD="http://dl-web.dropbox.com/u/17/dropbox-lnx.x86-1.5.4.tar.gz"
+MD5SUM="33e281c0fe8a9cf6da754e73cc21fb57"
+DOWNLOAD_x86_64="http://dl-web.dropbox.com/u/17/dropbox-lnx.x86_64-1.5.4.tar.gz"
+MD5SUM_x86_64="fec3bc32c8c4200b47c76af3ecfd60e1"
