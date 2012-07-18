@@ -25,9 +25,10 @@
 # Modified by Willy Sudiarto Raharjo
 # Changelog
 # June, 15 : Upgraded to 4.0.0.7
+# July, 18 : Upgraded to 4.0.0.8
 
 PRGNAM=skype
-VERSION=${VERSION:-4.0.0.7}
+VERSION=${VERSION:-4.0.0.8}
 BUILD=${BUILD:-1wsr}
 
 case "$( uname -m )" in
