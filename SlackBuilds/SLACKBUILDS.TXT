@@ -91,10 +91,10 @@ SLACKBUILD SHORT DESCRIPTION:  cairomm (C++ wrapper for the cairo graphics libra
 SLACKBUILD NAME: calibre
 SLACKBUILD LOCATION: ./calibre
 SLACKBUILD FILES: README calibre.SlackBuild calibre.info slack-desc
-SLACKBUILD VERSION: 0.8.59
-SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.8.59.tar.xz
+SLACKBUILD VERSION: 0.8.60
+SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.8.60.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 4a88b55f5efa735193533014e8e95c60
+SLACKBUILD MD5SUM: 6ff046cb66d244121f998d0ec5f8db1f
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  calibre (e-book library management application)
 
@@ -231,10 +231,10 @@ SLACKBUILD SHORT DESCRIPTION:  gimp (The GNU Image Manipulation Program)
 SLACKBUILD NAME: glib2
 SLACKBUILD LOCATION: ./glib2
 SLACKBUILD FILES: doinst.sh.gz glib2.SlackBuild glib2.info libglib2.csh libglib2.sh slack-desc
-SLACKBUILD VERSION: 2.33.3
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/glib/2.33/glib-2.33.3.tar.xz
+SLACKBUILD VERSION: 2.32.4
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/glib/2.32/glib-2.32.4.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: ce922596fd8182d62cee39ca1bfb81e9
+SLACKBUILD MD5SUM: bf84fefd9c1a5b5a7a38736f4ddd674a
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  glib2 (library of C routines)
 
@@ -340,11 +340,11 @@ SLACKBUILD SHORT DESCRIPTION: gtk+2: GTK+ version 2 (multi-platform GUI toolkit)
 
 SLACKBUILD NAME: gtk+3
 SLACKBUILD LOCATION: ./gtk+3
-SLACKBUILD FILES: README doinst.sh.gz gtk+3.SlackBuild gtk+3.info gtk.xid.nowarningflood.diff.gz profile.d/gtk+.csh profile.d/gtk+.sh slack-desc update-gtk-immodules update-gtk-immodules-3.0 use_host_triplet_for_gtk_immodules.diff.gz
-SLACKBUILD VERSION: 3.4.3
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/gtk+/3.4/gtk+-3.4.3.tar.xz
+SLACKBUILD FILES: README doinst.sh.gz gtk+3.SlackBuild gtk+3.info profile.d/gtk+.csh profile.d/gtk+.sh slack-desc update-gtk-immodules update-gtk-immodules-3.0 use_host_triplet_for_gtk_immodules.diff.gz
+SLACKBUILD VERSION: 3.4.4
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/gtk+/3.4/gtk+-3.4.4.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: e552d52c3b0824eb99842dc9c5f4875f
+SLACKBUILD MD5SUM: 1b2cf29502a6394e8d4b30f7f5bb9131
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION: gtk+3: GTK+ version 3 (multi-platform GUI toolkit)
 
@@ -591,12 +591,12 @@ SLACKBUILD SHORT DESCRIPTION:  python-dateutil (extensions to the standard datet
 SLACKBUILD NAME: skype
 SLACKBUILD LOCATION: ./skype
 SLACKBUILD FILES: README README.STATIC doinst.sh skype.SlackBuild skype.info slack-desc
-SLACKBUILD VERSION: 4.0.0.7
-SLACKBUILD DOWNLOAD: http://download.skype.com/linux/skype-4.0.0.7.tar.bz2
-http://download.skype.com/linux/skype_static-4.0.0.7.tar.bz2
+SLACKBUILD VERSION: 4.0.0.8
+SLACKBUILD DOWNLOAD: http://download.skype.com/linux/skype-4.0.0.8.tar.bz2
+http://download.skype.com/linux/skype_static-4.0.0.8.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: b57a3a5e178ae40fc96583b7c1851663
-f92b977460d9fc4f090c2bf14b692438
+SLACKBUILD MD5SUM: fa9b4f0ac110349a2480071875068a99
+f749e1c109fbe182b44d462d04f46bee
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Skype (a P2P Voice Over IP program)
 

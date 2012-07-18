@@ -1,3 +1,10 @@
++--------------------------+
+Wed Jul 18 07:51:46 WIT 2012
+glib2: Upgraded to 2.32.4
+gtk3: Upgraded to 3.4.4
+skype: Upgraded to 4.0.0.8
+
++--------------------------+
 Mon Jul 16 21:11:42 GMT+7 2012
 dropbox: Added
   This is an updated version of DropBox from SBo project
