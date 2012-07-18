@@ -26,9 +26,10 @@
 # May 5, 2012 : Added the --with-x, --enable-x11-backend, fix some compilation process
 # July 14, 2012: Fixed Makefile for mismatch compile host_triplet
 # July 14, 2012 : Synced with -Current
+# July 18, 2012 : Upgraded to 3.4.4.
 
 VERSION=${VERSION:-$(echo gtk+-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
-BUILD=${BUILD:-2wsr}
+BUILD=${BUILD:-1wsr}
 
 NUMJOBS=${NUMJOBS:-" -j7 "}
 
@@ -197,4 +198,4 @@ zcat $CWD/doinst.sh > $PKG/install/doinst.sh
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
 cd $PKG
-/sbin/makepkg -p -l y -c n $TMP/gtk+3-${VERSION}-$ARCH-${BUILD}.txz
+/sbin/makepkg -p -l y -c n $OUTPUT/gtk+3-${VERSION}-$ARCH-${BUILD}.txz
