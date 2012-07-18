@@ -23,6 +23,7 @@
 # Updated by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # Changelog
 # July 14 : Synced with -Current
+# July 18 : Upgraded to 2.32.4
 
 VERSION=${VERSION:-$(echo glib-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
 BUILD=${BUILD:-1wsr}
