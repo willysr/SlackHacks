@@ -25,10 +25,10 @@
 # Modified by Willy Sudiarto Raharjo
 # Changelog
 # May, 7 : Bumped to 2.32.0
-
+# July, 18: Upgraded to 2.32.1
 
 PRGNAM=glibmm
-VERSION=2.32.0
+VERSION=2.32.1
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then

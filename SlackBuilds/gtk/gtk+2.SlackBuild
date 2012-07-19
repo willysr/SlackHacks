@@ -24,9 +24,10 @@
 # Changelog
 # May 4, 2012 : Updated the script to remove libffi package to avoid conflict with gcc-java package
 # July 14 : Synced with -Current
+# July 18 : Upgraded to 2.24.11
 
 VERSION=${VERSION:-$(echo gtk+-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
-BUILD=${BUILD:-3wsr}
+BUILD=${BUILD:-1wsr}
 
 NUMJOBS=${NUMJOBS:-" -j7 "}
 
@@ -82,11 +83,6 @@ zcat $CWD/gtk.xid.nowarningflood.diff.gz | patch -p1 --verbose || exit 1
 
 # Use /etc/gtk-2.0/$ARCH-slackware-linux instead of /etc/gtk-2.0/ for gtk.immodules
 zcat $CWD/use_host_triplet_for_gtk_immodules.diff.gz | patch -p1 --verbose || exit 1
-
-# Patch to restore commonly used icon names, otherwise everything breaks.
-# I fail to see the point of this "cleanup"
-zcat $CWD/gtk+-2.24.x.icon-compat.diff.gz | patch -p1 --verbose || exit 1
-zcat $CWD/gtk+-2.24.x.icon-compat.am.diff.gz | patch -p1 --verbose || exit 1
 
 # Regenerate ./configure:
 libtoolize --force

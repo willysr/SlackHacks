@@ -241,10 +241,10 @@ SLACKBUILD SHORT DESCRIPTION:  glib2 (library of C routines)
 SLACKBUILD NAME: glibmm
 SLACKBUILD LOCATION: ./glibmm
 SLACKBUILD FILES: README glibmm.SlackBuild glibmm.info slack-desc
-SLACKBUILD VERSION: 2.32.0
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.32/glibmm-2.32.0.tar.xz
+SLACKBUILD VERSION: 2.32.1
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.32/glibmm-2.32.1.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 6be829ac2830ff44f75526f015c930e1
+SLACKBUILD MD5SUM: 8e5dd06610bd205f4c9cbc11453c0010
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  glibmm (C++ bindings for glib)
 
@@ -330,11 +330,11 @@ SLACKBUILD SHORT DESCRIPTION:  GStreamer (streaming multimedia framework)
 
 SLACKBUILD NAME: gtk+2
 SLACKBUILD LOCATION: ./gtk+2
-SLACKBUILD FILES: doinst.sh.gz fix_build_issues_on_tutorial_and_faq.diff.gz gtk+-2.24.x.icon-compat.am.diff.gz gtk+-2.24.x.icon-compat.diff.gz gtk+2.SlackBuild gtk+2.info gtk.xid.nowarningflood.diff.gz profile.d/gtk+.csh profile.d/gtk+.sh slack-desc update-gtk-immodules update-gtk-immodules-2.0 use_host_triplet_for_gtk_immodules.diff.gz
-SLACKBUILD VERSION: 2.24.10
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/gtk+/2.24/gtk+-2.24.10.tar.xz
+SLACKBUILD FILES: doinst.sh.gz fix_build_issues_on_tutorial_and_faq.diff.gz gtk+2.SlackBuild gtk+2.info gtk.xid.nowarningflood.diff.gz profile.d/gtk+.csh profile.d/gtk+.sh slack-desc update-gtk-immodules update-gtk-immodules-2.0 use_host_triplet_for_gtk_immodules.diff.gz
+SLACKBUILD VERSION: 2.24.11
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/gtk+/2.24/gtk+-2.24.11.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 7fdcb407dd174010a695b555bf9b65e2
+SLACKBUILD MD5SUM: 8fb5c413be698169fedee774ec06bc8c
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION: gtk+2: GTK+ version 2 (multi-platform GUI toolkit)
 

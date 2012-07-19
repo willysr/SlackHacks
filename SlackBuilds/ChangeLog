@@ -1,4 +1,9 @@
 +--------------------------+
+Fri Jul 20 00:44:26 WIT 2012
+gtk: Upgraded to 2.24.11
+glibmm: Upgraded to 2.32.1
+
++--------------------------+
 Wed Jul 18 07:51:46 WIT 2012
 glib2: Upgraded to 2.32.4
 gtk3: Upgraded to 3.4.4
