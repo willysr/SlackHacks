@@ -82,10 +82,6 @@ find $PKG | xargs file | grep -e "executable" -e "shared object" \
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 cp AUTHORS COPYING NEWS README INSTALL $PKG/usr/doc/$PRGNAM-$VERSION
 
-# Remove duplicate file that are already exists in default cups package
-rm -f $PKG/usr/share/cups/data/testprint
-rm -rf $PKG/usr/share/cups/banners/
-
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 

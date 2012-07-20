@@ -27,10 +27,10 @@
 # May 8 : Bumped to 1.5.2, remove unneeded patches
 # May 17 : Bumped to 1.5.3
 # July 14 : Synced with -Current
-# July 20 : Testing with 1.6rc1
+# July 20 : Testing with 1.6rc1, rebuilt to increase pstops priority
 
 VERSION=1.6rc1
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 # Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
@@ -183,6 +183,9 @@ mv $PKG/usr/man/man8/lpc.8.gz $PKG/usr/man/man8/lpc-${SUFFIX}.8.gz
 ( cd $PKG/usr/man/man8
   ln -sf lpc-${SUFFIX}.8.gz lpc.8.gz
 )
+
+# Make sure that PDF-based way is always preferred
+sed -i -r -e '/\spstops$/ { s/66/100/ }' $PKG/usr/share/cups/mime/mime.convs
 
 # Add the doinst.sh that installs the .new conffiles:
 zcat $CWD/doinst.sh.gz > $PKG/install/doinst.sh
