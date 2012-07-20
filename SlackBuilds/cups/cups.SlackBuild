@@ -27,8 +27,9 @@
 # May 8 : Bumped to 1.5.2, remove unneeded patches
 # May 17 : Bumped to 1.5.3
 # July 14 : Synced with -Current
+# July 20 : Testing with 1.6rc1
 
-VERSION=1.5.3
+VERSION=1.6rc1
 BUILD=${BUILD:-1wsr}
 
 # Automatically determine the architecture we're building on:
@@ -92,27 +93,11 @@ chmod 644 $PKG/etc/rc.d/rc.cups.new
 # Clear out the additions:
 rm -rf $PKG/etc/init.d $PKG/etc/rc{0,2,3,5}.d
 
-### OBSOLETE.  The USB backend is patched to support usblp again. ###
-## From 1.4.x, CUPS no longer uses usblp, and having the module loaded
-## will interfere with USB printers.  So, we will add a blacklist rule
-## so that the module is not loaded:
-#mkdir -p $PKG/etc/modprobe.d
-#cat << EOF > $PKG/etc/modprobe.d/cups.blacklist.usblp.conf.new
-## Do not load the kernel usblp module, since it interferes with
-## versions of CUPS 1.4.0 and newer:
-#blacklist usblp
-#EOF
-
 # I'm not sure if overwriting this blindly could have ill effects,
 # but it never hurts to play it safe.  According to the dbus-daemon
 # manpage, only files ending in .conf will be used, so there won't
 # be any unintended doubling up.
 mv $PKG/etc/dbus-1/system.d/cups.conf $PKG/etc/dbus-1/system.d/cups.conf.new
-
-# For full CUPS SMB support, you'll need to install the cups-samba
-# package from the source in this directory.  There's no easy way
-# to add that to a package build, and the requests aren't pouring in,
-# so you'll have to install it yourself.  It's easy to do.
 
 # However, this will get you the most useful SMB support for free.
 # Thanks to Boris Kurktchiev for the tip.  :-)
