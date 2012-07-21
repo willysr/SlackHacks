@@ -5,16 +5,16 @@
 # exactly 11 lines for the formatting to be correct.  It's also customary to
 # leave one space after the ':'.
 
-	   |-----handy-ruler------------------------------------------------------|
-cups-filter: cups-filter (CUPS backend and filters)
-cups-filter:
-cups-filter: cups-filter contains backends, filters, and other software that was
-cups-filter: once part of the core CUPS distribution but is no longer maintained
-cups-filter: by Apple Inc. 
-cups-filter: 
-cups-filter: In addition it contains additional filters developed independently 
-cups-filter: of Apple, especially filters for the PDF-centric printing workflow
-cups-filter: introduced by OpenPrinting.
-cups-filter: 
-cups-filter: project site: https://www.openprinting.org/
-cups-filter: 
+	    |-----handy-ruler------------------------------------------------------|
+cups-filters: cups-filter (CUPS backend and filters)
+cups-filters:
+cups-filters: cups-filter contains backends, filters, and other software that was
+cups-filters: once part of the core CUPS distribution but is no longer maintained
+cups-filters: by Apple Inc. 
+cups-filters: 
+cups-filters: In addition it contains additional filters developed independently 
+cups-filters: of Apple, especially filters for the PDF-centric printing workflow
+cups-filters: introduced by OpenPrinting.
+cups-filters: 
+cups-filters: project site: https://www.openprinting.org/
+cups-filters: 
