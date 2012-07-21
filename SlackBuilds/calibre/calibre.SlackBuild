@@ -42,7 +42,7 @@
 
 # Set initial variables:
 PRGNAM=calibre
-VERSION=${VERSION:-0.8.60}
+VERSION=${VERSION:-0.8.61}
 BUILD=${BUILD:-1wsr}
 NUMJOBS=${NUMJOBS:" -j4 "}
 
