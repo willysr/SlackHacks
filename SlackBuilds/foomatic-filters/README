@@ -30,7 +30,7 @@ To use BEH (wrapper for CUPS backends with configurable error handling):
 Example:
 Original queue name and URI: 
 lpstat -v
-device for CanonIP1800: usb://Canon/iP1800%20series
+device for CanonIP1800: usb://Canon/iP1800%20series?serial=B0026E
 
 Activating beh for CanonIP1800
-lpadmin -p CanonIP1800 -E -v beh:/1/0/60/usb://Canon/iP1800%20series
+lpadmin -p CanonIP1800 -E -v beh:/1/0/60/usb://Canon/iP1800%20series?serial=B0026E
