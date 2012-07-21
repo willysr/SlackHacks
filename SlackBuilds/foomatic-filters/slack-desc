@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+                |-----handy-ruler------------------------------------------------------|
+foomatic-filters: foomatic-filters (Universal print filter/RIP wrapper)
+foomatic-filters:
+foomatic-filters: foomatic-rip is a universal print filter, which is used by CUPS with
+foomatic-filters: the gutenprint and hplip printer drivers.  It translates PostScript
+foomatic-filters: (and also other file formats) to the printer's native language,
+foomatic-filters: usually using Ghostscript (gs) as the external renderer.  The way
+foomatic-filters: this translation is done is described in a PPD file.
+foomatic-filters:
+foomatic-filters: For more information on foomatic, see:  http://linuxprinting.org
+foomatic-filters:
+foomatic-filters:
