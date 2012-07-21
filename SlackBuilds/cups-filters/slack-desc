@@ -6,9 +6,9 @@
 # leave one space after the ':'.
 
 	    |-----handy-ruler------------------------------------------------------|
-cups-filters: cups-filter (CUPS backend and filters)
+cups-filters: cups-filters (CUPS backend and filters)
 cups-filters:
-cups-filters: cups-filter contains backends, filters, and other software that was
+cups-filters: cups-filters contains backends, filters, and other software that was
 cups-filters: once part of the core CUPS distribution but is no longer maintained
 cups-filters: by Apple Inc. 
 cups-filters: 
@@ -16,5 +16,5 @@ cups-filters: In addition it contains additional filters developed independently
 cups-filters: of Apple, especially filters for the PDF-centric printing workflow
 cups-filters: introduced by OpenPrinting.
 cups-filters: 
-cups-filters: project site: https://www.openprinting.org/
+cups-filters: Project site: https://www.openprinting.org/
 cups-filters: 
