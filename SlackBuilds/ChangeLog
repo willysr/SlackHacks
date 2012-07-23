@@ -1,3 +1,10 @@
+Mon Jul 23 08:18:52 GMT+7 2012
+json-c: Added
+grive: Added
+  This is a SlackBuild for grive: Google Drive client for Linux
+  It requires json-c
+
++--------------------------+
 Sat Jul 21 07:20:39 GMT+7 2012
 calibre: Upgraded to 0.8.61
 

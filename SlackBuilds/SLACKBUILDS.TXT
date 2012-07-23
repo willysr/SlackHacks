@@ -268,6 +268,16 @@ SLACKBUILD MD5SUM: 8d26c1171f30ca3b1dc1b429f7937e58
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Graphviz (Graph Visualization)
 
+SLACKBUILD NAME: grive
+SLACKBUILD LOCATION: ./grive
+SLACKBUILD FILES: README grive.SlackBuild grive.info slack-desc
+SLACKBUILD VERSION: 0.2.0
+SLACKBUILD DOWNLOAD: http://www.lbreda.com/grive/_media/packages/0.2.0/grive-0.2.0.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 8260b1e6c0369da35ebcfe8c8f840f2b
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  Grive (Google Drive client)
+
 SLACKBUILD NAME: gst-plugins-bad
 SLACKBUILD LOCATION: ./gst-plugins-bad
 SLACKBUILD FILES: README doinst.sh gst-plugins-bad.SlackBuild gst-plugins-bad.info slack-desc
@@ -387,6 +397,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: da64675d85f0c2191cef93a8cb5eea88
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  icu4c (International Components for Unicode)
+
+SLACKBUILD NAME: json-c
+SLACKBUILD LOCATION: ./json-c
+SLACKBUILD FILES: README json-c.SlackBuild json-c.info slack-desc
+SLACKBUILD VERSION: 0.9
+SLACKBUILD DOWNLOAD: http://oss.metaparadigm.com/json-c/json-c-0.9.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 3a13d264528dcbaf3931b0cede24abae
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  json-c (JSON library in C)
 
 SLACKBUILD NAME: lensfun
 SLACKBUILD LOCATION: ./lensfun
