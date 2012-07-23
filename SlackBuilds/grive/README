@@ -1,0 +1,10 @@
+The purpose of this project is to provide an independent open source 
+implementation of Google Drive client for GNU/Linux. It uses the 
+Google Document List API to talk to the servers in Google.
+
+This requires json-c
+
+Note:
+- grive will not detect Google Docs formats, only stored files (DOC, PDF, JPG, etc)
+- there are no realtime monitoring for now, so manual operation must be performed 
+  to enable sync (can be combined with crontab)
