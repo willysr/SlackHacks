@@ -620,6 +620,16 @@ f749e1c109fbe182b44d462d04f46bee
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Skype (a P2P Voice Over IP program)
 
+SLACKBUILD NAME: vbindiff
+SLACKBUILD LOCATION: ./vbindiff
+SLACKBUILD FILES: README slack-desc vbindiff.SlackBuild vbindiff.info
+SLACKBUILD VERSION: 3.0 Beta 4
+SLACKBUILD DOWNLOAD: http://www.cjmweb.net/vbindiff/vbindiff-3.0_beta4.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: dbda80ef580e1a0975ef50b9aaa5210e
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  vbindiff (Visual Binary Diff)
+
 SLACKBUILD NAME: wesnoth
 SLACKBUILD LOCATION: ./wesnoth
 SLACKBUILD FILES: README doinst.sh slack-desc terrain_translation.patch wesnoth.SlackBuild wesnoth.info
