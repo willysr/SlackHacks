@@ -620,6 +620,16 @@ f749e1c109fbe182b44d462d04f46bee
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Skype (a P2P Voice Over IP program)
 
+SLACKBUILD NAME: vbindiff
+SLACKBUILD LOCATION: ./vbindiff
+SLACKBUILD FILES: README slack-desc vbindiff.SlackBuild vbindiff.info
+SLACKBUILD VERSION: 3.0 Beta 4
+SLACKBUILD DOWNLOAD: http://www.cjmweb.net/vbindiff/vbindiff-3.0_beta4.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: dbda80ef580e1a0975ef50b9aaa5210e
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  vbindiff (Visual Binary Diff)
+
 SLACKBUILD NAME: wesnoth
 SLACKBUILD LOCATION: ./wesnoth
 SLACKBUILD FILES: README doinst.sh slack-desc terrain_translation.patch wesnoth.SlackBuild wesnoth.info
@@ -633,10 +643,10 @@ SLACKBUILD SHORT DESCRIPTION:  Wesnoth (The Battle for Wesnoth)
 SLACKBUILD NAME: wireshark
 SLACKBUILD LOCATION: ./wireshark
 SLACKBUILD FILES: README doinst.sh slack-desc wireshark.SlackBuild wireshark.info
-SLACKBUILD VERSION: 1.8.0
-SLACKBUILD DOWNLOAD: http://wiresharkdownloads.riverbed.com/wireshark/src/wireshark-1.8.0.tar.bz2
+SLACKBUILD VERSION: 1.8.1
+SLACKBUILD DOWNLOAD: http://wiresharkdownloads.riverbed.com/wireshark/src/wireshark-1.8.1.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 3eca81253800a0089d0f957e75853b05
+SLACKBUILD MD5SUM: 629fe03f4a64eb8c7bd9308ee4e22e2e
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  WireShark (packet sniffer and protocol analyzer)
 
