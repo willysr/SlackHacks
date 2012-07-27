@@ -28,9 +28,10 @@
 # May 17 : Bumped to 1.5.3
 # July 14 : Synced with -Current
 # July 20 : Testing with 1.6rc1, rebuilt to increase pstops priority
+# July 27 : Upgraded to 1.6
 
-VERSION=1.6rc1
-BUILD=${BUILD:-2wsr}
+VERSION=1.6.0
+BUILD=${BUILD:-1wsr}
 
 # Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
@@ -60,7 +61,7 @@ mkdir -p $TMP $PKG
 
 cd $TMP
 rm -rf cups-$VERSION
-tar xvf $CWD/cups-$VERSION-source.tar.?z* || exit 1
+tar xjvf $CWD/cups-$VERSION-source.tar.?z* || exit 1
 cd cups-$VERSION
 
 sed -i.orig -e 's#$exec_prefix/lib/cups#$libdir/cups#g' configure
