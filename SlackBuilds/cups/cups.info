@@ -1,7 +1,14 @@
 PRGNAM="cups"
+<<<<<<< HEAD
 VERSION="1.6.0"
 HOMEPAGE="http://cups.org/"
 DOWNLOAD="http://ftp.easysw.com/pub/cups/1.6.0/cups-1.6.0-source.tar.bz2"
 MD5SUM="07157b243dd11e90e3f654c4d62e7c8a"
+=======
+VERSION="1.5.4"
+HOMEPAGE="http://cups.org/"
+DOWNLOAD="http://ftp.easysw.com/pub/cups/1.5.4/cups-1.5.4-source.tar.bz2"
+MD5SUM="de3006e5cf1ee78a9c6145ce62c4e982"
+>>>>>>> master
 DOWNLOAD_x86_64=""
 MD5SUM_x86_64=""

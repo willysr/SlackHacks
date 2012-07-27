@@ -131,10 +131,10 @@ SLACKBUILD SHORT DESCRIPTION:  Ctemplate (template language for C++)
 SLACKBUILD NAME: cups
 SLACKBUILD LOCATION: ./cups
 SLACKBUILD FILES: cups.SlackBuild cups.info doinst.sh.gz slack-desc
-SLACKBUILD VERSION: 1.5.3
-SLACKBUILD DOWNLOAD: http://ftp.easysw.com/pub/cups/1.5.3/cups-1.5.3-source.tar.bz2
+SLACKBUILD VERSION: 1.5.4
+SLACKBUILD DOWNLOAD: http://ftp.easysw.com/pub/cups/1.5.4/cups-1.5.4-source.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: e1ad15257aa6f162414ea3beae0c5df8
+SLACKBUILD MD5SUM: de3006e5cf1ee78a9c6145ce62c4e982
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  CUPS (Common UNIX Printing System)
 
