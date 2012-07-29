@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+    |-----handy-ruler------------------------------------------------------|
+cups: CUPS (Common UNIX Printing System)
+cups:
+cups: The Common UNIX Printing System provides a portable printing layer for
+cups: UNIX(R)-like operating systems. It has been developed by Easy Software
+cups: Products to promote a standard printing solution for all UNIX vendors
+cups: and users.  CUPS uses the Internet Printing Protocol ("IPP") as the
+cups: basis for managing print jobs and queues.  The CUPS package includes
+cups: System V and Berkeley command-line interfaces, a PostScript RIP
+cups: package for supporting non-PostScript printer drivers, and tools for
+cups: creating additional printer drivers and other CUPS services.
+cups:
