@@ -1,0 +1,7 @@
+PRGNAM="harfbuzz"
+VERSION="20120627"
+HOMEPAGE="http://www.freedesktop.org/wiki/Software/HarfBuzz"
+DOWNLOAD="http://www.freedesktop.org/software/harfbuzz/release/harfbuzz-20120627.tar.bz2"
+MD5SUM="18e6a8d847259441723a26e299792d55"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""

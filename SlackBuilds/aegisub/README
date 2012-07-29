@@ -1,0 +1,13 @@
+A general-purpose subtitle editor with ASS/SSA support
+
+Requirements:
+- PulseAudio (optional)
+- OpenAL (optional)
+- PortAudio (optional)
+- libass (optional)
+  - enca (optional)
+  - harfbuzz (optional)
+- lua (optional)
+- wxWidgets + wxStyledTextCtrl
+- FFmpegSource / ffms (optional)
+- Scintilla

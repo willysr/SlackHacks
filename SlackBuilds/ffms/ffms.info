@@ -1,0 +1,7 @@
+PRGNAM="ffms"
+VERSION="2.17"
+HOMEPAGE="https://code.google.com/p/ffmpegsource/"
+DOWNLOAD="https://ffmpegsource.googlecode.com/files/ffms-2.17-src.tar.bz2"
+MD5SUM="13770e29d5215ad4b68caad44b09da07"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""

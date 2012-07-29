@@ -1,8 +1,29 @@
++--------------------------+
+Mon Jul 30 05:57:45 WIT 2012
+aegisub: Added
+  Aegisub is a general-purpose subtitle editor with ASS/SSA support
+  Requires wxGTK 
+  Optional requirements PulseAudio, OpenAL, PortAudio, libass, lua, 
+  FFmpegSource, and Scintilla
+enca: Added
+  enca is Text File Encode Detector
+ffms: Added
+  ffms is a libav/ffmpeg based source library
+harfbuzz: Added
+  HarfBuzz is an OpenType text shaping engine.
+libass: Added
+  libass is a portable subtitle renderer for the ASS/SSA 
+  Optional requirements: enca, harfbuzz
+wxGTK: Added
+  wxGTK is a cross-platform API for writing GUI applications
+
++--------------------------+
 Sun Jul 29 10:18:53 WIT 2012
 cups1.6: Merged branch cups1.6
   This is SlackBuild for CUPS 1.6
   I gave different folder name so that people won't confuse with the existing cups (1.5)
 
++--------------------------+
 Fri Jul 27 21:56:46 GMT+7 2012
 calibre: Upgraded to 0.8.62
 

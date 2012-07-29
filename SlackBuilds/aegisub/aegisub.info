@@ -1,0 +1,7 @@
+PRGNAM="aegisub"
+VERSION="2.1.9"
+HOMEPAGE="http://www.aegisub.org/"
+DOWNLOAD="http://ftp.aegisub.org/pub/releases/aegisub-2.1.9.tar.gz"
+MD5SUM="878cf7e6fd9c35cc218537bac3b86c25"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""
