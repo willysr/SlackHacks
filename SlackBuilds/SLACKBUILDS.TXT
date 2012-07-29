@@ -150,7 +150,7 @@ SLACKBUILD SHORT DESCRIPTION:  CUPS (Common UNIX Printing System)
 
 SLACKBUILD NAME: cups
 SLACKBUILD LOCATION: ./cups
-SLACKBUILD FILES: README cups-header.patch cups.SlackBuild cups.info doinst.sh.gz slack-desc
+SLACKBUILD FILES: README cups.SlackBuild cups.info doinst.sh.gz slack-desc
 SLACKBUILD VERSION: 1.6.1
 SLACKBUILD DOWNLOAD: http://ftp.easysw.com/pub/cups/1.6.1/cups-1.6.1-source.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
