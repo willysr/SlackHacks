@@ -1,5 +1,9 @@
+Mon Jul 30 08:15:09 GMT+7 2012
+aria2: Added
+  Aria2c is utility for downloading files
+
 +--------------------------+
-Mon Jul 30 05:57:45 WIT 2012
+Mon Jul 30 05:57:45 GMT+7 2012
 aegisub: Added
   Aegisub is a general-purpose subtitle editor with ASS/SSA support
   Requires wxGTK 
@@ -18,7 +22,7 @@ wxGTK: Added
   wxGTK is a cross-platform API for writing GUI applications
 
 +--------------------------+
-Sun Jul 29 10:18:53 WIT 2012
+Sun Jul 29 10:18:53 GMT+7 2012
 cups1.6: Merged branch cups1.6
   This is SlackBuild for CUPS 1.6
   I gave different folder name so that people won't confuse with the existing cups (1.5)
