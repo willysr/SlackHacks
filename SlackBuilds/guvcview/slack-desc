@@ -15,5 +15,5 @@ guvcview:
 guvcview: The project is based on luvcview for video rendering, but all 
 guvcview: controls are build using a GTK2 interface.
 guvcview:
-guvcview: Project's web page : http://guvcview.berlios.de/index.html
+guvcview: Project's web page : http://guvcview.sourceforge.net/
 guvcview:

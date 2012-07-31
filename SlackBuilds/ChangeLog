@@ -1,4 +1,8 @@
 +--------------------------+
+Wed Aug  1 06:38:05 GMT+7 2012
+guvcview: Rebuilt to remove duplicate documentation
+
++--------------------------+
 Mon Jul 30 10:10:22 GMT+7 2012
 lua: Added
   lua is a powerful, fast, light-weight, embeddable scripting language

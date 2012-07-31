@@ -27,12 +27,13 @@
 # June, 30: Rebuilt, added new parameter to disable debian menu
 #           Added patch to fix after -Current updates per june 25
 #	    Change the default condition of PulseAudio to NO instead of YES
+# August, 1: Rebuilt to remove duplicate documentations
 
 PRGNAM=guvcview
 VERSION=${VERSION:-1.6.0}
-BUILD=${BUILD:-2wsr}
+BUILD=${BUILD:-3wsr}
 
-DOCS="ABOUT-NLS AUTHORS COPYING ChangeLog INSTALL NEWS README"
+DOCS="ABOUT-NLS AUTHORS COPYING ChangeLog INSTALL README"
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
@@ -100,6 +101,9 @@ make install DESTDIR=$PKG
 
 # ignores --mandir
 mv $PKG/usr/share/man $PKG/usr/man
+
+# remove duplicate documentations
+rm -rf $PKG/usr/share/doc
 
 find $PKG | xargs file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
