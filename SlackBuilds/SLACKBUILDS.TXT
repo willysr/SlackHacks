@@ -538,6 +538,16 @@ SLACKBUILD MD5SUM: c41352ac755c7992edfcbb2ea4ad1349
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  libusbx (USB library)
 
+SLACKBUILD NAME: libwpg
+SLACKBUILD LOCATION: ./libwpg
+SLACKBUILD FILES: README libwpg.SlackBuild libwpg.info slack-desc
+SLACKBUILD VERSION: 0.2.1
+SLACKBUILD DOWNLOAD: http://cdnetworks-kr-2.dl.sourceforge.net/project/libwpg/libwpg/libwpg-0.2.1/libwpg-0.2.1.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 12ba3018919d5a72cd7a5d555c522195
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  libwpg (WPG-image reading/converting library)
+
 SLACKBUILD NAME: lua
 SLACKBUILD LOCATION: ./lua
 SLACKBUILD FILES: README lua.SlackBuild lua.info slack-desc

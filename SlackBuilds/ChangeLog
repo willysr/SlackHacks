@@ -1,5 +1,10 @@
 +--------------------------+
-Sat Aug  4 07:30:08 WIT 2012
+Sat Aug  4 07:43:55 GMT+7 2012
+libwpg: Added version 0.2.1
+  libwpg is a library for reading and converting WPG images
+
++--------------------------+
+Sat Aug  4 07:30:08 GMT+7 2012
 calibre: Upgraded to 0.8.63
 
 +--------------------------+
