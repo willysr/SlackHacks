@@ -1,0 +1,7 @@
+PRGNAM="gnugo"
+VERSION="3.8"
+HOMEPAGE="https://www.gnu.org/software/gnugo/"
+DOWNLOAD="http://ftp.gnu.org/gnu/gnugo/gnugo-3.8.tar.gz"
+MD5SUM=""
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""
