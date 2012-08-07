@@ -32,9 +32,10 @@
 # July 27 : Upgraded to 1.6
 # July 27 : Rebuilt to patch the header to show English instead of Japanese
 # July 29 : Upgraded to 1.6.1
+# August 7 : Rebuilt to remove obsolete options
 
 VERSION=1.6.1
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 # Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
@@ -67,6 +68,7 @@ rm -rf cups-$VERSION
 tar xjvf $CWD/cups-$VERSION-source.tar.?z* || exit 1
 cd cups-$VERSION
 
+patch -p0 < $CWD/cupsd-conf-remove-obsolete-browse-directives.patch
 sed -i.orig -e 's#$exec_prefix/lib/cups#$libdir/cups#g' configure
 ./configure \
   --libdir=/usr/lib${LIBDIRSUFFIX} \

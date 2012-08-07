@@ -1,3 +1,8 @@
+Tue Aug  7 21:08:02 GMT+7 2012
+cups1.6: rebuilt
+  Added upstream patch to remove obsolete browse directive
+  http://www.cups.org/str.php?L4157
+
 +--------------------------+
 Sat Aug  4 20:54:04 GMT+7 2012
 gnugo: Added
