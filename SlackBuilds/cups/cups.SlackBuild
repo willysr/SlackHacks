@@ -28,9 +28,10 @@
 # May 17 : Bumped to 1.5.3
 # July 14 : Synced with -Current
 # July 24 : Upgraded to 1.5.4
+# August 7 : Rebuilt to add upstream patch (http://cups.org/str.php?L4155)
 
 VERSION=1.5.4
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 # Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
@@ -62,6 +63,8 @@ cd $TMP
 rm -rf cups-$VERSION
 tar xvf $CWD/cups-$VERSION-source.tar.?z* || exit 1
 cd cups-$VERSION
+
+patch -p0 < $CWD/usb-backend-reset-after-job-only-for-specific-devices.patch
 
 sed -i.orig -e 's#$exec_prefix/lib/cups#$libdir/cups#g' configure
 ./configure \
