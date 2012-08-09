@@ -170,7 +170,7 @@ SLACKBUILD SHORT DESCRIPTION:  CUPS (Common UNIX Printing System)
 
 SLACKBUILD NAME: cups
 SLACKBUILD LOCATION: ./cups
-SLACKBUILD FILES: .cups.SlackBuild.kate-swp README cups.SlackBuild cups.info cupsd-conf-remove-obsolete-browse-directives.patch doinst.sh.gz slack-desc usb-backend-reset-after-job-only-for-specific-devices.patch
+SLACKBUILD FILES: README cups.SlackBuild cups.info cupsd-conf-remove-obsolete-browse-directives.patch doinst.sh.gz slack-desc usb-backend-reset-after-job-only-for-specific-devices.patch
 SLACKBUILD VERSION: 1.6.1
 SLACKBUILD DOWNLOAD: http://ftp.easysw.com/pub/cups/1.6.1/cups-1.6.1-source.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
@@ -201,10 +201,10 @@ SLACKBUILD SHORT DESCRIPTION:  db5 (Berkeley database library version 5.3.x)
 SLACKBUILD NAME: digikam
 SLACKBUILD LOCATION: ./digikam
 SLACKBUILD FILES: README digikam.SlackBuild digikam.info doinst.sh slack-desc
-SLACKBUILD VERSION: 2.7.0
-SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/digikam/digikam/2.7.0/digikam-2.7.0.tar.bz2
+SLACKBUILD VERSION: 2.8.0
+SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/digikam/digikam/2.8.0/digikam-2.8.0.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 428e5234fa4daa6f154bf23c63787bdd
+SLACKBUILD MD5SUM: 6b87a62ca3721ccfc39ebf8738794554
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  digiKam (KDE Photo Management Application)
 
