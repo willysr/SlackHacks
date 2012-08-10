@@ -420,7 +420,7 @@ SLACKBUILD SHORT DESCRIPTION: gtk+2: GTK+ version 2 (multi-platform GUI toolkit)
 
 SLACKBUILD NAME: gtk+3
 SLACKBUILD LOCATION: ./gtk+3
-SLACKBUILD FILES: README doinst.sh.gz gtk+3.SlackBuild gtk+3.info profile.d/gtk+.csh profile.d/gtk+.sh slack-desc update-gtk-immodules update-gtk-immodules-3.0 use_host_triplet_for_gtk_immodules.diff.gz
+SLACKBUILD FILES: README doinst.sh.gz gtk+3.SlackBuild gtk+3.info profile.d/gtk+.csh profile.d/gtk+.sh slack-desc use_host_triplet_for_gtk_immodules.diff.gz
 SLACKBUILD VERSION: 3.4.4
 SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/gtk+/3.4/gtk+-3.4.4.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
