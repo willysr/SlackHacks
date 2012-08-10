@@ -78,6 +78,16 @@ SLACKBUILD MD5SUM: 9e1542ab5c0b12ea3af076a9a2f02d79
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  babl (pixel format translation library)
 
+SLACKBUILD NAME: bashdb
+SLACKBUILD LOCATION: ./bashdb
+SLACKBUILD FILES: README bashdb.SlackBuild bashdb.info slack-desc
+SLACKBUILD VERSION: 4.2_0.8
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/bashdb/bashdb-4.2-0.8.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: f55afbc518d82647e2989a86954fadda
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  bashdb  (The BASH Debugger Project)
+
 SLACKBUILD NAME: brainworkshop
 SLACKBUILD LOCATION: ./brainworkshop
 SLACKBUILD FILES: README brainworkshop-4.8.1-fix-paths.patch brainworkshop.SlackBuild brainworkshop.desktop brainworkshop.info brainworkshop.png brainworkshop.sh slack-desc
@@ -420,7 +430,7 @@ SLACKBUILD SHORT DESCRIPTION: gtk+2: GTK+ version 2 (multi-platform GUI toolkit)
 
 SLACKBUILD NAME: gtk+3
 SLACKBUILD LOCATION: ./gtk+3
-SLACKBUILD FILES: README doinst.sh.gz gtk+3.SlackBuild gtk+3.info profile.d/gtk+.csh profile.d/gtk+.sh slack-desc use_host_triplet_for_gtk_immodules.diff.gz
+SLACKBUILD FILES: README doinst.sh.gz gtk+3.SlackBuild gtk+3.info profile.d/gtk+.csh profile.d/gtk+.sh slack-desc update-gtk-immodules use_host_triplet_for_gtk_immodules.diff.gz
 SLACKBUILD VERSION: 3.4.4
 SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/gtk+/3.4/gtk+-3.4.4.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
