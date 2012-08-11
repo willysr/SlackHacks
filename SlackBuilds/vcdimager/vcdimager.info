@@ -1,0 +1,7 @@
+PRGNAM="vcdimager"
+VERSION="0.7.24"
+HOMEPAGE="http://www.gnu.org/software/vcdimager/"
+DOWNLOAD="http://mirrors.kernel.org/gnu/vcdimager/vcdimager-0.7.24.tar.gz"
+MD5SUM="3af22978fd79c79d5fda6513b6811145"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""

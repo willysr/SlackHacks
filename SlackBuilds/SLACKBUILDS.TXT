@@ -208,6 +208,16 @@ SLACKBUILD MD5SUM: 3fda0b004acdaa6fa350bfc41a3b95ca
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  db5 (Berkeley database library version 5.3.x)
 
+SLACKBUILD NAME: devede
+SLACKBUILD LOCATION: ./devede
+SLACKBUILD FILES: README devede.SlackBuild devede.info doinst.sh fix_extra_backgrounds_dir.patch slack-desc
+SLACKBUILD VERSION: 3.22.0
+SLACKBUILD DOWNLOAD: http://www.rastersoft.com/descargas/devede-3.22.0.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 09ffebefe8903f8d9f2a8f142545e775
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  DeVeDe (create video CDs and DVDs)
+
 SLACKBUILD NAME: digikam
 SLACKBUILD LOCATION: ./digikam
 SLACKBUILD FILES: README digikam.SlackBuild digikam.info doinst.sh slack-desc
@@ -237,6 +247,16 @@ SLACKBUILD DOWNLOAD_x86_64: http://dl-web.dropbox.com/u/17/dropbox-lnx.x86_64-1.
 SLACKBUILD MD5SUM: 33e281c0fe8a9cf6da754e73cc21fb57
 SLACKBUILD MD5SUM_x86_64: fec3bc32c8c4200b47c76af3ecfd60e1
 SLACKBUILD SHORT DESCRIPTION:  dropbox (store, sync and share files online)
+
+SLACKBUILD NAME: dvdauthor
+SLACKBUILD LOCATION: ./dvdauthor
+SLACKBUILD FILES: README dvdauthor.SlackBuild dvdauthor.info slack-desc
+SLACKBUILD VERSION: 0.7.0
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/dvdauthor/dvdauthor-0.7.0.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 33a447fb98ab3293ac40f869eedc17ff
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  dvdauthor (A simple set of tools to help you author a DVD)
 
 SLACKBUILD NAME: enca
 SLACKBUILD LOCATION: ./enca
@@ -759,6 +779,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: dbda80ef580e1a0975ef50b9aaa5210e
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  vbindiff (Visual Binary Diff)
+
+SLACKBUILD NAME: vcdimager
+SLACKBUILD LOCATION: ./vcdimager
+SLACKBUILD FILES: README slack-desc vcdimager.SlackBuild vcdimager.info
+SLACKBUILD VERSION: 0.7.24
+SLACKBUILD DOWNLOAD: http://mirrors.kernel.org/gnu/vcdimager/vcdimager-0.7.24.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 3af22978fd79c79d5fda6513b6811145
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  vcdimager (VCD/SVCD Mastering Suite)
 
 SLACKBUILD NAME: wesnoth
 SLACKBUILD LOCATION: ./wesnoth

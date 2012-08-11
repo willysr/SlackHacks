@@ -1,4 +1,12 @@
 +--------------------------+
+Sun Aug 12 06:52:51 GMT+7 2012
+devede: Added
+  DeVeDe is a program to create video DVDs and CDs (VCD, sVCD, or CVD)
+  depends on dvdauthor and vcdimager
+dvdauthor: Added
+vcdimager: Added
+  
++--------------------------+
 Sat Aug 11 08:34:49 GMT+7 2012
 calibre: Upgraded to 0.8.64
 
