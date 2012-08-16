@@ -25,9 +25,10 @@
 # May 4, 2012 : Updated the script to remove libffi package to avoid conflict with gcc-java package
 # July 14 : Synced with -Current
 # July 18 : Upgraded to 2.24.11
+# August 16 : Synced with -Current
 
 VERSION=${VERSION:-$(echo gtk+-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 NUMJOBS=${NUMJOBS:-" -j7 "}
 
@@ -117,15 +118,6 @@ make install \
   DESTDIR=$PKG \
   || exit 1
 
-
-
-# You'll probably need to install the newly made package right away to
-# fix the result of this next line, but we had to clear this.  Sorry.
-rm -rf /etc/gtk-2.0
-# I'm spamming your root partition because /etc/gtk-2.0 won't install to $DESTDIR...
-make install 
-cp -a /etc/gtk-2.0/* $PKG/etc/gtk-2.0/ || exit 1
-rm -rf $PKG/etc/gtk-2.0/$host
 mkdir -p $PKG/etc/gtk-2.0/$host
 mv $PKG/etc/gtk-2.0/gtk.immodules $PKG/etc/gtk-2.0/$host/
 
@@ -186,7 +178,7 @@ fi
 
 mkdir -p $PKG/usr/doc/gtk+-$VERSION
 cp -a \
-  AUTHORS COPYING* NEWS README* TODO \
+  AUTHORS COPYING* HACKING INSTALL NEWS README* \
   $PKG/usr/doc/gtk+-$VERSION
 ( cd $PKG/usr/doc/gtk+-$VERSION
   ln -s ../../share/gtk-doc/html/gail-libgail-util .
@@ -202,10 +194,11 @@ if [ -r ChangeLog ]; then
   touch -r ChangeLog $DOCSDIR/ChangeLog
 fi
 
+chmod 755 $PKG/usr/bin/*
+
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 zcat $CWD/doinst.sh.gz > $PKG/install/doinst.sh
 
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/gtk+2-$VERSION-$ARCH-$BUILD.txz
-
