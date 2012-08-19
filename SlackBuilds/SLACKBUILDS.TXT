@@ -470,11 +470,11 @@ SLACKBUILD SHORT DESCRIPTION:  gtkmm (C++ interface for GTK+)
 
 SLACKBUILD NAME: guvcview
 SLACKBUILD LOCATION: ./guvcview
-SLACKBUILD FILES: README doinst.sh guvcview.SlackBuild guvcview.info guvcview.patch slack-desc
-SLACKBUILD VERSION: 1.6.0
-SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/guvcview/source/guvcview-src-1.6.0.tar.gz
+SLACKBUILD FILES: README doinst.sh guvcview.SlackBuild guvcview.info slack-desc
+SLACKBUILD VERSION: 1.6.1
+SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/guvcview/source/guvcview-src-1.6.1l.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: a8c9b1f1267fbf9982266b5f36d87b2b
+SLACKBUILD MD5SUM: b3dfd04d8aae0c807d5f5d6ba035580f
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  guvcview (GTK+ UVC Viewer)
 
