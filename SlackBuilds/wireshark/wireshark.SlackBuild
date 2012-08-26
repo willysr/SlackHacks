@@ -31,9 +31,10 @@
 # June 23, 2012 : Fixed automake bug and symlink creation
 # June 24, 2012 : Simplify the automake process
 # July 26, 2012 : Upgraded to 1.8.1
+# August 27, 2012: Upgraded to 1.8.2
 
 PRGNAM=wireshark
-VERSION=${VERSION:-1.8.1}
+VERSION=${VERSION:-1.8.2}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then

@@ -9,9 +9,10 @@
 # May, 7 : Bumped to 5.2.39, Added patch to work with glib-2.3x
 # May, 12: Rebuilt, Added patch to fix problems with newer automake
 # May, 20: Upgraded to 5.2.40, Remove glib patch since it's included upstream
+# August, 27: Upgraded to 5.2.42, Include patches from Dhaby Xiloj
 
 PRGNAM=mysql-workbench-gpl
-VERSION=${VERSION:-5.2.40}
+VERSION=${VERSION:-5.2.42}
 BUILD=${BUILD:-1wsr}
 
 SRCVERSION=$VERSION-src
@@ -58,11 +59,8 @@ find . \
  \( -perm 666 -o -perm 664 -o -perm 600 -o -perm 444 -o -perm 440 -o -perm 400 \) \
  -exec chmod 644 {} \;
 
-# remove when http://bugs.mysql.com/bug.php?id=63898 gets fixed
-# Using pkglib_DATA is invalid since automake 1.11.2
-# This is only for precautions, just in case Slackware-Current decided to upgrade automake to 1.11.2 or newer
-# Since it doesn't break with previous version, it's safe to include the change
-fgrep -rlZ pkglib_DATA --include Makefile.am . | xargs -0 sed -i 's/pkglib_DATA/pkgdata_DATA/g'
+# Patches from Dhaby Xiloj
+patch -p1 < $CWD/mysql-workbench-gpl-5.2.42-src.diff
 
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \

@@ -24,6 +24,7 @@
 # Changelog
 # May 4, 2012 : Updated the script for GIMP-2.8.0
 # July 14 : Synced with -Current
+# August, 26: Upgraded to GIMP 2.8.2
 
 PKGNAM=gimp
 VERSION=${VERSION:-$(echo $PKGNAM-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}

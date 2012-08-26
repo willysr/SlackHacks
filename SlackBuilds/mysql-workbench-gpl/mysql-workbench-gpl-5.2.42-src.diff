@@ -1,0 +1,140 @@
+diff -Nur mysql-workbench-gpl-5.2.42-src.orig/backend/wbpublic/sqlide/autocomplete_object_name_cache.cpp mysql-workbench-gpl-5.2.42-src/backend/wbpublic/sqlide/autocomplete_object_name_cache.cpp
+--- mysql-workbench-gpl-5.2.42-src.orig/backend/wbpublic/sqlide/autocomplete_object_name_cache.cpp	2012-08-16 15:32:15.000000000 -0600
++++ mysql-workbench-gpl-5.2.42-src/backend/wbpublic/sqlide/autocomplete_object_name_cache.cpp	2012-08-16 15:33:32.000000000 -0600
+@@ -22,7 +22,7 @@
+ #include <sqlite/execute.hpp>
+ #include <sqlite/query.hpp>
+ 
+-#include <glib/gthread.h>
++#include <glib.h>
+ 
+ #include "autocomplete_object_name_cache.h"
+ #include "base/log.h"
+@@ -937,4 +937,4 @@
+           _feedback(true);
+     }
+   } 
+-}
+\ No hay ningún carácter de nueva línea al final del fichero
++}
+diff -Nur mysql-workbench-gpl-5.2.42-src.orig/res/mysql.profiles/Makefile.am mysql-workbench-gpl-5.2.42-src/res/mysql.profiles/Makefile.am
+--- mysql-workbench-gpl-5.2.42-src.orig/res/mysql.profiles/Makefile.am	2012-08-16 15:32:16.000000000 -0600
++++ mysql-workbench-gpl-5.2.42-src/res/mysql.profiles/Makefile.am	2012-08-19 01:34:39.000000000 -0600
+@@ -2,29 +2,29 @@
+ workbenchdir=$(pkgdatadir)/mysql.profiles
+ 
+ workbench_DATA=\
+-Fedora_Linux_(MySQL_Package).xml\
+-Fedora_Linux_(Vendor_Package).xml\
+-Fedora_Linux_15_(Vendor_Package).xml\
+-FreeBSD_(MySQL_Package).xml\
+-Generic_Linux_(MySQL_tar_package).xml\
+-Linux_(Custom).xml\
+-MacOS_X_(MySQL_Package).xml\
+-OpenSolaris_(MySQL_Package).xml\
+-RHEL_(MySQL_Package).xml\
+-SLES_(MySQL_Package).xml\
+-Ubuntu_Linux_(MySQL_Package).xml\
+-Ubuntu_Linux_(Vendor_Package).xml\
+-Ubuntu_Linux_Upstart_(MySQL_Package).xml\
+-Ubuntu_Linux_Upstart_(Vendor_Package).xml\
+-Windows_(MySQL_5.0_x64_Installer_Package).xml\
+-Windows_(MySQL_5.0_x86_Installer_Package).xml\
+-Windows_x64_(MySQL_5.0_x86_Installer_Package).xml\
+-Windows_(MySQL_5.1_x64_Installer_Package).xml\
+-Windows_(MySQL_5.1_x86_Installer_Package).xml\
+-Windows_(MySQL_5.5_x64_Installer_Package).xml\
+-Windows_(MySQL_5.5_x86_Installer_Package).xml\
+-Windows_x64_(MySQL_5.1_x86_Installer_Package).xml\
+-Windows_x64_(MySQL_5.5_x86_Installer_Package).xml\
+-Windows_(MySQL_x64_zip_Package).xml\
+-Windows_(MySQL_x86_zip_Package).xml\
+-Windows_x64_(MySQL_x86_zip_Package).xml
++Fedora_Linux_\(MySQL_Package\).xml\
++Fedora_Linux_\(Vendor_Package\).xml\
++Fedora_Linux_15_\(Vendor_Package\).xml\
++FreeBSD_\(MySQL_Package\).xml\
++Generic_Linux_\(MySQL_tar_package\).xml\
++Linux_\(Custom\).xml\
++MacOS_X_\(MySQL_Package\).xml\
++OpenSolaris_\(MySQL_Package\).xml\
++RHEL_\(MySQL_Package\).xml\
++SLES_\(MySQL_Package\).xml\
++Ubuntu_Linux_\(MySQL_Package\).xml\
++Ubuntu_Linux_\(Vendor_Package\).xml\
++Ubuntu_Linux_Upstart_\(MySQL_Package\).xml\
++Ubuntu_Linux_Upstart_\(Vendor_Package\).xml\
++Windows_\(MySQL_5.0_x64_Installer_Package\).xml\
++Windows_\(MySQL_5.0_x86_Installer_Package\).xml\
++Windows_x64_\(MySQL_5.0_x86_Installer_Package\).xml\
++Windows_\(MySQL_5.1_x64_Installer_Package\).xml\
++Windows_\(MySQL_5.1_x86_Installer_Package\).xml\
++Windows_\(MySQL_5.5_x64_Installer_Package\).xml\
++Windows_\(MySQL_5.5_x86_Installer_Package\).xml\
++Windows_x64_\(MySQL_5.1_x86_Installer_Package\).xml\
++Windows_x64_\(MySQL_5.5_x86_Installer_Package\).xml\
++Windows_\(MySQL_x64_zip_Package\).xml\
++Windows_\(MySQL_x86_zip_Package\).xml\
++Windows_x64_\(MySQL_x86_zip_Package\).xml
+diff -Nur mysql-workbench-gpl-5.2.42-src.orig/res/mysql.profiles/Makefile.in mysql-workbench-gpl-5.2.42-src/res/mysql.profiles/Makefile.in
+--- mysql-workbench-gpl-5.2.42-src.orig/res/mysql.profiles/Makefile.in	2012-08-16 15:32:16.000000000 -0600
++++ mysql-workbench-gpl-5.2.42-src/res/mysql.profiles/Makefile.in	2012-08-19 01:35:20.000000000 -0600
+@@ -221,32 +221,32 @@
+ unixodbc = @unixodbc@
+ workbenchdir = $(pkgdatadir)/mysql.profiles
+ workbench_DATA = \
+-Fedora_Linux_(MySQL_Package).xml\
+-Fedora_Linux_(Vendor_Package).xml\
+-Fedora_Linux_15_(Vendor_Package).xml\
+-FreeBSD_(MySQL_Package).xml\
+-Generic_Linux_(MySQL_tar_package).xml\
+-Linux_(Custom).xml\
+-MacOS_X_(MySQL_Package).xml\
+-OpenSolaris_(MySQL_Package).xml\
+-RHEL_(MySQL_Package).xml\
+-SLES_(MySQL_Package).xml\
+-Ubuntu_Linux_(MySQL_Package).xml\
+-Ubuntu_Linux_(Vendor_Package).xml\
+-Ubuntu_Linux_Upstart_(MySQL_Package).xml\
+-Ubuntu_Linux_Upstart_(Vendor_Package).xml\
+-Windows_(MySQL_5.0_x64_Installer_Package).xml\
+-Windows_(MySQL_5.0_x86_Installer_Package).xml\
+-Windows_x64_(MySQL_5.0_x86_Installer_Package).xml\
+-Windows_(MySQL_5.1_x64_Installer_Package).xml\
+-Windows_(MySQL_5.1_x86_Installer_Package).xml\
+-Windows_(MySQL_5.5_x64_Installer_Package).xml\
+-Windows_(MySQL_5.5_x86_Installer_Package).xml\
+-Windows_x64_(MySQL_5.1_x86_Installer_Package).xml\
+-Windows_x64_(MySQL_5.5_x86_Installer_Package).xml\
+-Windows_(MySQL_x64_zip_Package).xml\
+-Windows_(MySQL_x86_zip_Package).xml\
+-Windows_x64_(MySQL_x86_zip_Package).xml
++Fedora_Linux_\(MySQL_Package\).xml\
++Fedora_Linux_\(Vendor_Package\).xml\
++Fedora_Linux_15_\(Vendor_Package\).xml\
++FreeBSD_\(MySQL_Package\).xml\
++Generic_Linux_\(MySQL_tar_package\).xml\
++Linux_\(Custom\).xml\
++MacOS_X_\(MySQL_Package\).xml\
++OpenSolaris_\(MySQL_Package\).xml\
++RHEL_\(MySQL_Package\).xml\
++SLES_\(MySQL_Package\).xml\
++Ubuntu_Linux_\(MySQL_Package\).xml\
++Ubuntu_Linux_\(Vendor_Package\).xml\
++Ubuntu_Linux_Upstart_\(MySQL_Package\).xml\
++Ubuntu_Linux_Upstart_\(Vendor_Package\).xml\
++Windows_\(MySQL_5.0_x64_Installer_Package\).xml\
++Windows_\(MySQL_5.0_x86_Installer_Package\).xml\
++Windows_x64_\(MySQL_5.0_x86_Installer_Package\).xml\
++Windows_\(MySQL_5.1_x64_Installer_Package\).xml\
++Windows_\(MySQL_5.1_x86_Installer_Package\).xml\
++Windows_\(MySQL_5.5_x64_Installer_Package\).xml\
++Windows_\(MySQL_5.5_x86_Installer_Package\).xml\
++Windows_x64_\(MySQL_5.1_x86_Installer_Package\).xml\
++Windows_x64_\(MySQL_5.5_x86_Installer_Package\).xml\
++Windows_\(MySQL_x64_zip_Package\).xml\
++Windows_\(MySQL_x86_zip_Package\).xml\
++Windows_x64_\(MySQL_x86_zip_Package\).xml
+ 
+ all: all-am
+ 

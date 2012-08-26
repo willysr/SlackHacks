@@ -13,10 +13,11 @@
 
 # Modified by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # ChangeLog
-# July 30 : Upgraded to 5.2.1
+# July 30 : Upgraded to 5.1.1
+# August 27: Upgraded to 5.1.5
 
 PRGNAM=lua
-VERSION=${VERSION:-5.2.1}
+VERSION=${VERSION:-5.1.5}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -61,15 +62,15 @@ make linux \
   CFLAGS="$SLKCFLAGS \$(MYCFLAGS)" \
   INSTALL_TOP=/usr \
   INSTALL_LIB=/usr/lib${LIBDIRSUFFIX} \
-  INSTALL_LMOD=/usr/share/lua/5.2 \
-  INSTALL_CMOD=/usr/lib${LIBDIRSUFFIX}/lua/5.2
+  INSTALL_LMOD=/usr/share/lua/5.1 \
+  INSTALL_CMOD=/usr/lib${LIBDIRSUFFIX}/lua/5.1
 
 make linux install \
   CFLAGS="$SLKCFLAGS \$(MYCFLAGS)" \
   INSTALL_TOP=$PKG/usr \
   INSTALL_LIB=$PKG/usr/lib${LIBDIRSUFFIX} \
-  INSTALL_LMOD=$PKG/usr/share/lua/5.2 \
-  INSTALL_CMOD=$PKG/usr/lib${LIBDIRSUFFIX}/lua/5.2
+  INSTALL_LMOD=$PKG/usr/share/lua/5.1 \
+  INSTALL_CMOD=$PKG/usr/lib${LIBDIRSUFFIX}/lua/5.1
 
 # Now let's build the shared library
 mkdir -p shared
@@ -78,7 +79,7 @@ cd shared
   gcc -ldl -lreadline -lhistory -lncurses -lm -shared *.o -o liblua.so.$VERSION
   cp -a liblua.so.$VERSION $PKG/usr/lib${LIBDIRSUFFIX}
   ( cd $PKG/usr/lib${LIBDIRSUFFIX}
-    ln -s liblua.so.$VERSION liblua.so.5.2
+    ln -s liblua.so.$VERSION liblua.so.5.1
     ln -s liblua.so.$VERSION liblua.so.5
     ln -s liblua.so.$VERSION liblua.so
   )
@@ -86,6 +87,7 @@ cd ..
 
 # and install the pkgconfig file
 mkdir -p $PKG/usr/lib${LIBDIRSUFFIX}/pkgconfig
+cat etc/lua.pc > $PKG/usr/lib${LIBDIRSUFFIX}/pkgconfig/lua.pc
 
 find $PKG | xargs file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
