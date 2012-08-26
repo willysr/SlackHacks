@@ -121,10 +121,10 @@ SLACKBUILD SHORT DESCRIPTION:  cairomm (C++ wrapper for the cairo graphics libra
 SLACKBUILD NAME: calibre
 SLACKBUILD LOCATION: ./calibre
 SLACKBUILD FILES: README calibre.SlackBuild calibre.info slack-desc
-SLACKBUILD VERSION: 0.8.65
-SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.8.65.tar.xz
+SLACKBUILD VERSION: 0.8.66
+SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.8.66.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 1c7040f0d4bdd788e2a88841ff80bd85
+SLACKBUILD MD5SUM: a5368b0af1dccda57a196024c638b60d
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  calibre (e-book library management application)
 
@@ -187,16 +187,6 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 87ade07e3d1efd03c9c3add949cf9c00
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  CUPS (Common UNIX Printing System)
-
-SLACKBUILD NAME: db48
-SLACKBUILD LOCATION: ./db48
-SLACKBUILD FILES: README db48.SlackBuild db48.info slack-desc
-SLACKBUILD VERSION: 4.8.30
-SLACKBUILD DOWNLOAD: http://download.oracle.com/berkeley-db/db-4.8.30.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: f80022099c5742cd179343556179aa8c
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  db4 (Berkeley database library version 4.8.x)
 
 SLACKBUILD NAME: db53
 SLACKBUILD LOCATION: ./db53
@@ -311,10 +301,10 @@ SLACKBUILD SHORT DESCRIPTION:  GEGL (Generic Graphics Library)
 SLACKBUILD NAME: gimp
 SLACKBUILD LOCATION: ./gimp
 SLACKBUILD FILES: BUILD_ORDER gimp.SlackBuild gimp.info slack-desc
-SLACKBUILD VERSION: 2.8.0
-SLACKBUILD DOWNLOAD: ftp://ftp.gimp.org/pub/gimp/v2.8/gimp-2.8.0.tar.bz2
+SLACKBUILD VERSION: 2.8.2
+SLACKBUILD DOWNLOAD: ftp://ftp.gimp.org/pub/gimp/v2.8/gimp-2.8.2.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 28997d14055f15db063eb92e1c8a7ebb
+SLACKBUILD MD5SUM: b542138820ca3a41cbd63fc331907955
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  gimp (The GNU Image Manipulation Program)
 
@@ -591,10 +581,10 @@ SLACKBUILD SHORT DESCRIPTION:  libwpg (WPG-image reading/converting library)
 SLACKBUILD NAME: lua
 SLACKBUILD LOCATION: ./lua
 SLACKBUILD FILES: README lua.SlackBuild lua.info slack-desc
-SLACKBUILD VERSION: 5.2.1
-SLACKBUILD DOWNLOAD: http://www.lua.org/ftp/lua-5.2.1.tar.gz
+SLACKBUILD VERSION: 5.1.5
+SLACKBUILD DOWNLOAD: http://www.lua.org/ftp/lua-5.1.5.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: ae08f641b45d737d12d30291a5e5f6e3
+SLACKBUILD MD5SUM: 2e115fe26e435e33b0d5c022e4490567
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Lua (a powerful, fast, light-weight, embeddable scripting language)
 
@@ -620,23 +610,13 @@ SLACKBUILD SHORT DESCRIPTION:  mechanize (Stateful programmatic web browsing in 
 
 SLACKBUILD NAME: mysql-workbench-gpl
 SLACKBUILD LOCATION: ./mysql-workbench-gpl
-SLACKBUILD FILES: README doinst.sh mysql-workbench-gpl.SlackBuild mysql-workbench-gpl.info slack-desc
-SLACKBUILD VERSION: 5.2.40
-SLACKBUILD DOWNLOAD: http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQLGUITools/mysql-workbench-gpl-5.2.40-src.tar.gz
+SLACKBUILD FILES: README doinst.sh mysql-workbench-gpl-5.2.42-src.diff mysql-workbench-gpl.SlackBuild mysql-workbench-gpl.info slack-desc
+SLACKBUILD VERSION: 5.2.42
+SLACKBUILD DOWNLOAD: http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQLGUITools/mysql-workbench-gpl-5.2.42-src.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: ac5c2058cd39c796a1c7bed2647f74b6
+SLACKBUILD MD5SUM: 519d2e4bc878d79023379e1fef49b68c
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  mysql-workbench - MySQL Workbench (GUI Tool)
-
-SLACKBUILD NAME: netatalk
-SLACKBUILD LOCATION: ./netatalk
-SLACKBUILD FILES: README afppasswd doinst.sh.gz netatalk.SlackBuild netatalk.etc2ps.diff.gz netatalk.info rc.atalk.new slack-desc
-SLACKBUILD VERSION: 2.2.3
-SLACKBUILD DOWNLOAD: http://sourceforge.net/projects/netatalk/files/netatalk/2.2.3/netatalk-2.2.3.tar.bz2/download
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 0b5a0645836183b0e548ccfbd5c022f8
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  netatalk (Appletalk file and print server)
 
 SLACKBUILD NAME: numpy
 SLACKBUILD LOCATION: ./numpy
@@ -803,10 +783,10 @@ SLACKBUILD SHORT DESCRIPTION:  Wesnoth (The Battle for Wesnoth)
 SLACKBUILD NAME: wireshark
 SLACKBUILD LOCATION: ./wireshark
 SLACKBUILD FILES: README doinst.sh slack-desc wireshark.SlackBuild wireshark.info
-SLACKBUILD VERSION: 1.8.1
-SLACKBUILD DOWNLOAD: http://wiresharkdownloads.riverbed.com/wireshark/src/wireshark-1.8.1.tar.bz2
+SLACKBUILD VERSION: 1.8.2
+SLACKBUILD DOWNLOAD: http://wiresharkdownloads.riverbed.com/wireshark/src/wireshark-1.8.2.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 629fe03f4a64eb8c7bd9308ee4e22e2e
+SLACKBUILD MD5SUM: 5e3ea7eed50dace479e12f49d24506f4
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  WireShark (packet sniffer and protocol analyzer)
 
