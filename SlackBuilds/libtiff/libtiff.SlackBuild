@@ -25,7 +25,7 @@
 # 30 August: Added patch from Red Hat
 
 VERSION=${VERSION:-$(echo tiff-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
-BUILD=1
+BUILD=1wsr
 
 # Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
