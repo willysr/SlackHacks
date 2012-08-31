@@ -1,0 +1,7 @@
+PRGNAM="libtiff"
+VERSION="4.0.2"
+HOMEPAGE="http://www.remotesensing.org/libtiff/"
+DOWNLOAD="http://download.osgeo.org/libtiff/tiff-4.0.2.tar.gz"
+MD5SUM="04a08fa1e07e696e820a0c3f32465a13"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""

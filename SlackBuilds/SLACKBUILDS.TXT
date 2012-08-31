@@ -558,6 +558,16 @@ SLACKBUILD MD5SUM: 49ae25a63804273f0c6875f477b5f6d2
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  libpgf (Image file format)
 
+SLACKBUILD NAME: libtiff
+SLACKBUILD LOCATION: ./libtiff
+SLACKBUILD FILES: README libtiff-4.0.2-tiff2pdf.patch libtiff.SlackBuild libtiff.info slack-desc
+SLACKBUILD VERSION: 4.0.2
+SLACKBUILD DOWNLOAD: http://download.osgeo.org/libtiff/tiff-4.0.2.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 04a08fa1e07e696e820a0c3f32465a13
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  libtiff (a library for reading and writing TIFF files)
+
 SLACKBUILD NAME: libusbx
 SLACKBUILD LOCATION: ./libusbx
 SLACKBUILD FILES: README libusbx.SlackBuild libusbx.info slack-desc
