@@ -121,10 +121,10 @@ SLACKBUILD SHORT DESCRIPTION:  cairomm (C++ wrapper for the cairo graphics libra
 SLACKBUILD NAME: calibre
 SLACKBUILD LOCATION: ./calibre
 SLACKBUILD FILES: README calibre.SlackBuild calibre.info slack-desc
-SLACKBUILD VERSION: 0.8.66
-SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.8.66.tar.xz
+SLACKBUILD VERSION: 0.8.67
+SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.8.67.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: a5368b0af1dccda57a196024c638b60d
+SLACKBUILD MD5SUM: 8233044d74d6f1b74220005a2ddeab65
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  calibre (e-book library management application)
 
@@ -231,11 +231,11 @@ SLACKBUILD SHORT DESCRIPTION:  dnspython (Python API for DNS)
 SLACKBUILD NAME: dropbox
 SLACKBUILD LOCATION: ./dropbox
 SLACKBUILD FILES: README doinst.sh dropbox.SlackBuild dropbox.desktop dropbox.info dropbox.png slack-desc terms.txt
-SLACKBUILD VERSION: 1.5.4
-SLACKBUILD DOWNLOAD: http://dl-web.dropbox.com/u/17/dropbox-lnx.x86-1.5.4.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: http://dl-web.dropbox.com/u/17/dropbox-lnx.x86_64-1.5.4.tar.gz
-SLACKBUILD MD5SUM: 33e281c0fe8a9cf6da754e73cc21fb57
-SLACKBUILD MD5SUM_x86_64: fec3bc32c8c4200b47c76af3ecfd60e1
+SLACKBUILD VERSION: 1.5.27
+SLACKBUILD DOWNLOAD: http://dl-web.dropbox.com/u/17/dropbox-lnx.x86-1.5.27.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: http://dl-web.dropbox.com/u/17/dropbox-lnx.x86_64-1.5.27.tar.gz
+SLACKBUILD MD5SUM: d1484230a403b88f8e2585815f2cce7a
+SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  dropbox (store, sync and share files online)
 
 SLACKBUILD NAME: dvdauthor
