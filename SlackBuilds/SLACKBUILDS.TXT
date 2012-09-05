@@ -211,10 +211,10 @@ SLACKBUILD SHORT DESCRIPTION:  DeVeDe (create video CDs and DVDs)
 SLACKBUILD NAME: digikam
 SLACKBUILD LOCATION: ./digikam
 SLACKBUILD FILES: README digikam.SlackBuild digikam.info doinst.sh slack-desc
-SLACKBUILD VERSION: 2.8.0
-SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/digikam/digikam/2.8.0/digikam-2.8.0.tar.bz2
+SLACKBUILD VERSION: 2.9.0
+SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/digikam/digikam/2.9.0/digikam-2.9.0.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 6b87a62ca3721ccfc39ebf8738794554
+SLACKBUILD MD5SUM: eb2971c98cadb31a2d63c4189d26ccab
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  digiKam (KDE Photo Management Application)
 
@@ -235,7 +235,7 @@ SLACKBUILD VERSION: 1.5.27
 SLACKBUILD DOWNLOAD: http://dl-web.dropbox.com/u/17/dropbox-lnx.x86-1.5.27.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: http://dl-web.dropbox.com/u/17/dropbox-lnx.x86_64-1.5.27.tar.gz
 SLACKBUILD MD5SUM: d1484230a403b88f8e2585815f2cce7a
-SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD MD5SUM_x86_64: 149a3f10e2e98bb4a7ebdc6d28a31a7c
 SLACKBUILD SHORT DESCRIPTION:  dropbox (store, sync and share files online)
 
 SLACKBUILD NAME: dvdauthor

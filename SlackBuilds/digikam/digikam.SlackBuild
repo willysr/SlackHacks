@@ -24,16 +24,17 @@
 
 # Updated by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # Changelog
-# January 26, 2012 : Added patch to work with libkipi version 1.4.0
-# April 18, 2012 : Added patch to work with GCC 4.7.0 and Boost 1.48+
-# June 4, 2012 : Updated for digiKam 2.6.0 rc
-# June 8, 2012 : Updated for digiKam 2.6.0
-# July 8, 2012: Upgraded to digiKam 2.7.0
-# July 10, 2012: Rebuilt against libpgf 6.12.24
-# August 9, 2012: Upgraded to digiKam 2.8.0
+# January 26: Added patch to work with libkipi version 1.4.0
+# April 18 : Added patch to work with GCC 4.7.0 and Boost 1.48+
+# June 4 : Updated for digiKam 2.6.0 rc
+# June 8: Updated for digiKam 2.6.0
+# July 8: Upgraded to digiKam 2.7.0
+# July 10: Rebuilt against libpgf 6.12.24
+# August 9: Upgraded to digiKam 2.8.0
+# September 5: Upgraded to digiKam 2.9.0
 
 PRGNAM=digikam
-VERSION=${VERSION:-2.8.0}
+VERSION=${VERSION:-2.9.0}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
