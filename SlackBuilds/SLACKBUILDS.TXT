@@ -738,6 +738,16 @@ SLACKBUILD MD5SUM: 35f3732db3f2cc4afdc68a8533b60a52
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  python-dateutil (extensions to the standard datetime module)
 
+SLACKBUILD NAME: python-netifaces
+SLACKBUILD LOCATION: ./python-netifaces
+SLACKBUILD FILES: README python-netifaces.SlackBuild python-netifaces.info slack-desc
+SLACKBUILD VERSION: 0.8
+SLACKBUILD DOWNLOAD: http://alastairs-place.net/projects/netifaces/netifaces-0.8.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: e57e5983f4c286fac5f8068fbfc5c873
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  python-netifaces (Portable access to network interfaces)
+
 SLACKBUILD NAME: skype
 SLACKBUILD LOCATION: ./skype
 SLACKBUILD FILES: README README.STATIC doinst.sh skype.SlackBuild skype.info slack-desc

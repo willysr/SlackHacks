@@ -24,3 +24,4 @@ In order to build Calibre, you will need these packages:
 - python-dateutil
 - mechanize 
 - pycrypto
+- python-netifaces
