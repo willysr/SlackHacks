@@ -1,4 +1,8 @@
 +--------------------------+
+Sat Sep  8 09:41:10 GMT+7 2012
+calibre: Upgraded to 0.8.68
+
++--------------------------+
 Thu Sep  6 09:17:44 GMT+7 2012
 calibre: Rebuilt against new dependency: python-netifaces
 python-netifaces: Added

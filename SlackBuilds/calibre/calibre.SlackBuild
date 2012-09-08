@@ -45,13 +45,14 @@
 # August, 11: Upgraded to 0.8.64
 # August, 18: Upgraded to 0.8.65
 # August, 26: Upgraded to 0.8.66
-# September, 2: Upgraded to 08.67
+# September, 2: Upgraded to 0.8.67
 # September, 6: Rebuilt against new dependency: python-netifaces
+# September, 8: Upgraded to 0.8.68
 
 # Set initial variables:
 PRGNAM=calibre
-VERSION=${VERSION:-0.8.67}
-BUILD=${BUILD:-2wsr}
+VERSION=${VERSION:-0.8.68}
+BUILD=${BUILD:-1wsr}
 NUMJOBS=${NUMJOBS:" -j4 "}
 
 DOCS="LICENSE* Changelog* COPYRIGHT README*"
