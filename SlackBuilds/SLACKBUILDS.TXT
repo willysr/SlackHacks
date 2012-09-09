@@ -760,6 +760,16 @@ f749e1c109fbe182b44d462d04f46bee
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Skype (a P2P Voice Over IP program)
 
+SLACKBUILD NAME: sysprof
+SLACKBUILD LOCATION: ./sysprof
+SLACKBUILD FILES: README doinst.sh slack-desc sysprof.SlackBuild sysprof.desktop sysprof.info
+SLACKBUILD VERSION: 1.2.0
+SLACKBUILD DOWNLOAD: http://sysprof.com/sysprof-1.2.0.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: a81808d847732f8dafb59d26ec2eebbf
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  Sysprof (Performance Profiler)
+
 SLACKBUILD NAME: transcode
 SLACKBUILD LOCATION: ./transcode
 SLACKBUILD FILES: README ffmpeg-0.11.patch slack-desc transcode.SlackBuild transcode.info

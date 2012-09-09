@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Icon=sysprof-icon-48.png
+Type=Application
+Categories=System;
+Exec=sysprof
+MimeType=application/x-sysprof;
+Name=SysProf
+Comment=Performance Profiler for Linux

@@ -1,0 +1,7 @@
+PRGNAM="sysprof"
+VERSION="1.2.0"
+HOMEPAGE="http://sysprof.com/"
+DOWNLOAD="http://sysprof.com/sysprof-1.2.0.tar.gz"
+MD5SUM="a81808d847732f8dafb59d26ec2eebbf"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""
