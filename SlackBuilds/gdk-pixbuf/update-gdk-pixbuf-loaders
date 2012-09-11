@@ -21,6 +21,10 @@ case "$host" in
      /usr/bin/gdk-pixbuf-query-loaders-64 --update-cache
      # Check for x86_64 multilib:
      if ls -d /etc/gtk-2.0/i?86* 1> /dev/null 2> /dev/null ; then
+       for d in $(ls -d /etc/pango/i?86*); do
+         mlhost=$(basename $d)
+         break
+       done
        if [ -x /usr/bin/gdk-pixbuf-query-loaders-32 ]; then
          if [ "$1" = "--verbose" ]; then
            echo "Updating gdk-pixbuf.loaders for ${mlhost}:"
