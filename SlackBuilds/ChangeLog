@@ -1,4 +1,8 @@
 +--------------------------+
+Wed Sep 12 08:15:20 GMT+7 2012
+json-c: Upgraded to 0.10
+
++--------------------------+
 Sun Sep  9 07:40:40 GMT+7 2012
 sysprof: Added
   sysprof is a perfomance profiler for Linux

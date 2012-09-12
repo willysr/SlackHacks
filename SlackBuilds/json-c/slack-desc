@@ -8,12 +8,11 @@
       |-----handy-ruler------------------------------------------------------|
 json-c: json-c (JSON library in C)
 json-c:
-json-c: json-c implements a reference counting object model that allows you
-json-c: to easily construct JSON objects in C.
-json-c: 
-json-c: Website : http://oss.metaparadigm.com/json-c/
-json-c: 
+json-c: JSON-C implements a reference counting object model that allows you 
+json-c: to easily construct JSON objects in C, output them as JSON formatted 
+json-c: strings and parse JSON formatted strings back into the C 
+json-c: representation of JSON objects.
 json-c:
-json-c: 
-json-c: 
 json-c:
+json-c: Website : https://github.com/json-c/json-c/wiki
+json-c: 
