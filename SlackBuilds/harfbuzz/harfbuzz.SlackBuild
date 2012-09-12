@@ -22,10 +22,10 @@
 
 # Changelog
 # July 30: Initial Release
+# September 12: Upgraded to 0.9.4
 
 PRGNAM=harfbuzz
-VERSION=20120627
-RVERSION=0.9.0
+VERSION=0.9.4
 BUILD=${BUILD:-1wsr}
 
 # Automatically determine the architecture we're building on:
@@ -57,7 +57,7 @@ mkdir -p $TMP $PKG
 cd $TMP
 rm -rf $PRGNAM-$VERSION
 tar xjvf $CWD/$PRGNAM-$VERSION.tar.?z* || exit 1
-cd $PRGNAM-$RVERSION
+cd $PRGNAM-$VERSION
 
 ./configure \
   --prefix=/usr \
