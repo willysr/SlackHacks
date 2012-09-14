@@ -620,11 +620,11 @@ SLACKBUILD SHORT DESCRIPTION:  mechanize (Stateful programmatic web browsing in 
 
 SLACKBUILD NAME: mysql-workbench-gpl
 SLACKBUILD LOCATION: ./mysql-workbench-gpl
-SLACKBUILD FILES: README doinst.sh mysql-workbench-gpl-5.2.42-src.diff mysql-workbench-gpl.SlackBuild mysql-workbench-gpl.info slack-desc
-SLACKBUILD VERSION: 5.2.42
-SLACKBUILD DOWNLOAD: http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQLGUITools/mysql-workbench-gpl-5.2.42-src.tar.gz
+SLACKBUILD FILES: README doinst.sh mysql-workbench-gpl-5.2.43-src.patch mysql-workbench-gpl.SlackBuild mysql-workbench-gpl.info slack-desc
+SLACKBUILD VERSION: 5.2.43
+SLACKBUILD DOWNLOAD: http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQLGUITools/mysql-workbench-gpl-5.2.43-src.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 519d2e4bc878d79023379e1fef49b68c
+SLACKBUILD MD5SUM: 0cb8cf19cbdd661eb864abe5eec5ac3f
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  mysql-workbench - MySQL Workbench (GUI Tool)
 

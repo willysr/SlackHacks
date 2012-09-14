@@ -1,31 +1,13 @@
-diff -Nur mysql-workbench-gpl-5.2.42-src.orig/backend/wbpublic/sqlide/autocomplete_object_name_cache.cpp mysql-workbench-gpl-5.2.42-src/backend/wbpublic/sqlide/autocomplete_object_name_cache.cpp
---- mysql-workbench-gpl-5.2.42-src.orig/backend/wbpublic/sqlide/autocomplete_object_name_cache.cpp	2012-08-16 15:32:15.000000000 -0600
-+++ mysql-workbench-gpl-5.2.42-src/backend/wbpublic/sqlide/autocomplete_object_name_cache.cpp	2012-08-16 15:33:32.000000000 -0600
-@@ -22,7 +22,7 @@
- #include <sqlite/execute.hpp>
- #include <sqlite/query.hpp>
- 
--#include <glib/gthread.h>
-+#include <glib.h>
- 
- #include "autocomplete_object_name_cache.h"
- #include "base/log.h"
-@@ -937,4 +937,4 @@
-           _feedback(true);
-     }
-   } 
--}
-\ No hay ningún carácter de nueva línea al final del fichero
-+}
-diff -Nur mysql-workbench-gpl-5.2.42-src.orig/res/mysql.profiles/Makefile.am mysql-workbench-gpl-5.2.42-src/res/mysql.profiles/Makefile.am
---- mysql-workbench-gpl-5.2.42-src.orig/res/mysql.profiles/Makefile.am	2012-08-16 15:32:16.000000000 -0600
-+++ mysql-workbench-gpl-5.2.42-src/res/mysql.profiles/Makefile.am	2012-08-19 01:34:39.000000000 -0600
-@@ -2,29 +2,29 @@
+diff -Nur mysql-workbench-gpl-5.2.43-src/res/mysql.profiles/Makefile.am.orig mysql-workbench-gpl-5.2.43-src/res/mysql.profiles/Makefile.am
+--- mysql-workbench-gpl-5.2.43-src/res/mysql.profiles/Makefile.am.orig 2012-09-13 21:49:26.288841700 +0700
++++ mysql-workbench-gpl-5.2.43-src/res/mysql.profiles/Makefile.am      2012-09-13 21:50:35.127099727 +0700
+@@ -2,30 +2,30 @@
  workbenchdir=$(pkgdatadir)/mysql.profiles
  
  workbench_DATA=\
 -Fedora_Linux_(MySQL_Package).xml\
 -Fedora_Linux_(Vendor_Package).xml\
+-Fedora_Linux_16_(Vendor_Package).xml\
 -Fedora_Linux_15_(Vendor_Package).xml\
 -FreeBSD_(MySQL_Package).xml\
 -Generic_Linux_(MySQL_tar_package).xml\
@@ -52,6 +34,7 @@ diff -Nur mysql-workbench-gpl-5.2.42-src.orig/res/mysql.profiles/Makefile.am mys
 -Windows_x64_(MySQL_x86_zip_Package).xml
 +Fedora_Linux_\(MySQL_Package\).xml\
 +Fedora_Linux_\(Vendor_Package\).xml\
++Fedora_Linux_16_\(Vendor_Package\).xml\
 +Fedora_Linux_15_\(Vendor_Package\).xml\
 +FreeBSD_\(MySQL_Package\).xml\
 +Generic_Linux_\(MySQL_tar_package\).xml\
@@ -76,15 +59,16 @@ diff -Nur mysql-workbench-gpl-5.2.42-src.orig/res/mysql.profiles/Makefile.am mys
 +Windows_\(MySQL_x64_zip_Package\).xml\
 +Windows_\(MySQL_x86_zip_Package\).xml\
 +Windows_x64_\(MySQL_x86_zip_Package\).xml
-diff -Nur mysql-workbench-gpl-5.2.42-src.orig/res/mysql.profiles/Makefile.in mysql-workbench-gpl-5.2.42-src/res/mysql.profiles/Makefile.in
---- mysql-workbench-gpl-5.2.42-src.orig/res/mysql.profiles/Makefile.in	2012-08-16 15:32:16.000000000 -0600
-+++ mysql-workbench-gpl-5.2.42-src/res/mysql.profiles/Makefile.in	2012-08-19 01:35:20.000000000 -0600
-@@ -221,32 +221,32 @@
+diff -Nur mysql-workbench-gpl-5.2.43-src/res/mysql.profiles/Makefile.in.orig mysql-workbench-gpl-5.2.43-src/res/mysql.profiles/Makefile.in
+--- mysql-workbench-gpl-5.2.43-src/res/mysql.profiles/Makefile.in.orig 2012-09-13 21:50:59.495836763 +0700
++++ mysql-workbench-gpl-5.2.43-src/res/mysql.profiles/Makefile.in      2012-09-13 21:51:53.093257821 +0700
+@@ -221,33 +221,33 @@
  unixodbc = @unixodbc@
  workbenchdir = $(pkgdatadir)/mysql.profiles
  workbench_DATA = \
 -Fedora_Linux_(MySQL_Package).xml\
 -Fedora_Linux_(Vendor_Package).xml\
+-Fedora_Linux_16_(Vendor_Package).xml\
 -Fedora_Linux_15_(Vendor_Package).xml\
 -FreeBSD_(MySQL_Package).xml\
 -Generic_Linux_(MySQL_tar_package).xml\
@@ -111,6 +95,7 @@ diff -Nur mysql-workbench-gpl-5.2.42-src.orig/res/mysql.profiles/Makefile.in mys
 -Windows_x64_(MySQL_x86_zip_Package).xml
 +Fedora_Linux_\(MySQL_Package\).xml\
 +Fedora_Linux_\(Vendor_Package\).xml\
++Fedora_Linux_16_\(Vendor_Package).xml\
 +Fedora_Linux_15_\(Vendor_Package\).xml\
 +FreeBSD_\(MySQL_Package\).xml\
 +Generic_Linux_\(MySQL_tar_package\).xml\
@@ -137,4 +122,3 @@ diff -Nur mysql-workbench-gpl-5.2.42-src.orig/res/mysql.profiles/Makefile.in mys
 +Windows_x64_\(MySQL_x86_zip_Package\).xml
  
  all: all-am
- 

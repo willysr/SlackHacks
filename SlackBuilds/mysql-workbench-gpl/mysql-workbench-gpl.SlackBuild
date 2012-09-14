@@ -10,9 +10,10 @@
 # May, 12: Rebuilt, Added patch to fix problems with newer automake
 # May, 20: Upgraded to 5.2.40, Remove glib patch since it's included upstream
 # August, 27: Upgraded to 5.2.42, Include patches from Dhaby Xiloj
+# September, 13: Upgraded to 5.2.43
 
 PRGNAM=mysql-workbench-gpl
-VERSION=${VERSION:-5.2.42}
+VERSION=${VERSION:-5.2.43}
 BUILD=${BUILD:-1wsr}
 
 SRCVERSION=$VERSION-src
@@ -60,7 +61,8 @@ find . \
  -exec chmod 644 {} \;
 
 # Patches from Dhaby Xiloj
-patch -p1 < $CWD/mysql-workbench-gpl-5.2.42-src.diff
+# Reworked for 5.2.43
+patch -p1 < $CWD/mysql-workbench-gpl-5.2.43-src.patch
 
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
