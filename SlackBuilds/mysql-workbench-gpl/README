@@ -10,8 +10,6 @@ environment for:
 * SQL Development (replacing MySQL Query Browser)
 * Database Administration (replacing MySQL Administrator)
 
-The Community (OSS) Edition is available under the GPL.
-
 Note:
 You need to allow MySQL to accept incoming connection from outside
 Open /etc/rc.d/rc.mysqld, you have to comment this line
@@ -25,7 +23,7 @@ Requirements:
 - ORBit2-2.14.19 (available on Slackware)
 - GConf-2.32.1 (available on Slackware)
 - lua (available on SBo)
-- wxGTK-2.8.12/wxPython-2.8.12 (available on SBo)
+- wxGTK-2.8.12 (available on SBo)
 - libsigc++-2.2.10
 - glibmm-2.32.1
 - atkmm-2.22.6
