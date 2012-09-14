@@ -8,9 +8,6 @@
          |-----handy-ruler------------------------------------------------------|
 ctemplate: Ctemplate (template language for C++)
 ctemplate: CTemplate is a simple but powerful template language for C++.
-ctemplate: It emphasizes separating logic from presentation:
-ctemplate: It is impossible to embed application logic in this template  
-ctemplate: language.
 ctemplate: 
 ctemplate: 
 ctemplate: Homepage: http://code.google.com/p/ctemplate
