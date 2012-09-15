@@ -1,10 +1,13 @@
 +--------------------------+
+Sat Sep 15 08:17:18 GMT+7 2012
 babl: removed
 gdk-pixbuf: removed
 gegl: removed
 gimp: removed
 glib2: removed
 gobject-introspection: removed
+gstreamer: removed
+gtk+3: removed
 icu4c: removed
 
 +--------------------------+

@@ -328,26 +328,6 @@ SLACKBUILD MD5SUM: e4822fa2cc933768e2998311a1565979
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  gst-plugins-bad (a set GStreamer plugins)
 
-SLACKBUILD NAME: gst-plugins-base
-SLACKBUILD LOCATION: ./gst-plugins-base
-SLACKBUILD FILES: README doinst.sh gst-plugins-base.SlackBuild gst-plugins-base.info slack-desc
-SLACKBUILD VERSION: 0.10.36
-SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-0.10.36.tar.xz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 3d2337841b132fe996e5eb2396ac9438
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  gst-plugins-base (a set GStreamer plugins)
-
-SLACKBUILD NAME: gst-plugins-good
-SLACKBUILD LOCATION: ./gst-plugins-good
-SLACKBUILD FILES: README gst-plugins-good.SlackBuild gst-plugins-good.info slack-desc
-SLACKBUILD VERSION: 0.10.31
-SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-0.10.31.tar.xz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 555845ceab722e517040bab57f9ace95
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  gst-plugins-good (good set of GStreamer plugins)
-
 SLACKBUILD NAME: gst-plugins-ugly
 SLACKBUILD LOCATION: ./gst-plugins-ugly
 SLACKBUILD FILES: README gst-plugins-ugly.SlackBuild gst-plugins-ugly.info slack-desc
@@ -368,16 +348,6 @@ SLACKBUILD MD5SUM: 937152fe896241f827689f4b53e79b22
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  gst-python (GStreamer python bindings)
 
-SLACKBUILD NAME: gstreamer
-SLACKBUILD LOCATION: ./gstreamer
-SLACKBUILD FILES: README gstreamer.SlackBuild gstreamer.info slack-desc
-SLACKBUILD VERSION: 0.10.36
-SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gstreamer/gstreamer-0.10.36.tar.xz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 15389c73e091b1dda915279c388b9cb2
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  GStreamer (streaming multimedia framework)
-
 SLACKBUILD NAME: gtk+2
 SLACKBUILD LOCATION: ./gtk+2
 SLACKBUILD FILES: doinst.sh.gz fix_build_issues_on_tutorial_and_faq.diff.gz gtk+2.SlackBuild gtk+2.info gtk.xid.nowarningflood.diff.gz profile.d/gtk+.csh profile.d/gtk+.sh slack-desc update-gtk-immodules update-gtk-immodules-2.0 use_host_triplet_for_gtk_immodules.diff.gz
@@ -387,16 +357,6 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 8fb5c413be698169fedee774ec06bc8c
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION: gtk+2: GTK+ version 2 (multi-platform GUI toolkit)
-
-SLACKBUILD NAME: gtk+3
-SLACKBUILD LOCATION: ./gtk+3
-SLACKBUILD FILES: README doinst.sh.gz gtk+3.SlackBuild gtk+3.info profile.d/gtk+.csh profile.d/gtk+.sh slack-desc update-gtk-immodules use_host_triplet_for_gtk_immodules.diff.gz
-SLACKBUILD VERSION: 3.4.4
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/gtk+/3.4/gtk+-3.4.4.tar.xz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 1b2cf29502a6394e8d4b30f7f5bb9131
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION: gtk+3: GTK+ version 3 (multi-platform GUI toolkit)
 
 SLACKBUILD NAME: gtkmm
 SLACKBUILD LOCATION: ./gtkmm

@@ -1,7 +1,0 @@
-PRGNAM="gtk+3"
-VERSION="3.4.4"
-HOMEPAGE="http://www.gtk.org/"
-DOWNLOAD="http://ftp.gnome.org/pub/gnome/sources/gtk+/3.4/gtk+-3.4.4.tar.xz"
-MD5SUM="1b2cf29502a6394e8d4b30f7f5bb9131"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""
