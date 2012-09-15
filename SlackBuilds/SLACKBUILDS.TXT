@@ -160,16 +160,6 @@ SLACKBUILD SHORT DESCRIPTION:  cups-filters (CUPS backend and filters)
 
 SLACKBUILD NAME: cups
 SLACKBUILD LOCATION: ./cups
-SLACKBUILD FILES: README cups.SlackBuild cups.info slack-desc usb-backend-reset-after-job-only-for-specific-devices.patch
-SLACKBUILD VERSION: 1.5.4
-SLACKBUILD DOWNLOAD: http://ftp.easysw.com/pub/cups/1.5.4/cups-1.5.4-source.tar.bz2
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: de3006e5cf1ee78a9c6145ce62c4e982
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  CUPS (Common UNIX Printing System)
-
-SLACKBUILD NAME: cups
-SLACKBUILD LOCATION: ./cups
 SLACKBUILD FILES: README cups.SlackBuild cups.info cupsd-conf-remove-obsolete-browse-directives.patch doinst.sh.gz slack-desc usb-backend-reset-after-job-only-for-specific-devices.patch
 SLACKBUILD VERSION: 1.6.1
 SLACKBUILD DOWNLOAD: http://ftp.easysw.com/pub/cups/1.6.1/cups-1.6.1-source.tar.bz2
