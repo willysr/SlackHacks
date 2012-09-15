@@ -1,7 +1,0 @@
-PRGNAM="gegl"
-VERSION="0.2.0"
-HOMEPAGE="http://www.gegl.org/"
-DOWNLOAD="ftp://ftp.gimp.org/pub/gegl/0.2/gegl-0.2.0.tar.bz2"
-MD5SUM="32b00002f1f1e316115c4ed922e1dec8"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""

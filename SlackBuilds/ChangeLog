@@ -1,4 +1,13 @@
 +--------------------------+
+babl: removed
+gdk-pixbuf: removed
+gegl: removed
+gimp: removed
+glib2: removed
+gobject-introspection: removed
+icu4c: removed
+
++--------------------------+
 ctemplate: rebuilt
   Synced with SBo's changes in Git master
 

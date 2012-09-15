@@ -1,7 +1,0 @@
-PRGNAM="glib2"
-VERSION="2.32.4"
-HOMEPAGE="http://www.gtk.org/"
-DOWNLOAD="http://ftp.gnome.org/pub/gnome/sources/glib/2.32/glib-2.32.4.tar.xz"
-MD5SUM="bf84fefd9c1a5b5a7a38736f4ddd674a"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""

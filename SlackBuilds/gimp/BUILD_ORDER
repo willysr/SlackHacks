@@ -1,9 +1,0 @@
-GIMP-2.8.0
- - babl-0.1.10
- - gegl-0.2.0
- - atk-2.4.0
-   - glib2-2.32.4
-     - libffi-3.0.11
- - gtk+ 2.24.11
-   - pango-1.30.1
-   - gdk-pixbuf 2.26.1

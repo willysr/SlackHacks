@@ -1,7 +1,0 @@
-PRGNAM="babl"
-VERSION="0.1.10"
-HOMEPAGE="http://gegl.org/babl/"
-DOWNLOAD="ftp://ftp.gtk.org/pub/babl/0.1/babl-0.1.10.tar.bz2"
-MD5SUM="9e1542ab5c0b12ea3af076a9a2f02d79"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""
