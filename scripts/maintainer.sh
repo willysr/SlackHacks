@@ -12,7 +12,7 @@ for L in `ls $SBOPATH`; do
     # list all files within this directory
     for D in `ls $SBOPATH/$L`; do
       # test for maintainer's name in PACKAGE.info file
-      cat "/home/willysr/slackbuilds/$L/$D/$D.info" | grep "$MAINTAINER" 1> /dev/null
+      cat "$SBOPATH/$L/$D/$D.info" | grep "$MAINTAINER" 1> /dev/null
       if [ $? -eq 0 ]; then
 	echo "$L/$D";
       fi
