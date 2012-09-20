@@ -20,22 +20,11 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 # Put the directory where you place the SlackBuild Git Repository
-SBOPATH="/home/willysr/slackbuilds"
+SBOPATH="/home/willysr/slackbuilds/"
 
 # Put the name of the maintainer you want to search for
 MAINTAINER="Willy Sudiarto Raharjo"
 
-# list all directory in SlackBuild GIT repository
-for L in `ls $SBOPATH`; do
-  # only continue if it's a directory
-  if [ -d "$SBOPATH/$L" ]; then
-    # list all files within this directory
-    for D in `ls $SBOPATH/$L`; do
-      # test for maintainer's name in PACKAGE.info file
-      cat "$SBOPATH/$L/$D/$D.info" | grep "$MAINTAINER" 1> /dev/null
-      if [ $? -eq 0 ]; then
-	echo "$L/$D";
-      fi
-    done
-  fi
-done
+# Thanks to Benjamin Trigona-Harany
+# The script is now faster, but still produces the same output
+find $SBOPATH -name "*.info" -exec grep -l "$MAINTAINER" {} + | awk -F'/' '{print $(NF-2)"/"$(NF-1)}'
