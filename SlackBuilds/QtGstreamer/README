@@ -1,0 +1,5 @@
+QtGStreamer provides C++ bindings for GStreamer with a Qt-style API, 
+plus some helper classes for integrating GStreamer better in 
+Qt applications. 
+
+Optional Requirement: OpenGLES
