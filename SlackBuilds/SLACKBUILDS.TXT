@@ -18,6 +18,16 @@ SLACKBUILD MD5SUM: 3d8b86c21a2f87a2a5e60f78f3b3f03d
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  OpenAL (a cross-platform 3D audio API)
 
+SLACKBUILD NAME: QtGStreamer
+SLACKBUILD LOCATION: ./QtGStreamer
+SLACKBUILD FILES: QtGStreamer.SlackBuild QtGStreamer.info README slack-desc
+SLACKBUILD VERSION: 0.10.2
+SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/qt-gstreamer/qt-gstreamer-0.10.2.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 0428aedf2874fd0884ad4c41db9da20e
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  QtGStreamer (C++ Bindings for GStreamer)
+
 SLACKBUILD NAME: aegisub
 SLACKBUILD LOCATION: ./aegisub
 SLACKBUILD FILES: README aegisub.SlackBuild aegisub.info slack-desc
