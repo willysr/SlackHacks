@@ -341,10 +341,10 @@ SLACKBUILD SHORT DESCRIPTION:  gst-python (GStreamer python bindings)
 SLACKBUILD NAME: gtk+2
 SLACKBUILD LOCATION: ./gtk+2
 SLACKBUILD FILES: doinst.sh.gz fix_build_issues_on_tutorial_and_faq.diff.gz gtk+2.SlackBuild gtk+2.info gtk.xid.nowarningflood.diff.gz profile.d/gtk+.csh profile.d/gtk+.sh slack-desc update-gtk-immodules update-gtk-immodules-2.0 use_host_triplet_for_gtk_immodules.diff.gz
-SLACKBUILD VERSION: 2.24.11
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/gtk+/2.24/gtk+-2.24.11.tar.xz
+SLACKBUILD VERSION: 2.24.13
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/gtk+/2.24/gtk+-2.24.13.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 8fb5c413be698169fedee774ec06bc8c
+SLACKBUILD MD5SUM: e949406751df51e1e40e85628005a069
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION: gtk+2: GTK+ version 2 (multi-platform GUI toolkit)
 
@@ -450,11 +450,11 @@ SLACKBUILD SHORT DESCRIPTION:  libpgf (Image file format)
 
 SLACKBUILD NAME: libtiff
 SLACKBUILD LOCATION: ./libtiff
-SLACKBUILD FILES: README libtiff-4.0.2-tiff2pdf.patch libtiff.SlackBuild libtiff.info slack-desc
-SLACKBUILD VERSION: 4.0.2
-SLACKBUILD DOWNLOAD: http://download.osgeo.org/libtiff/tiff-4.0.2.tar.gz
+SLACKBUILD FILES: README libtiff.SlackBuild libtiff.info slack-desc tiff-4.0.3.tar.gz
+SLACKBUILD VERSION: 4.0.3
+SLACKBUILD DOWNLOAD: ftp://ftp.remotesensing.org/pub/libtiff/tiff-4.0.3.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 04a08fa1e07e696e820a0c3f32465a13
+SLACKBUILD MD5SUM: 051c1068e6a0627f461948c365290410
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  libtiff (a library for reading and writing TIFF files)
 

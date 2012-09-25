@@ -26,9 +26,10 @@
 # July 14 : Synced with -Current
 # July 18 : Upgraded to 2.24.11
 # August 16 : Synced with -Current
+# September 25 : Upgraded to 2.24.13
 
 VERSION=${VERSION:-$(echo gtk+-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
-BUILD=${BUILD:-2wsr}
+BUILD=${BUILD:-1wsr}
 
 NUMJOBS=${NUMJOBS:-" -j7 "}
 
