@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+           |-----handy-ruler------------------------------------------------------|
+gdk-pixbuf2: gdk-pixbuf2 (image library used by GTK+ v2)
+gdk-pixbuf2:
+gdk-pixbuf2: The gdk-pixbuf library provides a number of features:
+gdk-pixbuf2: - GdkPixbuf structure for representing images.
+gdk-pixbuf2: - Image loading facilities, both synchronous and progressive.
+gdk-pixbuf2: - Rendering of a GdkPixbuf into various formats:
+gdk-pixbuf2:   drawables (windows, pixmaps), GdkRGB buffers.
+gdk-pixbuf2: - Fast scaling and compositing of pixbufs.
+gdk-pixbuf2: - Simple animation loading (ie. animated gifs).
+gdk-pixbuf2:
+gdk-pixbuf2:
