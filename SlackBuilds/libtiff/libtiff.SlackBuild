@@ -25,6 +25,7 @@
 # August 30 : Added patch from Red Hat
 # September 25 : Upgraded to 4.0.3
 
+PRGNAM=libtiff
 VERSION=${VERSION:-$(echo tiff-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
 BUILD=1wsr
 
@@ -107,9 +108,6 @@ if [ -r ChangeLog ]; then
   cat ChangeLog | head -n 1000 > $DOCSDIR/ChangeLog
   touch -r ChangeLog $DOCSDIR/ChangeLog
 fi
-
-mv $PKG/usr/local/man $PKG/usr
-rmdir $PKG/usr/local
 
 # I'd use that shiny new manpage script here but all the
 # .3 manpages end with '.3tiff'.
