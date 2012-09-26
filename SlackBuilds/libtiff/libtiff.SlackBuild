@@ -109,9 +109,6 @@ if [ -r ChangeLog ]; then
   touch -r ChangeLog $DOCSDIR/ChangeLog
 fi
 
-mv $PKG/usr/local/man $PKG/usr
-rmdir $PKG/usr/local
-
 # I'd use that shiny new manpage script here but all the
 # .3 manpages end with '.3tiff'.
 gzip -9 $PKG/usr/man/man?/*
