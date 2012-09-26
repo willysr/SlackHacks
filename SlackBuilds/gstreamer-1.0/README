@@ -1,0 +1,7 @@
+This is a collection of GStreamer 1.0 and all of it's plugins
+  - gstreamer-1.0
+  - gst-plugins-{base,good,bad,ugly}-1.0
+  - gst-libav-1.0
+
+Note that gstreamer-1.0 packages can be installed alongside with 
+gstreamer-0.10

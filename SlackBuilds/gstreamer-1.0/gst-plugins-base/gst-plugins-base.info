@@ -1,0 +1,8 @@
+PRGNAM="gst-plugins-base"
+VERSION="1.0.0"
+HOMEPAGE="http://gstreamer.freedesktop.org/modules/gst-plugins-base.html"
+DOWNLOAD="http://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.0.0.tar.xz"
+MD5SUM="428f5a0beaa7f76262bea0f431f8337e"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""
+REQUIRES="gstreamer"
