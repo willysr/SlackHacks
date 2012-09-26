@@ -111,10 +111,10 @@ SLACKBUILD SHORT DESCRIPTION:  cairomm (C++ wrapper for the cairo graphics libra
 SLACKBUILD NAME: calibre
 SLACKBUILD LOCATION: ./calibre
 SLACKBUILD FILES: README calibre.SlackBuild calibre.info slack-desc
-SLACKBUILD VERSION: 0.8.69
-SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.8.69.tar.xz
+SLACKBUILD VERSION: 0.8.70
+SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.8.70.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: c49d551dbb28ea03f3497dbdf36f4916
+SLACKBUILD MD5SUM: 960d84f6a0d080fba6ab5557ed99279a
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  calibre (e-book library management application)
 
@@ -337,6 +337,66 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 937152fe896241f827689f4b53e79b22
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  gst-python (GStreamer python bindings)
+
+SLACKBUILD NAME: gst-libav
+SLACKBUILD LOCATION: ./gst-libav
+SLACKBUILD FILES: README gst-libav.SlackBuild gst-libav.info slack-desc
+SLACKBUILD VERSION: 1.0.0
+SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.0.0.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 49c8b54eaae25da2c866a59b284b31ea
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  gst-libav (GStreamer AV plugin)
+
+SLACKBUILD NAME: gst-plugins-bad
+SLACKBUILD LOCATION: ./gst-plugins-bad
+SLACKBUILD FILES: README gst-plugins-bad.SlackBuild gst-plugins-bad.info slack-desc
+SLACKBUILD VERSION: 1.0.0
+SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.0.0.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: f2d2c432917fb639a510bb3ce85c5329
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  gst-plugins-bad (a set GStreamer plugins)
+
+SLACKBUILD NAME: gst-plugins-base
+SLACKBUILD LOCATION: ./gst-plugins-base
+SLACKBUILD FILES: README gst-plugins-base.SlackBuild gst-plugins-base.info slack-desc
+SLACKBUILD VERSION: 1.0.0
+SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.0.0.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 428f5a0beaa7f76262bea0f431f8337e
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  gst-plugins-base (base set of GStreamer plugins)
+
+SLACKBUILD NAME: gst-plugins-good
+SLACKBUILD LOCATION: ./gst-plugins-good
+SLACKBUILD FILES: README gst-plugins-good.SlackBuild gst-plugins-good.info slack-desc
+SLACKBUILD VERSION: 1.0.0
+SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.0.0.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: f711832cd8a9b033eb424fabe89ca9d1
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  gst-plugins-good (good set of GStreamer plugins)
+
+SLACKBUILD NAME: gst-plugins-ugly
+SLACKBUILD LOCATION: ./gst-plugins-ugly
+SLACKBUILD FILES: README gst-plugins-ugly.SlackBuild gst-plugins-ugly.info slack-desc
+SLACKBUILD VERSION: 1.0.0
+SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.0.0.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 7f20303caf4305278573fb7ef73a07b7
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  gst-plugins-ugly (a set of GStreamer plugins)
+
+SLACKBUILD NAME: gstreamer
+SLACKBUILD LOCATION: ./gstreamer
+SLACKBUILD FILES: README gstreamer.SlackBuild gstreamer.info slack-desc
+SLACKBUILD VERSION: 1.0.0
+SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.0.0.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: b7c9252b83720115d0897fbbbc092dc8
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  GStreamer (streaming multimedia framework)
 
 SLACKBUILD NAME: gtk+2
 SLACKBUILD LOCATION: ./gtk+2

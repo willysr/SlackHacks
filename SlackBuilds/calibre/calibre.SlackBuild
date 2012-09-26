@@ -49,10 +49,11 @@
 # September, 6: Rebuilt against new dependency: python-netifaces
 # September, 8: Upgraded to 0.8.68
 # September, 17: Upgraded to 0.8.69
+# September, 26: Upgraded to 0.8.70
 
 # Set initial variables:
 PRGNAM=calibre
-VERSION=${VERSION:-0.8.69}
+VERSION=${VERSION:-0.8.70}
 BUILD=${BUILD:-1wsr}
 NUMJOBS=${NUMJOBS:" -j4 "}
 
@@ -76,10 +77,6 @@ CWD=$(pwd)
 TMP=${TMP:-/tmp/build}
 PKG=$TMP/package-$PRGNAM
 OUTPUT=${OUTPUT:-/tmp}
-
-##
-## --- with a little luck, you won't have to edit below this point --- ##
-##
 
 # Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
@@ -177,9 +174,6 @@ python setup.py install \
 
 # The bash completion files need to be in /etc :
 mv $PKG/usr/etc $PKG/
-
-# Mime type definition files end in .xml :
-mv $PKG/usr/share/mime/packages/calibre-mimetypes{,.xml}
 
 # This is stupid:
 rm -f $PKG/usr/bin/calibre-uninstall

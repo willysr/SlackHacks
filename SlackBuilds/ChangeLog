@@ -1,5 +1,16 @@
 +--------------------------+
-Tue Sep 25 22:11:12 WIT 2012
+Wed Sep 26 08:35:19 GMT+7 2012
+calibre: Upgraded to 0.8.70
+gstreamer-1.0: Added
+  This is a collection of GStreamer and all of it's plugins
+  - gstreamer-1.0
+  - gst-plugins-{base,good,bad,ugly}-1.0
+  - gst-libav-1.0
+  Note that gstreamer-1.0 packages can be installed alongside with
+  gstreamer-0.10
+
++--------------------------+
+Tue Sep 25 22:11:12 GMT+7 2012
 gdk-pixbuf2: Added
   This is the updated version from Slackware 14.0
 gtk: Upgraded to 2.24.13
