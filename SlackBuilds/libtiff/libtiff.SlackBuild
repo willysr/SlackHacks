@@ -25,6 +25,7 @@
 # August 30 : Added patch from Red Hat
 # September 25 : Upgraded to 4.0.3
 
+PRGNAM=libtiff
 VERSION=${VERSION:-$(echo tiff-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
 BUILD=1wsr
 
