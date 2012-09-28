@@ -111,10 +111,10 @@ SLACKBUILD SHORT DESCRIPTION:  cairomm (C++ wrapper for the cairo graphics libra
 SLACKBUILD NAME: calibre
 SLACKBUILD LOCATION: ./calibre
 SLACKBUILD FILES: README calibre.SlackBuild calibre.info slack-desc
-SLACKBUILD VERSION: 0.8.70
-SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.8.70.tar.xz
+SLACKBUILD VERSION: 0.9.0
+SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.9.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 960d84f6a0d080fba6ab5557ed99279a
+SLACKBUILD MD5SUM: 96f18e8d716590f8e07d407c92767b9a
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  calibre (e-book library management application)
 
@@ -422,7 +422,7 @@ SLACKBUILD NAME: guvcview
 SLACKBUILD LOCATION: ./guvcview
 SLACKBUILD FILES: README doinst.sh guvcview.SlackBuild guvcview.info slack-desc
 SLACKBUILD VERSION: 1.6.1
-SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/guvcview/source/guvcview-src-1.6.1l.tar.gz
+SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/guvcview/source/guvcview-src-1.6.1.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
 SLACKBUILD MD5SUM: b3dfd04d8aae0c807d5f5d6ba035580f
 SLACKBUILD MD5SUM_x86_64: 
