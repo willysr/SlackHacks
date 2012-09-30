@@ -1,7 +1,0 @@
-PRGNAM="opencv"
-VERSION="2.4.2"
-HOMEPAGE="http://opencv.willowgarage.com/wiki/"
-DOWNLOAD="http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.4.2/OpenCV-2.4.2.tar.bz2"
-MD5SUM="059ef86fc1724d69b75832a0d2929ff5"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""
