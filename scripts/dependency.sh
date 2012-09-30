@@ -30,5 +30,5 @@ if [ -z $1 ]; then
   echo "usage $0 <package name>"
   echo "example: ./dependency.sh ffmpeg"
 else
-  find $SBOPATH -name "*.info" -exec grep -lE "REQUIRES=\"(\w*\s+)$1(\s+\w*\s*)\"" {} + | awk -F'/' '{print $(NF-2)"/"$(NF-1)}' | sort
+  find $SBOPATH -name "*.info" -exec grep -lE "REQUIRES=\"(\w*\s)*$1(\s\w*\s*)*\"" {} + | awk -F'/' '{print $(NF-2)"/"$(NF-1)}' | sort
 fi
