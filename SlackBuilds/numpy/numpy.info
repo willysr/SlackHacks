@@ -1,7 +1,0 @@
-PRGNAM="numpy"
-VERSION="1.6.2"
-HOMEPAGE="http://numpy.scipy.org/"
-DOWNLOAD="http://freefr.dl.sourceforge.net/project/numpy/NumPy/1.6.2/numpy-1.6.2.tar.gz"
-MD5SUM="95ed6c9dcc94af1fc1642ea2a33c1bba"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""

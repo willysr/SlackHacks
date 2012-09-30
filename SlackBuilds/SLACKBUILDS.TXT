@@ -38,26 +38,6 @@ SLACKBUILD MD5SUM: 878cf7e6fd9c35cc218537bac3b86c25
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  aegisub (General-purpose subtitle editor)
 
-SLACKBUILD NAME: aria2
-SLACKBUILD LOCATION: ./aria2
-SLACKBUILD FILES: README aria2.SlackBuild aria2.info slack-desc
-SLACKBUILD VERSION: 1.9.1
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/aria2/aria2-1.9.1.tar.xz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 87e0446e1cc865d1c95411f946a90837
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  Aria2 (CLI Metalink/BiTorrent client)
-
-SLACKBUILD NAME: atkmm
-SLACKBUILD LOCATION: ./atkmm
-SLACKBUILD FILES: README atkmm.SlackBuild atkmm.info slack-desc
-SLACKBUILD VERSION: 2.22.6
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/atkmm/2.22/atkmm-2.22.6.tar.bz2
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 7c35324dd3c081a385deb7523ed6f287
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  atkmm (C++ bindings for ATK)
-
 SLACKBUILD NAME: avbin
 SLACKBUILD LOCATION: ./avbin
 SLACKBUILD FILES: README avbin.SlackBuild avbin.info slack-desc
@@ -68,16 +48,6 @@ SLACKBUILD MD5SUM: 28038f3dba33da284972463216e1da0d
 SLACKBUILD MD5SUM_x86_64: 4dff910202080e706a3db311e1e42094
 SLACKBUILD SHORT DESCRIPTION:  AVbin (cross platform wrapper)
 
-SLACKBUILD NAME: bashdb
-SLACKBUILD LOCATION: ./bashdb
-SLACKBUILD FILES: README bashdb.SlackBuild bashdb.info slack-desc
-SLACKBUILD VERSION: 4.2_0.8
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/bashdb/bashdb-4.2-0.8.tar.bz2
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: f55afbc518d82647e2989a86954fadda
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  bashdb  (The BASH Debugger Project)
-
 SLACKBUILD NAME: brainworkshop
 SLACKBUILD LOCATION: ./brainworkshop
 SLACKBUILD FILES: README brainworkshop-4.8.1-fix-paths.patch brainworkshop.SlackBuild brainworkshop.desktop brainworkshop.info brainworkshop.png brainworkshop.sh slack-desc
@@ -87,26 +57,6 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: a3621f8302bc102589ac15bb7971dbce
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Brainworkshop (a Dual N-Back game)
-
-SLACKBUILD NAME: c-ares
-SLACKBUILD LOCATION: ./c-ares
-SLACKBUILD FILES: README c-ares.SlackBuild c-ares.info slack-desc
-SLACKBUILD VERSION: 1.9.1
-SLACKBUILD DOWNLOAD: http://c-ares.haxx.se/download/c-ares-1.9.1.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 389db4917a3b58c4ce4ebfe961fd84c4
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  c-ares (C library for DNS requests)
-
-SLACKBUILD NAME: cairomm
-SLACKBUILD LOCATION: ./cairomm
-SLACKBUILD FILES: README cairomm.SlackBuild cairomm.info slack-desc
-SLACKBUILD VERSION: 1.10.0
-SLACKBUILD DOWNLOAD: http://cairographics.org/releases/cairomm-1.10.0.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 9c63fb1c04c8ecd3c5e6473075b8c39f
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  cairomm (C++ wrapper for the cairo graphics library)
 
 SLACKBUILD NAME: calibre
 SLACKBUILD LOCATION: ./calibre
@@ -127,26 +77,6 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 609975a05d6050fcca88f312d3f35c6a
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  cnijfilter (IJ Printer Driver for Linux)
-
-SLACKBUILD NAME: cssutils
-SLACKBUILD LOCATION: ./cssutils
-SLACKBUILD FILES: README cssutils.SlackBuild cssutils.info slack-desc
-SLACKBUILD VERSION: 0.9.9
-SLACKBUILD DOWNLOAD: http://pypi.python.org/packages/source/c/cssutils/cssutils-0.9.9.zip
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 5f8ea824cc0e0518b574da20e895be08
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  cssutils (CSS parser and builder)
-
-SLACKBUILD NAME: ctemplate
-SLACKBUILD LOCATION: ./ctemplate
-SLACKBUILD FILES: README ctemplate.SlackBuild ctemplate.info slack-desc
-SLACKBUILD VERSION: 2.2
-SLACKBUILD DOWNLOAD: https://ctemplate.googlecode.com/files/ctemplate-2.2.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 1de89d9073f473c1e31862c4581636f3
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  Ctemplate (template language for C++)
 
 SLACKBUILD NAME: cups-filters
 SLACKBUILD LOCATION: ./cups-filters
@@ -178,16 +108,6 @@ SLACKBUILD MD5SUM: 3fda0b004acdaa6fa350bfc41a3b95ca
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  db5 (Berkeley database library version 5.3.x)
 
-SLACKBUILD NAME: devede
-SLACKBUILD LOCATION: ./devede
-SLACKBUILD FILES: README devede.SlackBuild devede.info doinst.sh fix_extra_backgrounds_dir.patch slack-desc
-SLACKBUILD VERSION: 3.22.0
-SLACKBUILD DOWNLOAD: http://www.rastersoft.com/descargas/devede-3.22.0.tar.bz2
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 09ffebefe8903f8d9f2a8f142545e775
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  DeVeDe (create video CDs and DVDs)
-
 SLACKBUILD NAME: digikam
 SLACKBUILD LOCATION: ./digikam
 SLACKBUILD FILES: README digikam.SlackBuild digikam.info doinst.sh slack-desc
@@ -218,36 +138,6 @@ SLACKBUILD MD5SUM: d1484230a403b88f8e2585815f2cce7a
 SLACKBUILD MD5SUM_x86_64: 149a3f10e2e98bb4a7ebdc6d28a31a7c
 SLACKBUILD SHORT DESCRIPTION:  dropbox (store, sync and share files online)
 
-SLACKBUILD NAME: dvdauthor
-SLACKBUILD LOCATION: ./dvdauthor
-SLACKBUILD FILES: README dvdauthor.SlackBuild dvdauthor.info slack-desc
-SLACKBUILD VERSION: 0.7.0
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/dvdauthor/dvdauthor-0.7.0.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 33a447fb98ab3293ac40f869eedc17ff
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  dvdauthor (A simple set of tools to help you author a DVD)
-
-SLACKBUILD NAME: enca
-SLACKBUILD LOCATION: ./enca
-SLACKBUILD FILES: README enca.SlackBuild enca.info slack-desc
-SLACKBUILD VERSION: 1.13
-SLACKBUILD DOWNLOAD: http://dl.cihar.com/enca/enca-1.13.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 58fcf1fea7eeab70b64a2d61e14a967d
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  enca (Text File Encode Detector)
-
-SLACKBUILD NAME: farsight2
-SLACKBUILD LOCATION: ./farsight2
-SLACKBUILD FILES: README farsight2.SlackBuild farsight2.info slack-desc
-SLACKBUILD VERSION: 0.0.31
-SLACKBUILD DOWNLOAD: http://farsight.freedesktop.org/releases/farsight2/farsight2-0.0.31.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 3771d8268f025b28261cc1e977fab27f
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  Farsight (Audio/Video Communications Framework)
-
 SLACKBUILD NAME: ffms
 SLACKBUILD LOCATION: ./ffms
 SLACKBUILD FILES: README ffms.SlackBuild ffms.info slack-desc
@@ -257,26 +147,6 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 13770e29d5215ad4b68caad44b09da07
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  ffms (a cross-platform wrapper library)
-
-SLACKBUILD NAME: filezilla
-SLACKBUILD LOCATION: ./filezilla
-SLACKBUILD FILES: README doinst.sh filezilla.SlackBuild filezilla.info slack-desc
-SLACKBUILD VERSION: 3.5.3
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/filezilla/FileZilla_3.5.3_src.tar.bz2
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: a1a2848db0c5c8f3321ebe4ee3842e31
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  filezilla (the free FTP solution)
-
-SLACKBUILD NAME: glibmm
-SLACKBUILD LOCATION: ./glibmm
-SLACKBUILD FILES: README glibmm.SlackBuild glibmm.info slack-desc
-SLACKBUILD VERSION: 2.32.1
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.32/glibmm-2.32.1.tar.xz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 8e5dd06610bd205f4c9cbc11453c0010
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  glibmm (C++ bindings for glib)
 
 SLACKBUILD NAME: gnugo
 SLACKBUILD LOCATION: ./gnugo
@@ -288,16 +158,6 @@ SLACKBUILD MD5SUM:
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  gnugo 
 
-SLACKBUILD NAME: graphviz
-SLACKBUILD LOCATION: ./graphviz
-SLACKBUILD FILES: README doinst.sh graphviz.SlackBuild graphviz.info graphviz.ini slack-desc
-SLACKBUILD VERSION: 2.28.0
-SLACKBUILD DOWNLOAD: http://graphviz.org/pub/graphviz/stable/SOURCES/graphviz-2.28.0.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 8d26c1171f30ca3b1dc1b429f7937e58
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  Graphviz (Graph Visualization)
-
 SLACKBUILD NAME: grive
 SLACKBUILD LOCATION: ./grive
 SLACKBUILD FILES: README grive.SlackBuild grive.info slack-desc
@@ -307,36 +167,6 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 8260b1e6c0369da35ebcfe8c8f840f2b
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Grive (Google Drive client)
-
-SLACKBUILD NAME: gst-plugins-bad
-SLACKBUILD LOCATION: ./gst-plugins-bad
-SLACKBUILD FILES: README doinst.sh gst-plugins-bad.SlackBuild gst-plugins-bad.info slack-desc
-SLACKBUILD VERSION: 0.10.23
-SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-0.10.23.tar.bz2
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: e4822fa2cc933768e2998311a1565979
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  gst-plugins-bad (a set GStreamer plugins)
-
-SLACKBUILD NAME: gst-plugins-ugly
-SLACKBUILD LOCATION: ./gst-plugins-ugly
-SLACKBUILD FILES: README gst-plugins-ugly.SlackBuild gst-plugins-ugly.info slack-desc
-SLACKBUILD VERSION: 0.10.19
-SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-0.10.19.tar.xz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: ba26045c8c8c91f0d48d327ccf53ac0c
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  gst-plugins-ugly (a set of GStreamer plugins)
-
-SLACKBUILD NAME: gst-python
-SLACKBUILD LOCATION: ./gst-python
-SLACKBUILD FILES: README gst-python.SlackBuild gst-python.info slack-desc
-SLACKBUILD VERSION: 0.10.22
-SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gst-python/gst-python-0.10.22.tar.bz2
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 937152fe896241f827689f4b53e79b22
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  gst-python (GStreamer python bindings)
 
 SLACKBUILD NAME: gst-libav
 SLACKBUILD LOCATION: ./gst-libav
@@ -408,26 +238,6 @@ SLACKBUILD MD5SUM: e949406751df51e1e40e85628005a069
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION: gtk+2: GTK+ version 2 (multi-platform GUI toolkit)
 
-SLACKBUILD NAME: gtkmm
-SLACKBUILD LOCATION: ./gtkmm
-SLACKBUILD FILES: README gtkmm.SlackBuild gtkmm.info slack-desc
-SLACKBUILD VERSION: 2.24.2
-SLACKBUILD DOWNLOAD: http://ftp.acc.umu.se/pub/GNOME/sources/gtkmm/2.24/gtkmm-2.24.2.tar.xz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: e552d52c3b0824eb99842dc9c5f4875f
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  gtkmm (C++ interface for GTK+)
-
-SLACKBUILD NAME: guvcview
-SLACKBUILD LOCATION: ./guvcview
-SLACKBUILD FILES: README doinst.sh guvcview.SlackBuild guvcview.info slack-desc
-SLACKBUILD VERSION: 1.6.1
-SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/guvcview/source/guvcview-src-1.6.1.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: b3dfd04d8aae0c807d5f5d6ba035580f
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  guvcview (GTK+ UVC Viewer)
-
 SLACKBUILD NAME: harfbuzz
 SLACKBUILD LOCATION: ./harfbuzz
 SLACKBUILD FILES: README harfbuzz.SlackBuild harfbuzz.info slack-desc
@@ -457,16 +267,6 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: a4edc79410eb894f08d7d52ca9f88732
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  json-c (JSON library in C)
-
-SLACKBUILD NAME: lensfun
-SLACKBUILD LOCATION: ./lensfun
-SLACKBUILD FILES: README lensfun.SlackBuild lensfun.info slack-desc
-SLACKBUILD VERSION: 0.2.6
-SLACKBUILD DOWNLOAD: http://download.berlios.de/lensfun/lensfun-0.2.6.tar.bz2
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 740e4749db04da0a597630dd6339b966
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  lensfun (photographic lens characteristics database library)
 
 SLACKBUILD NAME: libass
 SLACKBUILD LOCATION: ./libass
@@ -558,76 +358,6 @@ SLACKBUILD MD5SUM: d03fb3b9139df7f182afffe72f412c87
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  lxml (Python bindings for the libxml2 and libxslt)
 
-SLACKBUILD NAME: mechanize
-SLACKBUILD LOCATION: ./mechanize
-SLACKBUILD FILES: README mechanize.SlackBuild mechanize.info slack-desc
-SLACKBUILD VERSION: 0.2.5
-SLACKBUILD DOWNLOAD: http://pypi.python.org/packages/source/m/mechanize/mechanize-0.2.5.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 32657f139fc2fb75bcf193b63b8c60b2
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  mechanize (Stateful programmatic web browsing in Python)
-
-SLACKBUILD NAME: mysql-workbench-gpl
-SLACKBUILD LOCATION: ./mysql-workbench-gpl
-SLACKBUILD FILES: README doinst.sh mysql-workbench-gpl-5.2.43-src.patch mysql-workbench-gpl.SlackBuild mysql-workbench-gpl.info slack-desc
-SLACKBUILD VERSION: 5.2.43
-SLACKBUILD DOWNLOAD: http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQLGUITools/mysql-workbench-gpl-5.2.43-src.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 0cb8cf19cbdd661eb864abe5eec5ac3f
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  mysql-workbench - MySQL Workbench (GUI Tool)
-
-SLACKBUILD NAME: numpy
-SLACKBUILD LOCATION: ./numpy
-SLACKBUILD FILES: README numpy.SlackBuild numpy.info slack-desc
-SLACKBUILD VERSION: 1.6.2
-SLACKBUILD DOWNLOAD: http://freefr.dl.sourceforge.net/project/numpy/NumPy/1.6.2/numpy-1.6.2.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 95ed6c9dcc94af1fc1642ea2a33c1bba
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  NumPy (a Python extension for scientific computing)
-
-SLACKBUILD NAME: opencv
-SLACKBUILD LOCATION: ./opencv
-SLACKBUILD FILES: README opencv.SlackBuild opencv.info slack-desc
-SLACKBUILD VERSION: 2.4.2
-SLACKBUILD DOWNLOAD: http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.4.2/OpenCV-2.4.2.tar.bz2
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 059ef86fc1724d69b75832a0d2929ff5
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  OpenCV (Open Source Computer Vision)
-
-SLACKBUILD NAME: pango
-SLACKBUILD LOCATION: ./pango
-SLACKBUILD FILES: pango.SlackBuild pango.etc.host.location.diff.gz pango.info slack-desc update-pango-querymodules
-SLACKBUILD VERSION: 1.30.1
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/pango/1.30/pango-1.30.1.tar.xz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: ec3c1f236ee9bd4a982a5f46fcaff7b9
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  pango (library for layout and rendering of text)
-
-SLACKBUILD NAME: pangomm
-SLACKBUILD LOCATION: ./pangomm
-SLACKBUILD FILES: README pangomm.SlackBuild pangomm.info slack-desc
-SLACKBUILD VERSION: 2.28.4
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/pangomm/2.28/pangomm-2.28.4.tar.bz2
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 40b3b34dbbefbc411a81d05dba5275ca
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  pangomm (C++ API for Pango)
-
-SLACKBUILD NAME: paramiko
-SLACKBUILD LOCATION: ./paramiko
-SLACKBUILD FILES: README paramiko.SlackBuild paramiko.info slack-desc
-SLACKBUILD VERSION: 1.7.7.1
-SLACKBUILD DOWNLOAD: http://www.lag.net/paramiko/download/paramiko-1.7.7.1.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: ce8e2c254378312a264206f65c354d72
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  paramiko (Python SSH module)
-
 SLACKBUILD NAME: pexpect
 SLACKBUILD LOCATION: ./pexpect
 SLACKBUILD FILES: README pexpect.SlackBuild pexpect.info slack-desc
@@ -637,26 +367,6 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: bf107cf54e67bc6dec5bea1f3e6a65c3
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  pexpect (Python module for spawning child applications)
-
-SLACKBUILD NAME: podofo
-SLACKBUILD LOCATION: ./podofo
-SLACKBUILD FILES: README podofo.SlackBuild podofo.info slack-desc
-SLACKBUILD VERSION: 0.9.1
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/podofo/podofo-0.9.1.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: cec586ab69f92bc88d38b5d4b8eee5a0
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  PoDoFo (a library to work with the PDF file format)
-
-SLACKBUILD NAME: pychm
-SLACKBUILD LOCATION: ./pychm
-SLACKBUILD FILES: README pychm.SlackBuild pychm.info slack-desc
-SLACKBUILD VERSION: 0.8.4
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/gnochm/pychm-0.8.4.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: ff7f0baf94290c44263a1618e7e6a116
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  PyCHM (Python bindings for CHMLIB) 
 
 SLACKBUILD NAME: pycrypto
 SLACKBUILD LOCATION: ./pycrypto
@@ -668,48 +378,6 @@ SLACKBUILD MD5SUM: 88dad0a270d1fe83a39e0467a66a22bb
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  pycrypto (Python Cryptography Toolkit)
 
-SLACKBUILD NAME: pysetuptools
-SLACKBUILD LOCATION: ./pysetuptools
-SLACKBUILD FILES: README pysetuptools.SlackBuild pysetuptools.info slack-desc
-SLACKBUILD VERSION: 0.6c11
-SLACKBUILD DOWNLOAD: http://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 7df2a529a074f613b509fb44feefe74e
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  pysetuptools (a collection of enhancements to Python distutils)
-
-SLACKBUILD NAME: python-dateutil
-SLACKBUILD LOCATION: ./python-dateutil
-SLACKBUILD FILES: README python-dateutil.SlackBuild python-dateutil.info slack-desc
-SLACKBUILD VERSION: 1.5
-SLACKBUILD DOWNLOAD: http://labix.org/download/python-dateutil/python-dateutil-1.5.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 35f3732db3f2cc4afdc68a8533b60a52
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  python-dateutil (extensions to the standard datetime module)
-
-SLACKBUILD NAME: python-netifaces
-SLACKBUILD LOCATION: ./python-netifaces
-SLACKBUILD FILES: README python-netifaces.SlackBuild python-netifaces.info slack-desc
-SLACKBUILD VERSION: 0.8
-SLACKBUILD DOWNLOAD: http://alastairs-place.net/projects/netifaces/netifaces-0.8.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: e57e5983f4c286fac5f8068fbfc5c873
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  python-netifaces (Portable access to network interfaces)
-
-SLACKBUILD NAME: skype
-SLACKBUILD LOCATION: ./skype
-SLACKBUILD FILES: README README.STATIC doinst.sh skype.SlackBuild skype.info slack-desc
-SLACKBUILD VERSION: 4.0.0.8
-SLACKBUILD DOWNLOAD: http://download.skype.com/linux/skype-4.0.0.8.tar.bz2
-http://download.skype.com/linux/skype_static-4.0.0.8.tar.bz2
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: fa9b4f0ac110349a2480071875068a99
-f749e1c109fbe182b44d462d04f46bee
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  Skype (a P2P Voice Over IP program)
-
 SLACKBUILD NAME: sysprof
 SLACKBUILD LOCATION: ./sysprof
 SLACKBUILD FILES: README doinst.sh slack-desc sysprof.SlackBuild sysprof.desktop sysprof.info
@@ -719,16 +387,6 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: a81808d847732f8dafb59d26ec2eebbf
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Sysprof (Performance Profiler)
-
-SLACKBUILD NAME: transcode
-SLACKBUILD LOCATION: ./transcode
-SLACKBUILD FILES: README ffmpeg-0.11.patch slack-desc transcode.SlackBuild transcode.info
-SLACKBUILD VERSION: 1.1.7
-SLACKBUILD DOWNLOAD: https://bitbucket.org/france/transcode-tcforge/downloads/transcode-1.1.7.tar.bz2
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 9bb25a796a8591fb764de46ee87ce505
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  transcode (Audio/Video transcoding)
 
 SLACKBUILD NAME: vbindiff
 SLACKBUILD LOCATION: ./vbindiff
@@ -749,26 +407,6 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 3af22978fd79c79d5fda6513b6811145
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  vcdimager (VCD/SVCD Mastering Suite)
-
-SLACKBUILD NAME: wesnoth
-SLACKBUILD LOCATION: ./wesnoth
-SLACKBUILD FILES: README doinst.sh slack-desc terrain_translation.patch wesnoth.SlackBuild wesnoth.info
-SLACKBUILD VERSION: 1.10.4
-SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/wesnoth/wesnoth-1.10/wesnoth-1.10.4/wesnoth-1.10.4.tar.bz2
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 1a673f12e4521fc66e60ec584fa7c98f
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  Wesnoth (The Battle for Wesnoth)
-
-SLACKBUILD NAME: wireshark
-SLACKBUILD LOCATION: ./wireshark
-SLACKBUILD FILES: README doinst.sh slack-desc wireshark.SlackBuild wireshark.info
-SLACKBUILD VERSION: 1.8.2
-SLACKBUILD DOWNLOAD: http://wiresharkdownloads.riverbed.com/wireshark/src/wireshark-1.8.2.tar.bz2
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 5e3ea7eed50dace479e12f49d24506f4
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  WireShark (packet sniffer and protocol analyzer)
 
 SLACKBUILD NAME: wxGTK
 SLACKBUILD LOCATION: ./wxGTK

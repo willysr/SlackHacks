@@ -1,7 +1,0 @@
-PRGNAM="pangomm"
-VERSION="2.28.4"
-HOMEPAGE="http://gtkmm.org/"
-DOWNLOAD="http://ftp.gnome.org/pub/gnome/sources/pangomm/2.28/pangomm-2.28.4.tar.bz2"
-MD5SUM="40b3b34dbbefbc411a81d05dba5275ca"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""

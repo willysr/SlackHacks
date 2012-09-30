@@ -1,8 +1,0 @@
-OpenCV (Open Source Computer Vision)
-
-OpenCV is a library of programming functions mainly
-aimed at real-time computer vision.
-
-FFmpeg and Numpy are optional runtime dependencies.
-
-Note: I'm using AlienBOB's ffmpeg (0.11) to build this package

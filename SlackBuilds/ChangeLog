@@ -1,4 +1,43 @@
 +--------------------------+
+Sun Sep 30 08:51:16 GMT+7 2012
+aria2: Removed
+atkmm: Removed
+bashdb: Removed
+c-ares: Removed
+cairomm: Removed
+cssutils: Removed
+ctemplate: Removed
+devede: Removed
+dvdauthor: Removed
+enca: Removed
+farsight2: Removed
+filezilla: Removed
+glibmm: Removed
+graphviz: Removed
+gst-plugins-bad: Removed
+gst-plugins-ugly: Removed
+gst-python: Removed
+gtkmm: Removed
+guvcview: Removed
+lensfun: Removed
+mechanize: Removed
+mysql-workbench-gpl: Removed
+numpy: Removed
+opencv: Removed
+pango: Removed
+pangomm: Removed
+paramiko: Removed
+podofo: Removed
+pychm: Removed
+pysetuptools: Removed
+python-dateutil: Removed
+python-netifaces: Removed
+skype: Removed
+transcode: Removed
+wesnoth: Removed
+wireshark: Removed
+
++--------------------------+
 Fri Sep 28 18:38:21 GMT+7 2012
 calibre: Upgraded to 0.9.0
 
