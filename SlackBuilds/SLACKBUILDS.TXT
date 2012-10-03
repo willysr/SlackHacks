@@ -310,7 +310,7 @@ SLACKBUILD SHORT DESCRIPTION:  libpgf (Image file format)
 
 SLACKBUILD NAME: libtiff
 SLACKBUILD LOCATION: ./libtiff
-SLACKBUILD FILES: README libtiff.SlackBuild libtiff.info slack-desc tiff-4.0.3.tar.gz
+SLACKBUILD FILES: README libtiff.SlackBuild libtiff.info slack-desc
 SLACKBUILD VERSION: 4.0.3
 SLACKBUILD DOWNLOAD: ftp://ftp.remotesensing.org/pub/libtiff/tiff-4.0.3.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
@@ -360,7 +360,7 @@ SLACKBUILD SHORT DESCRIPTION:  lxml (Python bindings for the libxml2 and libxslt
 
 SLACKBUILD NAME: mysql-workbench-gpl
 SLACKBUILD LOCATION: ./mysql-workbench-gpl
-SLACKBUILD FILES: mysql-workbench-gpl-5.2.43-src.patch mysql-workbench-gpl.SlackBuild mysql-workbench-gpl.info slack-desc
+SLACKBUILD FILES: doinst.sh mysql-workbench-gpl-5.2.43-src.patch mysql-workbench-gpl-5.2.44-src.tar.gz mysql-workbench-gpl.SlackBuild mysql-workbench-gpl.info slack-desc
 SLACKBUILD VERSION: 5.2.44
 SLACKBUILD DOWNLOAD: http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQLGUITools/mysql-workbench-gpl-5.2.44-src.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
