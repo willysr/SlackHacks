@@ -408,6 +408,16 @@ SLACKBUILD MD5SUM: 3af22978fd79c79d5fda6513b6811145
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  vcdimager (VCD/SVCD Mastering Suite)
 
+SLACKBUILD NAME: wireshark
+SLACKBUILD LOCATION: ./wireshark
+SLACKBUILD FILES: README doinst.sh slack-desc wireshark.SlackBuild wireshark.info
+SLACKBUILD VERSION: 1.8.3
+SLACKBUILD DOWNLOAD: http://www.wireshark.org/download/src/all-versions/wireshark-1.8.3.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 898b4c60e32efcd77ecf875a6ad07a92
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  WireShark (packet sniffer and protocol analyzer)
+
 SLACKBUILD NAME: wxGTK
 SLACKBUILD LOCATION: ./wxGTK
 SLACKBUILD FILES: README slack-desc wxGTK.SlackBuild wxGTK.info
