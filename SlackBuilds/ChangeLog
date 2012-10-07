@@ -1,4 +1,16 @@
 +--------------------------+
+Sun Oct  7 22:54:40 GMT+7 2012
+anjuta: Added
+autogen: Added
+gdl: Added
+gtkpod: Added
+gtksourceview: Added
+libgda: Added
+vala: Added
+vte3: Added
+  Added gtkpod and anjuta and all of it's dependencies
+
++--------------------------+
 Sun Oct  7 22:51:56 GMT+7 2012
 itstool: Added
 libmusicbrainz5: Added

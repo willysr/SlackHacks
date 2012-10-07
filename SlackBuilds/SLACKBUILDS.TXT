@@ -38,6 +38,26 @@ SLACKBUILD MD5SUM: 878cf7e6fd9c35cc218537bac3b86c25
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  aegisub (General-purpose subtitle editor)
 
+SLACKBUILD NAME: anjuta
+SLACKBUILD LOCATION: ./anjuta
+SLACKBUILD FILES: README anjuta.SlackBuild anjuta.info doinst.sh slack-desc
+SLACKBUILD VERSION: 3.4.4
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/anjuta/3.4/anjuta-3.4.4.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: d5986b83c3080663d631065354d7ab44
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  anjuta (GNOME Integrated Development Environment)
+
+SLACKBUILD NAME: autogen
+SLACKBUILD LOCATION: ./autogen
+SLACKBUILD FILES: README autogen.SlackBuild autogen.info slack-desc
+SLACKBUILD VERSION: 5.16.2
+SLACKBUILD DOWNLOAD: http://ftp.gnu.org/gnu/autogen/rel5.16.2/autogen-5.16.2.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 0871304953d219f7ad91a60fb1376271
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  autogen (configure generator)
+
 SLACKBUILD NAME: avbin
 SLACKBUILD LOCATION: ./avbin
 SLACKBUILD FILES: README avbin.SlackBuild avbin.info slack-desc
@@ -148,6 +168,16 @@ SLACKBUILD MD5SUM: 13770e29d5215ad4b68caad44b09da07
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  ffms (a cross-platform wrapper library)
 
+SLACKBUILD NAME: gdl
+SLACKBUILD LOCATION: ./gdl
+SLACKBUILD FILES: README gdl.SlackBuild gdl.info slack-desc
+SLACKBUILD VERSION: 3.6.0
+SLACKBUILD DOWNLOAD: ftp://ftp.gnome.org/pub/gnome/sources/gdl/3.6/gdl-3.6.0.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: cb1ce1aab8aa5bef56505237d711b83b
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  gdl (GNOME Docking Library)
+
 SLACKBUILD NAME: gnugo
 SLACKBUILD LOCATION: ./gnugo
 SLACKBUILD FILES: README gnugo.SlackBuild gnugo.info slack-desc
@@ -238,6 +268,26 @@ SLACKBUILD MD5SUM: e949406751df51e1e40e85628005a069
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION: gtk+2: GTK+ version 2 (multi-platform GUI toolkit)
 
+SLACKBUILD NAME: gtkpod
+SLACKBUILD LOCATION: ./gtkpod
+SLACKBUILD FILES: README doinst.sh gtkpod-2.1.2.tar.gz gtkpod.SlackBuild gtkpod.info slack-desc
+SLACKBUILD VERSION: 2.1.2
+SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/gtkpod/gtkpod/gtkpod-2.1.2/gtkpod-2.1.2.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 88fef3f947cbb7ae6b714080733a3b6b
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  gtkpod (iPod Manager)
+
+SLACKBUILD NAME: gtksourceview
+SLACKBUILD LOCATION: ./gtksourceview
+SLACKBUILD FILES: README allow-deprecated-glib-symbols.patch gtksourceview.SlackBuild gtksourceview.info slack-desc
+SLACKBUILD VERSION: 3.4.2
+SLACKBUILD DOWNLOAD: http://ftp.acc.umu.se/pub/gnome/sources/gtksourceview/3.4/gtksourceview-3.4.2.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: c3589ee21e811bdc44091c3dc947ba4e
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  gtksourceview (a GTK+ framework for source code editing)
+
 SLACKBUILD NAME: harfbuzz
 SLACKBUILD LOCATION: ./harfbuzz
 SLACKBUILD FILES: README harfbuzz.SlackBuild harfbuzz.info slack-desc
@@ -287,6 +337,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: ed10e06987c76c79961c6906e02acf00
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  libdc1394 (1394-Based Digital Camera Control Library)
+
+SLACKBUILD NAME: libgda
+SLACKBUILD LOCATION: ./libgda
+SLACKBUILD FILES: README libgda.SlackBuild libgda.info slack-desc
+SLACKBUILD VERSION: 5.0.3
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/libgda/5.0/libgda-5.0.3.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 58efdf8f727b5a0b1e5fb35d19ee76a7
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  libgda (GNOME DB)
 
 SLACKBUILD NAME: libmusicbrainz5
 SLACKBUILD LOCATION: ./libmusicbrainz5
@@ -388,6 +448,16 @@ SLACKBUILD MD5SUM: a81808d847732f8dafb59d26ec2eebbf
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Sysprof (Performance Profiler)
 
+SLACKBUILD NAME: vala
+SLACKBUILD LOCATION: ./vala
+SLACKBUILD FILES: README slack-desc vala.SlackBuild vala.info
+SLACKBUILD VERSION: 0.18.0
+SLACKBUILD DOWNLOAD: http://download.gnome.org/sources/vala/0.18/vala-0.18.0.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 06a95d6a6466b3583b59fe956cc75486
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  Vala (Compiler for the GObject type system)
+
 SLACKBUILD NAME: vbindiff
 SLACKBUILD LOCATION: ./vbindiff
 SLACKBUILD FILES: README slack-desc vbindiff.SlackBuild vbindiff.info
@@ -407,6 +477,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 3af22978fd79c79d5fda6513b6811145
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  vcdimager (VCD/SVCD Mastering Suite)
+
+SLACKBUILD NAME: vte3
+SLACKBUILD LOCATION: ./vte3
+SLACKBUILD FILES: README fix_meta_alt_keybinding.patch.gz slack-desc vte3.SlackBuild vte3.info
+SLACKBUILD VERSION: 0.34.0
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/vte/0.34/vte-0.34.0.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 133cbdad06fb6de5a54763415be9396d
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  vte3 (terminal emulator widget)
 
 SLACKBUILD NAME: wireshark
 SLACKBUILD LOCATION: ./wireshark
