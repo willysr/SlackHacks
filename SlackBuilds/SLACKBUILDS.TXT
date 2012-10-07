@@ -258,6 +258,16 @@ SLACKBUILD MD5SUM: 2968c36b9ecf3d98fc1f2c1c9c0d9341
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  httperf (http load generator)
 
+SLACKBUILD NAME: itstool
+SLACKBUILD LOCATION: ./itstool
+SLACKBUILD FILES: README itstool.SlackBuild itstool.info slack-desc
+SLACKBUILD VERSION: 1.2.0
+SLACKBUILD DOWNLOAD: http://files.itstool.org/itstool/itstool-1.2.0.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: c0925f6869e33af8e7fe56848c129152
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  itstool (Translate XML documents with PO files)
+
 SLACKBUILD NAME: json-c
 SLACKBUILD LOCATION: ./json-c
 SLACKBUILD FILES: README json-c.SlackBuild json-c.info slack-desc
@@ -277,6 +287,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: ed10e06987c76c79961c6906e02acf00
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  libdc1394 (1394-Based Digital Camera Control Library)
+
+SLACKBUILD NAME: libmusicbrainz5
+SLACKBUILD LOCATION: ./libmusicbrainz5
+SLACKBUILD FILES: README libmusicbrainz5-build.patch libmusicbrainz5.SlackBuild libmusicbrainz5.info slack-desc
+SLACKBUILD VERSION: 5.0.1
+SLACKBUILD DOWNLOAD: http://cloud.github.com/downloads/metabrainz/libmusicbrainz/libmusicbrainz-5.0.1.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: a0406b94c341c2b52ec0fe98f57cadf3
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  libmusicbrainz5 (MusicBrainz 5 Library)
 
 SLACKBUILD NAME: libpgf
 SLACKBUILD LOCATION: ./libpgf
