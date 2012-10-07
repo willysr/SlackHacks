@@ -1,4 +1,11 @@
 +--------------------------+
+Sun Oct  7 08:18:13 GMT+7 2012
+libass: Removed
+libnice: Removed
+libwpg: Removed
+  This has been included in SBo
+
++--------------------------+
 Fri Oct  5 19:35:44 GMT+7 2012
 calibre: Upgraded to 0.9.1
 
