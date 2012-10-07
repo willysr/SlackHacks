@@ -1,7 +1,0 @@
-PRGNAM="libnice"
-VERSION="0.1.2"
-HOMEPAGE="http://nice.freedesktop.org"
-DOWNLOAD="http://nice.freedesktop.org/releases/libnice-0.1.2.tar.gz"
-MD5SUM="1914dd98380dd68632d3d448cc23f1e8"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""
