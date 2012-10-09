@@ -1,4 +1,10 @@
 +--------------------------+
+Tue Oct  9 18:59:23 GMT+7 2012
+libgda: Rebuilt
+  Removed --with-java=no parameter
+  This requires jdk
+
++--------------------------+
 Sun Oct  7 22:54:40 GMT+7 2012
 anjuta: Added
 autogen: Added

@@ -24,7 +24,7 @@
 
 PRGNAM=libgda
 VERSION=${VERSION:-5.0.3}
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 # Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
@@ -79,7 +79,6 @@ CXXFLAGS="$SLKCFLAGS" \
   --mandir=/usr/man \
   --docdir=/usr/doc/$PRGNAM-$VERSION \
   --disable-static \
-  --with-java=no \
   --enable-binreloc \
   --build=$ARCH-slackware-linux
 
