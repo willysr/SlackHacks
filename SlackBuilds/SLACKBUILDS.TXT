@@ -44,7 +44,7 @@ SLACKBUILD FILES: README anjuta.SlackBuild anjuta.info doinst.sh slack-desc
 SLACKBUILD VERSION: 3.4.4
 SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/anjuta/3.4/anjuta-3.4.4.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: d5986b83c3080663d631065354d7ab44
+SLACKBUILD MD5SUM: b6a8093a8096a2337db1b50464eec1ea
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  anjuta (GNOME Integrated Development Environment)
 
@@ -278,9 +278,9 @@ SLACKBUILD MD5SUM: 88fef3f947cbb7ae6b714080733a3b6b
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  gtkpod (iPod Manager)
 
-SLACKBUILD NAME: gtksourceview
-SLACKBUILD LOCATION: ./gtksourceview
-SLACKBUILD FILES: README allow-deprecated-glib-symbols.patch gtksourceview.SlackBuild gtksourceview.info slack-desc
+SLACKBUILD NAME: gtksourceview3
+SLACKBUILD LOCATION: ./gtksourceview3
+SLACKBUILD FILES: README allow-deprecated-glib-symbols.patch gtksourceview3.SlackBuild gtksourceview3.info slack-desc
 SLACKBUILD VERSION: 3.4.2
 SLACKBUILD DOWNLOAD: http://ftp.acc.umu.se/pub/gnome/sources/gtksourceview/3.4/gtksourceview-3.4.2.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 

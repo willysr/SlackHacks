@@ -1,4 +1,8 @@
 +--------------------------+
+Sat Oct 13 09:51:39 GMT+7 2012
+calibre: Upgraded to 0.9.2
+
++--------------------------+
 Tue Oct  9 18:59:23 GMT+7 2012
 libgda: Rebuilt
   Removed --with-java=no parameter
