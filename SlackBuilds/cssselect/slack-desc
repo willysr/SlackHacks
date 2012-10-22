@@ -1,0 +1,17 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+         |-----handy-ruler------------------------------------------------------|
+cssselect: cssselect (CSS Selectors for Python)
+cssselect:
+cssselect: cssselect parses 'CSS3 Selectors' and translate them to
+cssselect: 'XPath 1.0' expressions. Such expressions can be used in lxml
+cssselect: or another XPath engine to find the matching elements in an
+cssselect: XML or HTML document.
+cssselect:
+cssselect: cssselect home: http://packages.python.org/cssselect/
+cssselect:
