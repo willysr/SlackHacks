@@ -28,6 +28,7 @@
 # Changelog
 # May 23, 2012 : Bumped to 0.10.19
 # September 26 : Upgraded to 1.0.0
+# October 26 : Upgraded to 1.0.2
 
 PRGNAM=gst-plugins-ugly
 VERSION=${VERSION:-$(echo $PRGNAM-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}

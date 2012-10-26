@@ -1,4 +1,10 @@
 +--------------------------+
+Fri Oct 26 08:30:01 GMT+7 2012
+gstreamer: Upgraded to 1.0.2
+gst-plugins-*: Upgraded to 1.0.2
+gst-libav: Upgraded to 1.0.2
+
++--------------------------+
 Mon Oct 22 21:26:54 GMT+7 2012
 calibre: Upgraded to 0.9.3
 cssselect: Added

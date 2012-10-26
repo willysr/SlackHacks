@@ -26,6 +26,7 @@
 
 # Changelog
 # September 26 : Upgraded to 1.0.0
+# October 26 : Upgraded to 1.0.2
 
 PRGNAM=gst-libav
 VERSION=${VERSION:-$(echo $PRGNAM-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}

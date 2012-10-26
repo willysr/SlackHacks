@@ -26,6 +26,7 @@
 # Updated by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # Changelog
 # September 26 : Upgraded to 1.0.0
+# October 26 : Upgraded to 1.0.2
 
 PKGNAM=gst-plugins-base
 VERSION=${VERSION:-$(echo $PKGNAM-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
