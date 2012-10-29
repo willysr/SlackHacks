@@ -23,9 +23,10 @@
 # Changelog
 # July 30: Initial Release
 # September 12: Upgraded to 0.9.4
+# October 29: Upgraded to 0.9.5
 
 PRGNAM=harfbuzz
-VERSION=0.9.4
+VERSION=0.9.5
 BUILD=${BUILD:-1wsr}
 
 # Automatically determine the architecture we're building on:
