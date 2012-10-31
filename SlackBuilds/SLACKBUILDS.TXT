@@ -310,7 +310,7 @@ SLACKBUILD SHORT DESCRIPTION:  gtksourceview (a GTK+ framework for source code e
 
 SLACKBUILD NAME: harfbuzz
 SLACKBUILD LOCATION: ./harfbuzz
-SLACKBUILD FILES: README harfbuzz-0.9.5.tar.bz2 harfbuzz.SlackBuild harfbuzz.info slack-desc
+SLACKBUILD FILES: README harfbuzz.SlackBuild harfbuzz.info slack-desc
 SLACKBUILD VERSION: 0.9.5
 SLACKBUILD DOWNLOAD: http://www.freedesktop.org/software/harfbuzz/release/harfbuzz-0.9.5.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
@@ -390,7 +390,7 @@ SLACKBUILD SHORT DESCRIPTION:  libpgf (Image file format)
 
 SLACKBUILD NAME: libtiff
 SLACKBUILD LOCATION: ./libtiff
-SLACKBUILD FILES: README libtiff.SlackBuild libtiff.info slack-desc tiff-4.0.3.tar.gz
+SLACKBUILD FILES: README libtiff.SlackBuild libtiff.info slack-desc
 SLACKBUILD VERSION: 4.0.3
 SLACKBUILD DOWNLOAD: ftp://ftp.remotesensing.org/pub/libtiff/tiff-4.0.3.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
@@ -501,10 +501,10 @@ SLACKBUILD SHORT DESCRIPTION:  vcdimager (VCD/SVCD Mastering Suite)
 SLACKBUILD NAME: vte3
 SLACKBUILD LOCATION: ./vte3
 SLACKBUILD FILES: README fix_meta_alt_keybinding.patch.gz slack-desc vte3.SlackBuild vte3.info
-SLACKBUILD VERSION: 0.34.0
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/vte/0.34/vte-0.34.0.tar.xz
+SLACKBUILD VERSION: 0.34.1
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/vte/0.34/vte-0.34.1.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 133cbdad06fb6de5a54763415be9396d
+SLACKBUILD MD5SUM: fb61f0f376fee2b101dd2745c93781eb
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  vte3 (terminal emulator widget)
 
