@@ -50,7 +50,7 @@ SLACKBUILD SHORT DESCRIPTION:  aegisub (General-purpose subtitle editor)
 
 SLACKBUILD NAME: anjuta
 SLACKBUILD LOCATION: ./anjuta
-SLACKBUILD FILES: README anjuta.SlackBuild anjuta.info doinst.sh slack-desc
+SLACKBUILD FILES: README anjuta-3.4.4.tar.xz anjuta.SlackBuild anjuta.info doinst.sh slack-desc
 SLACKBUILD VERSION: 3.4.4
 SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/anjuta/3.4/anjuta-3.4.4.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
@@ -91,10 +91,10 @@ SLACKBUILD SHORT DESCRIPTION:  Brainworkshop (a Dual N-Back game)
 SLACKBUILD NAME: calibre
 SLACKBUILD LOCATION: ./calibre
 SLACKBUILD FILES: README calibre.SlackBuild calibre.info slack-desc
-SLACKBUILD VERSION: 0.9.5
-SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.9.5.tar.xz
+SLACKBUILD VERSION: 0.9.6
+SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.9.6.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: e76cc855144eaec4a7580537fe8ffcde
+SLACKBUILD MD5SUM: c7282772d4643bbbeb3b57a4f623d9ee
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  calibre (e-book library management application)
 
@@ -187,6 +187,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 13770e29d5215ad4b68caad44b09da07
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  ffms (a cross-platform wrapper library)
+
+SLACKBUILD NAME: filezilla
+SLACKBUILD LOCATION: ./filezilla
+SLACKBUILD FILES: README doinst.sh filezilla.SlackBuild filezilla.info slack-desc
+SLACKBUILD VERSION: 3.6.0
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/filezilla/FileZilla_3.6.0_src.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 02efc41e87ff4abe1e6ec07ae5bd4d83
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  filezilla (the free FTP solution)
 
 SLACKBUILD NAME: gdl
 SLACKBUILD LOCATION: ./gdl
