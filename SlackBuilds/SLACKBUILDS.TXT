@@ -511,10 +511,10 @@ SLACKBUILD SHORT DESCRIPTION:  vcdimager (VCD/SVCD Mastering Suite)
 SLACKBUILD NAME: vte3
 SLACKBUILD LOCATION: ./vte3
 SLACKBUILD FILES: README fix_meta_alt_keybinding.patch.gz slack-desc vte3.SlackBuild vte3.info
-SLACKBUILD VERSION: 0.34.1
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/vte/0.34/vte-0.34.1.tar.xz
+SLACKBUILD VERSION: 0.34.2
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/vte/0.34/vte-0.34.2.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: fb61f0f376fee2b101dd2745c93781eb
+SLACKBUILD MD5SUM: 523eae73bd93d58b9427357774956b22
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  vte3 (terminal emulator widget)
 
