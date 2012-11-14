@@ -22,10 +22,11 @@
 
 # Changelog
 # July 29: Initial Release
+# November 14: Rebuilt to make it work with Aegisub
 
 PRGNAM=ffms
 VERSION=2.17
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 # Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
@@ -59,6 +60,8 @@ tar xjvf $CWD/$PRGNAM-$VERSION-src.tar.bz2 || exit 1
 cd $PRGNAM-$VERSION-src
 
 sed -i 's|avcodec_init|avcodec_register_all|' configure.in
+mv configure.in configure.ac
+
 ./autogen.sh \
   --prefix=/usr \
   --libdir=/usr/lib${LIBDIRSUFFIX} \
