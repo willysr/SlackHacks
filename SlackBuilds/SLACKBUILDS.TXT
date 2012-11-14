@@ -41,10 +41,10 @@ SLACKBUILD SHORT DESCRIPTION:  QtGStreamer (C++ Bindings for GStreamer)
 SLACKBUILD NAME: aegisub
 SLACKBUILD LOCATION: ./aegisub
 SLACKBUILD FILES: README aegisub.SlackBuild aegisub.info slack-desc
-SLACKBUILD VERSION: 2.1.9
-SLACKBUILD DOWNLOAD: http://ftp.aegisub.org/pub/releases/aegisub-2.1.9.tar.gz
+SLACKBUILD VERSION: 3.0.2
+SLACKBUILD DOWNLOAD: http://ftp.aegisub.org/pub/releases/aegisub-3.0.2.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 878cf7e6fd9c35cc218537bac3b86c25
+SLACKBUILD MD5SUM: d3817d493d0f2f1ee9c5a8e0a58d591e
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  aegisub (General-purpose subtitle editor)
 
@@ -531,10 +531,10 @@ SLACKBUILD SHORT DESCRIPTION:  WireShark (packet sniffer and protocol analyzer)
 SLACKBUILD NAME: wxGTK
 SLACKBUILD LOCATION: ./wxGTK
 SLACKBUILD FILES: README slack-desc wxGTK.SlackBuild wxGTK.info
-SLACKBUILD VERSION: 2.8.12
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/wxwindows/wxGTK-2.8.12.tar.gz
+SLACKBUILD VERSION: 2.9.4
+SLACKBUILD DOWNLOAD: http://sourceforge.net/projects/wxwindows/files/2.9.4/wxWidgets-2.9.4.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: b12c78d947d89e1120443761f1b7693b
+SLACKBUILD MD5SUM: f1348f740a569ce2945512d5b0e70e87
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  wxGTK (cross-platform GUI toolkit)
 

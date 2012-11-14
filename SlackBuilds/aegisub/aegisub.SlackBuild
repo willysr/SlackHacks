@@ -22,9 +22,10 @@
 
 # Changelog
 # July 29: Initial Release
+# November 14: Upgraded to 3.0.2
 
 PRGNAM=aegisub
-VERSION=2.1.9
+VERSION=3.0.2
 BUILD=${BUILD:-1wsr}
 
 # Automatically determine the architecture we're building on:
@@ -56,7 +57,7 @@ mkdir -p $TMP $PKG
 cd $TMP
 rm -rf $PRGNAM-$VERSION
 tar xvf $CWD/$PRGNAM-$VERSION.tar.?z* || exit 1
-cd $PRGNAM-$VERSION
+cd $PRGNAM/$PRGNAM
 
 LDFLAGS="$LDFLAGS -lz"
 ./configure \

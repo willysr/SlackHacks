@@ -8,6 +8,6 @@ Requirements:
   - enca (optional)
   - harfbuzz (optional)
 - lua (optional)
-- wxWidgets + wxStyledTextCtrl
-- FFmpegSource / ffms (optional)
+- wxWidgets + wxStyledTextCtrl (2.9.3 or above)
+- FFmpegSource / ffms
 - Scintilla
