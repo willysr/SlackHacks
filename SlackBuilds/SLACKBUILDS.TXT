@@ -481,10 +481,10 @@ SLACKBUILD SHORT DESCRIPTION:  Sysprof (Performance Profiler)
 SLACKBUILD NAME: vala
 SLACKBUILD LOCATION: ./vala
 SLACKBUILD FILES: README slack-desc vala.SlackBuild vala.info
-SLACKBUILD VERSION: 0.18.0
-SLACKBUILD DOWNLOAD: http://download.gnome.org/sources/vala/0.18/vala-0.18.0.tar.xz
+SLACKBUILD VERSION: 0.18.1
+SLACKBUILD DOWNLOAD: http://download.gnome.org/sources/vala/0.18/vala-0.18.1.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 06a95d6a6466b3583b59fe956cc75486
+SLACKBUILD MD5SUM: 0d684cbddd3a7655fe54c030e4183dbd
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Vala (Compiler for the GObject type system)
 

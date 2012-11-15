@@ -1,4 +1,8 @@
 +--------------------------+
+Thu Nov 15 09:12:28 GMT+7 2012
+vala: Upgraded to 0.18.1
+
++--------------------------+
 Wed Nov 14 09:01:52 GMT+7 2012
 aegisub: Upgraded to 3.0.2
 ffms: Rebuilt to fix compilation with aegisub
