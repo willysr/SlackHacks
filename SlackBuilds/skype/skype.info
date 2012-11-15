@@ -1,0 +1,8 @@
+PRGNAM="skype"
+VERSION="4.1.0.20"
+HOMEPAGE="http://www.skype.com"
+DOWNLOAD="http://download.skype.com/linux/skype-4.1.0.20.tar.bz2"
+MD5SUM="fa9b4f0ac110349a2480071875068a99"
+DOWNLOAD_x86_64="UNSUPPORTED"
+MD5SUM_x86_64=""
+REQUIRES=""
