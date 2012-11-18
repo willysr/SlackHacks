@@ -29,11 +29,12 @@
 # Changelog
 # July 16: Upgraded to 1.5.4
 # September 2: Upgraded to 1.5.27
+# November 18: Upgraded to 1.6.0
 
 PRGNAM=dropbox
 PACKNAM=dropbox-lnx
 
-VERSION=${VERSION:-1.5.27}
+VERSION=${VERSION:-1.6.0}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -67,7 +68,6 @@ find . \
 mkdir $PKG/opt
 mkdir -p $PKG/usr/bin
 cp -R ../.$PRGNAM-dist $PKG/opt/dropbox
-rm $PKG/opt/dropbox/libstdc++.so.6
 ln -s /opt/dropbox/dropboxd $PKG/usr/bin/dropboxd
 install -D -m 644 $CWD/dropbox.desktop $PKG/usr/share/applications/dropbox.desktop
 install -D -m 644 $CWD/dropbox.png $PKG/usr/share/pixmaps/dropbox.png
