@@ -191,10 +191,10 @@ SLACKBUILD SHORT DESCRIPTION:  ffms (a cross-platform wrapper library)
 SLACKBUILD NAME: filezilla
 SLACKBUILD LOCATION: ./filezilla
 SLACKBUILD FILES: README doinst.sh filezilla.SlackBuild filezilla.info slack-desc
-SLACKBUILD VERSION: 3.6.0
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/filezilla/FileZilla_3.6.0_src.tar.bz2
+SLACKBUILD VERSION: 3.6.0.1
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/filezilla/FileZilla_3.6.0.1_src.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 02efc41e87ff4abe1e6ec07ae5bd4d83
+SLACKBUILD MD5SUM: 90839d05bf52e27e8f4a33adceb3ae5c
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  filezilla (the free FTP solution)
 
@@ -447,6 +447,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: ea609fcd5d42333291a8ea6015627583
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  mysql-workbench - MySQL Workbench (GUI Tool)
+
+SLACKBUILD NAME: nettle
+SLACKBUILD LOCATION: ./nettle
+SLACKBUILD FILES: README nettle.SlackBuild nettle.info slack-desc
+SLACKBUILD VERSION: 2.5
+SLACKBUILD DOWNLOAD: http://www.lysator.liu.se/~nisse/archive/nettle-2.5.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: d66882e6ad31a9f651b73d7a1a93bd4c
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  nettle (cryptographic library)
 
 SLACKBUILD NAME: pexpect
 SLACKBUILD LOCATION: ./pexpect

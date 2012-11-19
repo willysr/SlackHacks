@@ -1,5 +1,11 @@
 +--------------------------+
-Sun Nov 18 07:51:59 WIT 2012
+Mon Nov 19 07:56:37 GMT+7 2012
+filezilla: Upgraded to 3.6.0.1
+nettle: Added version 2.5
+  Nettle is a low-level cryptography library
+
++--------------------------+
+Sun Nov 18 07:51:59 GMT+7 2012
 dropbox: Upgraded to 1.6.0
 
 +--------------------------+
