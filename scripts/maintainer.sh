@@ -27,4 +27,10 @@ MAINTAINER="Willy Sudiarto Raharjo"
 
 # Thanks to Benjamin Trigona-Harany
 # The script is now faster, but still produces the same output
-find $SBOPATH -name "*.info" -exec grep -l "$MAINTAINER" {} + | awk -F'/' '{print $(NF-2)"/"$(NF-1)}'
+L=`find $SBOPATH -name "*.info" -exec grep -l "$MAINTAINER" {} +`
+for list in $L 
+  do
+  FILENAME=`echo $list | awk -F'/' '{print $(NF-2)"/"$(NF-1)}'`
+  VERSION=`cat $list | grep "VERSION" | sed 's/VERSION="//' | sed 's/"//'`
+  echo $FILENAME - $VERSION
+done
