@@ -1,4 +1,9 @@
 +--------------------------+
+Wed Nov 21 08:49:51 GMT+7 2012
+gdl: Reverted to 3.6.0
+  3.6.2 can cause breakage on building anjuta
+
++--------------------------+
 Mon Nov 19 22:20:06 GMT+7 2012
 wesnoth: Added version 1.10.5
   Wesnoth is a turn-based strategy game
