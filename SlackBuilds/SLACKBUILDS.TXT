@@ -488,6 +488,26 @@ SLACKBUILD MD5SUM: fa9b4f0ac110349a2480071875068a99
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Skype (a P2P Voice Over IP program)
 
+SLACKBUILD NAME: sshblock
+SLACKBUILD LOCATION: ./sshblock
+SLACKBUILD FILES: README doinst.sh rc.sshblock slack-desc sshblock.SlackBuild sshblock.info sshblock.pl.tpl sshblock.tpl sshunblock.pl.tpl
+SLACKBUILD VERSION: 0.5
+SLACKBUILD DOWNLOAD: http://kagan.mactane.org/software/libraries/download/sshblock-0.5.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: dbfaee5f45296de2f9a22d5fe79e7332
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  sshblock (an SSH Dictionary-Attack Blocker)
+
+SLACKBUILD NAME: swatch
+SLACKBUILD LOCATION: ./swatch
+SLACKBUILD FILES: README slack-desc swatch.SlackBuild swatch.info
+SLACKBUILD VERSION: 3.2.3
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/project/swatch/swatch/3.2.3/swatch-3.2.3.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 1162f1024cf07fc750ed4960d61ac4e8
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  swatch (Simple Log Watcher)
+
 SLACKBUILD NAME: sysprof
 SLACKBUILD LOCATION: ./sysprof
 SLACKBUILD FILES: README doinst.sh slack-desc sysprof.SlackBuild sysprof.desktop sysprof.info

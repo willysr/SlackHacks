@@ -1,4 +1,18 @@
 +--------------------------+
+Sun Nov 25 09:27:45 GMT+7 2012
+sshblock: Added
+  sshblock is an SSH dictionary-attack blocker
+  This requires swatch
+swatch: Added
+  swatch is a log monitoring tools
+  This requires Date::Calc, Date::Manip, and File::Tail (Perl Modules)
+  You can install those packages by running these commands in terminal as root
+  perl -MCPAN -e shell
+  install Date::Calc
+  install Date::Manip
+  install File::Tail
+
++--------------------------+
 Sat Nov 24 19:28:54 GMT+7 2012
 calibre: Upgraded to 0.9.7
 
