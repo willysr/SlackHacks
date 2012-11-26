@@ -6,9 +6,10 @@
 # Modified by Willy Sudiarto Raharjo
 # Changelog
 # June 30 : Upgraded to 1.20
+# November 24: Upgraded to 1.21
 
 PRGNAM=xchm
-VERSION=${VERSION:-1.20}
+VERSION=${VERSION:-1.21}
 BUILD=${BUILD:-1wsr}
 
 # Automatically determine the architecture we're building on:

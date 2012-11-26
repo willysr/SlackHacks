@@ -1,4 +1,11 @@
 +--------------------------+
+Mon Nov 26 09:05:50 GMT+7 2012
+libusbx: Upgraded to 1.0.14
+lxml: Upgraded to 2.3.6
+nettle: Removed as it's already included in Slackware 14.0
+xchm: Upgraded to 1.21
+
++--------------------------+
 Mon Nov 26 08:32:04 GMT+7 2012
 avbin: Upgraded to 10
 brainworkshop: Upgraded to 4.8.4

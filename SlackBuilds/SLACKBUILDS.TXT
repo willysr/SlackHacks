@@ -411,10 +411,10 @@ SLACKBUILD SHORT DESCRIPTION:  libtiff (a library for reading and writing TIFF f
 SLACKBUILD NAME: libusbx
 SLACKBUILD LOCATION: ./libusbx
 SLACKBUILD FILES: README libusbx.SlackBuild libusbx.info slack-desc
-SLACKBUILD VERSION: 1.0.12
-SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/libusbx/releases/1.0.12/source/libusbx-1.0.12.tar.bz2
+SLACKBUILD VERSION: 1.0.14
+SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/libusbx/releases/1.0.14/source/libusbx-1.0.14.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: c41352ac755c7992edfcbb2ea4ad1349
+SLACKBUILD MD5SUM: 0a6a75edb4b4eae7dc82c1dd71ddc470
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  libusbx (USB library)
 
@@ -431,10 +431,10 @@ SLACKBUILD SHORT DESCRIPTION:  Lua (a powerful, fast, light-weight, embeddable s
 SLACKBUILD NAME: lxml
 SLACKBUILD LOCATION: ./lxml
 SLACKBUILD FILES: README lxml.SlackBuild lxml.info slack-desc
-SLACKBUILD VERSION: 2.3.5
-SLACKBUILD DOWNLOAD: http://lxml.de/files/lxml-2.3.5.tgz
+SLACKBUILD VERSION: 2.3.6
+SLACKBUILD DOWNLOAD: http://lxml.de/files/lxml-2.3.6.tgz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: d03fb3b9139df7f182afffe72f412c87
+SLACKBUILD MD5SUM: 9bc60f2ef24f1b47e6dec0d29d2fd30d
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  lxml (Python bindings for the libxml2 and libxslt)
 
@@ -447,16 +447,6 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: ea609fcd5d42333291a8ea6015627583
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  mysql-workbench - MySQL Workbench (GUI Tool)
-
-SLACKBUILD NAME: nettle
-SLACKBUILD LOCATION: ./nettle
-SLACKBUILD FILES: README nettle.SlackBuild nettle.info slack-desc
-SLACKBUILD VERSION: 2.5
-SLACKBUILD DOWNLOAD: http://www.lysator.liu.se/~nisse/archive/nettle-2.5.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: d66882e6ad31a9f651b73d7a1a93bd4c
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  nettle (cryptographic library)
 
 SLACKBUILD NAME: pexpect
 SLACKBUILD LOCATION: ./pexpect
@@ -591,10 +581,10 @@ SLACKBUILD SHORT DESCRIPTION:  wxGTK (cross-platform GUI toolkit)
 SLACKBUILD NAME: xchm
 SLACKBUILD LOCATION: ./xchm
 SLACKBUILD FILES: README slack-desc xchm.SlackBuild xchm.info
-SLACKBUILD VERSION: 1.20
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/xchm/xchm-1.20.tar.gz
+SLACKBUILD VERSION: 1.21
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/xchm/xchm-1.21.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 85943645d20af536704a20b58ebd5849
+SLACKBUILD MD5SUM: 9bfe439ce94554ebae95d84f7a1db8e7
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  xchm (viewer for .chm files)
 
