@@ -448,6 +448,16 @@ SLACKBUILD MD5SUM: ea609fcd5d42333291a8ea6015627583
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  mysql-workbench - MySQL Workbench (GUI Tool)
 
+SLACKBUILD NAME: opencv
+SLACKBUILD LOCATION: ./opencv
+SLACKBUILD FILES: README fsh.patch opencv.SlackBuild opencv.info slack-desc
+SLACKBUILD VERSION: 2.4.3
+SLACKBUILD DOWNLOAD: http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.4.3/OpenCV-2.4.3.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: c0a5af4ff9d0d540684c0bf00ef35dbe
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  OpenCV (Open Source Computer Vision)
+
 SLACKBUILD NAME: pexpect
 SLACKBUILD LOCATION: ./pexpect
 SLACKBUILD FILES: README pexpect.SlackBuild pexpect.info slack-desc
