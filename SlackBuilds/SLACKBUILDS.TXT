@@ -71,20 +71,20 @@ SLACKBUILD SHORT DESCRIPTION:  autogen (configure generator)
 SLACKBUILD NAME: avbin
 SLACKBUILD LOCATION: ./avbin
 SLACKBUILD FILES: README avbin.SlackBuild avbin.info slack-desc
-SLACKBUILD VERSION: 7
-SLACKBUILD DOWNLOAD: https://github.com/downloads/AVbin/AVbin/avbin-linux-x86-32-7.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: https://github.com/downloads/AVbin/AVbin/avbin-linux-x86-64-7.tar.gz
-SLACKBUILD MD5SUM: 28038f3dba33da284972463216e1da0d
-SLACKBUILD MD5SUM_x86_64: 4dff910202080e706a3db311e1e42094
+SLACKBUILD VERSION: 10
+SLACKBUILD DOWNLOAD: https://github.com/downloads/AVbin/AVbin/install-avbin-linux-x86-32-v10
+SLACKBUILD DOWNLOAD_x86_64: https://github.com/downloads/AVbin/AVbin/install-avbin-linux-x86-64-v10
+SLACKBUILD MD5SUM: bb1e370539a261544b1da54ff0d30fbf
+SLACKBUILD MD5SUM_x86_64: 9fecc27c3936039a372b2a646808f5d7
 SLACKBUILD SHORT DESCRIPTION:  AVbin (cross platform wrapper)
 
 SLACKBUILD NAME: brainworkshop
 SLACKBUILD LOCATION: ./brainworkshop
 SLACKBUILD FILES: README brainworkshop-4.8.1-fix-paths.patch brainworkshop.SlackBuild brainworkshop.desktop brainworkshop.info brainworkshop.png brainworkshop.sh slack-desc
-SLACKBUILD VERSION: 4.8.1
-SLACKBUILD DOWNLOAD: http://ncu.dl.sourceforge.net/project/brainworkshop/brainworkshop/Brain%20Workshop%204.8/brainworkshop-4.8.1.zip
+SLACKBUILD VERSION: 4.8.4
+SLACKBUILD DOWNLOAD: http://ncu.dl.sourceforge.net/project/brainworkshop/brainworkshop/Brain%20Workshop%204.8/brainworkshop-4.8.4.zip
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: a3621f8302bc102589ac15bb7971dbce
+SLACKBUILD MD5SUM: 0fdc13a62c376c38c45b2929e517f735
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Brainworkshop (a Dual N-Back game)
 

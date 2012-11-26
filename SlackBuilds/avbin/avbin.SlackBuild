@@ -24,10 +24,11 @@
 
 # Changelog
 # July 12: Initial release
+# November 26: Upgraded to Avbin 10
 
 PRGNAM=avbin
-SRCNAM=avbin-linux
-VERSION=7
+SRCNAM=install-avbin-linux
+VERSION=10
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -56,7 +57,7 @@ rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP 
 rm -rf $SRCNAM-$ARCH_INFO-$VERSION
-tar xvf $CWD/$SRCNAM-$ARCH_INFO-$VERSION.tar.gz
+$CWD/$SRCNAM-$ARCH_INFO-v$VERSION --noexec --target $SRCNAM-$ARCH_INFO-$VERSION
 cd $SRCNAM-$ARCH_INFO-$VERSION
 
 chown -R root:root .
@@ -71,14 +72,14 @@ find $PKG | xargs file | grep -e "executable" -e "shared object" | grep ELF \
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 mkdir -p $PKG/usr/lib${LIBDIRSUFFIX}
-cp libavbin.so.7 $PKG/usr/lib${LIBDIRSUFFIX}
+cp libavbin.so.$VERSION $PKG/usr/lib${LIBDIRSUFFIX}
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 
 # Fix symlinks
 (
   cd $PKG/usr/lib${LIBDIRSUFFIX}
-  ln -s libavbin.so.7 libavbin.so
-  chmod a+rx libavbin.so.7
+  ln -s libavbin.so.$VERSION libavbin.so
+  chmod a+rx libavbin.so.$VERSION
 )
 
 mkdir -p $PKG/install
