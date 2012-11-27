@@ -7,7 +7,7 @@ fi
 
 case "$1" in
 	'start')
-		swatch -c /etc/swatch/sshblock -t /etc/swatch/sshblock &> /dev/null &
+		swatch -c /etc/swatch/sshblock -t /var/log/messages &> /dev/null &
 		if [ ! `ls /etc/cron.hourly | grep sshunblock` ]; then
 			ln -s /usr/sbin/sshunblock.pl /etc/cron.hourly
 		fi
