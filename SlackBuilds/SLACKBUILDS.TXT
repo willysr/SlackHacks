@@ -130,7 +130,7 @@ SLACKBUILD SHORT DESCRIPTION:  cups-filters (CUPS backend and filters)
 
 SLACKBUILD NAME: cups
 SLACKBUILD LOCATION: ./cups
-SLACKBUILD FILES: README cups.SlackBuild cups.info cupsd-conf-remove-obsolete-browse-directives.patch doinst.sh.gz slack-desc usb-backend-reset-after-job-only-for-specific-devices.patch
+SLACKBUILD FILES: README airprint-support.patch cups.SlackBuild cups.info cupsd-conf-remove-obsolete-browse-directives.patch doinst.sh.gz slack-desc usb-backend-reset-after-job-only-for-specific-devices.patch
 SLACKBUILD VERSION: 1.6.1
 SLACKBUILD DOWNLOAD: http://ftp.easysw.com/pub/cups/1.6.1/cups-1.6.1-source.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
