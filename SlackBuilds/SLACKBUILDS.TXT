@@ -321,10 +321,10 @@ SLACKBUILD SHORT DESCRIPTION:  gtksourceview (a GTK+ framework for source code e
 SLACKBUILD NAME: harfbuzz
 SLACKBUILD LOCATION: ./harfbuzz
 SLACKBUILD FILES: README harfbuzz.SlackBuild harfbuzz.info slack-desc
-SLACKBUILD VERSION: 0.9.7
-SLACKBUILD DOWNLOAD: http://www.freedesktop.org/software/harfbuzz/release/harfbuzz-0.9.7.tar.bz2
+SLACKBUILD VERSION: 0.9.9
+SLACKBUILD DOWNLOAD: http://www.freedesktop.org/software/harfbuzz/release/harfbuzz-0.9.9.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: db5382728a912352633d3be2e2a1d988
+SLACKBUILD MD5SUM: e901ffe556d706b7d43b272f83be7f09
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  harfbuzz (OpenType text shaping engine)
 
