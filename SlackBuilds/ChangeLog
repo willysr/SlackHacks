@@ -1,4 +1,8 @@
 +--------------------------+
+Sat Dec 15 15:53:41 WIT 2012
+wireshark: Upgraded to 1.8.4
+
++--------------------------+
 Sat Dec 15 15:27:04 GMT+7 2012
 libmygpo-qt: Added
   This is a C++/Qt Client Library
