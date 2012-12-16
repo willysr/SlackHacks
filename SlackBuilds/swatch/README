@@ -2,10 +2,6 @@ Swatch.pl started out as the "simple watchdog" for activly monitoring
 log files produced by UNIX's syslog facility. It has since been 
 evolving into a utility that can monitor just about any type of log.
 
-Note: Sometimes it's better to run perl -MCPAN -e shell and perform
-"upgrade" first before installing the dependencies below to make
-sure you have the core's packages upgraded to the latest stable version
-
 Requires:
 - perl-Date-Calc
 - perl-Date-Manip
