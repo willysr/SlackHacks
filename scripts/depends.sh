@@ -23,12 +23,17 @@
 # that depends on certain package. 
 # In the example below, i used ffmpeg which is used in many packages in SBo
 
-# Put the directory where you place the SlackBuild Git Repository
-SBOPATH="/home/willysr/slackbuilds/"
+# Put the top level directory where you place the SlackBuild Git Repositories
+# Place different directories by adding space in between
+# Here i have 2 different SlackBuild repository collection
+SBOPATH="/home/willysr/slackbuilds/ /home/willysr/SlackHacks/SlackBuilds"
 
 if [ -z $1 ]; then
   echo "usage $0 <package name>"
   echo "example: ./depends.sh ffmpeg"
 else
-  find $SBOPATH -name "*.info" -exec grep -lE "REQUIRES=\"(\w*\s)*$1(\s\w*\s*)*\"" {} + | awk -F'/' '{print $(NF-2)"/"$(NF-1)}' | sort
+  for DIR in $SBOPATH
+  do
+    find $DIR -name "*.info" -exec grep -lE "REQUIRES=\"(\w*\s)*$1(\s\w*\s*)*\"" {} + | awk -F'/' '{print $(NF-2)"/"$(NF-1)}' | sort
+  done
 fi

@@ -23,15 +23,20 @@
 # In the example below, i used ffmpeg which depends lame and x264
 # This script will only list the mandatory packages listed in the REQUIRES line
 
-# Put the directory where you place the SlackBuild Git Repository
-SBOPATH="/home/willysr/slackbuilds/"
+# Put the top level directory where you place the SlackBuild Git Repositories
+# Place different directories by adding space in between
+# Here i have 2 different SlackBuild repository collection
+SBOPATH="/home/willysr/slackbuilds/ /home/willysr/SlackHacks/SlackBuilds"
 
 if [ -z $1 ]; then
   echo "usage $0 <package name>"
   echo "example: ./requirements.sh ffmpeg"
 else
-  result=`find $SBOPATH -name "*.info" -exec grep -lE "PRGNAM=\"$1\"" {} +`
-  if ! [ -z $result ]; then
-    cat $result | grep "REQUIRES=" | sed 's/REQUIRES="//' | sed 's/"//' | sed 's/%README% //'
-  fi
+  for DIR in $SBOPATH
+  do
+    result=`find $DIR -name "*.info" -exec grep -lE "PRGNAM=\"$1\"" {} +`
+    if ! [ -z $result ]; then
+      cat $result | grep "REQUIRES=" | sed 's/REQUIRES="//' | sed 's/"//' | sed 's/%README% //'
+    fi
+  done
 fi
