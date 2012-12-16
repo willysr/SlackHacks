@@ -11,20 +11,20 @@ SLACKBUILD SHORT DESCRIPTION:  BeautifulSoup (Python HTML/XML parser)
 SLACKBUILD NAME: OpenAL
 SLACKBUILD LOCATION: ./OpenAL
 SLACKBUILD FILES: OpenAL.SlackBuild OpenAL.info README slack-desc
-SLACKBUILD VERSION: 1.14
-SLACKBUILD DOWNLOAD: http://kcat.strangesoft.net/openal-releases/openal-soft-1.14.tar.bz2
+SLACKBUILD VERSION: 1.15.1
+SLACKBUILD DOWNLOAD: http://kcat.strangesoft.net/openal-releases/openal-soft-1.15.1.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 3d8b86c21a2f87a2a5e60f78f3b3f03d
+SLACKBUILD MD5SUM: ea83dec3b9655a27d28e7bc7cae9cd71
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  OpenAL (a cross-platform 3D audio API)
 
 SLACKBUILD NAME: ProjectLibre
 SLACKBUILD LOCATION: ./ProjectLibre
 SLACKBUILD FILES: ProjectLibre.SlackBuild ProjectLibre.info README projectlibre-path.patch slack-desc
-SLACKBUILD VERSION: 1.5.1
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/projectlibre/projectlibre-1.5.1.tar.gz
+SLACKBUILD VERSION: 1.5.2
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/projectlibre/projectlibre-1.5.2.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: adc4be116254b7e91b76b2f9d1ff6d2e
+SLACKBUILD MD5SUM: 99bf0ac7daf32b127e46b96defb717a0
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  ProjectLibre (Project Management Software)
 

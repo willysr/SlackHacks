@@ -25,10 +25,11 @@
 # Modified by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # Changelog
 # July 12: Upgraded to 1.14
+# December 16: Upgraded to 1.15.1
 
 PRGNAM=OpenAL
 SRCNAM=openal-soft
-VERSION=1.14
+VERSION=1.15.1
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
