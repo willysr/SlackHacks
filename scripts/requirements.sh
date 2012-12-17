@@ -32,11 +32,18 @@ if [ -z $1 ]; then
   echo "usage $0 <package name>"
   echo "example: ./requirements.sh ffmpeg"
 else
+  # Temporary file to hold the results of the search process
+  results="/tmp/results"
   for DIR in $SBOPATH
   do
     result=`find $DIR -name "*.info" -exec grep -lE "PRGNAM=\"$1\"" {} +`
     if ! [ -z $result ]; then
-      cat $result | grep "REQUIRES=" | sed 's/REQUIRES="//' | sed 's/"//' | sed 's/%README% //'
+      cat $result | grep "REQUIRES=" | sed 's/REQUIRES="//' | sed 's/"//' | sed 's/%README% //' >> $results
     fi
   done
+  # Do not show duplicate package
+  cat $results | sort | uniq
+
+  # Remove the file
+  rm -f $results
 fi
