@@ -23,7 +23,7 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 PRGNAM=gdl
-VERSION=${VERSION:-3.6.0}
+VERSION=${VERSION:-3.6.2}
 BUILD=${BUILD:-1wsr}
 
 # Automatically determine the architecture we're building on:
