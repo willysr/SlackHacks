@@ -50,11 +50,11 @@ SLACKBUILD SHORT DESCRIPTION:  aegisub (General-purpose subtitle editor)
 
 SLACKBUILD NAME: anjuta
 SLACKBUILD LOCATION: ./anjuta
-SLACKBUILD FILES: README anjuta-3.4.4.tar.xz anjuta.SlackBuild anjuta.info doinst.sh slack-desc
-SLACKBUILD VERSION: 3.4.4
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/anjuta/3.4/anjuta-3.4.4.tar.xz
+SLACKBUILD FILES: README anjuta.SlackBuild anjuta.info doinst.sh slack-desc
+SLACKBUILD VERSION: 3.6.2
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/anjuta/3.6/anjuta-3.6.2.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: b6a8093a8096a2337db1b50464eec1ea
+SLACKBUILD MD5SUM: 3cd2e771df0768af6274a0334fb24502
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  anjuta (GNOME Integrated Development Environment)
 
@@ -201,10 +201,10 @@ SLACKBUILD SHORT DESCRIPTION:  filezilla (the free FTP solution)
 SLACKBUILD NAME: gdl
 SLACKBUILD LOCATION: ./gdl
 SLACKBUILD FILES: README gdl.SlackBuild gdl.info slack-desc
-SLACKBUILD VERSION: 3.6.0
-SLACKBUILD DOWNLOAD: ftp://ftp.gnome.org/pub/gnome/sources/gdl/3.6/gdl-3.6.0.tar.xz
+SLACKBUILD VERSION: 3.6.2
+SLACKBUILD DOWNLOAD: ftp://ftp.gnome.org/pub/gnome/sources/gdl/3.6/gdl-3.6.2.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: cb1ce1aab8aa5bef56505237d711b83b
+SLACKBUILD MD5SUM: c871909b2948cd173b80ce8565a5d168
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  gdl (GNOME Docking Library)
 
@@ -300,7 +300,7 @@ SLACKBUILD SHORT DESCRIPTION: gtk+2: GTK+ version 2 (multi-platform GUI toolkit)
 
 SLACKBUILD NAME: gtkpod
 SLACKBUILD LOCATION: ./gtkpod
-SLACKBUILD FILES: README doinst.sh gtkpod.SlackBuild gtkpod.info slack-desc
+SLACKBUILD FILES: README doinst.sh gtkpod-anjuta36.patch gtkpod-gdl362.patch gtkpod.SlackBuild gtkpod.info slack-desc
 SLACKBUILD VERSION: 2.1.2
 SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/gtkpod/gtkpod/gtkpod-2.1.2/gtkpod-2.1.2.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
@@ -317,6 +317,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: c3589ee21e811bdc44091c3dc947ba4e
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  gtksourceview (a GTK+ framework for source code editing)
+
+SLACKBUILD NAME: guvcview
+SLACKBUILD LOCATION: ./guvcview
+SLACKBUILD FILES: README doinst.sh guvcview.SlackBuild guvcview.info slack-desc
+SLACKBUILD VERSION: 1.6.1
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/project/guvcview/source/guvcview-src-1.6.1.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: b3dfd04d8aae0c807d5f5d6ba035580f
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  guvcview (GTK+ UVC Viewer)
 
 SLACKBUILD NAME: harfbuzz
 SLACKBUILD LOCATION: ./harfbuzz
