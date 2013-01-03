@@ -48,10 +48,11 @@
 # December, 8: Upgraded to 0.9.9
 # December, 15: Upgraded to 0.9.10
 # December, 21: Upgraded to 0.9.11
+# January, 3: Upgraded to 0.9.12
 
 # Set initial variables:
 PRGNAM=calibre
-VERSION=${VERSION:-0.9.11}
+VERSION=${VERSION:-0.9.12}
 BUILD=${BUILD:-1wsr}
 NUMJOBS=${NUMJOBS:" -j4 "}
 
@@ -122,6 +123,10 @@ tar xvf $CWD/${PRGNAM}-${VERSION}.tar.xz
 cd $TMP/$PRGNAM/
 chown -R root:root .
 chmod -R u+w,go+r-w,a+X-s .
+
+# Patch not to use Qt Hacks, thanks to Eric Hameleers
+patch -p1 < $CWD/calibre_noqthack.patch
+
 # Calibre 0.8.6 has a version bug:
 INTERNAL_VERSION=$(echo $VERSION | sed -e 's/\./, /g')
 VERSION_CONSTANT=$(grep "^numeric_version" src/calibre/constants.py)
