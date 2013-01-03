@@ -201,10 +201,10 @@ SLACKBUILD SHORT DESCRIPTION:  filezilla (the free FTP solution)
 SLACKBUILD NAME: gdl
 SLACKBUILD LOCATION: ./gdl
 SLACKBUILD FILES: README gdl.SlackBuild gdl.info slack-desc
-SLACKBUILD VERSION: 3.6.2
-SLACKBUILD DOWNLOAD: ftp://ftp.gnome.org/pub/gnome/sources/gdl/3.6/gdl-3.6.2.tar.xz
+SLACKBUILD VERSION: 3.7.3
+SLACKBUILD DOWNLOAD: ftp://ftp.gnome.org/pub/gnome/sources/gdl/3.7/gdl-3.7.3.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: c871909b2948cd173b80ce8565a5d168
+SLACKBUILD MD5SUM: 6c2344d7d0cd4e36229f3d95cf6dc3fc
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  gdl (GNOME Docking Library)
 
@@ -311,10 +311,10 @@ SLACKBUILD SHORT DESCRIPTION:  gtkpod (iPod Manager)
 SLACKBUILD NAME: gtksourceview3
 SLACKBUILD LOCATION: ./gtksourceview3
 SLACKBUILD FILES: README allow-deprecated-glib-symbols.patch gtksourceview3.SlackBuild gtksourceview3.info slack-desc
-SLACKBUILD VERSION: 3.4.2
-SLACKBUILD DOWNLOAD: http://ftp.acc.umu.se/pub/gnome/sources/gtksourceview/3.4/gtksourceview-3.4.2.tar.xz
+SLACKBUILD VERSION: 3.7.1
+SLACKBUILD DOWNLOAD: ftp://ftp.gnome.org/pub/gnome/sources/gtksourceview/3.7/gtksourceview-3.7.1.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: c3589ee21e811bdc44091c3dc947ba4e
+SLACKBUILD MD5SUM: df1605ece8d8fe2d9f63512cf40bffe4
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  gtksourceview (a GTK+ framework for source code editing)
 
