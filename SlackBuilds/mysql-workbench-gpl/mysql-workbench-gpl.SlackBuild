@@ -12,9 +12,10 @@
 # August, 27: Upgraded to 5.2.42, Include patches from Dhaby Xiloj
 # September, 13: Upgraded to 5.2.43
 # October, 3: Upgraded to 5.2.44
+# January, 3: Upgraded to 5.2.45
 
 PRGNAM=mysql-workbench-gpl
-VERSION=${VERSION:-5.2.44}
+VERSION=${VERSION:-5.2.45}
 BUILD=${BUILD:-1wsr}
 
 SRCVERSION=$VERSION-src

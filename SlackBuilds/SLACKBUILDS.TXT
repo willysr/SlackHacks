@@ -451,10 +451,10 @@ SLACKBUILD SHORT DESCRIPTION:  lxml (Python bindings for the libxml2 and libxslt
 SLACKBUILD NAME: mysql-workbench-gpl
 SLACKBUILD LOCATION: ./mysql-workbench-gpl
 SLACKBUILD FILES: doinst.sh mysql-workbench-gpl-5.2.43-src.patch mysql-workbench-gpl.SlackBuild mysql-workbench-gpl.info slack-desc
-SLACKBUILD VERSION: 5.2.44
-SLACKBUILD DOWNLOAD: http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQLGUITools/mysql-workbench-gpl-5.2.44-src.tar.gz
+SLACKBUILD VERSION: 5.2.45
+SLACKBUILD DOWNLOAD: http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQLGUITools/mysql-workbench-gpl-5.2.45-src.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: ea609fcd5d42333291a8ea6015627583
+SLACKBUILD MD5SUM: 9cb676dd11ae54e3b6b9819331050122
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  mysql-workbench - MySQL Workbench (GUI Tool)
 
