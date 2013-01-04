@@ -49,10 +49,11 @@
 # December, 15: Upgraded to 0.9.10
 # December, 21: Upgraded to 0.9.11
 # January, 3: Upgraded to 0.9.12
+# January, 4: Upgraded to 0.9.13
 
 # Set initial variables:
 PRGNAM=calibre
-VERSION=${VERSION:-0.9.12}
+VERSION=${VERSION:-0.9.13}
 BUILD=${BUILD:-1wsr}
 NUMJOBS=${NUMJOBS:" -j4 "}
 
