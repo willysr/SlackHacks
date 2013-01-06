@@ -300,7 +300,7 @@ SLACKBUILD SHORT DESCRIPTION: gtk+2: GTK+ version 2 (multi-platform GUI toolkit)
 
 SLACKBUILD NAME: gtkpod
 SLACKBUILD LOCATION: ./gtkpod
-SLACKBUILD FILES: README doinst.sh gtkpod-2.1.3.tar.gz gtkpod-gdl362.patch gtkpod.SlackBuild gtkpod.info slack-desc
+SLACKBUILD FILES: README doinst.sh gtkpod-gdl362.patch gtkpod.SlackBuild gtkpod.info slack-desc
 SLACKBUILD VERSION: 2.1.3
 SLACKBUILD DOWNLOAD: http://nchc.dl.sourceforge.net/project/gtkpod/gtkpod/gtkpod-2.1.3/gtkpod-2.1.3.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
@@ -331,10 +331,10 @@ SLACKBUILD SHORT DESCRIPTION:  guvcview (GTK+ UVC Viewer)
 SLACKBUILD NAME: harfbuzz
 SLACKBUILD LOCATION: ./harfbuzz
 SLACKBUILD FILES: README harfbuzz.SlackBuild harfbuzz.info slack-desc
-SLACKBUILD VERSION: 0.9.9
-SLACKBUILD DOWNLOAD: http://www.freedesktop.org/software/harfbuzz/release/harfbuzz-0.9.9.tar.bz2
+SLACKBUILD VERSION: 0.9.10
+SLACKBUILD DOWNLOAD: http://www.freedesktop.org/software/harfbuzz/release/harfbuzz-0.9.10.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: e901ffe556d706b7d43b272f83be7f09
+SLACKBUILD MD5SUM: deec04f2281bef6323f4ad1dabbf75f7
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  harfbuzz (OpenType text shaping engine)
 
