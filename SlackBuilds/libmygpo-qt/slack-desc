@@ -8,7 +8,7 @@
 	   |-----handy-ruler------------------------------------------------------|
 libmygpo-qt: libmygpo-qt (C++/Qt Client Library)
 libmygpo-qt:
-libmygpo-qt: A C++/Qt client library for gpodder.net
+libmygpo-qt: libmygpo-qt is a Qt Library that wraps the gpodder.net Web API
 libmygpo-qt:
 libmygpo-qt:
 libmygpo-qt: Project Website: http://wiki.gpodder.org/wiki/Libmygpo-qt
