@@ -32,11 +32,12 @@
 # November 18: Upgraded to 1.6.0
 # December 16: Upgraded to 1.6.5
 # December 21: Upgraded to 1.6.9
+# January 7: Upgraded to 1.6.12
 
 PRGNAM=dropbox
 PACKNAM=dropbox-lnx
 
-VERSION=${VERSION:-1.6.9}
+VERSION=${VERSION:-1.6.12}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
