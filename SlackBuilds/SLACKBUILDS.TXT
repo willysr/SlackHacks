@@ -121,10 +121,10 @@ SLACKBUILD SHORT DESCRIPTION:  cssselect (CSS Selectors for Python)
 SLACKBUILD NAME: cups-filters
 SLACKBUILD LOCATION: ./cups-filters
 SLACKBUILD FILES: README cups-filters.SlackBuild cups-filters.info slack-desc
-SLACKBUILD VERSION: 1.0.20
-SLACKBUILD DOWNLOAD: https://www.openprinting.org/download/cups-filters/cups-filters-1.0.20.tar.xz
+SLACKBUILD VERSION: 1.0.29
+SLACKBUILD DOWNLOAD: https://www.openprinting.org/download/cups-filters/cups-filters-1.0.29.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: a046937398d099d0512817a9d6d37e70
+SLACKBUILD MD5SUM: 01e2d9abc4ea69521334a0ee2f70d98a
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  cups-filters (CUPS backend and filters)
 
@@ -497,6 +497,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 88dad0a270d1fe83a39e0467a66a22bb
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  pycrypto (Python Cryptography Toolkit)
+
+SLACKBUILD NAME: qpdf
+SLACKBUILD LOCATION: ./qpdf
+SLACKBUILD FILES: README qpdf.SlackBuild qpdf.info slack-desc
+SLACKBUILD VERSION: 4.0.0
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/qpdf/qpdf-4.0.0.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 812ffc8c5b8fb5cf9310fcbd9a7d20d3
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  qpdf (Command-line tools and library for transforming PDF files)
 
 SLACKBUILD NAME: skype
 SLACKBUILD LOCATION: ./skype

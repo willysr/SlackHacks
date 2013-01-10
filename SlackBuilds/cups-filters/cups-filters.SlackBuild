@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Copyright 2012  Willy Sudiarto Raharjo <willysr@slackware-id.org>
+# Copyright 2012-2013  Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # All rights reserved.
 #
 # Redistribution and use of this script, with or without modification, is
@@ -23,17 +23,16 @@
 # Changelog
 # July 19 : Initial release
 # July 23 : Upgraded to 1.0.20
+# January 10: Upgraded to 1.0.29
 
 PRGNAM=cups-filters
-VERSION=1.0.20
+VERSION=1.0.29
 BUILD=${BUILD:-1wsr}
 
-# Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
     i?86) export ARCH=i486 ;;
     arm*) export ARCH=arm ;;
-    # Unless $ARCH is already set, use uname -m for all other archs:
        *) export ARCH=$( uname -m ) ;;
   esac
 fi
@@ -43,8 +42,6 @@ if [ "$ARCH" = "x86_64" ]; then
 else
   LIBDIRSUFFIX=""
 fi
-
-NUMJOBS=${NUMJOBS:-" -j7 "}
 
 CWD=$(pwd)
 TMP=${TMP:-/tmp/build}
@@ -66,12 +63,13 @@ CFLAGS="$CFLAGS -ldl" \
   --sysconfdir=/etc \
   --libdir=/usr/lib${LIBDIRSUFFIX} \
   --without-php \
-  --without-tiff \
   --disable-static \
+  --disable-avahi \
+  --with-test-font-path=/usr/share/fonts/TTF/DejaVuSans.ttf \
   --build=$ARCH-slackware-linux
 
-make $NUMJOBS || exit 1
-make DESTDIR=$PKG install || exit 1
+make 
+make DESTDIR=$PKG install
 
 # Strip stuff:
 find $PKG | xargs file | grep -e "executable" -e "shared object" \
