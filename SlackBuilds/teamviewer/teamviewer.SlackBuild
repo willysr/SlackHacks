@@ -26,10 +26,11 @@
 # Modified by Willy Sudiarto Raharjo 
 # Changelog
 # January 9, Upgraded to 8.0.16675, added rc.teamviewerd to provide teamviewer daemon
+# January 12, Rebuilt to create symlink in /usr/bin, thanks to Ponce
 
 PRGNAM=teamviewer
 VERSION=${VERSION:-8.0.16675}
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
@@ -88,8 +89,11 @@ cat $PKG/opt/teamviewer8/tv_bin/desktop/teamviewer-teamviewer8.desktop \
   | sed -e 's/EXEC/teamviewer/' -e 's/ICON/teamviewer/' \
   > $PKG/usr/share/applications/teamviewer.desktop
 
-# Create the generic executable
-( cd $PKG/usr/bin; ln -sf teamviewer$MAIN_VER teamviewer )
+# Remove the dangling symlink first
+rm $PKG/usr/bin/teamviewer
+
+# Re-create the generic executable
+( cd $PKG/usr/bin; ln -s /opt/teamviewer8/tv_bin/script/teamviewer teamviewer )
 
 # Link icon to /usr/share/pixmaps
 mkdir -p $PKG/usr/share/pixmaps
