@@ -37,5 +37,5 @@ case "$1" in
   teamviewerd_restart
   ;;
 *)
-  teamviewerd_start
+  echo "usage $0 start|stop|restart"
 esac
