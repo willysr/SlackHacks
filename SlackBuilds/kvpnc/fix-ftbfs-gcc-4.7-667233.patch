@@ -1,0 +1,10 @@
+--- a/src/kvpnc.cpp	2012-05-04 12:58:04.151642221 -0400
++++ b/src/kvpnc.cpp	2012-05-04 12:57:59.511642466 -0400
+@@ -75,6 +75,7 @@
+ #include <cstdlib>
+ #include <ctime>
+ #include <iomanip>
++#include <unistd.h>
+ 
+ #include "ui_mainviewbase4.h"
+ #include "ciscocertificateenrollment.h"

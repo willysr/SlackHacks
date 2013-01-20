@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+     |-----handy-ruler------------------------------------------------------|
+kvpnc: kvpnc (VPN Client GUI)
+kvpnc:
+kvpnc: KVpnc is a KDE Desktop Environment frontend for various vpn clients. 
+kvpnc:
+kvpnc: It supports Cisco VPN (vpnc,vpnclient), IPSec (FreeS/WAN, strongSwan, 
+kvpnc: racoon), PPTP (pptpclient), OpenVPN, L2TP (FreeS/WAN, Openswan, 
+kvpnc: strongSwan, racoon), Vtun, OpenSSH
+kvpnc:
+kvpnc: Project Web Site: http://home.gna.org/kvpnc/en/index.html
+kvpnc:
+kvpnc:

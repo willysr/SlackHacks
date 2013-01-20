@@ -1,0 +1,7 @@
+KVpnc is a KDE Desktop Environment frontend for various vpn clients. 
+
+It supports Cisco VPN (vpnc,vpnclient), IPSec (FreeS/WAN, strongSwan, 
+racoon), PPTP (pptpclient), OpenVPN, L2TP (FreeS/WAN, Openswan, 
+strongSwan, racoon), Vtun, OpenSSH
+
+Note: This application requires root privileges in order to work
