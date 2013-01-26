@@ -91,10 +91,10 @@ SLACKBUILD SHORT DESCRIPTION:  Brainworkshop (a Dual N-Back game)
 SLACKBUILD NAME: calibre
 SLACKBUILD LOCATION: ./calibre
 SLACKBUILD FILES: README calibre.SlackBuild calibre.info calibre_noqthack.patch slack-desc
-SLACKBUILD VERSION: 0.9.15
-SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.9.15.tar.xz
+SLACKBUILD VERSION: 0.9.16
+SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.9.16.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 2e87ac93bb2006e40001a4028945cee2
+SLACKBUILD MD5SUM: ee66d836fad40a184792cee3c5c6755b
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  calibre (e-book library management application)
 
@@ -311,10 +311,10 @@ SLACKBUILD SHORT DESCRIPTION:  gtkpod (iPod Manager)
 SLACKBUILD NAME: gtksourceview3
 SLACKBUILD LOCATION: ./gtksourceview3
 SLACKBUILD FILES: README allow-deprecated-glib-symbols.patch gtksourceview3.SlackBuild gtksourceview3.info slack-desc
-SLACKBUILD VERSION: 3.7.1
-SLACKBUILD DOWNLOAD: ftp://ftp.gnome.org/pub/gnome/sources/gtksourceview/3.7/gtksourceview-3.7.1.tar.xz
+SLACKBUILD VERSION: 3.7.2
+SLACKBUILD DOWNLOAD: ftp://ftp.gnome.org/pub/gnome/sources/gtksourceview/3.7/gtksourceview-3.7.2.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: df1605ece8d8fe2d9f63512cf40bffe4
+SLACKBUILD MD5SUM: 50328d338bfc9c9e18f91fd43192c1b0
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  gtksourceview (a GTK+ framework for source code editing)
 
@@ -331,10 +331,10 @@ SLACKBUILD SHORT DESCRIPTION:  guvcview (GTK+ UVC Viewer)
 SLACKBUILD NAME: harfbuzz
 SLACKBUILD LOCATION: ./harfbuzz
 SLACKBUILD FILES: README harfbuzz.SlackBuild harfbuzz.info slack-desc
-SLACKBUILD VERSION: 0.9.10
-SLACKBUILD DOWNLOAD: http://www.freedesktop.org/software/harfbuzz/release/harfbuzz-0.9.10.tar.bz2
+SLACKBUILD VERSION: 0.9.12
+SLACKBUILD DOWNLOAD: http://www.freedesktop.org/software/harfbuzz/release/harfbuzz-0.9.12.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: deec04f2281bef6323f4ad1dabbf75f7
+SLACKBUILD MD5SUM: 35551b8cdf53b75aa9c42460f210e89f
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  harfbuzz (OpenType text shaping engine)
 

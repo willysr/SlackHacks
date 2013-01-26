@@ -1,4 +1,10 @@
 +--------------------------+
+Sat Jan 26 07:44:15 GMT+7 2013
+calibre: Upgraded to 0.9.16
+harfbuzz: Upgraded to 0.9.12
+gtksourceview3: Upgraded to 3.7.2
+
++--------------------------+
 Sun Jan 20 09:37:10 GMT+7 2013
 kvpnc: Added
   This is a VPN Client GUI
