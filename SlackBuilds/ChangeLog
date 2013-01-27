@@ -1,4 +1,9 @@
 +--------------------------+
+Sun Jan 27 10:08:55 GMT+7 2013
+sdl: Added
+  This is an attempt to fix clicking bug on Wesnoth on E17 and Fluxbox
+
++--------------------------+
 Sat Jan 26 07:44:15 GMT+7 2013
 calibre: Upgraded to 0.9.16
 harfbuzz: Upgraded to 0.9.12

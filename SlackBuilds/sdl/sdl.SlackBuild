@@ -1,0 +1,256 @@
+#!/bin/sh
+
+# Copyright 2008, 2009, 2010, 2011  Patrick J. Volkerding, Sebeka, Minnesota, USA
+# All rights reserved.
+#
+# Redistribution and use of this script, with or without modification, is
+# permitted provided that the following conditions are met:
+#
+# 1. Redistributions of this script must retain the above copyright
+#    notice, this list of conditions and the following disclaimer.
+#
+#  THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
+#  WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+#  MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO
+#  EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+#  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+#  PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+#  OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+#  WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+#  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+#  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+VERSION=${VERSION:-$(echo SDL-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
+IMAGE=${IMAGE:-$(echo SDL_image-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
+MIXER=${MIXER:-$(echo SDL_mixer-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
+NET=${NET:-$(echo SDL_net-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
+TTF=${TTF:-$(echo SDL_ttf-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
+
+BUILD=${BUILD:-5wsr}
+
+# Automatically determine the architecture we're building on:
+if [ -z "$ARCH" ]; then
+  case "$( uname -m )" in
+    i?86) export ARCH=i486 ;;
+    arm*) export ARCH=arm ;;
+    # Unless $ARCH is already set, use uname -m for all other archs:
+       *) export ARCH=$( uname -m ) ;;
+  esac
+fi
+
+NUMJOBS=${NUMJOBS:-" -j7 "}
+
+if [ "$ARCH" = "i486" ]; then
+  SLKCFLAGS="-O2 -march=i486 -mtune=i686"
+  LIBDIRSUFFIX=""
+elif [ "$ARCH" = "s390" ]; then
+  SLKCFLAGS="-O2"
+  LIBDIRSUFFIX=""
+elif [ "$ARCH" = "x86_64" ]; then
+  SLKCFLAGS="-O2 -fPIC"
+  LIBDIRSUFFIX="64"
+else
+  SLKCFLAGS="-O2"
+  LIBDIRSUFFIX=""
+fi
+
+CWD=$(pwd)
+TMP=${TMP:-/tmp}
+PKG=$TMP/package-sdl
+
+rm -rf $PKG
+mkdir -p $TMP $PKG
+cd $TMP
+rm -rf sdl-$VERSION
+tar xf $CWD/SDL-$VERSION.tar.?z* || exit 1
+cd SDL-$VERSION
+chown -R root:root .
+find . \
+  \( -perm 777 -o -perm 775 -o -perm 711 -o -perm 555 -o -perm 511 \) \
+  -exec chmod 755 {} \; -o \
+  \( -perm 666 -o -perm 664 -o -perm 600 -o -perm 444 -o -perm 440 -o -perm 400 \) \
+  -exec chmod 644 {} \;
+
+zcat $CWD/sdl.linux-2.6.31.input_absinfo.diff.gz | patch -p1 --verbose || exit 1
+
+# Add Patch from ArchLinux to fix mouse clicking problem
+# https://projects.archlinux.org/svntogit/packages.git/tree/trunk/sdl-1.2.14-fix-mouse-clicking.patch?h=packages/sdl
+patch -p1 < $CWD/sdl-1.2.14-fix-mouse-clicking.patch
+
+# We must use --disable-x11-shared or programs linked with SDL will
+# crash on machines that use the closed source nVidia drivers.
+
+CFLAGS="$SLKCFLAGS" \
+./configure \
+  --prefix=/usr \
+  --libdir=/usr/lib${LIBDIRSUFFIX} \
+  --mandir=/usr/man \
+  --disable-arts \
+  --disable-esd \
+  --enable-shared=yes \
+  --enable-static=no \
+  --disable-x11-shared
+
+make $NUMJOBS || make || exit 1
+
+# Spam /, for mixer/image later on:
+make install
+# install to package:
+make install DESTDIR=$PKG || exit 1
+mkdir -p $PKG/usr/doc/SDL-$VERSION/html
+cp -a docs/index.html $PKG/usr/doc/SDL-$VERSION
+cp -a docs/html/*.html $PKG/usr/doc/SDL-$VERSION/html
+cp -a \
+  BUGS COPYING CREDITS INSTALL README* TODO WhatsNew \
+  $PKG/usr/doc/SDL-$VERSION
+
+mkdir -p $PKG/install
+cat $CWD/slack-desc > $PKG/install/slack-desc
+
+# Add SDL_image:
+cd $TMP
+rm -rf SDL_image-$IMAGE
+tar xf $CWD/SDL_image-$IMAGE.tar.?z* || exit 1
+cd SDL_image-$IMAGE
+chown -R root:root .
+find . \
+  \( -perm 777 -o -perm 775 -o -perm 711 -o -perm 555 -o -perm 511 \) \
+  -exec chmod 755 {} \; -o \
+  \( -perm 666 -o -perm 664 -o -perm 600 -o -perm 444 -o -perm 440 -o -perm 400 \) \
+  -exec chmod 644 {} \;
+
+# we don't want sdl to load the libs with dlopen(), gcc is smarter...
+CFLAGS="$SLKCFLAGS" \
+./configure \
+  --prefix=/usr \
+  --libdir=/usr/lib${LIBDIRSUFFIX} \
+  --mandir=/usr/man \
+  --enable-shared=yes \
+  --enable-static=no \
+  --enable-jpg-shared=no \
+  --enable-png-shared=no \
+  --enable-tif-shared=no
+
+make $NUMJOBS || make || exit 1
+make install DESTDIR=$PKG || exit 1
+mkdir -p $PKG/usr/doc/SDL_image-$IMAGE
+cp -a \
+  CHANGES COPYING README \
+  $PKG/usr/doc/SDL_image-$IMAGE
+
+# Add SDL_mixer:
+cd $TMP
+rm -rf SDL_mixer-$MIXER
+tar xf $CWD/SDL_mixer-$MIXER.tar.?z* || exit 1
+cd SDL_mixer-$MIXER
+
+# Don't look for things in /usr/local, since this is an installed package:
+zcat $CWD/SDL_mixer.usrlocal.diff.gz | patch -p1 --verbose || exit 1
+
+# Install patched static libmikmod:
+unzip libmikmod-3.1.12.zip
+( cd libmikmod-3.1.12.patched
+  ./configure \
+  --prefix=/usr/local \
+  --libdir=/usr/local/lib${LIBDIRSUFFIX} \
+  --with-pic \
+  --enable-shared=no \
+  --enable-static=yes
+  make $NUMJOBS || make || exit 1
+  make install
+)
+
+chown -R root:root .
+find . \
+  \( -perm 777 -o -perm 775 -o -perm 711 -o -perm 555 -o -perm 511 \) \
+  -exec chmod 755 {} \; -o \
+  \( -perm 666 -o -perm 664 -o -perm 600 -o -perm 444 -o -perm 440 -o -perm 400 \) \
+  -exec chmod 644 {} \;
+
+CFLAGS="$SLKCFLAGS" \
+./configure \
+  --prefix=/usr \
+  --libdir=/usr/lib${LIBDIRSUFFIX} \
+  --mandir=/usr/man \
+  --enable-music-mod \
+  --enable-shared=yes \
+  --enable-static=no
+
+make $NUMJOBS || make || exit 1
+make install DESTDIR=$PKG || exit 1
+
+mkdir -p $PKG/usr/doc/SDL_mixer-$MIXER
+cp -a \
+  CHANGES COPYING README \
+  $PKG/usr/doc/SDL_mixer-$MIXER
+
+# We do not want to try to pull in -lmikmod, since that was linked static:
+sed -i -e "s/ -lmikmod//g" $PKG/usr/lib${LIBDIRSUFFIX}/libSDL_mixer.la
+
+# Add SDL_net:
+cd $TMP
+rm -rf SDL_net-$NET
+tar xf $CWD/SDL_net-$NET.tar.?z* || exit 1
+cd SDL_net-$NET
+chown -R root:root .
+find . \
+  \( -perm 777 -o -perm 775 -o -perm 711 -o -perm 555 -o -perm 511 \) \
+  -exec chmod 755 {} \; -o \
+  \( -perm 666 -o -perm 664 -o -perm 600 -o -perm 444 -o -perm 440 -o -perm 400 \) \
+  -exec chmod 644 {} \;
+
+CFLAGS="$SLKCFLAGS" \
+./configure \
+  --prefix=/usr \
+  --libdir=/usr/lib${LIBDIRSUFFIX} \
+  --mandir=/usr/man \
+  --enable-shared=yes \
+  --enable-static=no
+
+make $NUMJOBS || make || exit 1
+make install DESTDIR=$PKG || exit 1
+
+mkdir -p $PKG/usr/doc/SDL_net-$NET
+cp -a \
+  CHANGES COPYING README \
+  $PKG/usr/doc/SDL_net-$NET
+
+# Add SDL_ttf:
+cd $TMP
+rm -rf SDL_ttf-$TTF
+tar xf $CWD/SDL_ttf-$TTF.tar.?z* || exit 1
+cd SDL_ttf-$TTF
+
+#zcat $CWD/SDL_ttf-2.0.8-noftinternals.diff.gz | patch -p1 --verbose || exit 1
+
+chown -R root:root .
+find . \
+  \( -perm 777 -o -perm 775 -o -perm 711 -o -perm 555 -o -perm 511 \) \
+  -exec chmod 755 {} \; -o \
+  \( -perm 666 -o -perm 664 -o -perm 600 -o -perm 444 -o -perm 440 -o -perm 400 \) \
+  -exec chmod 644 {} \;
+
+CFLAGS="$SLKCFLAGS" \
+./configure \
+  --prefix=/usr \
+  --libdir=/usr/lib${LIBDIRSUFFIX} \
+  --mandir=/usr/man \
+  --enable-shared=yes \
+  --enable-static=no
+
+make $NUMJOBS || make || exit 1
+make install DESTDIR=$PKG || exit 1
+
+mkdir -p $PKG/usr/doc/SDL_ttf-$TTF
+cp -a \
+  CHANGES COPYING README \
+  $PKG/usr/doc/SDL_ttf-$TTF
+
+find $PKG | xargs file | grep -e "executable" -e "shared object" | grep ELF \
+  | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
+
+gzip -9 $PKG/usr/man/man?/*.?
+
+cd $PKG
+/sbin/makepkg -l y -c n $TMP/sdl-$VERSION-$ARCH-$BUILD.txz
+

@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+   |-----handy-ruler------------------------------------------------------|
+sdl: sdl (Simple DirectMedia Layer library)
+sdl:
+sdl: This is the Simple DirectMedia Layer, a generic API that provides low
+sdl: level access to audio, keyboard, mouse, joystick, 3D hardware via
+sdl: OpenGL, and 2D framebuffer across multiple platforms.
+sdl:
+sdl: SDL links against alsa-lib, arts, audiofile, esound, and the X11
+sdl: libraries.  Make sure all of these are installed if you're planning to
+sdl: use SDL (a full installation will cover all of the prerequisites).
+sdl:
+sdl:
