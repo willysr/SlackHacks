@@ -61,8 +61,10 @@ chmod -R u+w,go+r-w,a-s .
 
 chmod 0755 $PKG # Put this back
 
-# Move to proper places for x86_64 machines
-mv $PKG/usr/lib $PKG/usr/lib${LIBDIRSUFFIX}
+if [ "$ARCH" = "x86_64" ]; then
+  # Move to proper places for x86_64 machines
+  mv $PKG/usr/lib $PKG/usr/lib${LIBDIRSUFFIX}
+fi
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
