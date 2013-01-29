@@ -61,7 +61,7 @@ chmod -R u+w,go+r-w,a-s .
 
 chmod 0755 $PKG # Put this back
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
-cat $CWD/$SRCNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
+cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
