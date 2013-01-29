@@ -25,7 +25,15 @@
 PRGNAM=insync-kde
 SRCNAM=insync
 VERSION=0.9.35
-BUILD=${BUILD:-3wsr}
+BUILD=${BUILD:-4wsr}
+
+if [ -z "$ARCH" ]; then
+  case "$( uname -m )" in
+    i?86) ARCH=i486 ;;
+    arm*) ARCH=arm ;;
+       *) ARCH=$( uname -m ) ;;
+  esac
+fi
 
 if [ "$ARCH" = "i486" ]; then
   SLKCFLAGS="-O2 -march=i486 -mtune=i686"
@@ -67,9 +75,7 @@ if [ "$ARCH" = "x86_64" ]; then
   mv $PKG/usr/lib $PKG/usr/lib${LIBDIRSUFFIX}
 
   # Point to the correct lib64 folder
-  sed -i 's/lib/lib64/' $PKG/usr/bin/insync
-  sed -i 's/lib/lib64/' $PKG/usr/bin/insync-headless
-  sed -i 's/lib/lib64/' $PKG/usr/bin/insync-kde
+  sed -i 's/lib/lib64/' $PKG/usr/bin/{insync,insync-headless,insync-kde}
 fi
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
@@ -80,4 +86,4 @@ cat $CWD/slack-desc > $PKG/install/slack-desc
 cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
 cd $PKG
-/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$DEBARCH-$BUILD.${PKGTYPE:-txz}
+/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD.${PKGTYPE:-txz}

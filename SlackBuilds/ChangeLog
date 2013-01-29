@@ -1,5 +1,9 @@
 +--------------------------+
 insync-kde: Rebuilt
+  Use ARCH instead of DEBARCH 
+
++--------------------------+
+insync-kde: Rebuilt
   Point to the correct library folder in x86_64 machines
   Big thanks to Marcel Sägebarth for testing
 
