@@ -1,4 +1,9 @@
 +--------------------------+
+Tue Jan 29 16:53:25 GMT+7 2013
+insync-kde: Rebuilt
+  Move to proper place in x86_64 machines
+
++--------------------------+
 Tue Jan 29 16:06:00 GMT+7 2013
 insync-kde: Added
   This is insync client for KDE
