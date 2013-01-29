@@ -3,3 +3,8 @@ supports multiple accounts and offline Google Docs editing using
 local applications.
 
 This package provides client application for KDE
+
+Note: This SlackBuild Script can be used to build client app 
+for XFCE (or probably any other DE) with minor modification, 
+but it will replace the KDE menu entry with other DE's menu entry, 
+so it's highly recommended to use only one DE when using insync
