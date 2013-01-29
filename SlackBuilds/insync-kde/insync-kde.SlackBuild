@@ -25,7 +25,7 @@
 PRGNAM=insync-kde
 SRCNAM=insync
 VERSION=0.9.35
-BUILD=${BUILD:-2wsr}
+BUILD=${BUILD:-3wsr}
 
 if [ "$ARCH" = "i486" ]; then
   SLKCFLAGS="-O2 -march=i486 -mtune=i686"
@@ -61,9 +61,15 @@ chmod -R u+w,go+r-w,a-s .
 
 chmod 0755 $PKG # Put this back
 
+# Big thanks to Marcel Sägebarth for testing in x86_64
 if [ "$ARCH" = "x86_64" ]; then
   # Move to proper places for x86_64 machines
   mv $PKG/usr/lib $PKG/usr/lib${LIBDIRSUFFIX}
+
+  # Point to the correct lib64 folder
+  sed -i 's/lib/lib64/' $PKG/usr/bin/insync
+  sed -i 's/lib/lib64/' $PKG/usr/bin/insync-headless
+  sed -i 's/lib/lib64/' $PKG/usr/bin/insync-kde
 fi
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION

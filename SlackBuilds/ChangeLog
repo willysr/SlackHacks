@@ -1,4 +1,9 @@
 +--------------------------+
+insync-kde: Rebuilt
+  Point to the correct library folder in x86_64 machines
+  Big thanks to Marcel Sägebarth for testing
+
++--------------------------+
 Tue Jan 29 16:53:25 GMT+7 2013
 insync-kde: Rebuilt
   Move to proper place in x86_64 machines

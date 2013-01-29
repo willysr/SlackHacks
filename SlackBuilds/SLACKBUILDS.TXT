@@ -348,15 +348,15 @@ SLACKBUILD MD5SUM: 2968c36b9ecf3d98fc1f2c1c9c0d9341
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  httperf (http load generator)
 
-SLACKBUILD NAME: insync
-SLACKBUILD LOCATION: ./insync
-SLACKBUILD FILES: README doinst.sh insync.SlackBuild insync.info slack-desc
+SLACKBUILD NAME: insync-kde
+SLACKBUILD LOCATION: ./insync-kde
+SLACKBUILD FILES: README doinst.sh insync-kde.SlackBuild insync-kde.info slack-desc
 SLACKBUILD VERSION: 0.9.35
 SLACKBUILD DOWNLOAD: http://s.insynchq.com/builds/insync-beta-kde_0.9.35_i386.deb
 SLACKBUILD DOWNLOAD_x86_64: http://s.insynchq.com/builds/insync-beta-kde_0.9.35_amd64.deb
 SLACKBUILD MD5SUM: a418d8ee804e3c095cc19c69e45dea8c
 SLACKBUILD MD5SUM_x86_64: c799f11dc856202f0474dff1c790f86c
-SLACKBUILD SHORT DESCRIPTION: 
+SLACKBUILD SHORT DESCRIPTION:  insync (Google Drive Client)
 
 SLACKBUILD NAME: itstool
 SLACKBUILD LOCATION: ./itstool
