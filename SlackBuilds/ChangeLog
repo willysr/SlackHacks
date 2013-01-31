@@ -1,8 +1,15 @@
 +--------------------------+
+Thu Jan 31 21:15:19 WIT 2013
+connman: Added
+  This is a network manager daemon for E17
+
++--------------------------+
+Tue Jan 29 18:28:53 GMT+7 2013
 insync-kde: Rebuilt
   Use ARCH instead of DEBARCH 
 
 +--------------------------+
+Tue Jan 29 17:21:43 GMT+7 2013
 insync-kde: Rebuilt
   Point to the correct library folder in x86_64 machines
   Big thanks to Marcel Sägebarth for testing
