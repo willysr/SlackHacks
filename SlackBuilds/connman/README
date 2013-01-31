@@ -1,0 +1,16 @@
+The ConnMan project provides a daemon for managing internet 
+connections within embedded devices running the Linux OS.
+
+Connection Manager is designed to be slim and to use as few resources 
+as possible, so it can be easily integrated. It is a fully modular 
+system that can be extended through plug-ins.
+
+You must give execute permission on /etc/rc.d/rc.connmand and run
+/etc/rc.d/rc.connmand start before you can use this application
+
+To make this process repeated on every boot sequence, add this line 
+in your /etc/rc.d/rc.local:
+
+if [ -x /etc/rc.d/rc.connmand ]; then
+        /etc/rc.d/rc.connmand start
+fi
