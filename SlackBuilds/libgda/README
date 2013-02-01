@@ -1,1 +1,4 @@
 Data abstraction layer with mysql, pgsql, xml, sqlite providers
+
+Note for multilib users:
+Add this configure parameter: --with-ldap-libdir-name=lib${LIBDIRSUFFIX}

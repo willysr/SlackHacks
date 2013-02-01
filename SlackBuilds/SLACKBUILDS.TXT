@@ -110,7 +110,7 @@ SLACKBUILD SHORT DESCRIPTION:  cnijfilter (IJ Printer Driver for Linux)
 
 SLACKBUILD NAME: connman
 SLACKBUILD LOCATION: ./connman
-SLACKBUILD FILES: allow_group_network.diff connman.SlackBuild connman.info doinst.sh rc.connmand slack-desc
+SLACKBUILD FILES: README allow_group_network.diff connman.SlackBuild connman.info doinst.sh rc.connmand slack-desc
 SLACKBUILD VERSION: 1.10
 SLACKBUILD DOWNLOAD: https://www.kernel.org/pub/linux/network/connman/connman-1.10.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
