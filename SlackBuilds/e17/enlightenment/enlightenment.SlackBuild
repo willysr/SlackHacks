@@ -6,10 +6,11 @@
 # Updated by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # ChangeLog
 # Feb 1 : Updated to 1.7.1
-
+# Feb 1 : Rebuilt
+#	  Added several parameter options to configure
 PRGNAM=enlightenment
 VERSION=${VERSION:-0.17.1}
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 SRC_VERSION=$(echo $VERSION | tr _ -)
 
@@ -64,6 +65,13 @@ CXXFLAGS="$SLKCFLAGS" \
   --localstatedir=/var \
   --mandir=/usr/man \
   --disable-static \
+  --disable-device-hal \
+  --enable-device-udev \
+  --disable-mount-hal \
+  --enable-mount-udisks \
+  --enable-mount-eeze \
+  --enable-emotion \
+  --enable-enotify \
   --build=$ARCH-slackware-linux
 
 make
