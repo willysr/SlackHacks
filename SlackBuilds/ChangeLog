@@ -1,5 +1,11 @@
 +--------------------------+
-Thu Jan 31 21:15:19 WIT 2013
+Fri Feb  1 08:52:40 GMT+7 2013
+e17: Added
+  This is e17 desktop environment updated to 0.17.1 along with it's all dependent libraries
+  Please read the README for build order
+
++--------------------------+
+Thu Jan 31 21:15:19 WIT+7 2013
 connman: Added
   This is a network manager daemon for E17
 

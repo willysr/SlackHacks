@@ -1,0 +1,16 @@
+This is set of E17 packages 
+
+Complete Build Order :
+- Eina
+- Eet
+- Evas
+- Ecore
+- Eio
+- Embryo
+- Edje
+- Efreet
+- E_Dbus
+- Eeze
+- Emotion
+- Ethumb
+- Enlightenment

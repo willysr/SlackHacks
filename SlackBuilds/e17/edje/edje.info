@@ -1,0 +1,8 @@
+PRGNAM="edje"
+VERSION="1.7.5"
+HOMEPAGE="http://www.enlightenment.org/"
+DOWNLOAD="http://download.enlightenment.org/releases/edje-1.7.5.tar.gz"
+MD5SUM="66f424e80b11a28e86de4b2b9828591d"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""
+REQUIRES="ecore embryo lua"
