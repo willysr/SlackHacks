@@ -10,10 +10,12 @@
 #	  Added several parameter options to configure
 # Feb 5 : Rebuilt
 #	  Added detection to elementary
+# Feb 6 : Rebuilt
+#	  Disable Documentation and built against newer connman and econnman
 
 PRGNAM=enlightenment
 VERSION=${VERSION:-0.17.1}
-BUILD=${BUILD:-3wsr}
+BUILD=${BUILD:-4wsr}
 
 SRC_VERSION=$(echo $VERSION | tr _ -)
 
@@ -76,6 +78,7 @@ CXXFLAGS="$SLKCFLAGS" \
   --enable-emotion \
   --enable-enotify \
   --enable-elementary \
+  --disable-doc \
   --build=$ARCH-slackware-linux
 
 make

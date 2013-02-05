@@ -14,4 +14,12 @@ Complete Build Order :
 - Emotion
 - Ethumb
 - Elementary
+- Python-evas (Python bindings) *optional*
+- Python-ecore (Python bindings) *optional*
+- Python-edje (Python bindings) *optional*
+- Python-e_dbus (Python bindings) *optional*
+- Python-emotion (Python bindings) *optional*
+- Python-ethumb (Python bindings) *optional*
+- Python-elementary (Python bindings) *optional*
+- Econnman *optional*
 - Enlightenment

@@ -108,16 +108,6 @@ SLACKBUILD MD5SUM: 609975a05d6050fcca88f312d3f35c6a
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  cnijfilter (IJ Printer Driver for Linux)
 
-SLACKBUILD NAME: connman
-SLACKBUILD LOCATION: ./connman
-SLACKBUILD FILES: README allow_group_network.diff connman.SlackBuild connman.info doinst.sh rc.connmand slack-desc
-SLACKBUILD VERSION: 1.10
-SLACKBUILD DOWNLOAD: https://www.kernel.org/pub/linux/network/connman/connman-1.10.tar.xz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: e20b8f0b5c6b7437b7544e278f3070ad
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  connman (Open Source Connection Manager)
-
 SLACKBUILD NAME: cssselect
 SLACKBUILD LOCATION: ./cssselect
 SLACKBUILD FILES: README cssselect.SlackBuild cssselect.info slack-desc
@@ -188,6 +178,86 @@ SLACKBUILD MD5SUM: 592ba0c91315bb2aab5c3f28e7f5898d
 SLACKBUILD MD5SUM_x86_64: 8c7461014d84d6236d6936c198c65053
 SLACKBUILD SHORT DESCRIPTION:  dropbox (store, sync and share files online)
 
+SLACKBUILD NAME: python-e_dbus
+SLACKBUILD LOCATION: ./python-e_dbus
+SLACKBUILD FILES: README python-e_dbus.SlackBuild python-e_dbus.info slack-desc
+SLACKBUILD VERSION: 1.7.0
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/BINDINGS/python/python-e_dbus-1.7.0.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 40b479444bb06147429a276127981890
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  Python-e_dbus (Python Binding for e_dbus)
+
+SLACKBUILD NAME: python-ecore
+SLACKBUILD LOCATION: ./python-ecore
+SLACKBUILD FILES: README python-ecore.SlackBuild python-ecore.info slack-desc
+SLACKBUILD VERSION: 1.7.0
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/BINDINGS/python/python-ecore-1.7.0.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 15dd908b71d09ef30f7e758739f3b6fd
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  Python-ecore (Python Binding for Ecore)
+
+SLACKBUILD NAME: python-edje
+SLACKBUILD LOCATION: ./python-edje
+SLACKBUILD FILES: README python-edje.SlackBuild python-edje.info slack-desc
+SLACKBUILD VERSION: 1.7.0
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/BINDINGS/python/python-edje-1.7.0.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 1e0d7a4a4504298caaad0cee476e4edb
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  Python-edje (Python Binding for edje)
+
+SLACKBUILD NAME: python-elementary
+SLACKBUILD LOCATION: ./python-elementary
+SLACKBUILD FILES: README python-elementary.SlackBuild python-elementary.info slack-desc
+SLACKBUILD VERSION: 1.7.0
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/BINDINGS/python/python-elementary-1.7.0.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 38c8b2ac508ab4e1d12f1557a12169c9
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  Python-elementary (Python Binding for elementary)
+
+SLACKBUILD NAME: python-emotion
+SLACKBUILD LOCATION: ./python-emotion
+SLACKBUILD FILES: README python-emotion.SlackBuild python-emotion.info slack-desc
+SLACKBUILD VERSION: 1.7.0
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/BINDINGS/python/python-emotion-1.7.0.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: ac7197ce2617a87fad3dd134a98ad01f
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  Python-emotion (Python Binding for emotion)
+
+SLACKBUILD NAME: python-ethumb
+SLACKBUILD LOCATION: ./python-ethumb
+SLACKBUILD FILES: README python-ethumb.SlackBuild python-ethumb.info slack-desc
+SLACKBUILD VERSION: 1.7.0
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/BINDINGS/python/python-ethumb-1.7.0.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 0745ac56fd4d1b61198c7ae07996f93d
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  Python-ethumb (Python Binding for ethumb)
+
+SLACKBUILD NAME: python-evas
+SLACKBUILD LOCATION: ./python-evas
+SLACKBUILD FILES: README python-evas.SlackBuild python-evas.info slack-desc
+SLACKBUILD VERSION: 1.7.0
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/BINDINGS/python/python-evas-1.7.0.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: c3fda2025171f5e3d2bc224e8bae88e5
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  Python-evas (Python Binding for Evas)
+
+SLACKBUILD NAME: connman
+SLACKBUILD LOCATION: ./connman
+SLACKBUILD FILES: README allow_group_network.diff connman.SlackBuild connman.info doinst.sh rc.connmand slack-desc
+SLACKBUILD VERSION: 1.11
+SLACKBUILD DOWNLOAD: https://www.kernel.org/pub/linux/network/connman/connman-1.11.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 72cd18041abb17997b32fe6df6b52f5c
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  connman (Open Source Connection Manager)
+
 SLACKBUILD NAME: e_dbus
 SLACKBUILD LOCATION: ./e_dbus
 SLACKBUILD FILES: README e_dbus.SlackBuild e_dbus.info slack-desc
@@ -197,6 +267,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: e523232dee5c88cda21ec2a3495d7f18
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  E_dbus (one of the Enlightenment DR17 foundation libraries)
+
+SLACKBUILD NAME: econnman
+SLACKBUILD LOCATION: ./econnman
+SLACKBUILD FILES: README econnman.SlackBuild econnman.info slack-desc
+SLACKBUILD VERSION: r83613
+SLACKBUILD DOWNLOAD: https://mega.co.nz/#!AoYwVATL!DrrmAkr0M3jQ4SntwRy-L2s8Rj0IltVc_btvGMzmjuk
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: bb84fad746f8513c0740f900d4901339
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  econnman (E17 ConnMan UI)
 
 SLACKBUILD NAME: ecore
 SLACKBUILD LOCATION: ./ecore

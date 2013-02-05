@@ -3,5 +3,26 @@ environments.  It is not just a window manager, but it is also a
 desktop shell.  A desktop shell means a window manager plus a file
 manager plus configuration utilities all in one.
 
-The complete build order is: lua, eina, eet, evas, ecore, eio, embryo,
-edje, efreet, e_dbus, enlightenment.
+Complete Build Order :
+- Eina
+- Eet
+- Evas
+- Ecore
+- Eio
+- Embryo
+- Edje
+- Efreet
+- E_Dbus
+- Eeze
+- Emotion
+- Ethumb
+- Elementary
+- Python-evas (Python bindings) *optional*
+- Python-ecore (Python bindings) *optional*
+- Python-edje (Python bindings) *optional*
+- Python-e_dbus (Python bindings) *optional*
+- Python-emotion (Python bindings) *optional*
+- Python-ethumb (Python bindings) *optional*
+- Python-elementary (Python bindings) *optional*
+- Econnman *optional*
+- Enlightenment
