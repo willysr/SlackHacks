@@ -1,0 +1,8 @@
+PRGNAM="econnman"
+VERSION="r83613"
+HOMEPAGE="http://www.enlightenment.org"
+DOWNLOAD="https://mega.co.nz/#!AoYwVATL!DrrmAkr0M3jQ4SntwRy-L2s8Rj0IltVc_btvGMzmjuk"
+MD5SUM="bb84fad746f8513c0740f900d4901339"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""
+REQUIRES="connman python-elementary python-dbus"
