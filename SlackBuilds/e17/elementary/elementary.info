@@ -1,0 +1,8 @@
+PRGNAM="elementary"
+VERSION="1.7.5"
+HOMEPAGE="http://www.enlightenment.org/"
+DOWNLOAD="http://download.enlightenment.org/releases/elementary-1.7.5.tar.gz"
+MD5SUM="8c81926114f07d328aacb0e34c3830a4"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""
+REQUIRES="edje e_dbus efreet ethumb eio"

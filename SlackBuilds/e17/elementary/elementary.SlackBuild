@@ -1,21 +1,14 @@
 #!/bin/sh
 
-# Slackware build script for Enlightenment DR17
+# Slackware build script for Elementary
 
-# Written by Aleksandar Samardzic <asamardzic@gmail.com>
-# Updated by Willy Sudiarto Raharjo <willysr@slackware-id.org>
+# Written by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # ChangeLog
-# Feb 1 : Updated to 1.7.1
-# Feb 1 : Rebuilt
-#	  Added several parameter options to configure
-# Feb 5 : Rebuilt
-#	  Added detection to elementary
+# Feb 5 : Added 1.7.5
 
-PRGNAM=enlightenment
-VERSION=${VERSION:-0.17.1}
-BUILD=${BUILD:-3wsr}
-
-SRC_VERSION=$(echo $VERSION | tr _ -)
+PRGNAM=elementary
+VERSION=${VERSION:-1.7.5}
+BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
@@ -49,9 +42,9 @@ set -e
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
-rm -rf $PRGNAM-$SRC_VERSION
-tar xvf $CWD/$PRGNAM-$SRC_VERSION.tar.gz
-cd $PRGNAM-$SRC_VERSION
+rm -rf $PRGNAM-$VERSION
+tar xvf $CWD/$PRGNAM-$VERSION.tar.gz
+cd $PRGNAM-$VERSION
 chown -R root:root .
 find . \
  \( -perm 777 -o -perm 775 -o -perm 711 -o -perm 555 -o -perm 511 \) \
@@ -67,38 +60,33 @@ CXXFLAGS="$SLKCFLAGS" \
   --sysconfdir=/etc \
   --localstatedir=/var \
   --mandir=/usr/man \
-  --disable-static \
-  --disable-device-hal \
-  --enable-device-udev \
-  --disable-mount-hal \
-  --enable-mount-udisks \
-  --enable-mount-eeze \
+  --docdir=/usr/doc/$PRGNAM-$VERSION \
+  --enable-quick-launch \
   --enable-emotion \
-  --enable-enotify \
-  --enable-elementary \
+  --enable-ecore-x \
+  --enable-ecore-fb \
+  --enable-edbus \
+  --enable-efreet \
+  --enable-ethumb \
+  --disable-debug \
+  --disable-install-examples \
+  --disable-static \
   --build=$ARCH-slackware-linux
 
 make
 make install DESTDIR=$PKG
 
-# Don't clobber config files on upgrade
-mv $PKG/etc/enlightenment/sysactions.conf $PKG/etc/enlightenment/sysactions.conf.new
-mv $PKG/etc/xdg/menus/enlightenment.menu $PKG/etc/xdg/menus/enlightenment.menu.new
-
-# Handle the xinitrc file
-mkdir -p $PKG/etc/X11/xinit
-cat $CWD/xinitrc.enlightenment17 > $PKG/etc/X11/xinit/xinitrc.enlightenment17.new
-
 find $PKG | xargs file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
-cp -a AUTHORS COPYING ChangeLog INSTALL NEWS README $PKG/usr/doc/$PRGNAM-$VERSION
+cp -a \
+  AUTHORS COPYING ChangeLog INSTALL NEWS README \
+  $PKG/usr/doc/$PRGNAM-$VERSION
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
-cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD.${PKGTYPE:-txz}

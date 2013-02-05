@@ -91,10 +91,10 @@ SLACKBUILD SHORT DESCRIPTION:  Brainworkshop (a Dual N-Back game)
 SLACKBUILD NAME: calibre
 SLACKBUILD LOCATION: ./calibre
 SLACKBUILD FILES: README calibre.SlackBuild calibre.info calibre_noqthack.patch slack-desc
-SLACKBUILD VERSION: 0.9.16
-SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.9.16.tar.xz
+SLACKBUILD VERSION: 0.9.17
+SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.9.17.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: ee66d836fad40a184792cee3c5c6755b
+SLACKBUILD MD5SUM: dd978f45d1fa3702811ec5328c4aec9c
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  calibre (e-book library management application)
 
@@ -267,6 +267,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 429c30b99f4011b7b20085f7117a7b93
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Eio (one of the Enlightenment DR17 foundation libraries)
+
+SLACKBUILD NAME: elementary
+SLACKBUILD LOCATION: ./elementary
+SLACKBUILD FILES: README elementary.SlackBuild elementary.info slack-desc
+SLACKBUILD VERSION: 1.7.5
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/elementary-1.7.5.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 8c81926114f07d328aacb0e34c3830a4
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  elementary (one of the Enlightenment DR17 foundation libraries)
 
 SLACKBUILD NAME: embryo
 SLACKBUILD LOCATION: ./embryo

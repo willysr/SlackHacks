@@ -1,4 +1,11 @@
 +--------------------------+
+Tue Feb  5 07:13:56 GMT+7 2013
+elementary: Added
+  This is one of e17 EFL library needed to build econnman
+enlightenment: Rebuilt
+  Added detection to elementary
+
++--------------------------+
 Sat Feb  2 01:48:43 GMT+7 2013
 calibre: Upgraded to 0.9.17
 
