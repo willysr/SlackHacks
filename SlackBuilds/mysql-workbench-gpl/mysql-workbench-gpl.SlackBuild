@@ -13,9 +13,10 @@
 # September, 13: Upgraded to 5.2.43
 # October, 3: Upgraded to 5.2.44
 # January, 3: Upgraded to 5.2.45
+# February, 7: Upgraded to 5.2.46
 
 PRGNAM=mysql-workbench-gpl
-VERSION=${VERSION:-5.2.45}
+VERSION=${VERSION:-5.2.46}
 BUILD=${BUILD:-1wsr}
 
 SRCVERSION=$VERSION-src

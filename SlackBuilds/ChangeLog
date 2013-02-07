@@ -1,4 +1,10 @@
 +--------------------------+
+Thu Feb  7 16:12:15 GMT+7 2013
+connman: Rebuilt 
+  Rebuilt against newer iptables in -Current (1.4.17)
+mysql-workbench: Upgraded to 5.2.46
+
++--------------------------+
 Tue Feb  5 07:13:56 GMT+7 2013
 elementary: Added
   This is one of e17 EFL library needed to build econnman
