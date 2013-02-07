@@ -1,4 +1,8 @@
 +--------------------------+
+Thu Feb  7 17:30:49 GMT+7 2013
+lxml: Upgraded to 3.0.2
+
++--------------------------+
 Thu Feb  7 16:12:15 GMT+7 2013
 connman: Rebuilt 
   Rebuilt against newer iptables in -Current (1.4.17)

@@ -691,10 +691,10 @@ SLACKBUILD SHORT DESCRIPTION:  Lua (a powerful, fast, light-weight, embeddable s
 SLACKBUILD NAME: lxml
 SLACKBUILD LOCATION: ./lxml
 SLACKBUILD FILES: README lxml.SlackBuild lxml.info slack-desc
-SLACKBUILD VERSION: 2.3.6
-SLACKBUILD DOWNLOAD: http://lxml.de/files/lxml-2.3.6.tgz
+SLACKBUILD VERSION: 3.0.2
+SLACKBUILD DOWNLOAD: http://lxml.de/files/lxml-3.0.2.tgz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 9bc60f2ef24f1b47e6dec0d29d2fd30d
+SLACKBUILD MD5SUM: 38b15b0dd5e9292cf98be800e84a3ce4
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  lxml (Python bindings for the libxml2 and libxslt)
 

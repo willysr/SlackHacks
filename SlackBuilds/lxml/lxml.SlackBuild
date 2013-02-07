@@ -7,9 +7,10 @@
 # June, 30: Added
 # September, 6: Upgraded to 2.3.5
 # November: Upgraded to 2.3.6
+# February 7: Upgraded to 3.0.2
 
 PRGNAM=lxml
-VERSION=2.3.6
+VERSION=3.0.2
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
