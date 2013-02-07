@@ -22,6 +22,7 @@ In order to build Calibre, you will need these packages:
 - python-cssutils
 - lxml
 - python-dateutil
+  - six
 - mechanize 
 - pycrypto
 - python-netifaces
