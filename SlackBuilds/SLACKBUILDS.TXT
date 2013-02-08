@@ -610,7 +610,7 @@ SLACKBUILD SHORT DESCRIPTION:  json-c (JSON library in C)
 
 SLACKBUILD NAME: kvpnc
 SLACKBUILD LOCATION: ./kvpnc
-SLACKBUILD FILES: README doinst.sh fix-ftbfs-gcc-4.7-667233.patch kvpnc.SlackBuild kvpnc.info slack-desc
+SLACKBUILD FILES: README doinst.sh fix-ftbfs-gcc-4.7-667233.patch kvpnc-version-comparison.patch kvpnc.SlackBuild kvpnc.info slack-desc
 SLACKBUILD VERSION: 0.9.6a
 SLACKBUILD DOWNLOAD: http://download.gna.org/kvpnc/kvpnc-0.9.6a-kde4.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 

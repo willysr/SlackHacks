@@ -24,7 +24,7 @@
 
 PRGNAM=kvpnc
 VERSION=${VERSION:-0.9.6a}
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
@@ -71,6 +71,11 @@ find . \
 # Patch from Debian
 # http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=667233
 patch -p1 < $CWD/fix-ftbfs-gcc-4.7-667233.patch
+
+# Upstream Patch by Gentoo Developers
+# https://bugs.kde.org/show_bug.cgi?id=229048 
+patch -p1 < $CWD/kvpnc-version-comparison.patch
+
 export LDFLAGS=-lX11
 mkdir -p build
 cd build
