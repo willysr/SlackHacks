@@ -6,13 +6,13 @@ is provided that enables you to connect to your camera and preview,
 download and/or delete your images.
 
 Requirements
-  - KDE 4.8.x
+  - KDE 4.10.x
   - ffmpeg
-  - QJson (Available on SBo)
-  - OPenCV 
+  - QJson
+  - OpenCV 
   - lensfun (optional)
   - libdc1394 (optional)
   - libpgf (optional)
-  - liblqr (optional, available on SBo)
+  - liblqr (optional)
 
-Note: I'm using AlienBOB's ffmpeg (0.11) to build this package
+Note: I'm using AlienBOB's ffmpeg (0.11.2) to build this package
