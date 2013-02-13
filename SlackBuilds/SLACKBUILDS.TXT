@@ -448,6 +448,16 @@ SLACKBUILD MD5SUM:
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  gnugo 
 
+SLACKBUILD NAME: google-earth
+SLACKBUILD LOCATION: ./google-earth
+SLACKBUILD FILES: README doinst.sh google-earth.SlackBuild google-earth.info slack-desc
+SLACKBUILD VERSION: 7.0.2.8415
+SLACKBUILD DOWNLOAD: http://dl.google.com/dl/earth/client/current/google-earth-stable_current_i386.deb
+SLACKBUILD DOWNLOAD_x86_64: http://dl.google.com/dl/earth/client/current/google-earth-stable_current_amd64.deb
+SLACKBUILD MD5SUM: d85fd7ab43538bea6c12b57f2ca99cab
+SLACKBUILD MD5SUM_x86_64: 0a818f579e92974b7d0980f8a4511a91
+SLACKBUILD SHORT DESCRIPTION:  Google earth (3D Planet Viewer)
+
 SLACKBUILD NAME: grive
 SLACKBUILD LOCATION: ./grive
 SLACKBUILD FILES: README grive.SlackBuild grive.info slack-desc
