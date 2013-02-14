@@ -708,6 +708,16 @@ SLACKBUILD MD5SUM: 38b15b0dd5e9292cf98be800e84a3ce4
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  lxml (Python bindings for the libxml2 and libxslt)
 
+SLACKBUILD NAME: lzlib
+SLACKBUILD LOCATION: ./lzlib
+SLACKBUILD FILES: README lzlib.SlackBuild lzlib.info slack-desc
+SLACKBUILD VERSION: 1.3
+SLACKBUILD DOWNLOAD: http://download.savannah.gnu.org/releases/lzip/lzlib-1.3.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 7b61b2609181800c047742820a40c3ac
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  lzlib (compression library)
+
 SLACKBUILD NAME: mysql-workbench-gpl
 SLACKBUILD LOCATION: ./mysql-workbench-gpl
 SLACKBUILD FILES: doinst.sh mysql-workbench-gpl-5.2.43-src.patch mysql-workbench-gpl.SlackBuild mysql-workbench-gpl.info slack-desc
