@@ -1,4 +1,9 @@
 +--------------------------+
+Fri Feb 15 00:41:27 GMT+7 2013
+lzlib: Rebuilt
+  Add corrent symlink 
+
++--------------------------+
 lzlib: Added
   This is lzlib compression library 1.3
 
