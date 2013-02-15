@@ -2,5 +2,10 @@ Google Earth allows you to travel the world through a virtual
 globe and view satellite imagery, maps, terrain, 3D buildings, 
 and much more.
 
+NOTES:
 Please remove /etc/fonts/conf.d/65-fonts-persian.conf prior 
 launching this application as this caused crashes
+
+People with x86_64 architecture will have to install multilib
+environment prior building this application as Google 
+doesn't really provide a pure x86_64 bit application
