@@ -29,10 +29,11 @@
 # January 12, Rebuilt to create symlink in /usr/bin, thanks to Ponce
 # January 17, Rebuilt to change the default behaviour on rc.teamviewerd when no parameter is given
 # February 16: Upgraded to 8.0.17147
+# February 16: Rebuilt to remove duplicate file 
 
 PRGNAM=teamviewer
 VERSION=${VERSION:-8.0.17147}
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
@@ -108,6 +109,9 @@ mv $PKG/opt/teamviewer8/*.txt $PKG/usr/doc/$PRGNAM-$VERSION
 
 mkdir -p $PKG/etc/rc.d/
 install -m 0644 $CWD/rc.teamviewerd $PKG/etc/rc.d/rc.teamviewerd.new
+
+# Remove duplicate file
+rm -f $PKG/opt/teamviewer8/tv_bin/xdg-utils/xdg-email~
 
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 
