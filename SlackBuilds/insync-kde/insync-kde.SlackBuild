@@ -24,8 +24,8 @@
 
 PRGNAM=insync-kde
 SRCNAM=insync
-VERSION=0.9.35
-BUILD=${BUILD:-4wsr}
+VERSION=0.9.36
+BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
@@ -63,7 +63,7 @@ set -e
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $PKG
-ar p $CWD/$SRCNAM-beta-kde_0.9.35_$DEBARCH.deb data.tar.gz | tar xzv
+ar p $CWD/$SRCNAM-beta-kde_0.9.36_$DEBARCH.deb data.tar.gz | tar xzv
 chown -R root:root .
 chmod -R u+w,go+r-w,a-s .
 
