@@ -1,4 +1,9 @@
 +--------------------------+
+Tue Feb 19 11:59:58 GMT+7 2013
+teamviewer: Rebuilt
+  Remove dangling symlink properly
+
++--------------------------+
 Tue Feb 19 06:46:36 GMT+7 2013
 teamviewer: Rebuilt
   Include Robby Workman's work from SBo
