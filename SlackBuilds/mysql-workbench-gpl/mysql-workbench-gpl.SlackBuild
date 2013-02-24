@@ -14,9 +14,10 @@
 # October, 3: Upgraded to 5.2.44
 # January, 3: Upgraded to 5.2.45
 # February, 7: Upgraded to 5.2.46
+# February, 25: Upgraded to 5.2.47
 
 PRGNAM=mysql-workbench-gpl
-VERSION=${VERSION:-5.2.46}
+VERSION=${VERSION:-5.2.47}
 BUILD=${BUILD:-1wsr}
 
 SRCVERSION=$VERSION-src
@@ -62,10 +63,6 @@ find . \
  -exec chmod 755 {} \; -o \
  \( -perm 666 -o -perm 664 -o -perm 600 -o -perm 444 -o -perm 440 -o -perm 400 \) \
  -exec chmod 644 {} \;
-
-# Patches from Dhaby Xiloj
-# Reworked for 5.2.43
-patch -p1 < $CWD/mysql-workbench-gpl-5.2.43-src.patch
 
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \

@@ -720,11 +720,11 @@ SLACKBUILD SHORT DESCRIPTION:  lzlib (compression library)
 
 SLACKBUILD NAME: mysql-workbench-gpl
 SLACKBUILD LOCATION: ./mysql-workbench-gpl
-SLACKBUILD FILES: doinst.sh mysql-workbench-gpl-5.2.43-src.patch mysql-workbench-gpl.SlackBuild mysql-workbench-gpl.info slack-desc
-SLACKBUILD VERSION: 5.2.46
-SLACKBUILD DOWNLOAD: http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQLGUITools/mysql-workbench-gpl-5.2.46-src.tar.gz
+SLACKBUILD FILES: doinst.sh mysql-workbench-gpl.SlackBuild mysql-workbench-gpl.info slack-desc
+SLACKBUILD VERSION: 5.2.47
+SLACKBUILD DOWNLOAD: http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQLGUITools/mysql-workbench-gpl-5.2.47-src.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 3aec37396b1af487d3d94e3427ccd387
+SLACKBUILD MD5SUM: e7cfb1249dddf628a6586bc309679ef3
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  mysql-workbench - MySQL Workbench (GUI Tool)
 
