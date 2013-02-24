@@ -90,11 +90,11 @@ SLACKBUILD SHORT DESCRIPTION:  Brainworkshop (a Dual N-Back game)
 
 SLACKBUILD NAME: calibre
 SLACKBUILD LOCATION: ./calibre
-SLACKBUILD FILES: README calibre-0.9.19.tar.xz calibre.SlackBuild calibre.info calibre_noqthack.patch slack-desc
-SLACKBUILD VERSION: 0.9.19
-SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.9.19.tar.xz
+SLACKBUILD FILES: README calibre.SlackBuild calibre.info calibre_noqthack.patch slack-desc
+SLACKBUILD VERSION: 0.9.20
+SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.9.20.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 1977c75613209b8fcade35e9185a8ee0
+SLACKBUILD MD5SUM: 860b4b28029ae40e5ea59ec4f50b1144
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  calibre (e-book library management application)
 
@@ -820,7 +820,7 @@ SLACKBUILD SHORT DESCRIPTION:  Sysprof (Performance Profiler)
 
 SLACKBUILD NAME: teamviewer
 SLACKBUILD LOCATION: ./teamviewer
-SLACKBUILD FILES: README doinst.sh rc.teamviewerd slack-desc teamviewer.SlackBuild teamviewer.info teamviewer_linux.deb
+SLACKBUILD FILES: README doinst.sh rc.teamviewerd slack-desc teamviewer.SlackBuild teamviewer.info
 SLACKBUILD VERSION: 8.0.17147
 SLACKBUILD DOWNLOAD: https://www.teamviewer.com/download/teamviewer_linux.deb
 SLACKBUILD DOWNLOAD_x86_64: http://www.teamviewer.com/download/version/teamviewer_linux_x64.deb
