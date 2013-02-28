@@ -15,10 +15,11 @@
 # January, 3: Upgraded to 5.2.45
 # February, 7: Upgraded to 5.2.46
 # February, 25: Upgraded to 5.2.47
+# March, 1: Rebuilt to include patches from Ponce
 
 PRGNAM=mysql-workbench-gpl
 VERSION=${VERSION:-5.2.47}
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 SRCVERSION=$VERSION-src
 
@@ -69,6 +70,8 @@ CXXFLAGS="$SLKCFLAGS" \
 ./autogen.sh
 libtoolize --force
 autoreconf -vif
+
+patch -p1 < $CWD/config_and_ifconfig_paths.patch
 
 ./configure \
   --prefix=/usr \

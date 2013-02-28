@@ -1,4 +1,10 @@
 +--------------------------+
+Fri Mar  1 01:54:31 WIT 2013
+connman: Upgraded to 1.12
+mysql-workbench: Rebuilt
+  Included patches from Ponce to create $HOME/.mysql/workbench and ifconfig path
+
++--------------------------+
 Thu Feb 28 12:25:11 GMT+7 2013
 ffms: Upgraded
   Switched to SVN to work with newer ffmpeg
