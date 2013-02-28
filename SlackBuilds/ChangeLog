@@ -1,4 +1,10 @@
 +--------------------------+
+Thu Feb 28 12:25:11 GMT+7 2013
+ffms: Upgraded
+  Switched to SVN to work with newer ffmpeg
+wireshark: Upgraded to 1.8.5
+
++--------------------------+
 Thu Feb 28 09:58:38 GMT+7 2013
 scratch: Added 
   This is programming educational tool

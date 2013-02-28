@@ -410,11 +410,11 @@ SLACKBUILD SHORT DESCRIPTION:  Evas (one of the Enlightenment DR17 foundation li
 
 SLACKBUILD NAME: ffms
 SLACKBUILD LOCATION: ./ffms
-SLACKBUILD FILES: README ffms.SlackBuild ffms.info slack-desc
-SLACKBUILD VERSION: 2.17
-SLACKBUILD DOWNLOAD: https://ffmpegsource.googlecode.com/files/ffms-2.17-src.tar.bz2
+SLACKBUILD FILES: README autoconf.patch ffms.SlackBuild ffms.info slack-desc
+SLACKBUILD VERSION: r743
+SLACKBUILD DOWNLOAD: https://mega.co.nz/#!Q9ISTSoT!XeKNpXsWrb3KKFIbn2h-9HOGqDF0t0pe3EION_HJ9Uk
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 13770e29d5215ad4b68caad44b09da07
+SLACKBUILD MD5SUM: 1d390ee4c7b39c053a2222dce5b2a97e
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  ffms (a cross-platform wrapper library)
 
@@ -901,10 +901,10 @@ SLACKBUILD SHORT DESCRIPTION:  Wesnoth (The Battle for Wesnoth)
 SLACKBUILD NAME: wireshark
 SLACKBUILD LOCATION: ./wireshark
 SLACKBUILD FILES: README doinst.sh slack-desc wireshark.SlackBuild wireshark.info
-SLACKBUILD VERSION: 1.8.4
-SLACKBUILD DOWNLOAD: http://www.wireshark.org/download/src/all-versions/wireshark-1.8.4.tar.bz2
+SLACKBUILD VERSION: 1.8.5
+SLACKBUILD DOWNLOAD: http://www.wireshark.org/download/src/all-versions/wireshark-1.8.5.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: ce22aa0fe7ecb5af39c93ff905c7d026
+SLACKBUILD MD5SUM: fde40a8d4555cab12271e67f9778f5d5
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  WireShark (packet sniffer and protocol analyzer)
 
