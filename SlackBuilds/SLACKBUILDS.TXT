@@ -778,6 +778,16 @@ SLACKBUILD MD5SUM: 812ffc8c5b8fb5cf9310fcbd9a7d20d3
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  qpdf (Command-line tools and library for transforming PDF files)
 
+SLACKBUILD NAME: scratch
+SLACKBUILD LOCATION: ./scratch
+SLACKBUILD FILES: README doinst.sh scratch.SlackBuild scratch.info slack-desc
+SLACKBUILD VERSION: 1.4.0.7
+SLACKBUILD DOWNLOAD: http://download.scratch.mit.edu/scratch-1.4.0.7.src.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: f948e9e6de3ec9c7c7b4cc2a1975eb5a
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  scratch (programming educational tool)
+
 SLACKBUILD NAME: skype
 SLACKBUILD LOCATION: ./skype
 SLACKBUILD FILES: README doinst.sh skype.SlackBuild skype.info slack-desc
@@ -787,6 +797,16 @@ SLACKBUILD DOWNLOAD_x86_64: UNSUPPORTED
 SLACKBUILD MD5SUM: fa9b4f0ac110349a2480071875068a99
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Skype (a P2P Voice Over IP program)
+
+SLACKBUILD NAME: squeak-vm
+SLACKBUILD LOCATION: ./squeak-vm
+SLACKBUILD FILES: README slack-desc squeak-vm.SlackBuild squeak-vm.info
+SLACKBUILD VERSION: 4.10.2.2614
+SLACKBUILD DOWNLOAD: http://squeakvm.org/unix/release/Squeak-4.10.2.2614-src.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 8a5cb1d6899d55df56154fab8716e034
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  squeak-vm (squeak virtual machine)
 
 SLACKBUILD NAME: sshblock
 SLACKBUILD LOCATION: ./sshblock

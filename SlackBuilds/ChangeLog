@@ -1,4 +1,11 @@
 +--------------------------+
+Thu Feb 28 09:58:38 GMT+7 2013
+scratch: Added 
+  This is programming educational tool
+  This requires squeak-vm
+squeak-vm: Added
+
++--------------------------+
 Mon Feb 25 01:59:40 GMT+7 2013
 mysql-workbench: Upgraded to 5.2.47
 
