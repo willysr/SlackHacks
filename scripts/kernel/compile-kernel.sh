@@ -9,7 +9,8 @@
 # Slightly modified by Willy Sudiarto Raharjo <willysr@gmail.com>
 #
 VERSION='3.8.1' # change to reflect actual kernel version
-CWD='/usr/src/' # /usr/src directory
+CWD='/usr/src' # /usr/src directory
+cd $CWD
 #
 # Remove /usr/src/linux symlink
 rm -f /usr/src/linux
