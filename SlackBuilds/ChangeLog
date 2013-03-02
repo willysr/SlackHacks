@@ -1,4 +1,9 @@
 +--------------------------+
+Sat Mar  2 10:15:21 GMT+7 2013
+google-earth: Upgraded to 7.0.3.8542
+  Add missing google-earth-mimetypes.xml
+
++--------------------------+
 Fri Mar  1 01:54:31 WIT 2013
 connman: Upgraded to 1.12
 mysql-workbench: Rebuilt
