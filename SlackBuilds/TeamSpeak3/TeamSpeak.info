@@ -1,0 +1,8 @@
+PRGNAM="TeamSpeak3"
+VERSION="3.0.9.2"
+HOMEPAGE="http://www.teamspeak.com/"
+DOWNLOAD="http://teamspeak.gameserver.gamed.de/ts3/releases/3.0.9.2/TeamSpeak3-Client-linux_x86-3.0.9.2.run"
+MD5SUM="b9ca1362f6f79644357c5558ee5ddfd2"
+DOWNLOAD_x86_64="http://teamspeak.gameserver.gamed.de/ts3/releases/3.0.9.2/TeamSpeak3-Client-linux_amd64-3.0.9.2.run"
+MD5SUM_x86_64="a15002b92e3cd4585dc9ce07818bf446"
+REQUIRES=""
