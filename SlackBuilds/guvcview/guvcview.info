@@ -1,6 +1,6 @@
 PRGNAM="guvcview"
 VERSION="1.7.0"
-HOMEPAGE="http://guvcview.berlios.de/downloads.html"
+HOMEPAGE="http://guvcview.sourceforge.net/"
 DOWNLOAD="http://downloads.sourceforge.net/project/guvcview/source/guvcview-src-1.7.0.tar.gz"
 MD5SUM="fe141fe2fe2a16df69f7866c27334a56"
 DOWNLOAD_x86_64=""
