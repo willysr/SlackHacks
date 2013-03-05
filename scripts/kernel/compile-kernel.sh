@@ -27,6 +27,9 @@ cp /boot/config ./.config
 # Make the kernel image, Compile, and Install The Modules
 make oldconfig && make bzImage && make modules && make modules_install
 #
+# Make symlink to fix some problems on NVidia/VMWare compilation
+ln -s /usr/src/linux-$VERSION/include/generated/uapi/linux/version.h /usr/src/linux-$VERSION/include/linux/version.h
+#
 # Remove old symlinks, copy new files into /boot, and make new symlinks
 cd /boot
 rm -f vmlinuz System.map config
