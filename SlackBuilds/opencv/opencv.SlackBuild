@@ -7,10 +7,11 @@
 # Updated by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # Changelog
 # November 24, 2012 : Upgraded to 2.4.3
+# March 14: Upgraded to 2.4.4a
 
 PRGNAM=opencv
 SRCNAM=OpenCV
-VERSION=${VERSION:-2.4.3}
+VERSION=${VERSION:-2.4.4}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -45,9 +46,9 @@ set -e
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
-rm -rf $SRCNAM-$VERSION
-tar xvf $CWD/$SRCNAM-$VERSION.tar.bz2
-cd $SRCNAM-$VERSION
+rm -rf $PRGNAM-$VERSION
+tar xvf $CWD/$SRCNAM-${VERSION}a.tar.bz2
+cd $PRGNAM-$VERSION
 chown -R root:root .
 find . \
  \( -perm 777 -o -perm 775 -o -perm 711 -o -perm 555 -o -perm 511 \) \
@@ -75,12 +76,12 @@ cd ..
 find $PKG | xargs file | grep -e "executable" -e "shared object" \
   | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
 
-mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
-cp -a README doc/*.pdf $PKG/usr/doc/$PRGNAM-$VERSION
-cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
+mkdir -p $PKG/usr/doc/$PRGNAM-${VERSION}a
+cp -a README doc/license.txt $PKG/usr/doc/$PRGNAM-${VERSION}a
+cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-${VERSION}a/$PRGNAM.SlackBuild
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
 cd $PKG
-/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD.${PKGTYPE:-txz}
+/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-${VERSION}a-$ARCH-$BUILD.${PKGTYPE:-txz}

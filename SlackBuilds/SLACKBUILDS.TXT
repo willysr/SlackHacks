@@ -161,10 +161,10 @@ SLACKBUILD SHORT DESCRIPTION:  db5 (Berkeley database library version 5.3.x)
 SLACKBUILD NAME: digikam
 SLACKBUILD LOCATION: ./digikam
 SLACKBUILD FILES: README digikam.SlackBuild digikam.info doinst.sh slack-desc
-SLACKBUILD VERSION: 3.0.0
-SLACKBUILD DOWNLOAD: http://download.kde.org/stable/digikam/digikam-3.0.0.tar.bz2
+SLACKBUILD VERSION: 3.1.0
+SLACKBUILD DOWNLOAD: http://download.kde.org/stable/digikam/digikam-3.1.0.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: e1325fa3f8d2ab2e14ca0af7261967db
+SLACKBUILD MD5SUM: b51de5ae2fc0a4b0aa97b1c43d83ee30
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  digiKam (KDE Photo Management Application)
 
@@ -181,11 +181,11 @@ SLACKBUILD SHORT DESCRIPTION:  dnspython (Python API for DNS)
 SLACKBUILD NAME: dropbox
 SLACKBUILD LOCATION: ./dropbox
 SLACKBUILD FILES: README doinst.sh dropbox.SlackBuild dropbox.desktop dropbox.info dropbox.png slack-desc terms.txt
-SLACKBUILD VERSION: 1.6.12
-SLACKBUILD DOWNLOAD: http://dl-web.dropbox.com/u/17/dropbox-lnx.x86-1.6.12.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: http://dl-web.dropbox.com/u/17/dropbox-lnx.x86_64-1.6.12.tar.gz
-SLACKBUILD MD5SUM: 592ba0c91315bb2aab5c3f28e7f5898d
-SLACKBUILD MD5SUM_x86_64: 8c7461014d84d6236d6936c198c65053
+SLACKBUILD VERSION: 2.0.0
+SLACKBUILD DOWNLOAD: https://dl-web.dropbox.com/u/17/dropbox-lnx.x86-2.0.0.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: https://dl-web.dropbox.com/u/17/dropbox-lnx.x86_64-2.0.0.tar.gz
+SLACKBUILD MD5SUM: 223824c6a86abd83a8a557b114af2ebf
+SLACKBUILD MD5SUM_x86_64: 33228754f1b3b83cee5044fc399762e4
 SLACKBUILD SHORT DESCRIPTION:  dropbox (store, sync and share files online)
 
 SLACKBUILD NAME: python-e_dbus
@@ -741,10 +741,10 @@ SLACKBUILD SHORT DESCRIPTION:  mysql-workbench - MySQL Workbench (GUI Tool)
 SLACKBUILD NAME: opencv
 SLACKBUILD LOCATION: ./opencv
 SLACKBUILD FILES: README fsh.patch opencv.SlackBuild opencv.info slack-desc
-SLACKBUILD VERSION: 2.4.3
-SLACKBUILD DOWNLOAD: http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.4.3/OpenCV-2.4.3.tar.bz2
+SLACKBUILD VERSION: 2.4.4a
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/opencvlibrary/OpenCV-2.4.4a.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: c0a5af4ff9d0d540684c0bf00ef35dbe
+SLACKBUILD MD5SUM: 876dce80ea2648b7e4d4c5a567b4d37b
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  OpenCV (Open Source Computer Vision)
 
