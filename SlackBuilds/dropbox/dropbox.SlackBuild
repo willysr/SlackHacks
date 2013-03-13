@@ -27,17 +27,12 @@
 
 # Updated by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # Changelog
-# July 16: Upgraded to 1.5.4
-# September 2: Upgraded to 1.5.27
-# November 18: Upgraded to 1.6.0
-# December 16: Upgraded to 1.6.5
-# December 21: Upgraded to 1.6.9
-# January 7: Upgraded to 1.6.12
+# March 13: Upgraded to 2.0.0
 
 PRGNAM=dropbox
 PACKNAM=dropbox-lnx
 
-VERSION=${VERSION:-1.6.12}
+VERSION=${VERSION:-2.0.0}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
