@@ -1,4 +1,10 @@
 +--------------------------+
+Thu Mar 14 13:08:38 GMT+7 2013
+lensfun: Added
+liblqr: Added
+  These are requirements for digiKam 3.1.0
+
++--------------------------+
 Thu Mar 14 05:26:35 GMT+7 2013
 digiKam: Upgraded to 3.1.0
 opencv: Upgraded to 2.4.4a
