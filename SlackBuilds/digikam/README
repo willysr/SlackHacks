@@ -10,9 +10,9 @@ Requirements
   - ffmpeg
   - QJson
   - OpenCV 
+  - liblqr
   - lensfun (optional)
   - libdc1394 (optional)
   - libpgf (optional)
-  - liblqr (optional)
-
+  
 Note: I'm using AlienBOB's ffmpeg (1.1.2) to build this package
