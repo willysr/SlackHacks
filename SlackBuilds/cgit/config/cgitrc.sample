@@ -1,0 +1,22 @@
+# sample /etc/cgitrc file: two repos are defined
+
+root-title=My GIT repository browser
+root-desc=a fast interface to these git repositories
+virtual-root=/
+snapshots=tar.gz
+
+css=/cgit/cgit.css
+logo=/cgit/cgit.png
+summary-branches-sort=age
+commit-sort=date
+
+# repository specific data
+repo.url=SlackBuilds
+repo.path=/path/to/repo/.git
+repo.desc=SlackBuilds Repository
+repo.owner=user@domain.tld
+repo.defbranch=master
+repo.clone-url=git://slackbuilds.org/slackbuilds.git
+
+# if you need to display other repositories you can more config blocks
+# like the one above

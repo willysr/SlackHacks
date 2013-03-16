@@ -1,0 +1,9 @@
+PRGNAM="cgit"
+VERSION="0.9.1"
+HOMEPAGE="http://git.zx2c4.com/cgit/"
+DOWNLOAD="http://git.zx2c4.com/cgit/snapshot/cgit-0.9.1.tar.xz \
+          http://ponce.cc/slackware/sources/repo/git-1.7.4.4.tar.xz"
+MD5SUM="ed1a1ccccdcbf55ddd6a9de29bca6edf \
+        992da984346a475cf6334efad396e229"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""

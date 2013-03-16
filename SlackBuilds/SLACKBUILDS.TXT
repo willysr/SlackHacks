@@ -108,6 +108,16 @@ SLACKBUILD MD5SUM: 216f21a63db4045c741b6190badcdda1
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  calibre (e-book library management application)
 
+SLACKBUILD NAME: cgit
+SLACKBUILD LOCATION: ./cgit
+SLACKBUILD FILES: README cgit.SlackBuild cgit.info config/cgit-httpd.conf config/cgit-lighttpd.conf config/cgit.conf config/cgitrc.sample slack-desc sort-summary-branches.patch
+SLACKBUILD VERSION: 0.9.1
+SLACKBUILD DOWNLOAD: http://git.zx2c4.com/cgit/snapshot/cgit-0.9.1.tar.xz http://ponce.cc/slackware/sources/repo/git-1.7.4.4.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: ed1a1ccccdcbf55ddd6a9de29bca6edf 992da984346a475cf6334efad396e229
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  cgit (web frontend for git repositories)
+
 SLACKBUILD NAME: cnijfilter
 SLACKBUILD LOCATION: ./cnijfilter
 SLACKBUILD FILES: README cnijfilter.SlackBuild cnijfilter.info fix.patch fix_mg5200_ppd.patch fix_png.patch slack-desc
