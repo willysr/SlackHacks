@@ -1,4 +1,4 @@
-# sample /etc/cgitrc file: two repos are defined
+# sample /etc/cgitrc file
 
 root-title=My GIT repository browser
 root-desc=a fast interface to these git repositories
