@@ -42,7 +42,7 @@ fi
 DOCS="cgitrc.5.txt COPYING README $CWD/config/cgit-lighttpd.conf \
   $CWD/config/cgit-httpd.conf $CWD/config/cgitrc.sample"
 
-GIT_TARBALL=$(grep \/git- $CWD/cgit.info | cut -d'/' -f8 | sed -e 's/\"//')
+GIT_TARBALL=$(grep \/git- $CWD/cgit.info | cut -d'/' -f7 | sed -e 's/\"//')
 
 set -e # Exit on most errors
 
