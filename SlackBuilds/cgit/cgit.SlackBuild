@@ -6,11 +6,12 @@
 # Modified by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # ChangeLog
 # March 16: Upgraded to 0.9.1
+# March 16: Rebuilt to work with newer GIT version up to 1.7.12.4
 
 PRGNAM=cgit
 VERSION=${VERSION:-0.9.1}
 CGIT_VERSION=${CGIT_VERSION:-v$VERSION}
-BUILD=${BUILD:-2wsr}
+BUILD=${BUILD:-3wsr}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
@@ -42,7 +43,7 @@ fi
 DOCS="cgitrc.5.txt COPYING README $CWD/config/cgit-lighttpd.conf \
   $CWD/config/cgit-httpd.conf $CWD/config/cgitrc.sample"
 
-GIT_TARBALL=$(grep \/git- $CWD/cgit.info | cut -d'/' -f7 | sed -e 's/\"//')
+GIT_TARBALL=$(grep \/git- $CWD/cgit.info | cut -d'/' -f5 | sed -e 's/\"//')
 
 set -e # Exit on most errors
 
@@ -61,6 +62,16 @@ find . \
 
 # add a patch to sort summary branches
 patch -p1 < $CWD/sort-summary-branches.patch
+
+# Upstream Patches
+# Update to Newer Git
+patch -p1 < $CWD/git-1.7.5.4.patch
+patch -p1 < $CWD/git-1.7.6.5.patch
+patch -p1 < $CWD/git-1.7.7.7.patch
+patch -p1 < $CWD/git-1.7.9.7.patch
+
+# Update Dependency Generation
+patch -p1 < $CWD/dependency-generation.patch
 
 # prepare sources
 sed -i -e "s|-g -Wall -Igit|-Wall ${SLKCFLAGS} -Igit|" Makefile

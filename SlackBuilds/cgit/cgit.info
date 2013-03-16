@@ -2,8 +2,8 @@ PRGNAM="cgit"
 VERSION="0.9.1"
 HOMEPAGE="http://git.zx2c4.com/cgit/"
 DOWNLOAD="http://git.zx2c4.com/cgit/snapshot/cgit-0.9.1.tar.xz \
-          http://ponce.cc/slackware/sources/repo/git-1.7.4.4.tar.xz"
+          https://git-core.googlecode.com/files/git-1.7.12.4.tar.gz"
 MD5SUM="ed1a1ccccdcbf55ddd6a9de29bca6edf \
-        992da984346a475cf6334efad396e229"
+        5f3f0feb59d96f8106e0a56112bc73db"
 DOWNLOAD_x86_64=""
 MD5SUM_x86_64=""

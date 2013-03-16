@@ -1,4 +1,9 @@
 +--------------------------+
+Sat Mar 16 15:51:59 GMT+7 2013
+cgit: Rebuilt
+  Patched to work with newer GIT version up to 1.7.12.4
+
++--------------------------+
 Sat Mar 16 11:46:29 GMT+7 2013
 cgit: Added
   This is a web-based GIT Repository Browser

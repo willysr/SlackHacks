@@ -1,0 +1,27 @@
+From 10628b0e52f860f8c95c476f61a98a31b79ce776 Mon Sep 17 00:00:00 2001
+From: John Keeping <john@keeping.me.uk>
+Date: Sat, 02 Mar 2013 12:32:14 +0000
+Subject: Update git to v1.7.9.7
+
+resolve_ref() is renamed to resolve_ref_unsafe().  CGit's usage is safe.
+
+Signed-off-by: John Keeping <john@keeping.me.uk>
+---
+diff --git a/cgit.c b/cgit.c
+index 11edd81..d615315 100644
+--- a/cgit.c
++++ b/cgit.c
+@@ -450,7 +450,7 @@ static char *guess_defbranch(const char *repo_path)
+ 	const char *ref;
+ 	unsigned char sha1[20];
+ 
+-	ref = resolve_ref("HEAD", sha1, 0, NULL);
++	ref = resolve_ref_unsafe("HEAD", sha1, 0, NULL);
+ 	if (!ref || prefixcmp(ref, "refs/heads/"))
+ 		return "master";
+ 	return xstrdup(ref + 11);
+diff --git a/git b/git
+-Subproject d9f5ef7a4a760d58f1f824f9fb8c12ef0371d3a
++Subproject d0f1ea6003d97e63110fa7d50bb07f546a909b6
+--
+cgit v0.9.1-37-gd50e

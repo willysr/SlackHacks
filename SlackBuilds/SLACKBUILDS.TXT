@@ -110,11 +110,11 @@ SLACKBUILD SHORT DESCRIPTION:  calibre (e-book library management application)
 
 SLACKBUILD NAME: cgit
 SLACKBUILD LOCATION: ./cgit
-SLACKBUILD FILES: README cgit.SlackBuild cgit.info config/cgit-httpd.conf config/cgit-lighttpd.conf config/cgit.conf config/cgitrc.sample slack-desc sort-summary-branches.patch
+SLACKBUILD FILES: README cgit.SlackBuild cgit.info config/cgit-httpd.conf config/cgit-lighttpd.conf config/cgit.conf config/cgitrc.sample dependency-generation.patch git-1.7.5.4.patch git-1.7.6.5.patch git-1.7.7.7.patch git-1.7.9.7.patch slack-desc sort-summary-branches.patch
 SLACKBUILD VERSION: 0.9.1
-SLACKBUILD DOWNLOAD: http://git.zx2c4.com/cgit/snapshot/cgit-0.9.1.tar.xz http://ponce.cc/slackware/sources/repo/git-1.7.4.4.tar.xz
+SLACKBUILD DOWNLOAD: http://git.zx2c4.com/cgit/snapshot/cgit-0.9.1.tar.xz https://git-core.googlecode.com/files/git-1.7.12.4.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: ed1a1ccccdcbf55ddd6a9de29bca6edf 992da984346a475cf6334efad396e229
+SLACKBUILD MD5SUM: ed1a1ccccdcbf55ddd6a9de29bca6edf 5f3f0feb59d96f8106e0a56112bc73db
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  cgit (web frontend for git repositories)
 
