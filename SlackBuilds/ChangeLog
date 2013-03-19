@@ -1,4 +1,8 @@
 +--------------------------+
+Tue Mar 19 16:57:14 GMT+7 2013
+calibre: Upgraded to 0.9.23
+
++--------------------------+
 Tue Mar 19 16:30:12 GMT+7 2013
 cups-filters: Upgraded to 1.0.30
   This requires avahi from SBo which will require libdaemon

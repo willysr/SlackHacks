@@ -101,10 +101,10 @@ SLACKBUILD SHORT DESCRIPTION:  Brainworkshop (a Dual N-Back game)
 SLACKBUILD NAME: calibre
 SLACKBUILD LOCATION: ./calibre
 SLACKBUILD FILES: README calibre.SlackBuild calibre.info calibre_noqthack.patch slack-desc
-SLACKBUILD VERSION: 0.9.22
-SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.9.22.tar.xz
+SLACKBUILD VERSION: 0.9.23
+SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.9.23.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 216f21a63db4045c741b6190badcdda1
+SLACKBUILD MD5SUM: eff937f38c5cb7a2319364c86f6b925b
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  calibre (e-book library management application)
 
@@ -150,7 +150,7 @@ SLACKBUILD SHORT DESCRIPTION:  cups-filters (CUPS backend and filters)
 
 SLACKBUILD NAME: cups
 SLACKBUILD LOCATION: ./cups
-SLACKBUILD FILES: README airprint-support.patch cups-1.6.2-source.tar.bz2 cups.SlackBuild cups.info doinst.sh.gz slack-desc
+SLACKBUILD FILES: README airprint-support.patch cups.SlackBuild cups.info doinst.sh.gz slack-desc
 SLACKBUILD VERSION: 1.6.2
 SLACKBUILD DOWNLOAD: http://ftp.easysw.com/pub/cups/1.6.2/cups-1.6.2-source.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
