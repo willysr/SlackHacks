@@ -35,16 +35,15 @@
 # August 7 : Rebuilt to remove obsolete options (http://www.cups.org/str.php?L4157)
 #	     Added more upstream patch (http://cups.org/str.php?L4155)
 # November 30: Added patch to support AirPrint 
+# March 19: Upgraded to 1.6.2
 
-VERSION=1.6.1
-BUILD=${BUILD:-4wsr}
+VERSION=1.6.2
+BUILD=${BUILD:-1wsr}
 
-# Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
     i?86) export ARCH=i486 ;;
     arm*) export ARCH=arm ;;
-    # Unless $ARCH is already set, use uname -m for all other archs:
        *) export ARCH=$( uname -m ) ;;
   esac
 fi
@@ -70,8 +69,6 @@ rm -rf cups-$VERSION
 tar xjvf $CWD/cups-$VERSION-source.tar.?z* || exit 1
 cd cups-$VERSION
 
-patch -p0 < $CWD/cupsd-conf-remove-obsolete-browse-directives.patch
-patch -p0 < $CWD/usb-backend-reset-after-job-only-for-specific-devices.patch 
 patch -p1 < $CWD/airprint-support.patch
 
 sed -i.orig -e 's#$exec_prefix/lib/cups#$libdir/cups#g' configure
