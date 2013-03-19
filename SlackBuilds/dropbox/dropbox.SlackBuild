@@ -28,11 +28,12 @@
 # Updated by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # Changelog
 # March 13: Upgraded to 2.0.0
+# March 20: Upgraded to 2.0.2
 
 PRGNAM=dropbox
 PACKNAM=dropbox-lnx
 
-VERSION=${VERSION:-2.0.0}
+VERSION=${VERSION:-2.0.2}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
