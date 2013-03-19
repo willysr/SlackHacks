@@ -140,17 +140,17 @@ SLACKBUILD SHORT DESCRIPTION:  cssselect (CSS Selectors for Python)
 
 SLACKBUILD NAME: cups-filters
 SLACKBUILD LOCATION: ./cups-filters
-SLACKBUILD FILES: README cups-filters-1.0.29.tar.xz cups-filters.SlackBuild cups-filters.info slack-desc
-SLACKBUILD VERSION: 1.0.29
-SLACKBUILD DOWNLOAD: https://www.openprinting.org/download/cups-filters/cups-filters-1.0.29.tar.xz
+SLACKBUILD FILES: README cups-filters.SlackBuild cups-filters.info slack-desc
+SLACKBUILD VERSION: 1.0.30
+SLACKBUILD DOWNLOAD: https://www.openprinting.org/download/cups-filters/cups-filters-1.0.30.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 01e2d9abc4ea69521334a0ee2f70d98a
+SLACKBUILD MD5SUM: c6cca1041657a23192547010f8f2cca8
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  cups-filters (CUPS backend and filters)
 
 SLACKBUILD NAME: cups
 SLACKBUILD LOCATION: ./cups
-SLACKBUILD FILES: README airprint-support.patch cups.SlackBuild cups.info doinst.sh.gz slack-desc
+SLACKBUILD FILES: README airprint-support.patch cups-1.6.2-source.tar.bz2 cups.SlackBuild cups.info doinst.sh.gz slack-desc
 SLACKBUILD VERSION: 1.6.2
 SLACKBUILD DOWNLOAD: http://ftp.easysw.com/pub/cups/1.6.2/cups-1.6.2-source.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 

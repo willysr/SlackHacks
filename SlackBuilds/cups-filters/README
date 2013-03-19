@@ -6,4 +6,4 @@ especially filters for the PDF-centric printing workflow introduced by OpenPrint
 
 This package should be used with CUPS 1.6.x onwards, not with CUPS 1.5.x
 
-This requires qpdf
+This requires qpdf and avahi
