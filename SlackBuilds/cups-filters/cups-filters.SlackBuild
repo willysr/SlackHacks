@@ -25,9 +25,10 @@
 # July 23 : Upgraded to 1.0.20
 # January 10: Upgraded to 1.0.29
 # March 19: Upgraded to 1.0.30
+# March 21: Upgraded to 1.0.31
 
 PRGNAM=cups-filters
-VERSION=1.0.30
+VERSION=1.0.31
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
