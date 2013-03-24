@@ -548,16 +548,6 @@ SLACKBUILD MD5SUM: 1faa5a86feddf87af57e72f42d060b3d
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  GStreamer (streaming multimedia framework)
 
-SLACKBUILD NAME: gtk+2
-SLACKBUILD LOCATION: ./gtk+2
-SLACKBUILD FILES: doinst.sh.gz fix_build_issues_on_tutorial_and_faq.diff.gz gtk+2.SlackBuild gtk+2.info gtk.xid.nowarningflood.diff.gz profile.d/gtk+.csh profile.d/gtk+.sh slack-desc update-gtk-immodules update-gtk-immodules-2.0 use_host_triplet_for_gtk_immodules.diff.gz
-SLACKBUILD VERSION: 2.24.13
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/gtk+/2.24/gtk+-2.24.13.tar.xz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: e949406751df51e1e40e85628005a069
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION: gtk+2: GTK+ version 2 (multi-platform GUI toolkit)
-
 SLACKBUILD NAME: gtkpod
 SLACKBUILD LOCATION: ./gtkpod
 SLACKBUILD FILES: README doinst.sh gtkpod-gdl362.patch gtkpod-trackfilter64.patch gtkpod.SlackBuild gtkpod.info slack-desc

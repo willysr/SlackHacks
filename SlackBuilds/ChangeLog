@@ -1,4 +1,10 @@
 +--------------------------+
+Sun Mar 24 17:51:41 GMT+7 2013
+gdk-pixbuf2: Removed
+gtk: Removed
+  Latest version is now available on -Current
+
++--------------------------+
 Sat Mar 23 01:37:29 GMT+7 2013
 calibre: Upgraded to 0.9.24
 wesnoth: Upgraded to 1.10.6

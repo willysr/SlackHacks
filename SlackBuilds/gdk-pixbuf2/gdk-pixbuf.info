@@ -1,7 +1,0 @@
-PRGNAM="gdk-pixbuf2"
-VERSION="2.26.4"
-HOMEPAGE="http://www.gtk.org/"
-DOWNLOAD="http://ftp.gnome.org/pub/gnome/sources/gdk-pixbuf/2.26/gdk-pixbuf-2.26.4.tar.xz"
-MD5SUM="e634924654bedfdbe58fab059f38ffed"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""
