@@ -1,4 +1,13 @@
 +--------------------------+
+Tue Mar 26 09:52:38 GMT+7 2013
+harfbuzz: Upgraded to 0.9.14
+
++--------------------------+
+Mon Mar 25 21:44:23 GMT+7 2013
+laptop-mode-tools: Added
+  This is a laptop power saving package for Linux systems
+
++--------------------------+
 Sun Mar 24 17:51:41 GMT+7 2013
 gdk-pixbuf2: Removed
 gtk: Removed
