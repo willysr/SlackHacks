@@ -1,5 +1,5 @@
---- brainworkshop.pyw.orig	2012-07-12 08:22:20.653168715 +0700
-+++ brainworkshop.pyw	2012-07-12 08:23:36.435966866 +0700
+--- brainworkshop/brainworkshop.pyw.orig	2013-03-28 08:55:44.654083679 +0700
++++ brainworkshop/brainworkshop.pyw	2013-03-28 09:05:31.465263050 +0700
 @@ -35,8 +35,10 @@
  NOVBO = True
  VSYNC = False

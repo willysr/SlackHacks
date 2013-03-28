@@ -90,7 +90,7 @@ SLACKBUILD SHORT DESCRIPTION:  AVbin (cross platform wrapper)
 
 SLACKBUILD NAME: brainworkshop
 SLACKBUILD LOCATION: ./brainworkshop
-SLACKBUILD FILES: README brainworkshop-4.8.1-fix-paths.patch brainworkshop.SlackBuild brainworkshop.desktop brainworkshop.info brainworkshop.png brainworkshop.sh slack-desc
+SLACKBUILD FILES: README brainworkshop-4.8.4-fix.paths.patch brainworkshop.SlackBuild brainworkshop.desktop brainworkshop.info brainworkshop.png brainworkshop.sh slack-desc
 SLACKBUILD VERSION: 4.8.4
 SLACKBUILD DOWNLOAD: http://ncu.dl.sourceforge.net/project/brainworkshop/brainworkshop/Brain%20Workshop%204.8/brainworkshop-4.8.4.zip
 SLACKBUILD DOWNLOAD_x86_64: 

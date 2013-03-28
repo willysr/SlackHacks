@@ -58,7 +58,7 @@ find . \
  -exec chmod 644 {} \;
 
 # Patches from Gentoo
-patch -p0 < $CWD/brainworkshop-4.8.1-fix-paths.patch
+patch -p1 < $CWD/brainworkshop-4.8.1-fix.paths.patch
 
 # Convert from DOS to UNIX
 tr -d '\r' < brainworkshop.pyw > brainworkshop.pyw.new
