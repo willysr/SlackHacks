@@ -25,10 +25,11 @@
 # Changelog
 # July 11: Initial release
 # November 24: Upgraded to 4.8.4
+# March 28: Rebuilt to update patch and add parameter --datadir in brainworkshop launcher
 
 PRGNAM=brainworkshop
 VERSION=4.8.4
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
