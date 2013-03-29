@@ -601,11 +601,11 @@ SLACKBUILD SHORT DESCRIPTION:  httperf (http load generator)
 SLACKBUILD NAME: insync-kde
 SLACKBUILD LOCATION: ./insync-kde
 SLACKBUILD FILES: README doinst.sh insync-kde.SlackBuild insync-kde.info slack-desc
-SLACKBUILD VERSION: 0.9.36
-SLACKBUILD DOWNLOAD: http://s.insynchq.com/builds/insync-beta-kde_0.9.36_i386.deb
-SLACKBUILD DOWNLOAD_x86_64: http://s.insynchq.com/builds/insync-beta-kde_0.9.36_amd64.deb
-SLACKBUILD MD5SUM: ac69323abd888211609acb12b03e96a8
-SLACKBUILD MD5SUM_x86_64: e59d430b63f932456b7b43ff8c52c0c9
+SLACKBUILD VERSION: 0.9.41
+SLACKBUILD DOWNLOAD: http://s.insynchq.com/builds/insync-beta-kde_0.9.41_i386.deb
+SLACKBUILD DOWNLOAD_x86_64: http://s.insynchq.com/builds/insync-beta-kde_0.9.41_amd64.deb
+SLACKBUILD MD5SUM: d2e6e54b3952d5e3551632a5f27cd79b
+SLACKBUILD MD5SUM_x86_64: 0fd0261e9b44c1100684c656d99654f1
 SLACKBUILD SHORT DESCRIPTION:  insync (Google Drive Client)
 
 SLACKBUILD NAME: itstool
