@@ -50,7 +50,7 @@ SLACKBUILD SHORT DESCRIPTION:  TeamSpeak3 (Voice Communication)
 
 SLACKBUILD NAME: aegisub
 SLACKBUILD LOCATION: ./aegisub
-SLACKBUILD FILES: README aegisub-3.0.2.tar.xz aegisub.SlackBuild aegisub.info slack-desc
+SLACKBUILD FILES: README aegisub.SlackBuild aegisub.info slack-desc
 SLACKBUILD VERSION: 3.0.2
 SLACKBUILD DOWNLOAD: http://ftp.aegisub.org/pub/releases/aegisub-3.0.2.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
