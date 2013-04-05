@@ -281,10 +281,10 @@ SLACKBUILD SHORT DESCRIPTION:  connman (Open Source Connection Manager)
 SLACKBUILD NAME: e_dbus
 SLACKBUILD LOCATION: ./e_dbus
 SLACKBUILD FILES: README e_dbus.SlackBuild e_dbus.info slack-desc
-SLACKBUILD VERSION: 1.7.5
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/e_dbus-1.7.5.tar.gz
+SLACKBUILD VERSION: 1.7.6
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/e_dbus-1.7.6.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: e523232dee5c88cda21ec2a3495d7f18
+SLACKBUILD MD5SUM: 4f481b1a341fab2e8a06ce6fd050aec5
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  E_dbus (one of the Enlightenment DR17 foundation libraries)
 
@@ -301,130 +301,130 @@ SLACKBUILD SHORT DESCRIPTION:  econnman (E17 ConnMan UI)
 SLACKBUILD NAME: ecore
 SLACKBUILD LOCATION: ./ecore
 SLACKBUILD FILES: README ecore.SlackBuild ecore.info slack-desc
-SLACKBUILD VERSION: 1.7.5
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/ecore-1.7.5.tar.gz
+SLACKBUILD VERSION: 1.7.6
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/ecore-1.7.6.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 96f85bcb720db2c723bf296b4d5d0bb6
+SLACKBUILD MD5SUM: ea332206aa4919620e4ad436c9061164
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Ecore (one of the Enlightenment DR17 foundation libraries)
 
 SLACKBUILD NAME: edje
 SLACKBUILD LOCATION: ./edje
 SLACKBUILD FILES: README edje.SlackBuild edje.info slack-desc
-SLACKBUILD VERSION: 1.7.5
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/edje-1.7.5.tar.gz
+SLACKBUILD VERSION: 1.7.6
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/edje-1.7.6.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 66f424e80b11a28e86de4b2b9828591d
+SLACKBUILD MD5SUM: 6fe312d1725fa0d4fb9837eb3ee1d1c2
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Edje (one of the Enlightenment DR17 foundation libraries)
 
 SLACKBUILD NAME: eet
 SLACKBUILD LOCATION: ./eet
 SLACKBUILD FILES: README eet.SlackBuild eet.info slack-desc
-SLACKBUILD VERSION: 1.7.5
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/eet-1.7.5.tar.gz
+SLACKBUILD VERSION: 1.7.6
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/eet-1.7.6.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: c62ba7a771d16df9afe6e5869370e082
+SLACKBUILD MD5SUM: 24cb0f2c33bfcc403bd0ce2860bd3633
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Eet (one of the Enlightenment DR17 foundation libraries)
 
 SLACKBUILD NAME: eeze
 SLACKBUILD LOCATION: ./eeze
 SLACKBUILD FILES: README eeze.SlackBuild eeze.info slack-desc
-SLACKBUILD VERSION: 1.7.5
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/eeze-1.7.5.tar.gz
+SLACKBUILD VERSION: 1.7.6
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/eeze-1.7.6.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 698c1b09d4f380ac581a6100f5b88548
+SLACKBUILD MD5SUM: 911911b27c1a38c6d66ccfae805ee042
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  eeze (one of the Enlightenment DR17 foundation libraries)
 
 SLACKBUILD NAME: efreet
 SLACKBUILD LOCATION: ./efreet
 SLACKBUILD FILES: README efreet.SlackBuild efreet.info slack-desc
-SLACKBUILD VERSION: 1.7.5
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/efreet-1.7.5.tar.gz
+SLACKBUILD VERSION: 1.7.6
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/efreet-1.7.6.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 2df171ff22e88fda47bc916665b903ce
+SLACKBUILD MD5SUM: 224a86de858e3cac601722fbb5d1f616
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Efreet (one of the Enlightenment DR17 foundation libraries)
 
 SLACKBUILD NAME: eina
 SLACKBUILD LOCATION: ./eina
 SLACKBUILD FILES: README eina.SlackBuild eina.info slack-desc
-SLACKBUILD VERSION: 1.7.5
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/eina-1.7.5.tar.gz
+SLACKBUILD VERSION: 1.7.6
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/eina-1.7.6.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: ca45a53ec219c8a16631a20dc0f782cf
+SLACKBUILD MD5SUM: 65bc85229b914e0e26102e7e3ed2e687
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Eina (one of the Enlightenment DR17 foundation libraries)
 
 SLACKBUILD NAME: eio
 SLACKBUILD LOCATION: ./eio
 SLACKBUILD FILES: README eio.SlackBuild eio.info slack-desc
-SLACKBUILD VERSION: 1.7.5
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/eio-1.7.5.tar.gz
+SLACKBUILD VERSION: 1.7.6
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/eio-1.7.6.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 429c30b99f4011b7b20085f7117a7b93
+SLACKBUILD MD5SUM: 202cced4c3cdeafa0249f01a45464586
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Eio (one of the Enlightenment DR17 foundation libraries)
 
 SLACKBUILD NAME: elementary
 SLACKBUILD LOCATION: ./elementary
 SLACKBUILD FILES: README elementary.SlackBuild elementary.info slack-desc
-SLACKBUILD VERSION: 1.7.5
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/elementary-1.7.5.tar.gz
+SLACKBUILD VERSION: 1.7.6
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/elementary-1.7.6.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 8c81926114f07d328aacb0e34c3830a4
+SLACKBUILD MD5SUM: b9916d954ba71aa3a8735d5f37fa88c0
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  elementary (one of the Enlightenment DR17 foundation libraries)
 
 SLACKBUILD NAME: embryo
 SLACKBUILD LOCATION: ./embryo
 SLACKBUILD FILES: README embryo.SlackBuild embryo.info slack-desc
-SLACKBUILD VERSION: 1.7.5
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/embryo-1.7.5.tar.gz
+SLACKBUILD VERSION: 1.7.6
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/embryo-1.7.6.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: c5d34d35ee38ad7c68b9f477d036c659
+SLACKBUILD MD5SUM: 0c2648f296263db10982f5349bc872a7
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Embryo (one of the Enlightenment DR17 foundation libraries)
 
 SLACKBUILD NAME: emotion
 SLACKBUILD LOCATION: ./emotion
 SLACKBUILD FILES: README emotion.SlackBuild emotion.info slack-desc
-SLACKBUILD VERSION: 1.7.5
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/emotion-1.7.5.tar.gz
+SLACKBUILD VERSION: 1.7.6
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/emotion-1.7.6.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: bb6a00053b0f72c0c146a59161e4bb0b
+SLACKBUILD MD5SUM: 8acaf59704a628bdaa4eb0fb06a9ced5
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  emotion (one of the Enlightenment DR17 foundation libraries)
 
 SLACKBUILD NAME: enlightenment
 SLACKBUILD LOCATION: ./enlightenment
 SLACKBUILD FILES: README doinst.sh enlightenment.SlackBuild enlightenment.info slack-desc xinitrc.enlightenment17
-SLACKBUILD VERSION: 0.17.1
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/enlightenment-0.17.1.tar.gz
+SLACKBUILD VERSION: 0.17.2
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/enlightenment-0.17.2.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: fcd29635328efa2bd207f18fe230e41a
+SLACKBUILD MD5SUM: 110be3bc00745595e72d7aec2c989cef
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Enlightenment DR17 (a window manager and desktop shell)
 
 SLACKBUILD NAME: ethumb
 SLACKBUILD LOCATION: ./ethumb
 SLACKBUILD FILES: README ethumb.SlackBuild ethumb.info slack-desc
-SLACKBUILD VERSION: 1.7.5
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/ethumb-1.7.5.tar.gz
+SLACKBUILD VERSION: 1.7.6
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/ethumb-1.7.6.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 6c9fde046edfed867de790a8cd3a16f9
+SLACKBUILD MD5SUM: 54030f71f15cbff50882fa23d2dd4b81
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  ethumb (one of the Enlightenment DR17 foundation libraries)
 
 SLACKBUILD NAME: evas
 SLACKBUILD LOCATION: ./evas
 SLACKBUILD FILES: README evas.SlackBuild evas.info slack-desc
-SLACKBUILD VERSION: 1.7.5
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/evas-1.7.5.tar.gz
+SLACKBUILD VERSION: 1.7.6
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/evas-1.7.6.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 77237b48c4167d30b40b7918eb8e274f
+SLACKBUILD MD5SUM: 7478889269fb8968a2a9ec9a276b9349
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Evas (one of the Enlightenment DR17 foundation libraries)
 
