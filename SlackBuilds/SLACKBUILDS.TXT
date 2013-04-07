@@ -101,10 +101,10 @@ SLACKBUILD SHORT DESCRIPTION:  Brainworkshop (a Dual N-Back game)
 SLACKBUILD NAME: calibre
 SLACKBUILD LOCATION: ./calibre
 SLACKBUILD FILES: README calibre.SlackBuild calibre.info calibre_noqthack.patch slack-desc
-SLACKBUILD VERSION: 0.9.25
-SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.9.25.tar.xz
+SLACKBUILD VERSION: 0.9.26
+SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.9.26.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 5a6d9a94cde6233a233ab1be41d3459d
+SLACKBUILD MD5SUM: 14df8fbe5e0fa5e8cc14b480603920e2
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  calibre (e-book library management application)
 
