@@ -80,7 +80,7 @@ mkdir build
 cd build
   CFLAGS="$SLKCFLAGS" \
   CXXFLAGS="$SLKCFLAGS" \
-  ./unix/cmake/configure \
+  ../unix/cmake/configure \
     --prefix=/usr \
     --libdir=/usr/lib${LIBDIRSUFFIX} \
     --sysconfdir=/etc \
