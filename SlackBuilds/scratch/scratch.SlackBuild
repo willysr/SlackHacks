@@ -71,6 +71,11 @@ find . \
 
 make build
 
+# Fix libdir in startup script
+sed \
+ -e "s/lib\//lib${LIBDIRSUFFIX}\//" \
+ -i src/scratch
+
 mkdir -p $PKG/usr/bin/
 mkdir -p $PKG/usr/lib${LIBDIRSUFFIX}/$PRGNAM
 mkdir -p $PKG/usr/share/applications/
@@ -88,11 +93,20 @@ install -m 0644 src/scratch.xml $PKG/usr/share/mime/packages/scratch.xml
 
 
 cp -rf locale Media Projects $PKG/usr/share/$PRGNAM
+
+# Fix permissions
+cd $PKG/usr/share/$PRGNAM
+ find . -type d -exec chmod 0755 {} \;
+ find . -type f -exec chmod 0644 {} \;
+cd -
+
 cp -rf src/icons/128x128/* $PKG/usr/share/icons/hicolor/128x128/apps
 cp -rf src/icons/32x32/* $PKG/usr/share/icons/hicolor/32x32/apps
 cp -rf src/icons/48x48/* $PKG/usr/share/icons/hicolor/48x48/apps
 chmod -R 0755 $PKG/usr/share/icons/hicolor
+
 cp -rf Plugins $PKG/usr/lib/${LIBDIRSUFFIX}/$PRGNAM/
+
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION/help
 cp -a \
   ACKNOWLEDGEMENTS KNOWN-BUGS LICENSE NOTICE README TRADEMARK_POLICY \
