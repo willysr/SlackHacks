@@ -141,10 +141,10 @@ SLACKBUILD SHORT DESCRIPTION:  cssselect (CSS Selectors for Python)
 SLACKBUILD NAME: cups-filters
 SLACKBUILD LOCATION: ./cups-filters
 SLACKBUILD FILES: README cups-filters.SlackBuild cups-filters.info slack-desc
-SLACKBUILD VERSION: 1.0.33
-SLACKBUILD DOWNLOAD: https://www.openprinting.org/download/cups-filters/cups-filters-1.0.33.tar.xz
+SLACKBUILD VERSION: 1.0.34
+SLACKBUILD DOWNLOAD: https://www.openprinting.org/download/cups-filters/cups-filters-1.0.34.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: f125095f3d75fe5a4864461cd473267e
+SLACKBUILD MD5SUM: e4d605cd35ea5a42c13f7fc1e1f273de
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  cups-filters (CUPS backend and filters)
 
