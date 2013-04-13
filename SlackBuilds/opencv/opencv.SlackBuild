@@ -10,8 +10,7 @@
 # March 14: Upgraded to 2.4.4a
 
 PRGNAM=opencv
-SRCNAM=OpenCV
-VERSION=${VERSION:-2.4.4}
+VERSION=${VERSION:-2.4.5}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -47,7 +46,7 @@ rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
 rm -rf $PRGNAM-$VERSION
-tar xvf $CWD/$SRCNAM-${VERSION}a.tar.bz2
+tar xvf $CWD/$PRGNAM-${VERSION}.tar.gz
 cd $PRGNAM-$VERSION
 chown -R root:root .
 find . \
@@ -76,12 +75,12 @@ cd ..
 find $PKG | xargs file | grep -e "executable" -e "shared object" \
   | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
 
-mkdir -p $PKG/usr/doc/$PRGNAM-${VERSION}a
-cp -a README doc/license.txt $PKG/usr/doc/$PRGNAM-${VERSION}a
-cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-${VERSION}a/$PRGNAM.SlackBuild
+mkdir -p $PKG/usr/doc/$PRGNAM-${VERSION}
+cp -a README doc/license.txt $PKG/usr/doc/$PRGNAM-${VERSION}
+cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-${VERSION}/$PRGNAM.SlackBuild
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
 cd $PKG
-/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-${VERSION}a-$ARCH-$BUILD.${PKGTYPE:-txz}
+/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-${VERSION}-$ARCH-$BUILD.${PKGTYPE:-txz}
