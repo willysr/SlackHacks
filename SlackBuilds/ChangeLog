@@ -1,4 +1,9 @@
 +--------------------------+
+Sat Apr 13 22:39:05 GMT+7 2013
+wesnoth: Rebuilt
+  Remove -Werror in CMakeList in order to compile
+
++--------------------------+
 Sat Apr 13 08:05:18 GMT+7 2013
 calibre: Upgraded to 0.9.27
 

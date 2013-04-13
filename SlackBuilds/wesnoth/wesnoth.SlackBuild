@@ -27,7 +27,7 @@
 
 PRGNAM=wesnoth
 VERSION=${VERSION:-1.10.6}
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
@@ -86,6 +86,8 @@ find . \
 
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
+
+sed -i 's/-Werror//' CMakeLists.txt
 
 cmake \
  -DCMAKE_C_FLAGS:STRING="$SLKCFLAGS" \
