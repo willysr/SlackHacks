@@ -8,6 +8,7 @@
 # Changelog
 # November 24, 2012 : Upgraded to 2.4.3
 # March 14: Upgraded to 2.4.4a
+# April 14: Upgraded to 2.4.5
 
 PRGNAM=opencv
 VERSION=${VERSION:-2.4.5}
