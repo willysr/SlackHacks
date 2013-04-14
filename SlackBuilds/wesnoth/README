@@ -14,3 +14,11 @@ You can create the user and group for the wesnoth server as follows:
 
 # groupadd -g 229 wesnoth
 # useradd -u 229 -d /dev/null -s /bin/false -g wesnoth wesnoth
+
+*********************************************************************************
+CURRENTLY IT'S NOT WORKING!!!!
+I have experienced a segmentation fault even though compiling is fine here
+Probably due to big -Current updates
+For now, do not upgrade to newer releases if you are using -Current until i found
+a permanent solution for this
+*********************************************************************************
