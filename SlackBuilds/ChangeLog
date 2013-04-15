@@ -1,4 +1,10 @@
 +--------------------------+
+Mon Apr 15 23:51:27 GMT+7 2013
+wesnoth: Rebuilt
+  Change Release Type to Debug in an attempt to test for segfault problem
+  Apparently it does fix the problem, so let's just use it for now
+
++--------------------------+
 Sat Apr 13 22:39:05 GMT+7 2013
 wesnoth: Rebuilt
   Remove -Werror in CMakeList in order to compile

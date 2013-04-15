@@ -16,9 +16,9 @@ You can create the user and group for the wesnoth server as follows:
 # useradd -u 229 -d /dev/null -s /bin/false -g wesnoth wesnoth
 
 *********************************************************************************
-CURRENTLY IT'S NOT WORKING!!!!
-I have experienced a segmentation fault even though compiling is fine here
-Probably due to big -Current updates
-For now, do not upgrade to newer releases if you are using -Current until i found
-a permanent solution for this
+I tried to rebuilt this package using DEBUG in order to find any problem, but
+it turned out that it worked and no more segfaults, so i'll try to use debug
+instead of release for now and see what happened next
+
+Let me know if this solution does (not) work on your system
 *********************************************************************************

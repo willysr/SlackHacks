@@ -27,7 +27,7 @@
 
 PRGNAM=wesnoth
 VERSION=${VERSION:-1.10.6}
-BUILD=${BUILD:-2wsr}
+BUILD=${BUILD:-3wsr}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
@@ -92,7 +92,7 @@ sed -i 's/-Werror//' CMakeLists.txt
 cmake \
  -DCMAKE_C_FLAGS:STRING="$SLKCFLAGS" \
  -DCMAKE_CXX_FLAGS:STRING="$SLKCFLAGS" \
- -DCMAKE_BUILD_TYPE=Release \
+ -DCMAKE_BUILD_TYPE=Debug \
  -DCMAKE_INSTALL_PREFIX=/usr \
  -DMANDIR=/usr/man \
  -DENABLE_TOOLS=On \
