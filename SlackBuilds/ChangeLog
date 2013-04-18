@@ -1,4 +1,10 @@
 +--------------------------+
+Fri Apr 19 05:13:15 GMT+7 2013
+tlp: Added
+  tlp is an advanced power management tool for Linux.
+  This should not be used with laptop-mode-tools
+
++--------------------------+
 Mon Apr 15 23:51:27 GMT+7 2013
 wesnoth: Rebuilt
   Change Release Type to Debug in an attempt to test for segfault problem
