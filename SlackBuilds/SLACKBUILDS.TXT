@@ -471,11 +471,11 @@ SLACKBUILD SHORT DESCRIPTION:  gnugo
 SLACKBUILD NAME: google-earth
 SLACKBUILD LOCATION: ./google-earth
 SLACKBUILD FILES: README doinst.sh google-earth-mimetypes.xml google-earth.SlackBuild google-earth.info slack-desc
-SLACKBUILD VERSION: 7.0.3.8542
+SLACKBUILD VERSION: 7.1.1.1580
 SLACKBUILD DOWNLOAD: http://dl.google.com/dl/earth/client/current/google-earth-stable_current_i386.deb
 SLACKBUILD DOWNLOAD_x86_64: http://dl.google.com/dl/earth/client/current/google-earth-stable_current_amd64.deb
-SLACKBUILD MD5SUM: 5c0925682acfd90ff93ca91c5fd37254
-SLACKBUILD MD5SUM_x86_64: d34b798b2ff2435b431935a134ad35e8
+SLACKBUILD MD5SUM: c835be07a0571b10c179a3603cc64b3a
+SLACKBUILD MD5SUM_x86_64: 43e0a6696238f6220037d044212c0a7b
 SLACKBUILD SHORT DESCRIPTION:  Google earth (3D Planet Viewer)
 
 SLACKBUILD NAME: grive
