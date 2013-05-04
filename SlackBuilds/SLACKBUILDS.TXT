@@ -61,10 +61,10 @@ SLACKBUILD SHORT DESCRIPTION:  aegisub (General-purpose subtitle editor)
 SLACKBUILD NAME: anjuta
 SLACKBUILD LOCATION: ./anjuta
 SLACKBUILD FILES: README anjuta.SlackBuild anjuta.info doinst.sh slack-desc
-SLACKBUILD VERSION: 3.6.2
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/anjuta/3.6/anjuta-3.6.2.tar.xz
+SLACKBUILD VERSION: 3.8.1
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/anjuta/3.8/anjuta-3.8.1.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 3cd2e771df0768af6274a0334fb24502
+SLACKBUILD MD5SUM: f1345dcb796910f1dc701334b921eb74
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  anjuta (GNOME Integrated Development Environment)
 

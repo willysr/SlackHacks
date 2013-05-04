@@ -24,7 +24,7 @@
 
 PRGNAM=gtkpod
 VERSION=${VERSION:-2.1.3}
-BUILD=${BUILD:-2wsr}
+BUILD=${BUILD:-3wsr}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
