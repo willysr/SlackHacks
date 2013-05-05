@@ -25,12 +25,12 @@
 # Modified by Willy Sudiarto Raharjo
 # ChangeLog
 # October 7: Upgraded to 5.16.2
+# May 5: Upgraded to 5.17.3
 
 PRGNAM=autogen
-VERSION=${VERSION:-5.16.2}
+VERSION=${VERSION:-5.17.3}
 BUILD=${BUILD:-1wsr}
 
-# Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
     i?86) ARCH=i486 ;;
