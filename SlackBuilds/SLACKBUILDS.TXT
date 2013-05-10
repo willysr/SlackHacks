@@ -441,10 +441,10 @@ SLACKBUILD SHORT DESCRIPTION:  ffms (a cross-platform wrapper library)
 SLACKBUILD NAME: filezilla
 SLACKBUILD LOCATION: ./filezilla
 SLACKBUILD FILES: README doinst.sh filezilla.SlackBuild filezilla.info slack-desc
-SLACKBUILD VERSION: 3.6.0.2
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/filezilla/FileZilla_3.6.0.2_src.tar.bz2
+SLACKBUILD VERSION: 3.7.0
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/filezilla/FileZilla_3.7.0_src.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: d56773feafb85c216813bbda87838db0
+SLACKBUILD MD5SUM: de827a062ec316d0da99936aeaaeeb79
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  filezilla (the free FTP solution)
 
