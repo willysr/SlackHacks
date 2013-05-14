@@ -1,4 +1,12 @@
 +--------------------------+
+Tue May 14 08:53:27 GMT+7 2013
+e17/econnman: Rebuilt 
+  Added some ugly hack in doinst.sh to make it work with icu4c on -Current
+wesnoth: Rebuilt
+  Added upstream patch to fix segfaults
+  Revert back to Release Build Type
+
++--------------------------+
 Tue May 14 07:44:27 GMT+7 2013
 e17/e*: Upgraded to EFL 1.7.7
 e17/connman: Upgraded to 0.14
