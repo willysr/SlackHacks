@@ -21,5 +21,6 @@ Complete Build Order :
 - Python-emotion (Python bindings) *optional*
 - Python-ethumb (Python bindings) *optional*
 - Python-elementary (Python bindings) *optional*
+- connman
 - Econnman *optional*
 - Enlightenment

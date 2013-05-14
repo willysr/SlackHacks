@@ -23,7 +23,7 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 PRGNAM=econnman
-VERSION=${VERSION:-r83613}
+VERSION=${VERSION:-r5e344be}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -58,8 +58,8 @@ set -e
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
-rm -rf $PRGNAM-$VERSION
-tar xvf $CWD/$PRGNAM-$VERSION.tar.bz2
+rm -rf $PRGNAM
+tar xvf $CWD/$PRGNAM.tar.xz
 cd $PRGNAM
 chown -R root:root .
 find . \
