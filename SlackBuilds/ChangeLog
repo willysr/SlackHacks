@@ -1,4 +1,8 @@
 +--------------------------+
+Wed May 15 06:52:34 GMT+7 2013
+tlp: Upgraded to 0.3.9
+
++--------------------------+
 Tue May 14 08:53:27 GMT+7 2013
 e17/econnman: Rebuilt 
   Added some ugly hack in doinst.sh to make it work with icu4c on -Current
