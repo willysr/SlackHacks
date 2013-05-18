@@ -171,10 +171,10 @@ SLACKBUILD SHORT DESCRIPTION:  db5 (Berkeley database library version 5.3.x)
 SLACKBUILD NAME: digikam
 SLACKBUILD LOCATION: ./digikam
 SLACKBUILD FILES: README digikam.SlackBuild digikam.info doinst.sh slack-desc
-SLACKBUILD VERSION: 3.1.0
-SLACKBUILD DOWNLOAD: http://download.kde.org/stable/digikam/digikam-3.1.0.tar.bz2
+SLACKBUILD VERSION: 3.2.0
+SLACKBUILD DOWNLOAD: http://download.kde.org/stable/digikam/digikam-3.2.0.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: b51de5ae2fc0a4b0aa97b1c43d83ee30
+SLACKBUILD MD5SUM: 7c38a5fb9061c7d3f86102bd51a0a4e9
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  digiKam (KDE Photo Management Application)
 
@@ -427,6 +427,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 6f6bd375c37c3b01b9a4c622a77e72c6
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Evas (one of the Enlightenment DR17 foundation libraries)
+
+SLACKBUILD NAME: eigen3
+SLACKBUILD LOCATION: ./eigen3
+SLACKBUILD FILES: README eigen3.SlackBuild eigen3.info slack-desc
+SLACKBUILD VERSION: 3.1.3
+SLACKBUILD DOWNLOAD: http://bitbucket.org/eigen/eigen/get/3.1.3.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 43eee0e9252a77149d6b65e93e73b79d
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  Eigen3 (c++ math library)
 
 SLACKBUILD NAME: ffms
 SLACKBUILD LOCATION: ./ffms
