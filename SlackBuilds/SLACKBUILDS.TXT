@@ -68,6 +68,16 @@ SLACKBUILD MD5SUM: f1345dcb796910f1dc701334b921eb74
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  anjuta (GNOME Integrated Development Environment)
 
+SLACKBUILD NAME: atkmm
+SLACKBUILD LOCATION: ./atkmm
+SLACKBUILD FILES: README atkmm.SlackBuild atkmm.info slack-desc
+SLACKBUILD VERSION: 2.22.7
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/atkmm/2.22/atkmm-2.22.7.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: fec7db3fc47ba2e0c95d130ec865a236
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  atkmm (C++ bindings for ATK)
+
 SLACKBUILD NAME: autogen
 SLACKBUILD LOCATION: ./autogen
 SLACKBUILD FILES: README autogen.SlackBuild autogen.info slack-desc
@@ -97,6 +107,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 0fdc13a62c376c38c45b2929e517f735
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Brainworkshop (a Dual N-Back game)
+
+SLACKBUILD NAME: cairomm
+SLACKBUILD LOCATION: ./cairomm
+SLACKBUILD FILES: README cairomm.SlackBuild cairomm.info slack-desc
+SLACKBUILD VERSION: 1.10.0
+SLACKBUILD DOWNLOAD: http://cairographics.org/releases/cairomm-1.10.0.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 9c63fb1c04c8ecd3c5e6473075b8c39f
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  cairomm (C++ wrapper for the cairo graphics library)
 
 SLACKBUILD NAME: calibre
 SLACKBUILD LOCATION: ./calibre
@@ -468,6 +488,16 @@ SLACKBUILD MD5SUM: 6c2344d7d0cd4e36229f3d95cf6dc3fc
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  gdl (GNOME Docking Library)
 
+SLACKBUILD NAME: glibmm
+SLACKBUILD LOCATION: ./glibmm
+SLACKBUILD FILES: README glibmm.SlackBuild glibmm.info slack-desc
+SLACKBUILD VERSION: 2.36.2
+SLACKBUILD DOWNLOAD: http://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.36/glibmm-2.36.2.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 5c96d566c22c209d7b9cbf2344c469e9
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  glibmm (C++ bindings for glib)
+
 SLACKBUILD NAME: gnugo
 SLACKBUILD LOCATION: ./gnugo
 SLACKBUILD FILES: README gnugo.SlackBuild gnugo.info slack-desc
@@ -557,6 +587,26 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 1faa5a86feddf87af57e72f42d060b3d
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  GStreamer (streaming multimedia framework)
+
+SLACKBUILD NAME: gtkmm
+SLACKBUILD LOCATION: ./gtkmm
+SLACKBUILD FILES: README gtkmm.SlackBuild gtkmm.info gtkmm.info~ slack-desc
+SLACKBUILD VERSION: 2.24.3
+SLACKBUILD DOWNLOAD: http://ftp.acc.umu.se/pub/GNOME/sources/gtkmm/2.24/gtkmm-2.24.3.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 42fc5a3feeb33ea59b7660200e2a5465
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  gtkmm (C++ interface for GTK+)
+
+SLACKBUILD NAME: gtkmm3
+SLACKBUILD LOCATION: ./gtkmm3
+SLACKBUILD FILES: README gtkmm3.SlackBuild gtkmm3.info slack-desc
+SLACKBUILD VERSION: 3.8.1
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/gnome/sources/gtkmm/3.8/gtkmm-3.8.1.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 15211fab12ea2ce955369dcc320baf5c
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  gtkmm3 (C++ interface for GTK+3)
 
 SLACKBUILD NAME: gtkpod
 SLACKBUILD LOCATION: ./gtkpod
@@ -718,6 +768,16 @@ SLACKBUILD MD5SUM: 49ae25a63804273f0c6875f477b5f6d2
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  libpgf (Image file format)
 
+SLACKBUILD NAME: libsigc++
+SLACKBUILD LOCATION: ./libsigc++
+SLACKBUILD FILES: README libsigc++.SlackBuild libsigc++.info slack-desc
+SLACKBUILD VERSION: 2.2.11
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/libsigc++/2.2/libsigc++-2.2.11.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 815d0c6d61601f51bbcaeef6826606b0
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION: libsigc++: libsigc++ (typesafe callback system for standard C++)
+
 SLACKBUILD NAME: libtiff
 SLACKBUILD LOCATION: ./libtiff
 SLACKBUILD FILES: README libtiff.SlackBuild libtiff.info slack-desc
@@ -768,6 +828,16 @@ SLACKBUILD MD5SUM: 7b61b2609181800c047742820a40c3ac
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  lzlib (compression library)
 
+SLACKBUILD NAME: mm-common
+SLACKBUILD LOCATION: ./mm-common
+SLACKBUILD FILES: README mm-common.SlackBuild mm-common.info mm-common.info~ slack-desc
+SLACKBUILD VERSION: 0.9.6
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/mm-common/0.9/mm-common-0.9.6.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 3b23749ab39441c392c016ce74632678
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  mm-common (build infrastructure and utilities for GNOME C++ bindings)
+
 SLACKBUILD NAME: mysql-workbench-gpl
 SLACKBUILD LOCATION: ./mysql-workbench-gpl
 SLACKBUILD FILES: README config_and_ifconfig_paths.patch doinst.sh mysql-workbench-gpl.SlackBuild mysql-workbench-gpl.info slack-desc
@@ -787,6 +857,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 8eac87462c7bec8b89021b723207c623
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  OpenCV (Open Source Computer Vision)
+
+SLACKBUILD NAME: pangomm
+SLACKBUILD LOCATION: ./pangomm
+SLACKBUILD FILES: README pangomm.SlackBuild pangomm.info slack-desc
+SLACKBUILD VERSION: 2.34.0
+SLACKBUILD DOWNLOAD: http://ftp.acc.umu.se/pub/gnome/sources/pangomm/2.34/pangomm-2.34.0.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 2c702caede167323c9ed9eed2b933098
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  pangomm (C++ API for Pango)
 
 SLACKBUILD NAME: paramiko
 SLACKBUILD LOCATION: ./paramiko
@@ -841,10 +921,10 @@ SLACKBUILD SHORT DESCRIPTION:  scratch (programming educational tool)
 SLACKBUILD NAME: skype
 SLACKBUILD LOCATION: ./skype
 SLACKBUILD FILES: README doinst.sh skype.SlackBuild skype.info slack-desc
-SLACKBUILD VERSION: 4.1.0.20
-SLACKBUILD DOWNLOAD: http://download.skype.com/linux/skype-4.1.0.20.tar.bz2
+SLACKBUILD VERSION: 4.2.0.11
+SLACKBUILD DOWNLOAD: http://download.skype.com/linux/skype-4.2.0.11.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: UNSUPPORTED
-SLACKBUILD MD5SUM: fa9b4f0ac110349a2480071875068a99
+SLACKBUILD MD5SUM: 6e9553a6368853c647b1c5ad7f3cc99b
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Skype (a P2P Voice Over IP program)
 
