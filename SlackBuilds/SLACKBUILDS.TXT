@@ -211,11 +211,11 @@ SLACKBUILD SHORT DESCRIPTION:  dnspython (Python API for DNS)
 SLACKBUILD NAME: dropbox
 SLACKBUILD LOCATION: ./dropbox
 SLACKBUILD FILES: README doinst.sh dropbox.SlackBuild dropbox.desktop dropbox.info dropbox.png slack-desc terms.txt
-SLACKBUILD VERSION: 2.0.16
-SLACKBUILD DOWNLOAD: https://dl-web.dropbox.com/u/17/dropbox-lnx.x86-2.0.16.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: https://dl-web.dropbox.com/u/17/dropbox-lnx.x86_64-2.0.16.tar.gz
-SLACKBUILD MD5SUM: dc582a6ef90d0233d98c5c7d72e005f4
-SLACKBUILD MD5SUM_x86_64: 2e1c55e4519b493628fa849a6622345a
+SLACKBUILD VERSION: 2.0.21
+SLACKBUILD DOWNLOAD: https://dl-web.dropbox.com/u/17/dropbox-lnx.x86-2.0.21.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: https://dl-web.dropbox.com/u/17/dropbox-lnx.x86_64-2.0.21.tar.gz
+SLACKBUILD MD5SUM: c16ddc9fed29dc7add996c947295561a
+SLACKBUILD MD5SUM_x86_64: b81a548cd1ef7a5333b65182b8522e39
 SLACKBUILD SHORT DESCRIPTION:  dropbox (store, sync and share files online)
 
 SLACKBUILD NAME: python-e_dbus
