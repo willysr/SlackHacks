@@ -35,9 +35,10 @@
 # Oktober 3 : Upgraded to 1.8.3
 # December 15: Upgraded to 1.8.4
 # March 9: Upgraded to 1.8.6
+# May 26: Upgraded to 1.8.7
 
 PRGNAM=wireshark
-VERSION=${VERSION:-1.8.6}
+VERSION=${VERSION:-1.8.7}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
