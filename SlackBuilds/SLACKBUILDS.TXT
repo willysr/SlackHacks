@@ -130,7 +130,7 @@ SLACKBUILD SHORT DESCRIPTION:  calibre (e-book library management application)
 
 SLACKBUILD NAME: cgit
 SLACKBUILD LOCATION: ./cgit
-SLACKBUILD FILES: README cgit.SlackBuild cgit.info config/cgit-httpd.conf config/cgit-lighttpd.conf config/cgit.conf config/cgitrc.sample slack-desc sort-summary-branches.patch summary.patch
+SLACKBUILD FILES: README cgit.SlackBuild cgit.info config/cgit-httpd.conf config/cgit-lighttpd.conf config/cgit.conf config/cgitrc.sample slack-desc sort-summary-branches.patch
 SLACKBUILD VERSION: 0.9.2
 SLACKBUILD DOWNLOAD: http://git.zx2c4.com/cgit/snapshot/cgit-0.9.2.tar.xz https://git-core.googlecode.com/files/git-1.8.3.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
