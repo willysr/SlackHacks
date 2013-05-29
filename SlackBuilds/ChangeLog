@@ -1,4 +1,8 @@
 +--------------------------+
+Wed May 29 15:23:39 GMT+7 2013
+cgit: Upgraded to 0.9.2
+
++--------------------------+
 Wed May 29 10:29:48 GMT+7 2013
 gtkmm: Downgraded to 2.24.2
   Fixed compiling problem with mysql-workbench
