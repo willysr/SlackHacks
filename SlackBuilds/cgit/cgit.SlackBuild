@@ -12,7 +12,7 @@
 PRGNAM=cgit
 VERSION=${VERSION:-0.9.2}
 CGIT_VERSION=${CGIT_VERSION:-v$VERSION}
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
@@ -60,6 +60,9 @@ find . \
  -exec chmod 755 {} \; -o \
  \( -perm 666 -o -perm 664 -o -perm 600 -o -perm 444 -o -perm 440 -o -perm 400 \) \
  -exec chmod 644 {} \;
+
+# add a patch to sort summary branches
+patch -p1 < $CWD/sort-summary-branches.patch
 
 # prepare sources
 sed -i -e "s|-g -Wall -Igit|-Wall ${SLKCFLAGS} -Igit|" Makefile
