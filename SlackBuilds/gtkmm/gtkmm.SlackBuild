@@ -27,9 +27,10 @@
 #
 # ChangeLog
 # May 21: Upgraded to 2.24.3
+# May 29: Downgraded to 2.24.2 to fix problem compiling with MySQL-Workbench
 
 PRGNAM=gtkmm
-VERSION=${VERSION:-2.24.3}
+VERSION=${VERSION:-2.24.2}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then

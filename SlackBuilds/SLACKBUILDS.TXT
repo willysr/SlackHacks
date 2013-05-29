@@ -591,10 +591,10 @@ SLACKBUILD SHORT DESCRIPTION:  GStreamer (streaming multimedia framework)
 SLACKBUILD NAME: gtkmm
 SLACKBUILD LOCATION: ./gtkmm
 SLACKBUILD FILES: README gtkmm.SlackBuild gtkmm.info slack-desc
-SLACKBUILD VERSION: 2.24.3
-SLACKBUILD DOWNLOAD: http://ftp.acc.umu.se/pub/GNOME/sources/gtkmm/2.24/gtkmm-2.24.3.tar.xz
+SLACKBUILD VERSION: 2.24.2
+SLACKBUILD DOWNLOAD: http://ftp.acc.umu.se/pub/GNOME/sources/gtkmm/2.24/gtkmm-2.24.2.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 42fc5a3feeb33ea59b7660200e2a5465
+SLACKBUILD MD5SUM: 388a63ffc40cc8e208df9a1732a67d2d
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  gtkmm (C++ interface for GTK+)
 
