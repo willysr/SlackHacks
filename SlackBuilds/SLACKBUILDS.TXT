@@ -641,10 +641,10 @@ SLACKBUILD SHORT DESCRIPTION:  guvcview (GTK+ UVC Viewer)
 SLACKBUILD NAME: harfbuzz
 SLACKBUILD LOCATION: ./harfbuzz
 SLACKBUILD FILES: README harfbuzz.SlackBuild harfbuzz.info slack-desc
-SLACKBUILD VERSION: 0.9.17
-SLACKBUILD DOWNLOAD: http://www.freedesktop.org/software/harfbuzz/release/harfbuzz-0.9.17.tar.bz2
+SLACKBUILD VERSION: 0.9.18
+SLACKBUILD DOWNLOAD: http://www.freedesktop.org/software/harfbuzz/release/harfbuzz-0.9.18.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: c48827713e93539dc7285f9e86ffbdc5
+SLACKBUILD MD5SUM: 0bff05fafef4894031b2b64a65ac1899
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  harfbuzz (OpenType text shaping engine)
 

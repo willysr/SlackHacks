@@ -1,4 +1,8 @@
 +--------------------------+
+Thu May 30 11:10:32 GMT+7 2013
+harfbuzz: Upgraded to 0.9.18
+
++--------------------------+
 Wed May 29 23:01:39 GMT+7 2013
 cgit: Rebuilt
   Restore sort-summary-branch patches
