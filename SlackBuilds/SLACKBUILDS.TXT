@@ -741,10 +741,10 @@ SLACKBUILD SHORT DESCRIPTION:  libgda (GNOME DB)
 SLACKBUILD NAME: liblqr
 SLACKBUILD LOCATION: ./liblqr
 SLACKBUILD FILES: README liblqr.SlackBuild liblqr.info slack-desc
-SLACKBUILD VERSION: 0.4.1
-SLACKBUILD DOWNLOAD: http://liblqr.wikidot.com/local--files/en:download-page/liblqr-1-0.4.1.tar.bz2
+SLACKBUILD VERSION: 0.4.2
+SLACKBUILD DOWNLOAD: http://liblqr.wdfiles.com/local--files/en:download-page/liblqr-1-0.4.2.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 0e24ed3c9fcdcb111062640764d7b87a
+SLACKBUILD MD5SUM: 915643d993da97e10665d48c0bf8f3d0
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  liblqr (Liquid Rescale Library)
 

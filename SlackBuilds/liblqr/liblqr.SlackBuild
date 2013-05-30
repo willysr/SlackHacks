@@ -24,7 +24,7 @@
 
 PRGNAM=liblqr
 SRCNAM=liblqr-1
-VERSION=0.4.1
+VERSION=0.4.2
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -71,12 +71,11 @@ CXXFLAGS="$SLKCFLAGS" \
   --prefix=/usr \
   --libdir=/usr/lib${LIBDIRSUFFIX} \
   --mandir=/usr/man/ \
-  --enable-install-man \
   --disable-static \
   --build=$ARCH-slackware-linux
 
 make
-make install-strip DESTDIR=$PKG
+make install DESTDIR=$PKG
 
 find $PKG/usr/man -type f -exec gzip -9 {} \;
 for i in `find $PKG/usr/man -type l` ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
