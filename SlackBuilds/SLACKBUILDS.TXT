@@ -871,10 +871,10 @@ SLACKBUILD SHORT DESCRIPTION:  pangomm (C++ API for Pango)
 SLACKBUILD NAME: paramiko
 SLACKBUILD LOCATION: ./paramiko
 SLACKBUILD FILES: README paramiko.SlackBuild paramiko.info slack-desc
-SLACKBUILD VERSION: 1.9.0
-SLACKBUILD DOWNLOAD: http://pypi.python.org/packages/source/p/paramiko/paramiko-1.9.0.tar.gz
+SLACKBUILD VERSION: 1.10.1
+SLACKBUILD DOWNLOAD: http://pypi.python.org/packages/source/p/paramiko/paramiko-1.10.1.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: b78472021ff6586dd61ad6972032f54f
+SLACKBUILD MD5SUM: 57ab3c3cb75afb02d646d4e4eed2cb32
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  paramiko (Python SSH module)
 
