@@ -681,10 +681,10 @@ SLACKBUILD SHORT DESCRIPTION:  itstool (Translate XML documents with PO files)
 SLACKBUILD NAME: json-c
 SLACKBUILD LOCATION: ./json-c
 SLACKBUILD FILES: README json-c.SlackBuild json-c.info slack-desc
-SLACKBUILD VERSION: 0.10
-SLACKBUILD DOWNLOAD: http://cloud.github.com/downloads/json-c/json-c/json-c-0.10.tar.gz
+SLACKBUILD VERSION: 0.11
+SLACKBUILD DOWNLOAD: http://cloud.github.com/downloads/json-c/json-c/json-c-0.11.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: a4edc79410eb894f08d7d52ca9f88732
+SLACKBUILD MD5SUM: aa02367d2f7a830bf1e3376f77881e98
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  json-c (JSON library in C)
 
