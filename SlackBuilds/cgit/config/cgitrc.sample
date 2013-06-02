@@ -7,8 +7,7 @@ snapshots=tar.gz
 
 css=/cgit/cgit.css
 logo=/cgit/cgit.png
-summary-branches-sort=age
-commit-sort=date
+branch-sort=age
 
 # repository specific data
 repo.url=SlackBuilds
