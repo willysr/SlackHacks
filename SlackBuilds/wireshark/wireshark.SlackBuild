@@ -27,18 +27,10 @@
 
 # Updated by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # Changelog
-# June 22 : Upgraded to 1.8.0, removed unknown configure parameters
-# June 23 : Fixed automake bug and symlink creation
-# June 24 : Simplify the automake process
-# July 26 : Upgraded to 1.8.1
-# August 27 : Upgraded to 1.8.2
-# Oktober 3 : Upgraded to 1.8.3
-# December 15: Upgraded to 1.8.4
-# March 9: Upgraded to 1.8.6
-# May 26: Upgraded to 1.8.7
+# June 6: Upgraded to 1.10.0
 
 PRGNAM=wireshark
-VERSION=${VERSION:-1.8.7}
+VERSION=${VERSION:-1.10.0}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -82,7 +74,7 @@ find . \
 
 # Ammend hardcoded paths to /usr/lib/ which will give a problem when compiling on
 # systems with 32bit compat libs install. Thanks to Heinz Wiesinger.
-sed -i "s|/lib)|/lib$LIBDIRSUFFIX)|g" configure.in
+sed -i "s|/lib)|/lib$LIBDIRSUFFIX)|g" configure.ac
 
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
