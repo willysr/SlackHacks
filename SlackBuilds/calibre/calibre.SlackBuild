@@ -36,22 +36,14 @@
 
 # Simplified by Willy Sudiarto Raharjo
 # Changelog
-# March, 2: Upgraded to 0.9.21
-# March, 9: Upgraded to 0.9.22
-# March, 19: Upgraded to 0.9.23
-# March, 22: Upgraded to 0.9.24
-# March, 30: Upgraded to 0.9.25
-# April, 7: Upgraded to 0.9.26
-# April, 14: Upgraded to 0.9.27
-# April, 26: Upgraded to 0.9.28
-# May, 3: Upgraded to 0.9.29
 # May, 11: Upgraded to 0.9.30
 # May, 19: Upgraded to 0.9.31
 # May, 24: Upgraded to 0.9.32
+# June 8: Upgraded to 0.9.34
 
 # Set initial variables:
 PRGNAM=calibre
-VERSION=${VERSION:-0.9.32}
+VERSION=${VERSION:-0.9.34}
 BUILD=${BUILD:-1wsr}
 NUMJOBS=${NUMJOBS:" -j4 "}
 

@@ -121,10 +121,10 @@ SLACKBUILD SHORT DESCRIPTION:  cairomm (C++ wrapper for the cairo graphics libra
 SLACKBUILD NAME: calibre
 SLACKBUILD LOCATION: ./calibre
 SLACKBUILD FILES: README calibre.SlackBuild calibre.info calibre_noqthack.patch slack-desc
-SLACKBUILD VERSION: 0.9.32
-SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.9.32.tar.xz
+SLACKBUILD VERSION: 0.9.34
+SLACKBUILD DOWNLOAD: https://calibre-ebook.googlecode.com/files/calibre-0.9.34.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 3b1c89a84872df900b9cfb706027df67
+SLACKBUILD MD5SUM: ce3e37758c2c0e85d940ff4b141b243f
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  calibre (e-book library management application)
 
