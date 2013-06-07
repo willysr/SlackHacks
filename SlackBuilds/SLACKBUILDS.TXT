@@ -291,10 +291,10 @@ SLACKBUILD SHORT DESCRIPTION:  Python-evas (Python Binding for Evas)
 SLACKBUILD NAME: connman
 SLACKBUILD LOCATION: ./connman
 SLACKBUILD FILES: README allow_group_network.diff connman.SlackBuild connman.info doinst.sh rc.connmand slack-desc
-SLACKBUILD VERSION: 1.14
-SLACKBUILD DOWNLOAD: http://www.kernel.org/pub/linux/network/connman/connman-1.14.tar.xz
+SLACKBUILD VERSION: 1.15
+SLACKBUILD DOWNLOAD: http://www.kernel.org/pub/linux/network/connman/connman-1.15.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 6c9ecaf9c044f8c66a7b465f6716b569
+SLACKBUILD MD5SUM: e785c0c4564bfffb5215272f1be6f17c
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  connman (Open Source Connection Manager)
 
@@ -497,6 +497,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 5c96d566c22c209d7b9cbf2344c469e9
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  glibmm (C++ bindings for glib)
+
+SLACKBUILD NAME: gnote
+SLACKBUILD LOCATION: ./gnote
+SLACKBUILD FILES: doinst.sh gnote.SlackBuild gnote.info slack-desc
+SLACKBUILD VERSION: 3.8.1
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/gnote/3.8/gnote-3.8.1.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: f6289cefdc49260b55d1993fa2b69128
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  gnote (Note Taking Application)
 
 SLACKBUILD NAME: gnugo
 SLACKBUILD LOCATION: ./gnugo
