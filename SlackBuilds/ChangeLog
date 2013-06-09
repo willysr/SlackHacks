@@ -1,4 +1,8 @@
 +--------------------------+
+anjuta: Upgraded to 3.8.4
+vala: Upgraded to 0.20.1
+
++--------------------------+
 cssselect: Upgraded to 0.8
 cssutils: Added
 lxml: Upgraded to 3.2.1

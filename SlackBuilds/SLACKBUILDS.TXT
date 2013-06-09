@@ -61,10 +61,10 @@ SLACKBUILD SHORT DESCRIPTION:  aegisub (General-purpose subtitle editor)
 SLACKBUILD NAME: anjuta
 SLACKBUILD LOCATION: ./anjuta
 SLACKBUILD FILES: README anjuta.SlackBuild anjuta.info doinst.sh slack-desc
-SLACKBUILD VERSION: 3.8.1
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/anjuta/3.8/anjuta-3.8.1.tar.xz
+SLACKBUILD VERSION: 3.8.4
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/anjuta/3.8/anjuta-3.8.4.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: f1345dcb796910f1dc701334b921eb74
+SLACKBUILD MD5SUM: 603bc45af1809bd8853c1639dcf91127
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  anjuta (GNOME Integrated Development Environment)
 
@@ -1011,10 +1011,10 @@ SLACKBUILD SHORT DESCRIPTION:  tlp (advanced power management tool)
 SLACKBUILD NAME: vala
 SLACKBUILD LOCATION: ./vala
 SLACKBUILD FILES: README slack-desc vala.SlackBuild vala.info
-SLACKBUILD VERSION: 0.18.1
-SLACKBUILD DOWNLOAD: http://download.gnome.org/sources/vala/0.18/vala-0.18.1.tar.xz
+SLACKBUILD VERSION: 0.20.1
+SLACKBUILD DOWNLOAD: http://download.gnome.org/sources/vala/0.20/vala-0.20.1.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 0d684cbddd3a7655fe54c030e4183dbd
+SLACKBUILD MD5SUM: f285a90af17c400e5a4bcecb2b9c318a
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Vala (Compiler for the GObject type system)
 

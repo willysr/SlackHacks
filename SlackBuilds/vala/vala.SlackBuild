@@ -2,7 +2,7 @@
 
 # Slackware build script for Vala
 
-# Copyright 2009-2012  Erik W. Hanson, Minneapolis, MN, USA
+# Copyright 2009-2013 Erik W. Hanson, Minneapolis, MN, USA
 # All rights reserved.
 #
 # Redistribution and use of this script, with or without modification, is
@@ -26,9 +26,10 @@
 # ChangeLog
 # October 7: Upgraded to 0.18.0
 # November 15: Upgraded to 0.18.1
+# June 9: Upgraded to 0.20.1
 
 PRGNAM=vala
-VERSION=${VERSION:-0.18.1}
+VERSION=${VERSION:-0.20.1}
 BUILD=${BUILD:-1wsr}
 
 # Automatically determine the architecture we're building on:
