@@ -9,9 +9,10 @@
 # November: Upgraded to 2.3.6
 # February 7: Upgraded to 3.0.2
 # March 3: Upgraded to 3.1.0
+# June 9: Upgraded to 3.2.1
 
 PRGNAM=lxml
-VERSION=3.1.0
+VERSION=3.2.1
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then

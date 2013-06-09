@@ -151,12 +151,22 @@ SLACKBUILD SHORT DESCRIPTION:  cnijfilter (IJ Printer Driver for Linux)
 SLACKBUILD NAME: cssselect
 SLACKBUILD LOCATION: ./cssselect
 SLACKBUILD FILES: README cssselect.SlackBuild cssselect.info slack-desc
-SLACKBUILD VERSION: 0.7.1
-SLACKBUILD DOWNLOAD: http://www.slackware.com/~alien/slackbuilds/python-cssselect/build/cssselect-0.7.1.tar.gz
+SLACKBUILD VERSION: 0.8
+SLACKBUILD DOWNLOAD: http://pypi.python.org/packages/source/c/cssselect/cssselect-0.8.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: c6c5e9a2e7ca226ce03f6f67a771379c
+SLACKBUILD MD5SUM: c4683e050351abcbbd5990b01f5344e2
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  cssselect (CSS Selectors for Python)
+
+SLACKBUILD NAME: cssutils
+SLACKBUILD LOCATION: ./cssutils
+SLACKBUILD FILES: README cssutils.SlackBuild cssutils.info slack-desc
+SLACKBUILD VERSION: 0.9.10
+SLACKBUILD DOWNLOAD: http://pypi.python.org/packages/source/c/cssutils/cssutils-0.9.10.zip
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 81b5c0294c54479a54548769eaa236f8
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  cssutils (CSS parser and builder)
 
 SLACKBUILD NAME: cups-filters
 SLACKBUILD LOCATION: ./cups-filters
@@ -821,10 +831,10 @@ SLACKBUILD SHORT DESCRIPTION:  Lua (a powerful, fast, light-weight, embeddable s
 SLACKBUILD NAME: lxml
 SLACKBUILD LOCATION: ./lxml
 SLACKBUILD FILES: README lxml.SlackBuild lxml.info slack-desc
-SLACKBUILD VERSION: 3.1.0
-SLACKBUILD DOWNLOAD: http://pypi.python.org/packages/source/l/lxml/lxml-3.1.0.tar.gz
+SLACKBUILD VERSION: 3.2.1
+SLACKBUILD DOWNLOAD: http://pypi.python.org/packages/source/l/lxml/lxml-3.2.1.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: df70163fb581bbe45fdcd6069a503273
+SLACKBUILD MD5SUM: d183ccd6bbd5ca139e9db9e9a675787e
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  lxml (Python bindings for the libxml2 and libxslt)
 

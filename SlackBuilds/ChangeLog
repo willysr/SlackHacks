@@ -1,4 +1,9 @@
 +--------------------------+
+cssselect: Upgraded to 0.8
+cssutils: Added
+lxml: Upgraded to 3.2.1
+
++--------------------------+
 Sat Jun  8 00:02:42 GMT+7 2013
 calibre: Upgraded to 0.9.34
 
