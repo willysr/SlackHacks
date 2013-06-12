@@ -1,12 +1,19 @@
 +--------------------------+
+Wed Jun 12 19:27:51 GMT+7 2013
+gtksourceview3: Upgraded to 3.8.1
+  This bumps the soname, so anjuta must be rebuilt 
+
++--------------------------+
 Tue Jun 11 02:47:36 GMT+7 2013
 vte3: Upgraded to 0.34.6
 
 +--------------------------+
+Sun Jun 9 12:33:55 GMT+7 2013
 anjuta: Upgraded to 3.8.4
 vala: Upgraded to 0.20.1
 
 +--------------------------+
+Sun Jun 9 09:54:03 GMT+7 2013
 cssselect: Upgraded to 0.8
 cssutils: Added
 lxml: Upgraded to 3.2.1
