@@ -870,7 +870,7 @@ SLACKBUILD SHORT DESCRIPTION:  mysql-workbench - MySQL Workbench (GUI Tool)
 
 SLACKBUILD NAME: nixnote
 SLACKBUILD LOCATION: ./nixnote
-SLACKBUILD FILES: doinst.sh nixnote.SlackBuild nixnote.info slack-desc
+SLACKBUILD FILES: README doinst.sh nixnote.SlackBuild nixnote.info slack-desc
 SLACKBUILD VERSION: 1.6
 SLACKBUILD DOWNLOAD: http://sourceforge.net/projects/nevernote/files/NixNote%201.6/nixnote-1.6_i386.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: http://sourceforge.net/projects/nevernote/files/NixNote%201.6/nixnote-1.6_amd64.tar.gz
