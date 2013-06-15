@@ -641,10 +641,10 @@ SLACKBUILD SHORT DESCRIPTION:  gtkpod (iPod Manager)
 SLACKBUILD NAME: gtksourceview3
 SLACKBUILD LOCATION: ./gtksourceview3
 SLACKBUILD FILES: README allow-deprecated-glib-symbols.patch gtksourceview3.SlackBuild gtksourceview3.info slack-desc
-SLACKBUILD VERSION: 3.7.2
-SLACKBUILD DOWNLOAD: ftp://ftp.gnome.org/pub/gnome/sources/gtksourceview/3.7/gtksourceview-3.7.2.tar.xz
+SLACKBUILD VERSION: 3.8.1
+SLACKBUILD DOWNLOAD: ftp://ftp.gnome.org/pub/gnome/sources/gtksourceview/3.8/gtksourceview-3.8.1.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 50328d338bfc9c9e18f91fd43192c1b0
+SLACKBUILD MD5SUM: 82e83a25d8cc036aae85952644b805b6
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  gtksourceview (a GTK+ framework for source code editing)
 
@@ -867,6 +867,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: e7cfb1249dddf628a6586bc309679ef3
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  mysql-workbench - MySQL Workbench (GUI Tool)
+
+SLACKBUILD NAME: nixnote
+SLACKBUILD LOCATION: ./nixnote
+SLACKBUILD FILES: doinst.sh nixnote.SlackBuild nixnote.info slack-desc
+SLACKBUILD VERSION: 1.6
+SLACKBUILD DOWNLOAD: http://sourceforge.net/projects/nevernote/files/NixNote%201.6/nixnote-1.6_i386.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: http://sourceforge.net/projects/nevernote/files/NixNote%201.6/nixnote-1.6_amd64.tar.gz
+SLACKBUILD MD5SUM: d79e6dde6ec3acd3f973f8469746df25
+SLACKBUILD MD5SUM_x86_64: d3f98f571cc80155313b13e708f23e48
+SLACKBUILD SHORT DESCRIPTION:  nixnote (Open Source Client for Evernote)
 
 SLACKBUILD NAME: opencv
 SLACKBUILD LOCATION: ./opencv
