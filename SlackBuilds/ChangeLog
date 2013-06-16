@@ -1,4 +1,13 @@
 +--------------------------+
+Sun Jun 16 08:20:40 GMT+7 2013
+calibre: Upgraded to 0.9.35
+
++--------------------------+
+Sat Jun 15 21:59:49 GMT+7 2013
+nixnote: Rebuilt
+  Simplify the SlackBuild script
+
++--------------------------+
 Sat Jun 15 07:27:47 GMT+7 2013
 nixnote: Added
   This is an open source client for evernote
