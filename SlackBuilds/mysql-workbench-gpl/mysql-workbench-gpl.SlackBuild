@@ -16,10 +16,11 @@
 # February, 7: Upgraded to 5.2.46
 # February, 25: Upgraded to 5.2.47
 # March, 1: Rebuilt to include patches from Ponce
+# June 30: Upgraded to 6.0.2
 
 PRGNAM=mysql-workbench-gpl
-VERSION=${VERSION:-5.2.47}
-BUILD=${BUILD:-2wsr}
+VERSION=${VERSION:-6.0.2}
+BUILD=${BUILD:-1wsr}
 
 SRCVERSION=$VERSION-src
 
@@ -67,35 +68,35 @@ find . \
 
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
-./autogen.sh
-libtoolize --force
-autoreconf -vif
 
 patch -p1 < $CWD/config_and_ifconfig_paths.patch
 
-./configure \
-  --prefix=/usr \
-  --libdir=/usr/lib${LIBDIRSUFFIX} \
-  --sysconfdir=/etc \
-  --localstatedir=/var \
-  --mandir=/usr/man \
-  --docdir=/usr/doc/$PRGNAM-$VERSION \
-  --build=$ARCH-slackware-linux \
-  --disable-debug \
-  --enable-shared=yes \
-  --enable-static=no \
-
+mkdir wb-build
+cd wb-build
+cmake \
+    -DCMAKE_C_FLAGS:STRING="$SLKCFLAGS" \
+    -DCMAKE_CXX_FLAGS:STRING="$SLKCFLAGS" \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_BUILD_TYPE=Release ..
 make
+
+# we will remove it later after installation
+# without these document, it will fail to build
+touch $TMP/$PRGNAM-$SRCVERSION/LICENSE.mysql
+
 make install DESTDIR=$PKG
 
 find $PKG | xargs file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
 
+cd ..
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 cp -a \
-  AUTHORS COPYING README COPYING.LGPL ChangeLog INSTALL \
+  AUTHORS COPYING* ChangeLog README INSTALL \
   $PKG/usr/doc/$PRGNAM-$VERSION
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
+# remove unnecessary empty document
+rm -f $TMP/$PRGNAM-$SRCVERSION/LICENSE.mysql
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc

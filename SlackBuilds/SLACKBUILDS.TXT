@@ -858,13 +858,23 @@ SLACKBUILD MD5SUM: 3b23749ab39441c392c016ce74632678
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  mm-common (build infrastructure and utilities for GNOME C++ bindings)
 
+SLACKBUILD NAME: mysql-connector-c++
+SLACKBUILD LOCATION: ./mysql-connector-c++
+SLACKBUILD FILES: README mysql-connector-c++.SlackBuild mysql-connector-c++.info slack-desc
+SLACKBUILD VERSION: 1.1.3
+SLACKBUILD DOWNLOAD: http://cdn.mysql.com/Downloads/Connector-C++/mysql-connector-c++-1.1.3.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 65828789b8d92e6118e7f24568f34a07
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION: mysql-connector-c++: mysql-connector-c++ (MySQL Connector )
+
 SLACKBUILD NAME: mysql-workbench-gpl
 SLACKBUILD LOCATION: ./mysql-workbench-gpl
 SLACKBUILD FILES: README config_and_ifconfig_paths.patch doinst.sh mysql-workbench-gpl.SlackBuild mysql-workbench-gpl.info slack-desc
-SLACKBUILD VERSION: 5.2.47
-SLACKBUILD DOWNLOAD: http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQLGUITools/mysql-workbench-gpl-5.2.47-src.tar.gz
+SLACKBUILD VERSION: 6.0.2
+SLACKBUILD DOWNLOAD: http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQLGUITools/mysql-workbench-gpl-6.0.2-src.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: e7cfb1249dddf628a6586bc309679ef3
+SLACKBUILD MD5SUM: 0109d8581fb5832194e46940776e3160
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  mysql-workbench - MySQL Workbench (GUI Tool)
 
@@ -1047,6 +1057,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 3af22978fd79c79d5fda6513b6811145
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  vcdimager (VCD/SVCD Mastering Suite)
+
+SLACKBUILD NAME: vsqlite++
+SLACKBUILD LOCATION: ./vsqlite++
+SLACKBUILD FILES: slack-desc vsqlite++.SlackBuild vsqlite++.info
+SLACKBUILD VERSION: 0.3.12
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/sqlitepp/vsqlite++-0.3.12.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 8b64f90a3dc06696d3d5ea6cb5e78fde
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION: vsqlite++: vsqlite++ (SQLite Wrapper Library)
 
 SLACKBUILD NAME: vte3
 SLACKBUILD LOCATION: ./vte3
