@@ -1,7 +1,7 @@
 PRGNAM="calibre"
 VERSION="0.9.37"
 HOMEPAGE="http://calibre-ebook.com/"
-DOWNLOAD="https://calibre-ebook.googlecode.com/files/calibre-0.9.37.tar.xz"
+DOWNLOAD="http://download.calibre-ebook.com/0.9.37/calibre-0.9.37.tar.xz"
 MD5SUM="76db2eb11fe51d85ae9121203defb677"
 DOWNLOAD_x86_64=""
 MD5SUM_x86_64=""
