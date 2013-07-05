@@ -28,10 +28,11 @@
 # Updated by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # Changelog
 # June 6: Upgraded to 1.10.0
+# July 5: Rebuilt to fix pod2man
 
 PRGNAM=wireshark
 VERSION=${VERSION:-1.10.0}
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
@@ -75,6 +76,8 @@ find . \
 # Ammend hardcoded paths to /usr/lib/ which will give a problem when compiling on
 # systems with 32bit compat libs install. Thanks to Heinz Wiesinger.
 sed -i "s|/lib)|/lib$LIBDIRSUFFIX)|g" configure.ac
+
+patch -p0 < $CWD/wireshark-man.patch
 
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
