@@ -28,11 +28,11 @@
 # Updated by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # Changelog
 # June 6: Upgraded to 1.10.0
-# July 5: Rebuilt to fix pod2man
+# July 5: Rebuilt to fix documentations
 
 PRGNAM=wireshark
 VERSION=${VERSION:-1.10.0}
-BUILD=${BUILD:-2wsr}
+BUILD=${BUILD:-3wsr}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
@@ -78,6 +78,8 @@ find . \
 sed -i "s|/lib)|/lib$LIBDIRSUFFIX)|g" configure.ac
 
 patch -p0 < $CWD/wireshark-man.patch
+patch -p0 < $CWD/wireshark-asn.patch
+patch -p0 < $CWD/wireshark-idl2deb.patch
 
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
