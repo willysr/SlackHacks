@@ -17,10 +17,11 @@
 # February, 25: Upgraded to 5.2.47
 # March, 1: Rebuilt to include patches from Ponce
 # June 30: Upgraded to 6.0.2
+# July 5: Rebuilt to fix symlink to libwbbase
 
 PRGNAM=mysql-workbench-gpl
 VERSION=${VERSION:-6.0.2}
-BUILD=${BUILD:-1wsr}
+BUILD=${BUILD:-2wsr}
 
 SRCVERSION=$VERSION-src
 
@@ -97,6 +98,13 @@ cp -a \
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 # remove unnecessary empty document
 rm -f $TMP/$PRGNAM-$SRCVERSION/LICENSE.mysql
+
+# Fix missing shared library libwbbase
+(
+  cd $PKG/usr/lib${LIBDIRSUFFIX}
+  rm -f libwbbase.so
+  ln -s mysql-workbench/libwbbase.so .
+)
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
