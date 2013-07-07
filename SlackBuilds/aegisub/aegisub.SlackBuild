@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Copyright 2012 Willy Sudiarto Raharjo <willysr@slackware-id.org>
+# Copyright 2012-2013 Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # All rights reserved.
 #
 # Redistribution and use of this script, with or without modification, is
@@ -23,17 +23,16 @@
 # Changelog
 # July 29: Initial Release
 # November 14: Upgraded to 3.0.2
+# July 8: Upgraded to 3.0.4
 
 PRGNAM=aegisub
-VERSION=3.0.2
+VERSION=3.0.4
 BUILD=${BUILD:-1wsr}
 
-# Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
     i?86) export ARCH=i486 ;;
     arm*) export ARCH=arm ;;
-    # Unless $ARCH is already set, use uname -m for all other archs:
        *) export ARCH=$( uname -m ) ;;
   esac
 fi
@@ -75,7 +74,7 @@ mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
-cp INSTALL LICENSE README $PKG/usr/doc/$PRGNAM-$VERSION
+cp INSTALL README $PKG/usr/doc/$PRGNAM-$VERSION
 
 # If there's a ChangeLog, installing at least part of the recent history
 # is useful, but don't let it get totally out of control:
@@ -91,4 +90,4 @@ find $PKG | xargs file | grep -e "executable" -e "shared object" \
 
 # Build the package:
 cd $PKG
-/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD.txz
+/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-${VERSION}-$ARCH-$BUILD.${PKGTYPE:-txz}
