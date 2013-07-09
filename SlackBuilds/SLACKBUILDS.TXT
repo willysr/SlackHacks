@@ -641,10 +641,10 @@ SLACKBUILD SHORT DESCRIPTION:  gtkpod (iPod Manager)
 SLACKBUILD NAME: gtksourceview3
 SLACKBUILD LOCATION: ./gtksourceview3
 SLACKBUILD FILES: README allow-deprecated-glib-symbols.patch gtksourceview3.SlackBuild gtksourceview3.info slack-desc
-SLACKBUILD VERSION: 3.8.1
-SLACKBUILD DOWNLOAD: ftp://ftp.gnome.org/pub/gnome/sources/gtksourceview/3.8/gtksourceview-3.8.1.tar.xz
+SLACKBUILD VERSION: 3.8.2
+SLACKBUILD DOWNLOAD: ftp://ftp.gnome.org/pub/gnome/sources/gtksourceview/3.8/gtksourceview-3.8.2.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 82e83a25d8cc036aae85952644b805b6
+SLACKBUILD MD5SUM: fa8a252f811b6042cfc2eb47e580609f
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  gtksourceview (a GTK+ framework for source code editing)
 
@@ -1071,10 +1071,10 @@ SLACKBUILD SHORT DESCRIPTION: vsqlite++: vsqlite++ (SQLite Wrapper Library)
 SLACKBUILD NAME: vte3
 SLACKBUILD LOCATION: ./vte3
 SLACKBUILD FILES: README fix_meta_alt_keybinding.patch.gz slack-desc vte3.SlackBuild vte3.info
-SLACKBUILD VERSION: 0.34.6
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/vte/0.34/vte-0.34.6.tar.xz
+SLACKBUILD VERSION: 0.34.7
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/vte/0.34/vte-0.34.7.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 8fb3222611d0aaa40093f220581b6e1f
+SLACKBUILD MD5SUM: aaab625a8d3ffe1f9a95fc9cd132040e
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  vte3 (terminal emulator widget)
 
