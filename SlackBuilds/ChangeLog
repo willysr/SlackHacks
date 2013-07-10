@@ -1,4 +1,10 @@
 +--------------------------+
+Wed Jul 10 07:00:18 GMT+7 2013
+ProjectLibre: Upgraded to 1.5.6
+  Added desktop shortcut and icon
+  Thanks to Christoph Willing
+
++--------------------------+
 Tue Jul  9 07:03:36 GMT+7 2013
 gtksourceview3: Upgraded to 3.8.2
 vte3: Upgraded to 0.34.7

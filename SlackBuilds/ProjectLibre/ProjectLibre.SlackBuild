@@ -22,7 +22,7 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 PRGNAM=ProjectLibre
-VERSION=${VERSION:-1.5.5}
+VERSION=${VERSION:-1.5.6}
 BUILD=${BUILD:-1wsr}
 
 ARCH=noarch
@@ -60,11 +60,18 @@ cp -rf {lib,license} $PKG/opt/$PRGNAM/
 mkdir -p $PKG/usr/bin
 ln -s /opt/ProjectLibre/projectlibre.sh $PKG/usr/bin/projectlibre
 
+mkdir -p $PKG/usr/share/applications
+cp $CWD/*.desktop $PKG/usr/share/applications
+
+mkdir -p $PKG/usr/share/pixmaps/
+cp $CWD/projectlibre.png $PKG/usr/share/pixmaps/
+
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION/
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
+cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD.${PKGTYPE:-txz}
