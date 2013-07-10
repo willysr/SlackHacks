@@ -1,4 +1,9 @@
 +--------------------------+
+Wed Jul 10 07:07:18 GMT+7 2013
+vte3: Rebuilt
+  Remove a file that replaced default vte package
+  
++--------------------------+
 Wed Jul 10 07:00:18 GMT+7 2013
 ProjectLibre: Upgraded to 1.5.6
   Added desktop shortcut and icon
