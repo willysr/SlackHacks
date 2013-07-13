@@ -1,4 +1,9 @@
 +--------------------------+
+Sat Jul 13 08:30:31 GMT+7 2013
+OpenCV: Upgraded to 2.4.6.1
+cups: Upgraded to 1.6.3
+
++--------------------------+
 Wed Jul 10 07:07:18 GMT+7 2013
 vte3: Rebuilt
   Remove a file that replaced default vte package

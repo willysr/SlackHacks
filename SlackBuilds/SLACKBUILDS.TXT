@@ -181,10 +181,10 @@ SLACKBUILD SHORT DESCRIPTION:  cups-filters (CUPS backend and filters)
 SLACKBUILD NAME: cups
 SLACKBUILD LOCATION: ./cups
 SLACKBUILD FILES: README airprint-support.patch cups.SlackBuild cups.info doinst.sh.gz slack-desc
-SLACKBUILD VERSION: 1.6.2
-SLACKBUILD DOWNLOAD: http://ftp.easysw.com/pub/cups/1.6.2/cups-1.6.2-source.tar.bz2
+SLACKBUILD VERSION: 1.6.3
+SLACKBUILD DOWNLOAD: http://www.cups.org/software/1.6.3/cups-1.6.3-source.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 13c8b2b2336d42001abe4899766b62dc
+SLACKBUILD MD5SUM: 946a2d8ad1aec6beced312fce18543da
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  CUPS (Common UNIX Printing System)
 
@@ -891,10 +891,10 @@ SLACKBUILD SHORT DESCRIPTION:  nixnote (Open Source Client for Evernote)
 SLACKBUILD NAME: opencv
 SLACKBUILD LOCATION: ./opencv
 SLACKBUILD FILES: README fsh.patch opencv.SlackBuild opencv.info slack-desc
-SLACKBUILD VERSION: 2.4.6
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/opencvlibrary/opencv-2.4.6.tar.gz
+SLACKBUILD VERSION: 2.4.6.1
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/opencvlibrary/opencv-2.4.6.1.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: c5e8758a419b4f258611b17fc83aafaf
+SLACKBUILD MD5SUM: d756bfa460891697571d5c90050e1cfe
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  OpenCV (Open Source Computer Vision)
 

@@ -10,9 +10,10 @@
 # March 14: Upgraded to 2.4.4a
 # April 14: Upgraded to 2.4.5
 # July 8: Upgraded to 2.4.6
+# July 12: Upgraded to 2.4.6.1
 
 PRGNAM=opencv
-VERSION=${VERSION:-2.4.6}
+VERSION=${VERSION:-2.4.6.1}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
