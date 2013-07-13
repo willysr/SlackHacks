@@ -36,8 +36,9 @@
 #	     Added more upstream patch (http://cups.org/str.php?L4155)
 # November 30: Added patch to support AirPrint 
 # March 19: Upgraded to 1.6.2
+# July, 13: Upgraded to 1.6.3
 
-VERSION=1.6.2
+VERSION=1.6.3
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
