@@ -651,10 +651,10 @@ SLACKBUILD SHORT DESCRIPTION:  gtksourceview (a GTK+ framework for source code e
 SLACKBUILD NAME: guvcview
 SLACKBUILD LOCATION: ./guvcview
 SLACKBUILD FILES: README doinst.sh guvcview.SlackBuild guvcview.info slack-desc
-SLACKBUILD VERSION: 1.7.0
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/project/guvcview/source/guvcview-src-1.7.0.tar.gz
+SLACKBUILD VERSION: 1.7.1
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/project/guvcview/source/guvcview-src-1.7.1.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: fe141fe2fe2a16df69f7866c27334a56
+SLACKBUILD MD5SUM: 5ca1b9c89d2b9370ee203dcc24efd695
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  guvcview (GTK+ UVC Viewer)
 
