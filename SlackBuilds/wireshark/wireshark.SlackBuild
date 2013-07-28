@@ -31,8 +31,8 @@
 # July 5: Rebuilt to fix documentations
 
 PRGNAM=wireshark
-VERSION=${VERSION:-1.10.0}
-BUILD=${BUILD:-3wsr}
+VERSION=${VERSION:-1.10.1}
+BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
@@ -77,9 +77,7 @@ find . \
 # systems with 32bit compat libs install. Thanks to Heinz Wiesinger.
 sed -i "s|/lib)|/lib$LIBDIRSUFFIX)|g" configure.ac
 
-patch -p0 < $CWD/wireshark-man.patch
-patch -p0 < $CWD/wireshark-asn.patch
-patch -p0 < $CWD/wireshark-idl2deb.patch
+patch -p1 < $CWD/01_fix_pod_file.patch
 
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
