@@ -871,10 +871,10 @@ SLACKBUILD SHORT DESCRIPTION: mysql-connector-c++: mysql-connector-c++ (MySQL Co
 SLACKBUILD NAME: mysql-workbench-gpl
 SLACKBUILD LOCATION: ./mysql-workbench-gpl
 SLACKBUILD FILES: README config_and_ifconfig_paths.patch doinst.sh mysql-workbench-gpl.SlackBuild mysql-workbench-gpl.info slack-desc
-SLACKBUILD VERSION: 6.0.2
-SLACKBUILD DOWNLOAD: http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQLGUITools/mysql-workbench-gpl-6.0.2-src.tar.gz
+SLACKBUILD VERSION: 6.0.4
+SLACKBUILD DOWNLOAD: http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQLGUITools/mysql-workbench-gpl-6.0.4-src.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 0109d8581fb5832194e46940776e3160
+SLACKBUILD MD5SUM: c2c09a570dbb9a92c8115cc20585ef51
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  mysql-workbench - MySQL Workbench (GUI Tool)
 

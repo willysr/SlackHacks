@@ -20,8 +20,8 @@
 # July 5: Rebuilt to fix symlink to libwbbase
 
 PRGNAM=mysql-workbench-gpl
-VERSION=${VERSION:-6.0.2}
-BUILD=${BUILD:-2wsr}
+VERSION=${VERSION:-6.0.4}
+BUILD=${BUILD:-1wsr}
 
 SRCVERSION=$VERSION-src
 
