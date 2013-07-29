@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+    |-----handy-ruler------------------------------------------------------|
+webp: webp (WebP Library and Tools)
+webp:
+webp: WebP is a new image format that provides lossless and lossy 
+webp: compression for images on the web. 
+webp: 
+webp: Project Site: https://developers.google.com/speed/webp/
+webp:
+webp:
+webp:
+webp:
+webp:

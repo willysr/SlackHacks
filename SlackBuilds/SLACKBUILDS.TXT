@@ -1078,6 +1078,16 @@ SLACKBUILD MD5SUM: aaab625a8d3ffe1f9a95fc9cd132040e
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  vte3 (terminal emulator widget)
 
+SLACKBUILD NAME: webp
+SLACKBUILD LOCATION: ./webp
+SLACKBUILD FILES: README slack-desc webp.SlackBuild webp.info
+SLACKBUILD VERSION: 0.3.1
+SLACKBUILD DOWNLOAD: https://webp.googlecode.com/files/libwebp-0.3.1.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: dc862bb4006d819b7587767a9e83d31f
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  webp (WebP Library and Tools)
+
 SLACKBUILD NAME: wesnoth
 SLACKBUILD LOCATION: ./wesnoth
 SLACKBUILD FILES: README doinst.sh fix-segfault.patch slack-desc terrain_translation.patch wesnoth.SlackBuild wesnoth.info
