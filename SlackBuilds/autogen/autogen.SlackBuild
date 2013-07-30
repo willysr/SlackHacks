@@ -26,9 +26,10 @@
 # ChangeLog
 # October 7: Upgraded to 5.16.2
 # May 5: Upgraded to 5.17.3
+# July 30: Upgraded to 5.18
 
 PRGNAM=autogen
-VERSION=${VERSION:-5.17.3}
+VERSION=${VERSION:-5.18}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
