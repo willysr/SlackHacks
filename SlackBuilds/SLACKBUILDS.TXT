@@ -741,10 +741,10 @@ SLACKBUILD SHORT DESCRIPTION:  lensfun (photographic lens characteristics databa
 SLACKBUILD NAME: libdc1394
 SLACKBUILD LOCATION: ./libdc1394
 SLACKBUILD FILES: README libdc1394.SlackBuild libdc1394.info slack-desc
-SLACKBUILD VERSION: 2.2.0
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/libdc1394/libdc1394-2.2.0.tar.gz
+SLACKBUILD VERSION: 2.2.1
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/libdc1394/libdc1394-2.2.1.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: ed10e06987c76c79961c6906e02acf00
+SLACKBUILD MD5SUM: 5c4b78bb8265d6dc971433ec1da381ab
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  libdc1394 (1394-Based Digital Camera Control Library)
 
@@ -831,20 +831,20 @@ SLACKBUILD SHORT DESCRIPTION:  Lua (a powerful, fast, light-weight, embeddable s
 SLACKBUILD NAME: lxml
 SLACKBUILD LOCATION: ./lxml
 SLACKBUILD FILES: README lxml.SlackBuild lxml.info slack-desc
-SLACKBUILD VERSION: 3.2.1
-SLACKBUILD DOWNLOAD: http://pypi.python.org/packages/source/l/lxml/lxml-3.2.1.tar.gz
+SLACKBUILD VERSION: 3.2.3
+SLACKBUILD DOWNLOAD: http://pypi.python.org/packages/source/l/lxml/lxml-3.2.3.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: d183ccd6bbd5ca139e9db9e9a675787e
+SLACKBUILD MD5SUM: fef47bb4ac72ac38ce778518dac42236
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  lxml (Python bindings for the libxml2 and libxslt)
 
 SLACKBUILD NAME: lzlib
 SLACKBUILD LOCATION: ./lzlib
 SLACKBUILD FILES: README lzlib.SlackBuild lzlib.info slack-desc
-SLACKBUILD VERSION: 1.3
-SLACKBUILD DOWNLOAD: http://download.savannah.gnu.org/releases/lzip/lzlib-1.3.tar.gz
+SLACKBUILD VERSION: 1.4
+SLACKBUILD DOWNLOAD: http://download.savannah.gnu.org/releases/lzip/lzlib-1.4.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 7b61b2609181800c047742820a40c3ac
+SLACKBUILD MD5SUM: 055525a7315fb7b33f07a2ffeb418db7
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  lzlib (compression library)
 
@@ -911,10 +911,10 @@ SLACKBUILD SHORT DESCRIPTION:  pangomm (C++ API for Pango)
 SLACKBUILD NAME: paramiko
 SLACKBUILD LOCATION: ./paramiko
 SLACKBUILD FILES: README paramiko.SlackBuild paramiko.info slack-desc
-SLACKBUILD VERSION: 1.10.1
-SLACKBUILD DOWNLOAD: http://pypi.python.org/packages/source/p/paramiko/paramiko-1.10.1.tar.gz
+SLACKBUILD VERSION: 1.11.0
+SLACKBUILD DOWNLOAD: https://pypi.python.org/packages/source/p/paramiko/paramiko-1.11.0.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 57ab3c3cb75afb02d646d4e4eed2cb32
+SLACKBUILD MD5SUM: a2c55dc04904bd08d984533703177084
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  paramiko (Python SSH module)
 
