@@ -5,9 +5,10 @@
 # Updated by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # Changelog
 # June 10, 2012 : Upgraded to 2.2.0, remove unneeded patches
+# July 30: Upgraded to 2.2.1
 
 PRGNAM=libdc1394
-VERSION=${VERSION:-2.2.0}
+VERSION=${VERSION:-2.2.1}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -51,8 +52,6 @@ find . \
  -exec chmod 755 {} \; -o \
  \( -perm 666 -o -perm 664 -o -perm 600 -o -perm 444 -o -perm 440 -o -perm 400 \) \
  -exec chmod 644 {} \;
-
-autoreconf -ivf
 
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
