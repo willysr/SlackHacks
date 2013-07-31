@@ -8,9 +8,10 @@
 # Feb 1 : Updated to 1.7.5
 # April 5: Upgraded to 1.7.6
 # May 14: Upgraded to 1.7.7
+# July 31: Upgraded to 1.7.8
 
 PRGNAM=eio
-VERSION=${VERSION:-1.7.7}
+VERSION=${VERSION:-1.7.8}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then

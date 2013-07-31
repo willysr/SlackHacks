@@ -1,4 +1,9 @@
 +--------------------------+
+Wed Jul 31 07:54:23 GMT+7 2013
+e17/e*: Upgraded to EFL 1.7.8
+e17/enlightenment: Upgraded to 0.17.4
+
++--------------------------+
 Tue Jul 30 08:22:34 GMT+7 2013
 libdc1394: Upgraded to 2.2.1
 lxml: Upgraded to 3.2.3
