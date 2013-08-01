@@ -27,12 +27,13 @@
 # Modified by Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # ChangeLog
 # May 18: Upgraded to 3.1.3
+# August 1: Upgraded to 3.2.0
 
 PRGNAM=eigen3
-VERSION=${VERSION:-3.1.3}
+VERSION=${VERSION:-3.2.0}
 BUILD=${BUILD:-1wsr}
 
-TARVERSION=eigen-2249f9c22fe8
+TARVERSION=eigen-ffa86ffb5570
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
