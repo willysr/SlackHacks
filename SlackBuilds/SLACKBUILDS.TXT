@@ -211,8 +211,8 @@ SLACKBUILD SHORT DESCRIPTION:  digiKam (KDE Photo Management Application)
 SLACKBUILD NAME: dnspython
 SLACKBUILD LOCATION: ./dnspython
 SLACKBUILD FILES: README dnspython.SlackBuild dnspython.info slack-desc
-SLACKBUILD VERSION: 1.10.0
-SLACKBUILD DOWNLOAD: http://www.dnspython.org/kits/1.10.0/dnspython-1.10.0.tar.gz
+SLACKBUILD VERSION: 1.11.0
+SLACKBUILD DOWNLOAD: http://www.dnspython.org/kits/1.11.0/dnspython-1.11.0.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
 SLACKBUILD MD5SUM: 7b582963b1af099e3e85977513300d11
 SLACKBUILD MD5SUM_x86_64: 
