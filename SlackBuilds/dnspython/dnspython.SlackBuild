@@ -5,9 +5,10 @@
 # Modified by Willy Sudiarto Raharjo
 # Changelog
 # July 1: Upgraded to 1.10.0
+# August 1: Upgraded to 1.11.0
 
 PRGNAM=dnspython
-VERSION=1.10.0
+VERSION=${VERSION:-1.11.0}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
