@@ -29,9 +29,10 @@
 # April 6: Upgraded to 1.0.33
 # April 12: Upgraded to 1.0.34
 # July 15: Upgraded to 1.0.35
+# August 14: Upgraded to 1.0.36
 
 PRGNAM=cups-filters
-VERSION=1.0.35
+VERSION=1.0.36
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -76,9 +77,11 @@ CFLAGS="$CFLAGS -ldl" \
 make 
 make DESTDIR=$PKG install
 
-# Strip stuff:
 find $PKG | xargs file | grep -e "executable" -e "shared object" \
   | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
+
+find $PKG/usr/share/man -type f -exec gzip -9 {} \;
+for i in $( find $PKG/usr/share/man -type l ) ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 cp AUTHORS COPYING NEWS README INSTALL $PKG/usr/doc/$PRGNAM-$VERSION
