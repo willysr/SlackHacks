@@ -24,17 +24,16 @@
 # Changelog
 # August 30 : Added patch from Red Hat
 # September 25 : Upgraded to 4.0.3
+# August 23: Rebuilt to include many security patches
 
 PRGNAM=libtiff
 VERSION=${VERSION:-$(echo tiff-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
-BUILD=2wsr
+BUILD=3wsr
 
-# Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
     i?86) export ARCH=i486 ;;
     arm*) export ARCH=arm ;;
-    # Unless $ARCH is already set, use uname -m for all other archs:
        *) export ARCH=$( uname -m ) ;;
   esac
 fi
@@ -77,6 +76,17 @@ find . \
   \( -perm 666 -o -perm 664 -o -perm 600 -o -perm 444 -o -perm 440 -o -perm 400 \) \
   -exec chmod 644 {} \;
 
+patch -p0 < $CWD/tiff-4.0.3-tiff2pdf-colors.patch
+patch -p1 < $CWD/tiff-3.9.7-CVE-2012-4447.patch
+patch -p1 < $CWD/tiff-3.9.7-CVE-2012-4564.patch
+patch -p1 < $CWD/tiff-4.0.3-CVE-2013-1960.patch
+patch -p1 < $CWD/tiff-4.0.3-CVE-2013-1961.patch
+
+cd tools
+patch -p0 < $CWD/tiff-4.0.3-CVE-2013-4231.patch
+patch -p0 < $CWD/tiff-4.0.3-CVE-2013-4232.patch
+cd ..
+
 CFLAGS="$SLKCFLAGS" \
 ./configure \
   --prefix=/usr \
@@ -108,8 +118,6 @@ cp -a \
   COPYRIGHT README RELEASE-DATE TODO VERSION \
   $PKG/usr/doc/libtiff-$VERSION
 
-# If there's a ChangeLog, installing at least part of the recent history
-# is useful, but don't let it get totally out of control:
 if [ -r ChangeLog ]; then
   DOCSDIR=$(echo $PKG/usr/doc/*-$VERSION)
   cat ChangeLog | head -n 1000 > $DOCSDIR/ChangeLog

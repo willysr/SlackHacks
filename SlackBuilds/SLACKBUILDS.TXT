@@ -800,7 +800,7 @@ SLACKBUILD SHORT DESCRIPTION: libsigc++: libsigc++ (typesafe callback system for
 
 SLACKBUILD NAME: libtiff
 SLACKBUILD LOCATION: ./libtiff
-SLACKBUILD FILES: README libtiff.SlackBuild libtiff.info slack-desc
+SLACKBUILD FILES: README libtiff.SlackBuild libtiff.info slack-desc tiff-3.9.7-CVE-2012-4447.patch tiff-3.9.7-CVE-2012-4564.patch tiff-4.0.3-CVE-2013-1960.patch tiff-4.0.3-CVE-2013-1961.patch tiff-4.0.3-CVE-2013-4231.patch tiff-4.0.3-CVE-2013-4232.patch tiff-4.0.3-tiff2pdf-colors.patch
 SLACKBUILD VERSION: 4.0.3
 SLACKBUILD DOWNLOAD: ftp://ftp.remotesensing.org/pub/libtiff/tiff-4.0.3.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
