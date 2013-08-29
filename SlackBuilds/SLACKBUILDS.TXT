@@ -21,10 +21,10 @@ SLACKBUILD SHORT DESCRIPTION:  OpenAL (a cross-platform 3D audio API)
 SLACKBUILD NAME: ProjectLibre
 SLACKBUILD LOCATION: ./ProjectLibre
 SLACKBUILD FILES: ProjectLibre.SlackBuild ProjectLibre.info README doinst.sh projectlibre-path.patch projectlibre.desktop projectlibre.png slack-desc x-projectlibre.desktop
-SLACKBUILD VERSION: 1.5.6
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/projectlibre/projectlibre-1.5.6.tar.gz
+SLACKBUILD VERSION: 1.5.7
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/projectlibre/projectlibre-1.5.7.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: b8a7331583931ccce732f6ace5426a36
+SLACKBUILD MD5SUM: 3298e6062f0c33a94d3a6c1b4bb69ac3
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  ProjectLibre (Project Management Software)
 
