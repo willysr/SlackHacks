@@ -1,0 +1,15 @@
+HOW TO PATCH
+
+1. Extract NVidia Driver
+   ./NVIDIA-Linux-x86-304.108.run --extract-only
+2. Go to the extracted directory
+   cd NVIDIA-Linux-x86-304.108
+3. Patch it
+   patch -p1 < /path/to/nvidia-3.11.patch
+4. Run the nvidia-installer
+   ./nvidia-installer
+5. Have fun :)
+
+
+3 September 2013
+Willy Sudiarto Raharjo
