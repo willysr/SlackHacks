@@ -28,9 +28,10 @@
 # March 14: Upgraded to 3.1.0
 # May 18: Upgraded to 3.2.0
 # August 5: Upgraded to 3.3.0
+# September 7: Upgraded to 3.4.0
 
 PRGNAM=digikam
-VERSION=${VERSION:-3.3.0}
+VERSION=${VERSION:-3.4.0}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
