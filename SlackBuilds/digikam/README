@@ -6,7 +6,7 @@ is provided that enables you to connect to your camera and preview,
 download and/or delete your images.
 
 Requirements
-  - KDE 4.10.x
+  - KDE 4.10.x or newer 
   - ffmpeg
   - QJson
   - OpenCV 
