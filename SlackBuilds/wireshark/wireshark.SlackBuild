@@ -29,9 +29,10 @@
 # Changelog
 # June 6: Upgraded to 1.10.0
 # July 5: Rebuilt to fix documentations
+# September 12: Upgraded to 1.10.2
 
 PRGNAM=wireshark
-VERSION=${VERSION:-1.10.1}
+VERSION=${VERSION:-1.10.2}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -76,8 +77,6 @@ find . \
 # Ammend hardcoded paths to /usr/lib/ which will give a problem when compiling on
 # systems with 32bit compat libs install. Thanks to Heinz Wiesinger.
 sed -i "s|/lib)|/lib$LIBDIRSUFFIX)|g" configure.ac
-
-patch -p1 < $CWD/01_fix_pod_file.patch
 
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
