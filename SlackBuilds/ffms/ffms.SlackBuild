@@ -24,9 +24,11 @@
 # July 29: Initial Release
 # November 14: Rebuilt to make it work with Aegisub
 # February 29: switched to SVN to make it work with newer ffmpeg (1.1.x)
+# September 18: Upgraded to 2.19
 
 PRGNAM=ffms
-VERSION=${VERSION:-743}
+SRCNAM=ffms2
+VERSION=${VERSION:-2.19}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -56,13 +58,11 @@ OUTPUT=${OUTPUT:-/tmp}
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
-rm -rf $PRGNAM-src
-tar xjvf $CWD/$PRGNAM-r$VERSION.tar.bz2 || exit 1
-cd $PRGNAM-src
+rm -rf $SRCNAM-$VERSION
+tar xvf $CWD/$SRCNAM-$VERSION.tar.gz || exit 1
+cd $SRCNAM-$VERSION
 
-patch -p1 < $CWD/autoconf.patch
-
-./autogen.sh \
+./configure \
   --prefix=/usr \
   --libdir=/usr/lib${LIBDIRSUFFIX} \
   --docdir=/usr/doc/$PRGNAM-$VERSION \
@@ -83,4 +83,4 @@ find $PKG | xargs file | grep -e "executable" -e "shared object" \
   | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
 
 cd $PKG
-/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-r$VERSION-$ARCH-$BUILD.${PKGTYPE:-txz}
+/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD.${PKGTYPE:-txz}

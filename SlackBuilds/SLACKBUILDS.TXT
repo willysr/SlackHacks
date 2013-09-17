@@ -480,7 +480,7 @@ SLACKBUILD SHORT DESCRIPTION:  Eigen3 (c++ math library)
 
 SLACKBUILD NAME: ffms
 SLACKBUILD LOCATION: ./ffms
-SLACKBUILD FILES: README autoconf.patch ffms.SlackBuild ffms.info slack-desc
+SLACKBUILD FILES: README ffms.SlackBuild ffms.info slack-desc
 SLACKBUILD VERSION: r743
 SLACKBUILD DOWNLOAD: https://mega.co.nz/#!Q9ISTSoT!XeKNpXsWrb3KKFIbn2h-9HOGqDF0t0pe3EION_HJ9Uk
 SLACKBUILD DOWNLOAD_x86_64: 
