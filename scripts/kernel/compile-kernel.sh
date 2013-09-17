@@ -8,7 +8,7 @@
 # Initial script by Robby Workman <http://rlworkman.net/>
 # Slightly modified by Willy Sudiarto Raharjo <willysr@gmail.com>
 #
-VERSION='3.11' # change to reflect actual kernel version
+VERSION='3.11.1' # change to reflect actual kernel version
 CWD='/usr/src' # /usr/src directory
 cd $CWD
 #
