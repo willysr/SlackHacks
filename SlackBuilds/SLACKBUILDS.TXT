@@ -1081,10 +1081,10 @@ SLACKBUILD SHORT DESCRIPTION: vsqlite++: vsqlite++ (SQLite Wrapper Library)
 SLACKBUILD NAME: vte3
 SLACKBUILD LOCATION: ./vte3
 SLACKBUILD FILES: README fix_meta_alt_keybinding.patch.gz slack-desc vte3.SlackBuild vte3.info
-SLACKBUILD VERSION: 0.34.7
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/vte/0.34/vte-0.34.7.tar.xz
+SLACKBUILD VERSION: 0.34.8
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/vte/0.34/vte-0.34.8.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: aaab625a8d3ffe1f9a95fc9cd132040e
+SLACKBUILD MD5SUM: b16a21d09322a41f6c82a0bdd8241467
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  vte3 (terminal emulator widget)
 
