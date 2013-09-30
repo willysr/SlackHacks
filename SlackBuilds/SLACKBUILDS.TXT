@@ -181,20 +181,20 @@ SLACKBUILD SHORT DESCRIPTION:  cssutils (CSS parser and builder)
 SLACKBUILD NAME: cups-filters
 SLACKBUILD LOCATION: ./cups-filters
 SLACKBUILD FILES: README cups-filters.SlackBuild cups-filters.info slack-desc
-SLACKBUILD VERSION: 1.0.37
-SLACKBUILD DOWNLOAD: https://www.openprinting.org/download/cups-filters/cups-filters-1.0.37.tar.xz
+SLACKBUILD VERSION: 1.0.38
+SLACKBUILD DOWNLOAD: https://www.openprinting.org/download/cups-filters/cups-filters-1.0.38.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 210e5cb70e9474b91dd2ab4291a5e48e
+SLACKBUILD MD5SUM: bf9b6f34b3445ebc16b13cbb0c249ae1
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  cups-filters (CUPS backend and filters)
 
 SLACKBUILD NAME: cups
 SLACKBUILD LOCATION: ./cups
 SLACKBUILD FILES: README airprint-support.patch cups.SlackBuild cups.info doinst.sh.gz slack-desc
-SLACKBUILD VERSION: 1.6.3
-SLACKBUILD DOWNLOAD: http://www.cups.org/software/1.6.3/cups-1.6.3-source.tar.bz2
+SLACKBUILD VERSION: 1.6.4
+SLACKBUILD DOWNLOAD: http://cups.org/software/1.6.4/cups-1.6.4-source.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 946a2d8ad1aec6beced312fce18543da
+SLACKBUILD MD5SUM: 52c3df269709a4d25472cfe72ab5e856
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  CUPS (Common UNIX Printing System)
 

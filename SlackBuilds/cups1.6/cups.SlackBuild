@@ -37,8 +37,9 @@
 # November 30: Added patch to support AirPrint 
 # March 19: Upgraded to 1.6.2
 # July, 13: Upgraded to 1.6.3
+# October, 1: Upgraded to 1.6.4
 
-VERSION=1.6.3
+VERSION=1.6.4
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
