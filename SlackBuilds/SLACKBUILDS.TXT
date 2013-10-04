@@ -140,7 +140,7 @@ SLACKBUILD SHORT DESCRIPTION:  calibre (e-book library management application)
 
 SLACKBUILD NAME: cgit
 SLACKBUILD LOCATION: ./cgit
-SLACKBUILD FILES: README cgit-0.9.2.tar.xz cgit.SlackBuild cgit.info config/cgit-httpd.conf config/cgit-lighttpd.conf config/cgit.conf config/cgitrc.sample git-1.8.3.tar.gz slack-desc
+SLACKBUILD FILES: README cgit.SlackBuild cgit.info config/cgit-httpd.conf config/cgit-lighttpd.conf config/cgit.conf config/cgitrc.sample slack-desc
 SLACKBUILD VERSION: 0.9.2
 SLACKBUILD DOWNLOAD: http://git.zx2c4.com/cgit/snapshot/cgit-0.9.2.tar.xz https://git-core.googlecode.com/files/git-1.8.3.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
@@ -478,6 +478,16 @@ SLACKBUILD MD5SUM: 894381be5be65bb7099c6fd91d61b357
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Eigen3 (c++ math library)
 
+SLACKBUILD NAME: ettercap
+SLACKBUILD LOCATION: ./ettercap
+SLACKBUILD FILES: doinst.sh ettercap.SlackBuild ettercap.info slack-desc
+SLACKBUILD VERSION: 0.8.0
+SLACKBUILD DOWNLOAD: https://github.com/Ettercap/ettercap/archive/v0.8.0.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 067514bb53ff76b81d578676e2048319
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  ettercap (Sniffer Suite)
+
 SLACKBUILD NAME: ffms
 SLACKBUILD LOCATION: ./ffms
 SLACKBUILD FILES: README ffms.SlackBuild ffms.info slack-desc
@@ -540,7 +550,7 @@ SLACKBUILD SHORT DESCRIPTION:  gnugo
 
 SLACKBUILD NAME: google-earth
 SLACKBUILD LOCATION: ./google-earth
-SLACKBUILD FILES: README doinst.sh google-earth-mimetypes.xml google-earth-stable_current_i386.deb google-earth.SlackBuild google-earth.info slack-desc
+SLACKBUILD FILES: README doinst.sh google-earth-mimetypes.xml google-earth.SlackBuild google-earth.info slack-desc
 SLACKBUILD VERSION: 7.1.2.2019
 SLACKBUILD DOWNLOAD: http://dl.google.com/dl/earth/client/current/google-earth-stable_current_i386.deb
 SLACKBUILD DOWNLOAD_x86_64: http://dl.google.com/dl/earth/client/current/google-earth-stable_current_amd64.deb
@@ -670,7 +680,7 @@ SLACKBUILD SHORT DESCRIPTION:  guvcview (GTK+ UVC Viewer)
 
 SLACKBUILD NAME: harfbuzz
 SLACKBUILD LOCATION: ./harfbuzz
-SLACKBUILD FILES: README harfbuzz-0.9.19.tar.bz2 harfbuzz.SlackBuild harfbuzz.info slack-desc
+SLACKBUILD FILES: README harfbuzz.SlackBuild harfbuzz.info slack-desc
 SLACKBUILD VERSION: 0.9.21
 SLACKBUILD DOWNLOAD: http://www.freedesktop.org/software/harfbuzz/release/harfbuzz-0.9.21.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
@@ -788,6 +798,16 @@ SLACKBUILD MD5SUM: a0406b94c341c2b52ec0fe98f57cadf3
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  libmusicbrainz5 (MusicBrainz 5 Library)
 
+SLACKBUILD NAME: libnet
+SLACKBUILD LOCATION: ./libnet
+SLACKBUILD FILES: README libnet.SlackBuild libnet.info slack-desc
+SLACKBUILD VERSION: 1.1.6
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/sourceforge/libnet-dev/libnet-1.1.6.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 710296fe424a49344e5fcc0d09e53317
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  libnet (Packet Construction Library)
+
 SLACKBUILD NAME: libpgf
 SLACKBUILD LOCATION: ./libpgf
 SLACKBUILD FILES: README libpgf.SlackBuild libpgf.info slack-desc
@@ -870,7 +890,7 @@ SLACKBUILD SHORT DESCRIPTION:  mm-common (build infrastructure and utilities for
 
 SLACKBUILD NAME: mysql-connector-c++
 SLACKBUILD LOCATION: ./mysql-connector-c++
-SLACKBUILD FILES: README mysql-connector-c++-1.1.3.tar.gz mysql-connector-c++.SlackBuild mysql-connector-c++.info slack-desc
+SLACKBUILD FILES: README mysql-connector-c++.SlackBuild mysql-connector-c++.info slack-desc
 SLACKBUILD VERSION: 1.1.3
 SLACKBUILD DOWNLOAD: http://cdn.mysql.com/Downloads/Connector-C++/mysql-connector-c++-1.1.3.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
