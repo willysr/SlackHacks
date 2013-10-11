@@ -211,10 +211,10 @@ SLACKBUILD SHORT DESCRIPTION:  db5 (Berkeley database library version 5.3.x)
 SLACKBUILD NAME: digikam
 SLACKBUILD LOCATION: ./digikam
 SLACKBUILD FILES: README digikam.SlackBuild digikam.info doinst.sh slack-desc
-SLACKBUILD VERSION: 3.4.0
-SLACKBUILD DOWNLOAD: http://download.kde.org/stable/digikam/digikam-3.4.0.tar.bz2
+SLACKBUILD VERSION: 3.5.0
+SLACKBUILD DOWNLOAD: http://download.kde.org/stable/digikam/digikam-3.5.0.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 6c6281433407a1894f176ff4e7d5f62a
+SLACKBUILD MD5SUM: 16d570269883652487516a77c9d7d6f8
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  digiKam (KDE Photo Management Application)
 
