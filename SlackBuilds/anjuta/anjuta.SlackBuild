@@ -23,10 +23,9 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 PRGNAM=anjuta
-VERSION=${VERSION:-3.8.4}
+VERSION=${VERSION:-3.10.0}
 BUILD=${BUILD:-1wsr}
 
-# Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
     i?86) ARCH=i486 ;;
