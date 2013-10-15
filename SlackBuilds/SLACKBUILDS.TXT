@@ -91,10 +91,10 @@ SLACKBUILD SHORT DESCRIPTION:  atkmm (C++ bindings for ATK)
 SLACKBUILD NAME: autogen
 SLACKBUILD LOCATION: ./autogen
 SLACKBUILD FILES: README autogen.SlackBuild autogen.info slack-desc
-SLACKBUILD VERSION: 5.18
-SLACKBUILD DOWNLOAD: http://ftp.gnu.org/gnu/autogen/rel5.18/autogen-5.18.tar.xz
+SLACKBUILD VERSION: 5.18.1
+SLACKBUILD DOWNLOAD: http://ftp.gnu.org/gnu/autogen/rel5.18.1/autogen-5.18.1.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: ef49893d65a490f4e1ae0a4d816cf6aa
+SLACKBUILD MD5SUM: 843a613e08ef8d47aba6733c60c8bda4
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  autogen (configure generator)
 

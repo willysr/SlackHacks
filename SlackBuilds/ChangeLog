@@ -1,4 +1,8 @@
 +--------------------------+
+Tue Oct 15 21:36:47 GMT+7 2013
+autogen: Upgraded to 5.18.1
+
++--------------------------+
 Sat Oct 12 12:17:35 GMT+7 2013
 anjuta: Upgraded to 3.10.0
   You will need to rebuild gtkpod after upgrading 
