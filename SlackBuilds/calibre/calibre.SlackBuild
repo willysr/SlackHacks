@@ -35,12 +35,10 @@
 #	      python-netifaces
 
 # Simplified by Willy Sudiarto Raharjo
-# Changelog
-# August 23: Upgraded to 1.0.0
 
 # Set initial variables:
 PRGNAM=calibre
-VERSION=${VERSION:-1.0.0}
+VERSION=${VERSION:-1.7.0}
 BUILD=${BUILD:-1wsr}
 NUMJOBS=${NUMJOBS:" -j4 "}
 
@@ -65,12 +63,10 @@ TMP=${TMP:-/tmp/build}
 PKG=$TMP/package-$PRGNAM
 OUTPUT=${OUTPUT:-/tmp}
 
-# Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
     i?86) export ARCH=i486 ;;
     arm*) export ARCH=arm ;;
-    # Unless $ARCH is already set, use uname -m for all other archs:
        *) export ARCH=$( uname -m ) ;;
   esac
 fi
