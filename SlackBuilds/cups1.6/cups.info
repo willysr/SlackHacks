@@ -1,8 +1,0 @@
-PRGNAM="cups"
-VERSION="1.6.4"
-HOMEPAGE="http://cups.org/"
-DOWNLOAD="http://cups.org/software/1.6.4/cups-1.6.4-source.tar.bz2"
-MD5SUM="52c3df269709a4d25472cfe72ab5e856"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""
-REQUIRES=""
