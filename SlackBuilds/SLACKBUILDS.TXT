@@ -948,6 +948,16 @@ SLACKBUILD MD5SUM: a2c55dc04904bd08d984533703177084
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  paramiko (Python SSH module)
 
+SLACKBUILD NAME: perl-LockFile-Simple
+SLACKBUILD LOCATION: ./perl-LockFile-Simple
+SLACKBUILD FILES: README perl-LockFile-Simple.SlackBuild perl-LockFile-Simple.info slack-desc
+SLACKBUILD VERSION: 0.208
+SLACKBUILD DOWNLOAD: http://search.cpan.org/CPAN/authors/id/S/SC/SCHWIGON/lockfile-simple/LockFile-Simple-0.208.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 4421283b4f32549e5299963734170044
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  perl-LockFile-Simple (simple file locking scheme)
+
 SLACKBUILD NAME: pexpect
 SLACKBUILD LOCATION: ./pexpect
 SLACKBUILD FILES: README pexpect.SlackBuild pexpect.info slack-desc
