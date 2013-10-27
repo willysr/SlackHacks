@@ -5,4 +5,4 @@ DOWNLOAD="https://www.openprinting.org/download/cups-filters/cups-filters-1.0.40
 MD5SUM="25d8142594846f779258a62023afc6e3"
 DOWNLOAD_x86_64=""
 MD5SUM_x86_64=""
-REQUIRES="qpdf avahi"
+REQUIRES="qpdf"
