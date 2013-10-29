@@ -6,9 +6,10 @@
 # Changelog
 # July 1: Upgraded to 1.10.0
 # August 1: Upgraded to 1.11.0
+# October 29: Upgraded to 1.11.1
 
 PRGNAM=dnspython
-VERSION=${VERSION:-1.11.0}
+VERSION=${VERSION:-1.11.1}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
