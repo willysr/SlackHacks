@@ -26,9 +26,10 @@
 # Changelog
 # December, 2 : Added
 # June 2: Upgraded to 1.10.1
+# October 29: Upgraded to 1.12.0
 
 PRGNAM=paramiko
-VERSION=1.11.0
+VERSION=1.12.0
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
