@@ -1,4 +1,19 @@
 +--------------------------+
+BeautifulSoup: Upgraded to 4.3.2
+calibre: Upgraded to 1.8.0
+cssselect: Upgraded to 0.9.1
+dnspython: Upgraded to 1.11.1
+gnote: Upgraded to 3.10.1
+harfbuzz: Upgraded to 0.9.23
+laptop-mode-tools: Upgraded to 1.64
+lensfun: Upgraded to 0.2.8
+libusbx: Upgraded to 1.0.17
+lzlib: Upgraded to 1.5
+paramiko: Upgraded to 1.12.0
+qpdf: Upgraded to 5.0.1
+vala: Upgraded to 0.22.0
+
++--------------------------+
 Sun Oct 27 21:46:28 GMT+7 2013
 perl-LockFile-Simple: Added
 
