@@ -1,7 +1,7 @@
 PRGNAM="dnspython"
 VERSION="1.11.1"
 HOMEPAGE="http://www.dnspython.org/"
-DOWNLOAD="http://www.dnspython.org/kits/1.11.1/dnspython-1.11.0.tar.gz"
+DOWNLOAD="http://www.dnspython.org/kits/1.11.1/dnspython-1.11.1.tar.gz"
 MD5SUM="6167344ca849bd2ba108a8aa6118cb2b"
 DOWNLOAD_x86_64=""
 MD5SUM_x86_64=""
