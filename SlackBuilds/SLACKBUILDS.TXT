@@ -311,10 +311,10 @@ SLACKBUILD SHORT DESCRIPTION:  Python-evas (Python Binding for Evas)
 SLACKBUILD NAME: connman
 SLACKBUILD LOCATION: ./connman
 SLACKBUILD FILES: README allow_group_network.diff connman.SlackBuild connman.info doinst.sh rc.connmand slack-desc
-SLACKBUILD VERSION: 1.18
-SLACKBUILD DOWNLOAD: http://www.kernel.org/pub/linux/network/connman/connman-1.18.tar.xz
+SLACKBUILD VERSION: 1.19
+SLACKBUILD DOWNLOAD: http://www.kernel.org/pub/linux/network/connman/connman-1.19.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 7578ec8f0422d34f5a4ba51b605fe576
+SLACKBUILD MD5SUM: 47cce1d17a693dc307e6796c81991bd0
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  connman (Open Source Connection Manager)
 
