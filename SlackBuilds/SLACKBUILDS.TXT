@@ -1051,11 +1051,11 @@ SLACKBUILD SHORT DESCRIPTION:  Sysprof (Performance Profiler)
 SLACKBUILD NAME: teamviewer
 SLACKBUILD LOCATION: ./teamviewer
 SLACKBUILD FILES: README doinst.sh rc.teamviewerd slack-desc teamviewer.SlackBuild teamviewer.info
-SLACKBUILD VERSION: 8.0.20931
-SLACKBUILD DOWNLOAD: https://www.teamviewer.com/download/teamviewer_linux.deb
-SLACKBUILD DOWNLOAD_x86_64: https://www.teamviewer.com/download/teamviewer_linux_x64.deb
-SLACKBUILD MD5SUM: 218ecec198d5e6ce30958736d88e6645
-SLACKBUILD MD5SUM_x86_64: bb2c1f70b6d58379aca987e57435293c
+SLACKBUILD VERSION: 9.0.23343
+SLACKBUILD DOWNLOAD: http://download.teamviewer.com/download/version_9x/teamviewer_linux.deb
+SLACKBUILD DOWNLOAD_x86_64: http://download.teamviewer.com/download/version_9x/teamviewer_linux_x64.deb
+SLACKBUILD MD5SUM: 6c218ebba47c4f068c434d7f231a9be4
+SLACKBUILD MD5SUM_x86_64: a672ffefd2607a234a570bf14f6071e9
 SLACKBUILD SHORT DESCRIPTION:  teamviewer (remote control application)
 
 SLACKBUILD NAME: tlp
