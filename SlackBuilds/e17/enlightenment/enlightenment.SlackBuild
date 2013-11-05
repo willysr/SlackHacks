@@ -15,9 +15,10 @@
 # April 5: Upgraded to 0.17.2
 # May 14: Upgraded to 0.17.3
 # July 31: Upgraded to 0.17.4
+# Nov 5: Upgraded to 0.17.5
 
 PRGNAM=enlightenment
-VERSION=${VERSION:-0.17.4}
+VERSION=${VERSION:-0.17.5}
 BUILD=${BUILD:-1wsr}
 
 SRC_VERSION=$(echo $VERSION | tr _ -)
@@ -58,11 +59,11 @@ rm -rf $PRGNAM-$SRC_VERSION
 tar xjvf $CWD/$PRGNAM-$SRC_VERSION.tar.bz2
 cd $PRGNAM-$SRC_VERSION
 chown -R root:root .
-find . \
+find -L . \
  \( -perm 777 -o -perm 775 -o -perm 711 -o -perm 555 -o -perm 511 \) \
  -exec chmod 755 {} \; -o \
- \( -perm 666 -o -perm 664 -o -perm 600 -o -perm 444 -o -perm 440 -o -perm 400 \) \
- -exec chmod 644 {} \;
+ \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
+ -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
