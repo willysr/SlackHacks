@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Slackware build script for mysql-workbench-gpl
+# Slackware build script for mysql-workbench
 
 # Written by André Geraldo Vieira <andre.geraldo@gmail.com>
 
@@ -19,8 +19,8 @@
 # June 30: Upgraded to 6.0.2
 # July 5: Rebuilt to fix symlink to libwbbase
 
-PRGNAM=mysql-workbench-gpl
-VERSION=${VERSION:-6.0.4}
+PRGNAM=mysql-workbench
+VERSION=${VERSION:-6.0.7}
 BUILD=${BUILD:-1wsr}
 
 SRCVERSION=$VERSION-src
@@ -57,15 +57,15 @@ set -e
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
-rm -rf $PRGNAM-$SRCVERSION
-tar xvf $CWD/$PRGNAM-$SRCVERSION.tar.gz
-cd $PRGNAM-$SRCVERSION
+rm -rf $PRGNAM-community-$SRCVERSION
+tar xvf $CWD/$PRGNAM-community-$SRCVERSION.tar.gz
+cd $PRGNAM-community-$SRCVERSION
 chown -R root:root .
-find . \
+find -L . \
  \( -perm 777 -o -perm 775 -o -perm 711 -o -perm 555 -o -perm 511 \) \
  -exec chmod 755 {} \; -o \
- \( -perm 666 -o -perm 664 -o -perm 600 -o -perm 444 -o -perm 440 -o -perm 400 \) \
- -exec chmod 644 {} \;
+ \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
+ -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
@@ -83,7 +83,7 @@ make
 
 # we will remove it later after installation
 # without these document, it will fail to build
-touch $TMP/$PRGNAM-$SRCVERSION/LICENSE.mysql
+touch $TMP/$PRGNAM-community-$SRCVERSION/LICENSE.mysql
 
 make install DESTDIR=$PKG
 
