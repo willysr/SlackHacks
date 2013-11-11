@@ -6,12 +6,13 @@
 # customary to leave one space after the ':'.
 
             |-----handy-ruler----------------------------------------------------|
-google-earth: Google earth (3D Planet Viewer)
-google-earth: 
-google-earth: Google Earth allows you to travel the world through a virtual 
-google-earth: globe and view satellite imagery, maps, terrain, 3D buildings, 
-google-earth: and much more.
+google-earth: google-earth (Google's famous virtual globe)
 google-earth:
+google-earth: Google Earth is a virtual globe program. It maps a version of the
+google-earth: Earth by the superimposition of images obtained from satellite
+google-earth: imagery, aerial photography and GIS over a 3D globe. You point
+google-earth: and zoom to any place on the planet that you want to explore.
+google-earth: Satellite images and local facts zoom into view.
 google-earth:
 google-earth: Project Site: http://www.google.com/earth/index.html
 google-earth:

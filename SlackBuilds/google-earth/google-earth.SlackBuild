@@ -22,7 +22,7 @@
 
 
 PKGNAM=google-earth
-RELEASE=${RELEASE:-stable}    # stable, beta, or unstable
+RELEASE=${RELEASE:-stable}
 
 # Allow $ARCH to be preset before running the script.  This is useful in the
 # case where someone is running a 32-bit chroot environment under an x86_64
@@ -34,36 +34,10 @@ case "$ARCH" in
   x86_64) DEBARCH="amd64" ; LIBDIRSUFFIX="64" ; ARCH=x86_64 ;;
   *) echo "Package for $(uname -m) architecture is not available." ; exit 1 ;;
 esac
+
 # Get the version from the Debian/Ubuntu .deb
 VERSION=$(ar p google-earth-${RELEASE}_current_${DEBARCH}.deb control.tar.gz 2> /dev/null | tar zxO ./control 2> /dev/null | grep Version | awk '{print $2}' | cut -d- -f1)
 BUILD=${BUILD:-1}
-
-
-if [ ! $UID = 0 ]; then
-  cat << EOF
-
-This script must be run as root.
-
-EOF
-  exit 1
-fi
-
-if ! /bin/ls google-earth-*.deb 1> /dev/null 2> /dev/null ; then
-  cat << EOF
-
-This is a script to repackage a Debian/Ubuntu Google Earth .deb package
-for Slackware.  Run this script in the same directory as one of these
-binary packages:
-
-  google-earth-stable_current_amd64.deb  (for 64-bit x86_64)
-  google-earth-stable_current_i386.deb   (for 32-bit x86)
-  
-This will create a Slackware .txz package.  Install it with installpkg
-or use upgradepkg to upgrade from a previous version.
-
-EOF
-  exit 1
-fi
 
 CWD=$(pwd)
 TMP=${TMP:-/tmp/build}
@@ -75,7 +49,11 @@ mkdir -p $TMP $PKG $OUTPUT
 cd $PKG
 ar p $CWD/google-earth-${RELEASE}_current_${DEBARCH}.deb data.tar.lzma | lzma -d | tar xv || exit 1
 chown -R root:root .
-chmod -R u+w,go+r-w,a-s .
+find -L . \
+ \( -perm 777 -o -perm 775 -o -perm 711 -o -perm 555 -o -perm 511 \) \
+ -exec chmod 755 {} \; -o \
+ \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
+ -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
 # Make sure top-level perms are correct:
 chmod 0755 .
@@ -100,10 +78,8 @@ rm -rf $PKG/opt/google/earth/free/product_logo*.png
 rm -rf etc
 
 # Remove unneeded directories
-rm -rf $PKG/usr/share/man
+rm -rf $PKG/usr/share/{man,menu,gnome-control-center}
 rm -rf $PKG/usr/man
-rm -rf $PKG/usr/share/menu
-rm -rf $PKG/usr/share/gnome-control-center/
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
