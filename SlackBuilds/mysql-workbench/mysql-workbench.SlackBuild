@@ -4,23 +4,8 @@
 
 # Written by André Geraldo Vieira <andre.geraldo@gmail.com>
 
-# Modified by Willy Sudiarto Raharjo
-# Changelog
-# May, 7 : Bumped to 5.2.39, Added patch to work with glib-2.3x
-# May, 12: Rebuilt, Added patch to fix problems with newer automake
-# May, 20: Upgraded to 5.2.40, Remove glib patch since it's included upstream
-# August, 27: Upgraded to 5.2.42, Include patches from Dhaby Xiloj
-# September, 13: Upgraded to 5.2.43
-# October, 3: Upgraded to 5.2.44
-# January, 3: Upgraded to 5.2.45
-# February, 7: Upgraded to 5.2.46
-# February, 25: Upgraded to 5.2.47
-# March, 1: Rebuilt to include patches from Ponce
-# June 30: Upgraded to 6.0.2
-# July 5: Rebuilt to fix symlink to libwbbase
-
 PRGNAM=mysql-workbench
-VERSION=${VERSION:-6.0.7}
+VERSION=${VERSION:-6.0.8}
 BUILD=${BUILD:-1wsr}
 
 SRCVERSION=$VERSION-src
