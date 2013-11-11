@@ -563,10 +563,10 @@ SLACKBUILD LOCATION: ./google-earth
 SLACKBUILD FILES: README doinst.sh google-earth-mimetypes.xml google-earth.SlackBuild google-earth.info slack-desc
 SLACKBUILD VERSION: 7.1.2.2041
 SLACKBUILD DOWNLOAD: http://dl.google.com/dl/earth/client/current/google-earth-stable_current_i386.deb
-SLACKBUILD DOWNLOAD_x86_64: http://dl.google.com/dl/earth/client/current/google-earth-stable_current_amd64.deb
+SLACKBUILD DOWNLOAD_x86_64: 
 SLACKBUILD MD5SUM: c9675d0078d1b188188c9d3b616de6fa
-SLACKBUILD MD5SUM_x86_64: 6979fd255895891fea8c98fa02fd243d
-SLACKBUILD SHORT DESCRIPTION:  Google earth (3D Planet Viewer)
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  google-earth (Google's famous virtual globe)
 
 SLACKBUILD NAME: grive
 SLACKBUILD LOCATION: ./grive
@@ -981,10 +981,10 @@ SLACKBUILD SHORT DESCRIPTION:  pexpect (Python module for spawning child applica
 SLACKBUILD NAME: pycrypto
 SLACKBUILD LOCATION: ./pycrypto
 SLACKBUILD FILES: README pycrypto.SlackBuild pycrypto.info slack-desc
-SLACKBUILD VERSION: 2.6
-SLACKBUILD DOWNLOAD: http://ftp.dlitz.net/pub/dlitz/crypto/pycrypto/pycrypto-2.6.tar.gz
+SLACKBUILD VERSION: 2.6.1
+SLACKBUILD DOWNLOAD: http://ftp.dlitz.net/pub/dlitz/crypto/pycrypto/pycrypto-2.6.1.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 88dad0a270d1fe83a39e0467a66a22bb
+SLACKBUILD MD5SUM: 55a61a054aa66812daf5161a0d5d7eda
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  pycrypto (Python Cryptography Toolkit)
 
