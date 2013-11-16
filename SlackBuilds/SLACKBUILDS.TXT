@@ -61,10 +61,10 @@ SLACKBUILD SHORT DESCRIPTION:  aegisub (General-purpose subtitle editor)
 SLACKBUILD NAME: anjuta
 SLACKBUILD LOCATION: ./anjuta
 SLACKBUILD FILES: README anjuta.SlackBuild anjuta.info doinst.sh slack-desc
-SLACKBUILD VERSION: 3.10.0
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/anjuta/3.10/anjuta-3.10.0.tar.xz
+SLACKBUILD VERSION: 3.10.2
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/anjuta/3.10/anjuta-3.10.2.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: e7cd4ca20029d5f6ddf9fa3ab4520dfd
+SLACKBUILD MD5SUM: b88a472987ab692d5aad3949e348bde9
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  anjuta (GNOME Integrated Development Environment)
 
@@ -1161,12 +1161,22 @@ SLACKBUILD SHORT DESCRIPTION:  WireShark (packet sniffer and protocol analyzer)
 SLACKBUILD NAME: wxGTK
 SLACKBUILD LOCATION: ./wxGTK
 SLACKBUILD FILES: README slack-desc wxGTK.SlackBuild wxGTK.info
-SLACKBUILD VERSION: 2.9.4
-SLACKBUILD DOWNLOAD: http://sourceforge.net/projects/wxwindows/files/2.9.4/wxWidgets-2.9.4.tar.bz2
+SLACKBUILD VERSION: 2.8.12
+SLACKBUILD DOWNLOAD: http://sourceforge.net/projects/wxwindows/files/2.8.12/wxWidgets-2.8.12.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
 SLACKBUILD MD5SUM: f1348f740a569ce2945512d5b0e70e87
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  wxGTK (cross-platform GUI toolkit)
+
+SLACKBUILD NAME: wxGTK3
+SLACKBUILD LOCATION: ./wxGTK3
+SLACKBUILD FILES: README slack-desc wxGTK3.SlackBuild wxGTK3.info
+SLACKBUILD VERSION: 3.0.0
+SLACKBUILD DOWNLOAD: http://sourceforge.net/projects/wxwindows/files/3.0.0/wxWidgets-3.0.0.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 241998efc12205172ed24c18788ea2cd
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  wxGTK3 (cross-platform GUI toolkit)
 
 SLACKBUILD NAME: xchm
 SLACKBUILD LOCATION: ./xchm
