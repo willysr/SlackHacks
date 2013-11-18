@@ -23,7 +23,7 @@
 SBOPATH="/home/willysr/slackbuilds/"
 
 # Put the name of the maintainer you want to search for
-MAINTAINER="Willy Sudiarto Raharjo"
+MAINTAINER="${MAINTAINER:-Willy Sudiarto Raharjo}"
 
 # Thanks to Benjamin Trigona-Harany
 # The script is now faster, but still produces the same output
