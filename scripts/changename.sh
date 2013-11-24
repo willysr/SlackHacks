@@ -23,12 +23,12 @@
 SBOPATH="/home/willysr/slackbuilds/"
 
 # Put the name of the maintainer you want to search for
-OLDENAME="Willy"
-NEWENAME="Willy Sudiarto Raharjo"
+OLDNAME="Willy"
+NEWNAME="Willy Sudiarto Raharjo"
 
 L=`find $SBOPATH -name "*.info" -exec grep -l "$OLDNAME" {} +`
 for list in $L 
 do
-  sed -i "s/$OLDNAME/$NEWNAME/" $list
+  sed -i "s/MAINTAINER=\"$OLDNAME\"/MAINTAINER=\"$NEWNAME\"/" $list
   
 done
