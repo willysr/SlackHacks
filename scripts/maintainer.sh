@@ -32,5 +32,6 @@ for list in $L
 do
   FILENAME=`echo $list | awk -F'/' '{print $(NF-2)"/"$(NF-1)}'`
   VERSION=`cat $list | grep "VERSION" | sed 's/VERSION="//' | sed 's/"//'`
-  echo $FILENAME - $VERSION
+  EMAIL=`cat $list | grep "EMAIL" | sed 's/EMAIL="//' | sed 's/"//'`
+  echo $FILENAME - $VERSION - $EMAIL
 done
