@@ -22,13 +22,12 @@
 # Put the directory where you place the SlackBuild Git Repository
 SBOPATH="/home/willysr/slackbuilds/"
 
-# Put the name of the maintainer you want to search for
-OLDEMAIL="Vliegendehuiskat [ at ] gmail [ dot ] com"
-NEWEMAIL="vliegendehuiskat [at] gmail [dot] com"
+# Put the email of the maintainer you want to search for
+OLDEMAIL="willysr@gmail.com"
+NEWEMAIL="willysr@slackbuilds.org"
 
 L=`find $SBOPATH -name "*.info" -exec grep -l "$OLDEMAIL" {} +`
 for list in $L 
 do
   sed -i "s/$OLDEMAIL/$NEWEMAIL/i" $list
-  
 done
