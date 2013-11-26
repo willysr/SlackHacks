@@ -231,11 +231,11 @@ SLACKBUILD SHORT DESCRIPTION:  dnspython (Python API for DNS)
 SLACKBUILD NAME: dropbox
 SLACKBUILD LOCATION: ./dropbox
 SLACKBUILD FILES: README doinst.sh dropbox.SlackBuild dropbox.desktop dropbox.info dropbox.png slack-desc terms.txt
-SLACKBUILD VERSION: 2.4.0
-SLACKBUILD DOWNLOAD: https://dl-web.dropbox.com/u/17/dropbox-lnx.x86-2.4.0.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: https://dl-web.dropbox.com/u/17/dropbox-lnx.x86_64-2.4.0.tar.gz
-SLACKBUILD MD5SUM: c2de1035ee52cf5825cbc5eee62871ed
-SLACKBUILD MD5SUM_x86_64: 8c8aedbd2ba1f34c1c1682752644c43d
+SLACKBUILD VERSION: 2.4.6
+SLACKBUILD DOWNLOAD: http://dl-web.dropbox.com/u/17/dropbox-lnx.x86-2.4.6.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: http://dl-web.dropbox.com/u/17/dropbox-lnx.x86_64-2.4.6.tar.gz
+SLACKBUILD MD5SUM: 129048ff25b2ff2151a1d7624bd2eb92
+SLACKBUILD MD5SUM_x86_64: 7e54239b810f17af85cc5f605778ff85
 SLACKBUILD SHORT DESCRIPTION:  dropbox (store, sync and share files online)
 
 SLACKBUILD NAME: python-e_dbus
@@ -577,66 +577,6 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 8260b1e6c0369da35ebcfe8c8f840f2b
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Grive (Google Drive client)
-
-SLACKBUILD NAME: gst-libav
-SLACKBUILD LOCATION: ./gst-libav
-SLACKBUILD FILES: README gst-libav.SlackBuild gst-libav.info slack-desc
-SLACKBUILD VERSION: 1.0.2
-SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.0.2.tar.xz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: b932d386711a1b14d08c3b7d3021934b
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  gst-libav (GStreamer AV plugin)
-
-SLACKBUILD NAME: gst-plugins-bad
-SLACKBUILD LOCATION: ./gst-plugins-bad
-SLACKBUILD FILES: README gst-plugins-bad.SlackBuild gst-plugins-bad.info slack-desc
-SLACKBUILD VERSION: 1.0.2
-SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.0.2.tar.xz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 17f2ba1b51347061f8f81436d6c7b65e
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  gst-plugins-bad (a set GStreamer plugins)
-
-SLACKBUILD NAME: gst-plugins-base
-SLACKBUILD LOCATION: ./gst-plugins-base
-SLACKBUILD FILES: README gst-plugins-base.SlackBuild gst-plugins-base.info slack-desc
-SLACKBUILD VERSION: 1.0.2
-SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.0.2.tar.xz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 57cff96bfbb5e6f06c4226b141e1f990
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  gst-plugins-base (base set of GStreamer plugins)
-
-SLACKBUILD NAME: gst-plugins-good
-SLACKBUILD LOCATION: ./gst-plugins-good
-SLACKBUILD FILES: README gst-plugins-good.SlackBuild gst-plugins-good.info slack-desc
-SLACKBUILD VERSION: 1.0.0
-SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.0.0.tar.xz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: f711832cd8a9b033eb424fabe89ca9d1
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  gst-plugins-good (good set of GStreamer plugins)
-
-SLACKBUILD NAME: gst-plugins-ugly
-SLACKBUILD LOCATION: ./gst-plugins-ugly
-SLACKBUILD FILES: README gst-plugins-ugly.SlackBuild gst-plugins-ugly.info slack-desc
-SLACKBUILD VERSION: 1.0.2
-SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.0.2.tar.xz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: c72d307b37742d2ba1efd4d04884f56b
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  gst-plugins-ugly (a set of GStreamer plugins)
-
-SLACKBUILD NAME: gstreamer
-SLACKBUILD LOCATION: ./gstreamer
-SLACKBUILD FILES: README gstreamer.SlackBuild gstreamer.info slack-desc
-SLACKBUILD VERSION: 1.0.2
-SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.0.2.tar.xz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 1faa5a86feddf87af57e72f42d060b3d
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  GStreamer (streaming multimedia framework)
 
 SLACKBUILD NAME: gtkmm
 SLACKBUILD LOCATION: ./gtkmm

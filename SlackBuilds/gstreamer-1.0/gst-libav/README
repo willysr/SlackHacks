@@ -1,3 +1,0 @@
-GStreamer AV Plugin contains one plugin with a set of elements using 
-the FFmpeg library code. It contains most popular decoders as well as 
-very fast colorspace conversion elements. 
