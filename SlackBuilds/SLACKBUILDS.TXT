@@ -931,10 +931,10 @@ SLACKBUILD SHORT DESCRIPTION:  nixnote (Open Source Client for Evernote)
 SLACKBUILD NAME: opencv
 SLACKBUILD LOCATION: ./opencv
 SLACKBUILD FILES: README fsh.patch opencv.SlackBuild opencv.info slack-desc
-SLACKBUILD VERSION: 2.4.6.1
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/opencvlibrary/opencv-2.4.6.1.tar.gz
+SLACKBUILD VERSION: 2.4.7
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/opencvlibrary/opencv-2.4.7.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: d756bfa460891697571d5c90050e1cfe
+SLACKBUILD MD5SUM: 33a12a8bba6e6dc32c97298c99b083b2
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  OpenCV (Open Source Computer Vision)
 
@@ -1181,10 +1181,10 @@ SLACKBUILD SHORT DESCRIPTION:  wxGTK3 (cross-platform GUI toolkit)
 SLACKBUILD NAME: xchm
 SLACKBUILD LOCATION: ./xchm
 SLACKBUILD FILES: README slack-desc xchm.SlackBuild xchm.info
-SLACKBUILD VERSION: 1.21
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/xchm/xchm-1.21.tar.gz
+SLACKBUILD VERSION: 1.23
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/xchm/xchm-1.23.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 9bfe439ce94554ebae95d84f7a1db8e7
+SLACKBUILD MD5SUM: 486d029bd81071a2d04e7181909b1602
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  xchm (viewer for .chm files)
 
