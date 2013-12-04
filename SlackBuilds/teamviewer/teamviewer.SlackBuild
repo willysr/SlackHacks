@@ -34,9 +34,10 @@
 # February 19: Rebuilt to add more documentation and remove dangling symlinks
 # September 22: Upgraded to 8.0.20931
 # November 5: Upgraded to 9.0.23343
+# December 4: Upgraded to 9.0.24147
 
 PRGNAM=teamviewer
-VERSION=${VERSION:-9.0.23343}
+VERSION=${VERSION:-9.0.24147}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then

@@ -118,6 +118,16 @@ SLACKBUILD MD5SUM: 0fdc13a62c376c38c45b2929e517f735
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Brainworkshop (a Dual N-Back game)
 
+SLACKBUILD NAME: bullet
+SLACKBUILD LOCATION: ./bullet
+SLACKBUILD FILES: README bullet.SlackBuild bullet.info slack-desc
+SLACKBUILD VERSION: 2.82_r2704
+SLACKBUILD DOWNLOAD: https://bullet.googlecode.com/files/bullet-2.82-r2704.tgz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 70b3c8d202dee91a0854b4cbc88173e8
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  bullet (3D Real-Time Multiphysics Library)
+
 SLACKBUILD NAME: cairomm
 SLACKBUILD LOCATION: ./cairomm
 SLACKBUILD FILES: README cairomm.SlackBuild cairomm.info slack-desc
@@ -1001,11 +1011,11 @@ SLACKBUILD SHORT DESCRIPTION:  Sysprof (Performance Profiler)
 SLACKBUILD NAME: teamviewer
 SLACKBUILD LOCATION: ./teamviewer
 SLACKBUILD FILES: README doinst.sh rc.teamviewerd slack-desc teamviewer.SlackBuild teamviewer.info
-SLACKBUILD VERSION: 9.0.23343
-SLACKBUILD DOWNLOAD: http://download.teamviewer.com/download/version_9x/teamviewer_linux.deb
-SLACKBUILD DOWNLOAD_x86_64: http://download.teamviewer.com/download/version_9x/teamviewer_linux_x64.deb
-SLACKBUILD MD5SUM: 6c218ebba47c4f068c434d7f231a9be4
-SLACKBUILD MD5SUM_x86_64: a672ffefd2607a234a570bf14f6071e9
+SLACKBUILD VERSION: 9.0.24147
+SLACKBUILD DOWNLOAD: http://download.teamviewer.com/download/teamviewer_linux.deb
+SLACKBUILD DOWNLOAD_x86_64: http://download.teamviewer.com/download/teamviewer_linux_x64.deb
+SLACKBUILD MD5SUM: 30ef9747757fec507a489bff34698c0e
+SLACKBUILD MD5SUM_x86_64: ab46126b05e523479b53d576254f5a43
 SLACKBUILD SHORT DESCRIPTION:  teamviewer (remote control application)
 
 SLACKBUILD NAME: tlp
