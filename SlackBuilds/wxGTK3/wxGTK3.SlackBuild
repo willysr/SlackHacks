@@ -40,10 +40,6 @@ TMP=${TMP:-/tmp/build}
 PKG=$TMP/package-$PRGNAM
 OUTPUT=${OUTPUT:-/tmp}
 
-# If you don't want a unicode-enabled build, change to NO or
-# pass UNICODE=NO ./wxGTK3.SlackBuild when building
-UNICODE=${UNICODE:-YES}
-
 if [ "$ARCH" = "i486" ]; then
   SLKCFLAGS="-O2 -march=i486 -mtune=i686"
   LIBDIRSUFFIX=""
@@ -73,13 +69,6 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-# Set unicode flag as desired by UNICODE variable
-if [ "$UNICODE" = "YES" ]; then
-  unicode=""
-elif [ "$UNICODE" = "NO" ]; then
-  unicode="--disable-unicode"
-fi
-
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
 ./configure \
@@ -91,7 +80,6 @@ CXXFLAGS="$SLKCFLAGS" \
   --with-opengl \
   --enable-graphics_ctx \
   --with-gtk=3 \
-  ${unicode} \
   --build=$ARCH-slackware-linux
 
 make
@@ -103,11 +91,7 @@ find $PKG | xargs file | grep -e "executable" -e "shared object" | grep ELF \
 # Now let's fix the broken symlink created by the package
 ( cd $PKG/usr/bin
   rm wx-config
-  if [ "$UNICODE" = "YES" ]; then
-    ln -s /usr/lib${LIBDIRSUFFIX}/wx/config/gtk3-unicode-release-3.0 wx-config
-  elif [ "$UNICODE" = "NO" ]; then
-    ln -s /usr/lib${LIBDIRSUFFIX}/wx/config/gtk3-ansi-release-3.0 wx-config
-  fi 
+  ln -s /usr/lib${LIBDIRSUFFIX}/wx/config/gtk3-unicode-release-3.0 wx-config
 )
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
