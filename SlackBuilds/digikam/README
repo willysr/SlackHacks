@@ -6,14 +6,14 @@ is provided that enables you to connect to your camera and preview,
 download and/or delete your images.
 
 Requirements
-  - KDE 4.10.x or newer 
+  - KDE 4.10.x or newer
   - ffmpeg
   - QJson
-  - OpenCV 
-  - liblqr
+  - OpenCV
+  - liblqr (optional)
   - lensfun (optional)
   - libdc1394 (optional)
   - libpgf (optional)
   - eigen3 (optional)
   
-Note: I'm using AlienBOB's ffmpeg (1.2) to build this package
+Note: I'm using ffmpeg 2.1 to build this package

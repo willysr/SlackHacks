@@ -31,10 +31,10 @@ SLACKBUILD SHORT DESCRIPTION:  ProjectLibre (Project Management Software)
 SLACKBUILD NAME: QtGStreamer
 SLACKBUILD LOCATION: ./QtGStreamer
 SLACKBUILD FILES: QtGStreamer.SlackBuild QtGStreamer.info README slack-desc
-SLACKBUILD VERSION: 0.10.2
-SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/qt-gstreamer/qt-gstreamer-0.10.2.tar.gz
+SLACKBUILD VERSION: 0.10.3
+SLACKBUILD DOWNLOAD: http://gstreamer.freedesktop.org/src/qt-gstreamer/qt-gstreamer-0.10.3.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 0428aedf2874fd0884ad4c41db9da20e
+SLACKBUILD MD5SUM: a5f73dfa50270a23a0b07af32304e162
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  QtGStreamer (C++ Bindings for GStreamer)
 

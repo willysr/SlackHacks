@@ -1,4 +1,10 @@
 +--------------------------+
+Sun Dec  8 22:46:13 WIT 2013
+digiKam: Updated README
+lensfun: Migrate to cmake
+QtGstreamer: Upgraded to 0.10.3
+
++--------------------------+
 Wed Dec  4 08:34:34 GMT+7 2013
 teamviewer: Upgraded to 9.0.24147
 
