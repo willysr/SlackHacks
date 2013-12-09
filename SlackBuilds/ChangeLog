@@ -1,4 +1,9 @@
 +--------------------------+
+Tue Dec 10 00:03:26 GMT+7 2013
+e18/*: Added
+  This is EFL 1.8 with enlightenment 1.7.5
+
++--------------------------+
 Sun Dec  8 22:46:13 WIT 2013
 digiKam: Updated README
 lensfun: Migrate to cmake
@@ -846,7 +851,7 @@ insync-kde: Rebuilt
 Tue Jan 29 17:21:43 GMT+7 2013
 insync-kde: Rebuilt
   Point to the correct library folder in x86_64 machines
-  Big thanks to Marcel Sägebarth for testing
+  Big thanks to Marcel SÃ¤gebarth for testing
 
 +--------------------------+
 Tue Jan 29 16:53:25 GMT+7 2013

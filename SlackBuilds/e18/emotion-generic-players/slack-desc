@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+                       |-----handy-ruler------------------------------------------------------|
+emotion-generic-players: emotion-generic-players (Video Decoders)
+emotion-generic-players:
+emotion-generic-players: Emotion is a video (and audio) codec playback library that acts as a
+emotion-generic-players: front-end to libxine or gstreamer (or something else more generic)
+emotion-generic-players: that provides and evas object as a control object and video output
+emotion-generic-players: point.
+emotion-generic-players: It makes using video APIs much simpler and easier while it's at it.
+emotion-generic-players:
+emotion-generic-players:
+emotion-generic-players: Project Site: http://www.enlightenment.org/
+emotion-generic-players:

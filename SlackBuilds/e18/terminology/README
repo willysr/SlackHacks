@@ -1,0 +1,11 @@
+The best terminal emulator written with the EFL.
+
+This release features:
+
+    text reflow on resize,
+    full 256 colors support,
+    improved terminal compatibility,
+    improved selection handling,
+    backscroll compression to reduce memory usage,
+    many bug fixes,
+    and more!
