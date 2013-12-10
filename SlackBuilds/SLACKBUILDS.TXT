@@ -190,11 +190,11 @@ SLACKBUILD SHORT DESCRIPTION:  cssutils (CSS parser and builder)
 
 SLACKBUILD NAME: cups-filters
 SLACKBUILD LOCATION: ./cups-filters
-SLACKBUILD FILES: README cups-filters.SlackBuild cups-filters.info slack-desc
-SLACKBUILD VERSION: 1.0.41
-SLACKBUILD DOWNLOAD: https://www.openprinting.org/download/cups-filters/cups-filters-1.0.41.tar.xz
+SLACKBUILD FILES: README cups-filters.SlackBuild cups-filters.info slack-desc use-system-path-max.patch
+SLACKBUILD VERSION: 1.0.42
+SLACKBUILD DOWNLOAD: https://www.openprinting.org/download/cups-filters/cups-filters-1.0.42.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: fe5a9a07b9a64b35975154068cbedef9
+SLACKBUILD MD5SUM: 3047524b51f2ac064663f1997c7d2c81
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  cups-filters (CUPS backend and filters)
 
@@ -511,10 +511,10 @@ SLACKBUILD SHORT DESCRIPTION:  E_dbus (one of the Enlightenment DR17 foundation 
 SLACKBUILD NAME: econnman
 SLACKBUILD LOCATION: ./econnman
 SLACKBUILD FILES: README doinst.sh econnman.SlackBuild econnman.info slack-desc
-SLACKBUILD VERSION: r0551b4ccf24b
-SLACKBUILD DOWNLOAD: http://files.slackware-id.org/econnman.tar.xz
+SLACKBUILD VERSION: 1.1
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/apps/econnman/econnman-1.1.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 8a07d6d4ba7607206d59e4d0ada2b521
+SLACKBUILD MD5SUM: 64ccd94e8f2d92a91447566ee2af67e6
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  econnman (E18 ConnMan UI)
 
