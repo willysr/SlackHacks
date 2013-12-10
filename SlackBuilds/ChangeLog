@@ -1,4 +1,10 @@
 +--------------------------+
+Tue Dec 10 08:48:49 GMT+7 2013
+e18/EFL: Upgraded to 1.8.2
+e18/elementary: Upgraded to 1.8.1
+e18/evas-generic-loaders: Upgraded to 1.8.1
+
++--------------------------+
 Tue Dec 10 00:03:26 GMT+7 2013
 e18/*: Added
   This is EFL 1.8 with enlightenment 1.7.5

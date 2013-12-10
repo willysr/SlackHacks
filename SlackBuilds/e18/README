@@ -2,10 +2,12 @@ This is set of E18 packages
 
 Complete Build Order :
 - EFL
-- Evas Generic Loaders
-- Emotion Generic Players
-- Elementary
-- Python-EFL *optional*
+- e_dbus
+- elementary
+- evas-generic-loaders
+- emotion-generic-players
+- terminology
+- python-EFL
 - connman
-- Econnman *optional*
-- Enlightenment
+- econnman
+- enlightenment
