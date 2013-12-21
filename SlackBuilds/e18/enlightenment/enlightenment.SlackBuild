@@ -82,9 +82,12 @@ CXXFLAGS="$SLKCFLAGS" \
   --disable-static \
   --disable-device-hal \
   --enable-device-udev \
+  --disable-mount-hal \
   --enable-mount-udisks \
   --enable-mount-eeze \
+  --enable-emotion \
   --enable-enotify \
+  --enable-elementary \
   --disable-doc \
   --build=$ARCH-slackware-linux
 
