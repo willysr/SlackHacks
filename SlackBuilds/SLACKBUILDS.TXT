@@ -191,10 +191,10 @@ SLACKBUILD SHORT DESCRIPTION:  cssutils (CSS parser and builder)
 SLACKBUILD NAME: cups-filters
 SLACKBUILD LOCATION: ./cups-filters
 SLACKBUILD FILES: README cups-filters.SlackBuild cups-filters.info slack-desc use-system-path-max.patch
-SLACKBUILD VERSION: 1.0.42
-SLACKBUILD DOWNLOAD: https://www.openprinting.org/download/cups-filters/cups-filters-1.0.42.tar.xz
+SLACKBUILD VERSION: 1.0.43
+SLACKBUILD DOWNLOAD: https://www.openprinting.org/download/cups-filters/cups-filters-1.0.43.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 3047524b51f2ac064663f1997c7d2c81
+SLACKBUILD MD5SUM: 50f760c4cb7be37544c1174a12b1900e
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  cups-filters (CUPS backend and filters)
 
@@ -544,7 +544,7 @@ SLACKBUILD FILES: README doinst.sh enlightenment.SlackBuild enlightenment.info s
 SLACKBUILD VERSION: 0.18.0
 SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/enlightenment-0.18.0.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 5575064fab5b3c7e9653ebd6194edf32
+SLACKBUILD MD5SUM: 45e3a7dc4d2cdaae36249dbcf8a0ed11
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Enlightenment DR18 (a window manager and desktop shell)
 

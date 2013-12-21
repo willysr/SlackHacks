@@ -20,24 +20,8 @@
 #  OTHERWISE) ARISING IN ANY WAY OUTPUT OF THE USE OF THIS SOFTWARE, EVEN IF
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-# Changelog
-# July 19 : Initial release
-# July 23 : Upgraded to 1.0.20
-# January 10: Upgraded to 1.0.29
-# March 19: Upgraded to 1.0.30
-# March 21: Upgraded to 1.0.31
-# April 6: Upgraded to 1.0.33
-# April 12: Upgraded to 1.0.34
-# July 15: Upgraded to 1.0.35
-# August 14: Upgraded to 1.0.36
-# August 30: Upgraded to 1.0.37
-# October 1: Upgraded to 1.0.38
-# October 27: Upgraded to 1.0.40
-# October 31: Upgraded to 1.0.41
-# December 10: Upgraded to 1.0.42
-
 PRGNAM=cups-filters
-VERSION=${VERSION:-1.0.42}
+VERSION=${VERSION:-1.0.43}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -83,7 +67,6 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-patch -p0 < $CWD/use-system-path-max.patch
 CFLAGS="$CFLAGS -ldl" \
 ./configure \
   --prefix=/usr \
