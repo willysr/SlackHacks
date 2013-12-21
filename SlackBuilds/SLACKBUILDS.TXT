@@ -481,10 +481,10 @@ SLACKBUILD SHORT DESCRIPTION:  Evas (one of the Enlightenment DR17 foundation li
 SLACKBUILD NAME: EFL
 SLACKBUILD LOCATION: ./EFL
 SLACKBUILD FILES: EFL.SlackBuild EFL.info README slack-desc
-SLACKBUILD VERSION: 1.8.2
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/libs/efl/efl-1.8.2.tar.gz
+SLACKBUILD VERSION: 1.8.3
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/libs/efl/efl-1.8.3.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: c50713c4571e8e7efc95ef01f4558e22
+SLACKBUILD MD5SUM: 5d247993aa62a38d80c7f2ac5dc8a51d
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  EFL (EFL Core Libraries)
 
@@ -521,10 +521,10 @@ SLACKBUILD SHORT DESCRIPTION:  econnman (E18 ConnMan UI)
 SLACKBUILD NAME: elementary
 SLACKBUILD LOCATION: ./elementary
 SLACKBUILD FILES: README doinst.sh elementary.SlackBuild elementary.info slack-desc
-SLACKBUILD VERSION: 1.8.1
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/libs/elementary/elementary-1.8.1.tar.gz
+SLACKBUILD VERSION: 1.8.2
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/libs/elementary/elementary-1.8.2.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 3baca6b93dc0ce7e2f59c7497c0949ad
+SLACKBUILD MD5SUM: cf0d81094bc4cacd561ecdac6d1f2f6b
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  elementary (toolkit set)
 
@@ -541,10 +541,10 @@ SLACKBUILD SHORT DESCRIPTION:  emotion-generic-players (Video Decoders)
 SLACKBUILD NAME: enlightenment
 SLACKBUILD LOCATION: ./enlightenment
 SLACKBUILD FILES: README doinst.sh enlightenment.SlackBuild enlightenment.info slack-desc xinitrc.enlightenment18
-SLACKBUILD VERSION: 0.17.5
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/enlightenment-0.17.5.tar.bz2
+SLACKBUILD VERSION: 0.18.0
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/enlightenment-0.18.0.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 6ba44073b26f85e3a0a053fbaf17b6be
+SLACKBUILD MD5SUM: 5575064fab5b3c7e9653ebd6194edf32
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Enlightenment DR18 (a window manager and desktop shell)
 
