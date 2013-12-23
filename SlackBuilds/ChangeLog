@@ -1,4 +1,10 @@
 +--------------------------+
+Mon Dec 23 20:30:07 GMT+7 2013
+itstool: Removed. 
+  Now part of Slackware
+
++--------------------------+
+Sat Dec 21 20:20:00 GMT+7 2013
 cups-filters: Upgraded to 1.0.43
 EFL: Upgraded to 1.8.3
 elementary: Upgraded to 1.8.2
