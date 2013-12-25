@@ -491,10 +491,10 @@ SLACKBUILD SHORT DESCRIPTION:  EFL (EFL Core Libraries)
 SLACKBUILD NAME: connman
 SLACKBUILD LOCATION: ./connman
 SLACKBUILD FILES: README allow_group_network.diff connman.SlackBuild connman.info doinst.sh rc.connmand slack-desc
-SLACKBUILD VERSION: 1.19
-SLACKBUILD DOWNLOAD: http://www.kernel.org/pub/linux/network/connman/connman-1.19.tar.xz
+SLACKBUILD VERSION: 1.20
+SLACKBUILD DOWNLOAD: http://www.kernel.org/pub/linux/network/connman/connman-1.20.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 47cce1d17a693dc307e6796c81991bd0
+SLACKBUILD MD5SUM: 15f5e0d89e01b81c79306f54a2014efd
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  connman (Open Source Connection Manager)
 
