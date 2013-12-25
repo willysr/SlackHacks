@@ -820,11 +820,11 @@ SLACKBUILD SHORT DESCRIPTION:  libdc1394 (1394-Based Digital Camera Control Libr
 
 SLACKBUILD NAME: libgda
 SLACKBUILD LOCATION: ./libgda
-SLACKBUILD FILES: README libgda.SlackBuild libgda.info slack-desc
-SLACKBUILD VERSION: 5.2.1
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/libgda/5.2/libgda-5.2.1.tar.xz
+SLACKBUILD FILES: README doinst.sh libgda.SlackBuild libgda.info slack-desc
+SLACKBUILD VERSION: 5.2.2
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/libgda/5.2/libgda-5.2.2.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: b42958a36765183ecce1926e40067ffd
+SLACKBUILD MD5SUM: d2676630e621ddf5db6e336e62c23742
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  libgda (GNOME DB)
 
