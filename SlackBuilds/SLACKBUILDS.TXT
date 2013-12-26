@@ -668,6 +668,16 @@ SLACKBUILD MD5SUM:
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  gnugo 
 
+SLACKBUILD NAME: gogglesmm
+SLACKBUILD LOCATION: ./gogglesmm
+SLACKBUILD FILES: README doinst.sh gogglesmm.SlackBuild gogglesmm.info slack-desc
+SLACKBUILD VERSION: 0.12.7
+SLACKBUILD DOWNLOAD: http://gogglesmm.googlecode.com/files/gogglesmm-0.12.7.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: c59f004806bdee8cd8c9353729c82262
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  gogglesmm (Goggles Music Manager)
+
 SLACKBUILD NAME: google-earth
 SLACKBUILD LOCATION: ./google-earth
 SLACKBUILD FILES: README doinst.sh google-earth-mimetypes.xml google-earth.SlackBuild google-earth.info slack-desc
