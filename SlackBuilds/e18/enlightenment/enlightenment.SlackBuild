@@ -24,7 +24,7 @@
 
 
 PRGNAM=enlightenment
-VERSION=${VERSION:-0.18.1}
+VERSION=${VERSION:-0.18.2}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
