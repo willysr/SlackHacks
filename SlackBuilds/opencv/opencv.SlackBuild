@@ -12,9 +12,10 @@
 # July 8: Upgraded to 2.4.6
 # July 12: Upgraded to 2.4.6.1
 # Nov 26: Upgraded to 2.4.7
+# Jan 3: Upgraded to 2.4.8
 
 PRGNAM=opencv
-VERSION=${VERSION:-2.4.7}
+VERSION=${VERSION:-2.4.8}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -50,7 +51,7 @@ rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
 rm -rf $PRGNAM-$VERSION
-tar xvf $CWD/$PRGNAM-${VERSION}.tar.gz
+unzip $CWD/$PRGNAM-${VERSION}.zip
 cd $PRGNAM-$VERSION
 chown -R root:root .
 find -L . \

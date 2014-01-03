@@ -981,10 +981,10 @@ SLACKBUILD SHORT DESCRIPTION:  nixnote (Open Source Client for Evernote)
 SLACKBUILD NAME: opencv
 SLACKBUILD LOCATION: ./opencv
 SLACKBUILD FILES: README fsh.patch opencv.SlackBuild opencv.info slack-desc
-SLACKBUILD VERSION: 2.4.7
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/opencvlibrary/opencv-2.4.7.tar.gz
+SLACKBUILD VERSION: 2.4.8
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/opencvlibrary/opencv-2.4.8.zip
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 33a12a8bba6e6dc32c97298c99b083b2
+SLACKBUILD MD5SUM: 50cc1433b3654074206f5b3dbfd49848
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  OpenCV (Open Source Computer Vision)
 
