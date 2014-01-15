@@ -2,19 +2,17 @@ Description: Patch to support Apple AirPrint (printing from iPhone, iPad, iPod T
 Author: Till Kamppeter <till.kamppeter@gmail.com>
 Bug: https://bugs.launchpad.net/bugs/711779
 
-@@ -737,9 +737,9 @@
-   Browsing                 = CUPS_DEFAULT_BROWSING;
+--- a/scheduler/conf.c
++++ b/scheduler/conf.c
+@@ -722,7 +722,7 @@
    DefaultShared            = CUPS_DEFAULT_DEFAULT_SHARED;
  
--#ifdef HAVE_DNSSD
+ #if defined(HAVE_DNSSD) || defined(HAVE_AVAHI)
 -  cupsdSetString(&DNSSDSubTypes, "_cups,_print");
--#endif /* HAVE_DNSSD */
-+#if defined(HAVE_DNSSD) || defined(HAVE_AVAHI)
 +  cupsdSetString(&DNSSDSubTypes, "_cups,_print,_universal");
-+#endif /* HAVE_DNSSD || HAVE_AVAHI */
+ #endif /* HAVE_DNSSD || HAVE_AVAHI */
  
    cupsdSetString(&LPDConfigFile, CUPS_DEFAULT_LPD_CONFIG_FILE);
-   cupsdSetString(&SMBConfigFile, CUPS_DEFAULT_SMB_CONFIG_FILE);
 --- a/scheduler/dirsvc.c
 +++ b/scheduler/dirsvc.c
 @@ -621,6 +621,12 @@
@@ -54,16 +52,17 @@ Bug: https://bugs.launchpad.net/bugs/711779
  ########################################################################
  #
  # Text files...
---- a/scheduler/printers.c
-+++ b/scheduler/printers.c
-@@ -3614,7 +3614,9 @@
+
+--- a/scheduler/printers.c	2014-01-16 06:49:08.198830762 +0700
++++ b/scheduler/printers.c	2014-01-16 06:55:05.607981589 +0700
+@@ -3505,7 +3505,9 @@
        }
        else if (!_cups_strcasecmp(type->super, "image"))
        {
 -        if (!_cups_strcasecmp(type->type, "jpeg"))
 +        if (!_cups_strcasecmp(type->type, "urf"))
-+	  strlcat(pdl, "image/urf,", sizeof(pdl));
-+	else if (!_cups_strcasecmp(type->type, "jpeg"))
++          strlcat(pdl, "image/urf,", sizeof(pdl));
++        else if (!_cups_strcasecmp(type->type, "jpeg"))
  	  strlcat(pdl, "image/jpeg,", sizeof(pdl));
  	else if (!_cups_strcasecmp(type->type, "png"))
  	  strlcat(pdl, "image/png,", sizeof(pdl));
