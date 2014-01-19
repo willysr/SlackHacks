@@ -561,10 +561,10 @@ SLACKBUILD SHORT DESCRIPTION:  evas-generic-loaders (Image Decoders)
 SLACKBUILD NAME: python-EFL
 SLACKBUILD LOCATION: ./python-EFL
 SLACKBUILD FILES: README python-EFL.SlackBuild python-EFL.info slack-desc
-SLACKBUILD VERSION: 1.8.0
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/bindings/python/python-efl-1.8.0.tar.gz
+SLACKBUILD VERSION: 1.8.1
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/bindings/python/python-efl-1.8.1.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 58a55193caee3c2c74fd962cc17bc9c1
+SLACKBUILD MD5SUM: ca71f501c7e0479f15d2746380b0f81d
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  python-EFL (Python Binding for EFL)
 
