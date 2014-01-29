@@ -1,7 +1,7 @@
 PRGNAM="enlightenment"
 VERSION="0.18.3"
 HOMEPAGE="http://www.enlightenment.org/"
-DOWNLOAD="http://download.enlightenment.org/releases/enlightenment-0.18.3.tar.bz2"
+DOWNLOAD="http://download.enlightenment.org/releases/enlightenment-0.18.3.tar.gz"
 MD5SUM="9f6e6c296b88b038ac05415006c678fd"
 DOWNLOAD_x86_64=""
 MD5SUM_x86_64=""
