@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Copyright 2012-2013 Willy Sudiarto Raharjo <willysr@slackware-id.org>
+# Copyright 2014 Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # All rights reserved.
 #
 # Redistribution and use of this script, with or without modification, is
@@ -20,14 +20,7 @@
 # OTHERWISE) ARISING IN ANY WAY OUTPUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-# Changelog
-# July 29: Initial Release
-# November 14: Rebuilt to make it work with Aegisub
-# February 29: switched to SVN to make it work with newer ffmpeg (1.1.x)
-# September 18: Upgraded to 2.19
-
-PRGNAM=ffms
-SRCNAM=ffms2
+PRGNAM=ffms2
 VERSION=${VERSION:-2.19}
 BUILD=${BUILD:-1wsr}
 
@@ -58,9 +51,9 @@ OUTPUT=${OUTPUT:-/tmp}
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
-rm -rf $SRCNAM-$VERSION
-tar xvf $CWD/$SRCNAM-$VERSION.tar.gz || exit 1
-cd $SRCNAM-$VERSION
+rm -rf $PRGNAM-$VERSION
+tar xvf $CWD/$PRGNAM-$VERSION.tar.gz || tar xvf $CWD/$VERSION.tar.gz
+cd $PRGNAM-$VERSION
 chown -R root:root .
 find -L . \
  \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
@@ -85,8 +78,8 @@ cat $CWD/slack-desc > $PKG/install/slack-desc
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 cp COPYING INSTALL doc/* $PKG/usr/doc/$PRGNAM-$VERSION
 
-find $PKG | xargs file | grep -e "executable" -e "shared object" \
-  | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
+find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
+  | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
 
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD.${PKGTYPE:-txz}
