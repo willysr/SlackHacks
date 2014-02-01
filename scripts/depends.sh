@@ -34,6 +34,6 @@ if [ -z $1 ]; then
 else
   for DIR in $SBOPATH
   do
-    find $DIR -maxdepth 2 -name "*.info" -exec grep -lE "REQUIRES=\".*$1.*\"" {} + | awk -F'/' '{print $(NF-2)"/"$(NF-1)}' | sort
+    find $DIR -mindepth 1 -maxdepth 2 -name "*.info" -exec grep -lE "REQUIRES=\".*$1.*\"" {} + | awk -F'/' '{print $(NF-2)"/"$(NF-1)}' | sort
   done
 fi
