@@ -50,11 +50,11 @@ SLACKBUILD SHORT DESCRIPTION:  TeamSpeak3 (Voice Communication)
 
 SLACKBUILD NAME: aegisub
 SLACKBUILD LOCATION: ./aegisub
-SLACKBUILD FILES: README aegisub.SlackBuild aegisub.info slack-desc
-SLACKBUILD VERSION: 3.0.4
-SLACKBUILD DOWNLOAD: http://ftp.aegisub.org/pub/releases/aegisub-3.0.4.tar.xz
+SLACKBUILD FILES: README aegisub.SlackBuild aegisub.info doinst.sh slack-desc
+SLACKBUILD VERSION: 3.1.1
+SLACKBUILD DOWNLOAD: http://ftp.aegisub.org/pub/releases/aegisub-3.1.1.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 0f22d63ed4c502f3801795fa623a4f41
+SLACKBUILD MD5SUM: b2d4cf8da35a703bdd00c1b89dde39bf
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  aegisub (General-purpose subtitle editor)
 
@@ -542,7 +542,7 @@ SLACKBUILD NAME: enlightenment
 SLACKBUILD LOCATION: ./enlightenment
 SLACKBUILD FILES: README doinst.sh enlightenment.SlackBuild enlightenment.info slack-desc xinitrc.enlightenment18
 SLACKBUILD VERSION: 0.18.3
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/enlightenment-0.18.3.tar.bz2
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/enlightenment-0.18.3.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
 SLACKBUILD MD5SUM: 9f6e6c296b88b038ac05415006c678fd
 SLACKBUILD MD5SUM_x86_64: 
@@ -608,15 +608,15 @@ SLACKBUILD MD5SUM: 067514bb53ff76b81d578676e2048319
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  ettercap (Sniffer Suite)
 
-SLACKBUILD NAME: ffms
-SLACKBUILD LOCATION: ./ffms
-SLACKBUILD FILES: README ffms.SlackBuild ffms.info slack-desc
+SLACKBUILD NAME: ffms2
+SLACKBUILD LOCATION: ./ffms2
+SLACKBUILD FILES: README ffms2.SlackBuild ffms2.info slack-desc
 SLACKBUILD VERSION: 2.19
 SLACKBUILD DOWNLOAD: https://github.com/FFMS/ffms2/archive/2.19.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
 SLACKBUILD MD5SUM: 514402714213e02285e55b310be7b4fb
 SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  ffms (a cross-platform wrapper library)
+SLACKBUILD SHORT DESCRIPTION:  ffms2 (a cross-platform wrapper library)
 
 SLACKBUILD NAME: filezilla
 SLACKBUILD LOCATION: ./filezilla

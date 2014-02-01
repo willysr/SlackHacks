@@ -4,10 +4,9 @@ Requirements:
 - PulseAudio (optional)
 - OpenAL (optional)
 - PortAudio (optional)
-- libass (optional)
+- libass
   - enca (optional)
-  - harfbuzz (optional)
-- lua (optional)
-- wxWidgets + wxStyledTextCtrl (2.9.3 or above)
-- FFmpegSource / ffms
+- lua
+- wxWidgets (3.0 and above)
+- ffms2
 - Scintilla
