@@ -27,7 +27,7 @@ MAINTAINER="${MAINTAINER:-Willy Sudiarto Raharjo}"
 
 # Thanks to Benjamin Trigona-Harany
 # The script is now faster, but still produces the same output
-L=`find $SBOPATH -name "*.info" -exec grep -l "$MAINTAINER" {} +`
+L=`find $SBOPATH -maxdepth 2 -name "*.info" -exec grep -l "$MAINTAINER" {} +`
 for list in $L 
 do
   FILENAME=`echo $list | awk -F'/' '{print $(NF-2)"/"$(NF-1)}'`

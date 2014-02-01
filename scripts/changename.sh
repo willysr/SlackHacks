@@ -26,7 +26,7 @@ SBOPATH="/home/willysr/slackbuilds/"
 OLDNAME="Willy"
 NEWNAME="Willy Sudiarto Raharjo"
 
-L=`find $SBOPATH -name "*.info" -exec grep -l "$OLDNAME" {} +`
+L=`find $SBOPATH -maxdepth 2 -name "*.info" -exec grep -l "$OLDNAME" {} +`
 for list in $L 
 do
   sed -i "s/MAINTAINER=\"$OLDNAME\"/MAINTAINER=\"$NEWNAME\"/" $list

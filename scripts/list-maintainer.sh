@@ -30,7 +30,7 @@ MAINTAINER="${MAINTAINER:-}"
 TEMP=/tmp/list-maintainer.tmp
 rm -rf $TEMP
 
-L=`find $SBOPATH -name "*.info" -exec grep -l "$MAINTAINER" {} +`
+L=`find $SBOPATH -maxdepth 2 -name "*.info" -exec grep -l "$MAINTAINER" {} +`
 for list in $L 
 do
   MAINTAINER=$(cat $list | grep "MAINTAINER" | sed 's/MAINTAINER="//' | sed 's/"//')
