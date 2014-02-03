@@ -10,8 +10,8 @@ Requirements
   - ffmpeg
   - QJson
   - OpenCV
-  - liblqr (optional)
-  - lensfun (optional)
+  - liblqr
+  - lensfun
   - libdc1394 (optional)
   - libpgf (optional)
   - eigen3 (optional)
