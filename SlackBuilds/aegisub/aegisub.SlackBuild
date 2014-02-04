@@ -25,10 +25,13 @@
 # November 14: Upgraded to 3.0.2
 # July 8: Upgraded to 3.0.4
 # Feb 1: Upgraded to 3.1.1
+# Feb 4: Upgraded to 3.1.2
 
 PRGNAM=aegisub
-VERSION=${VERSION:-3.1.1}
+VERSION=${VERSION:-3.1.2}
 BUILD=${BUILD:-1wsr}
+
+MVER=3.1
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
@@ -76,6 +79,8 @@ CXXFLAGS="$SLKCFLAGS" \
 
 make
 make install DESTDIR=$PKG
+
+ln -s $PRGNAM-$MVER $PKG/usr/bin/$PRGNAM
 
 find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true

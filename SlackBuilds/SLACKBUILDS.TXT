@@ -51,10 +51,10 @@ SLACKBUILD SHORT DESCRIPTION:  TeamSpeak3 (Voice Communication)
 SLACKBUILD NAME: aegisub
 SLACKBUILD LOCATION: ./aegisub
 SLACKBUILD FILES: README aegisub.SlackBuild aegisub.info doinst.sh slack-desc
-SLACKBUILD VERSION: 3.1.1
-SLACKBUILD DOWNLOAD: http://ftp.aegisub.org/pub/releases/aegisub-3.1.1.tar.xz
+SLACKBUILD VERSION: 3.1.2
+SLACKBUILD DOWNLOAD: http://ftp.aegisub.org/pub/releases/aegisub-3.1.2.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: b2d4cf8da35a703bdd00c1b89dde39bf
+SLACKBUILD MD5SUM: d00c1ee88eb50e9311f4acbeb74149ed
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  aegisub (General-purpose subtitle editor)
 
@@ -491,10 +491,10 @@ SLACKBUILD SHORT DESCRIPTION:  EFL (EFL Core Libraries)
 SLACKBUILD NAME: connman
 SLACKBUILD LOCATION: ./connman
 SLACKBUILD FILES: README allow_group_network.diff connman.SlackBuild connman.info doinst.sh rc.connmand slack-desc
-SLACKBUILD VERSION: 1.20
-SLACKBUILD DOWNLOAD: http://www.kernel.org/pub/linux/network/connman/connman-1.20.tar.xz
+SLACKBUILD VERSION: 1.21
+SLACKBUILD DOWNLOAD: http://www.kernel.org/pub/linux/network/connman/connman-1.21.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 15f5e0d89e01b81c79306f54a2014efd
+SLACKBUILD MD5SUM: 483633162b819c8b99fec970f92e311d
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  connman (Open Source Connection Manager)
 
