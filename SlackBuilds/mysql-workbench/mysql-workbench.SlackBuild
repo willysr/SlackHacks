@@ -3,7 +3,7 @@
 # Slackware build script for mysql-workbench
 
 # Originally written by Andr� Geraldo Vieira <andre.geraldo@gmail.com>
-# Copyright 2013 Willy Sudiarto Raharjo <willysr@slackware-id.org>
+# Copyright 2013-2014 Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # All rights reserved.
 #
 # Redistribution and use of this script, with or without modification, is
@@ -24,7 +24,7 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 PRGNAM=mysql-workbench
-VERSION=${VERSION:-6.0.8}
+VERSION=${VERSION:-6.1.1}
 BUILD=${BUILD:-1wsr}
 
 SRCVERSION=$VERSION-src
@@ -81,6 +81,8 @@ cmake \
     -DCMAKE_CXX_FLAGS:STRING="$SLKCFLAGS" \
     -DCMAKE_INSTALL_PREFIX=/usr \
     -DLIB_INSTALL_DIR=/usr/lib$LIBDIRSUFFIX \
+    -DPYTHON_INCLUDE_DIR:PATH=/usr/include/python2.7 \
+    -DPYTHON_LIBRARY:FILEPATH=/usr/lib$LIBDIRSUFFIX/libpython2.7.so \
     -DCMAKE_BUILD_TYPE=Release ..
 make
 
