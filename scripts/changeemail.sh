@@ -26,7 +26,7 @@ SBOPATH="/home/willysr/slackbuilds/"
 OLDEMAIL="willysr@gmail.com"
 NEWEMAIL="willysr@slackbuilds.org"
 
-L=`find $SBOPATH -mindepth 1 -maxdepth 2 -name "*.info" -exec grep -l "$OLDEMAIL" {} +`
+L=`find $SBOPATH -mindepth 2 -maxdepth 3 -name "*.info" -exec grep -l "$OLDEMAIL" {} +`
 for list in $L 
 do
   sed -i "s/$OLDEMAIL/$NEWEMAIL/i" $list

@@ -36,7 +36,7 @@ else
   results="/tmp/results"
   for DIR in $SBOPATH
   do
-    result=`find $DIR -mindepth 1 -maxdepth 2 -name "*.info" -exec grep -lE "PRGNAM=\"$1\"" {} +`
+    result=`find $DIR -mindepth 2 -maxdepth 3 -name "*.info" -exec grep -lE "PRGNAM=\"$1\"" {} +`
     if ! [ -z $result ]; then
       cat $result | grep "REQUIRES=" | sed 's/REQUIRES="//' | sed 's/"//' | sed 's/%README% //' >> $results
     fi
