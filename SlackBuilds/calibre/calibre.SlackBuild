@@ -112,9 +112,6 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-# Patch not to use Qt Hacks, thanks to Eric Hameleers
-patch -p1 < $CWD/calibre_noqthack.patch
-
 # Calibre 0.8.6 has a version bug:
 INTERNAL_VERSION=$(echo $VERSION | sed -e 's/\./, /g')
 VERSION_CONSTANT=$(grep "^numeric_version" src/calibre/constants.py)
