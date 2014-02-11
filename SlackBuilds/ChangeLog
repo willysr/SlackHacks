@@ -4,6 +4,7 @@ calibre: Upgraded to 1.23.0
 harfbuzz: Removed (part of Slackware)
 filezilla: Upgraded to 3.7.4
 lxml: Upgraded to 3.3.0
+tlp: Upgraded to 0.4.1
 webp -> libwebp
 
 +--------------------------+
