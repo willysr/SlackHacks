@@ -1,5 +1,0 @@
-HarfBuzz is an OpenType text shaping engine.
-
-Requirements:
-- icu
-- GRAPHITE2 (optional)

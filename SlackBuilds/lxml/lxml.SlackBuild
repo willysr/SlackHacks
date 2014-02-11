@@ -11,9 +11,10 @@
 # March 3: Upgraded to 3.1.0
 # June 9: Upgraded to 3.2.1
 # July 30: Upgraded to 3.2.3
+# February 11: Upgraded to 3.3.0
 
 PRGNAM=lxml
-VERSION=${VERSION:-3.2.3}
+VERSION=${VERSION:-3.3.0}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -61,9 +62,7 @@ find $PKG | xargs file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
-cp -a \
-  *.txt PKG-INFO doc/licenses/* doc/FAQ.txt \
-    $PKG/usr/doc/$PRGNAM-$VERSION
+cp -a *.txt PKG-INFO doc/licenses/* doc/FAQ.txt $PKG/usr/doc/$PRGNAM-$VERSION
 rm $PKG/usr/doc/$PRGNAM-$VERSION/version.txt
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 

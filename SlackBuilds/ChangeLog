@@ -1,6 +1,10 @@
 +--------------------------+
-webp -> libwebp
+Tue Feb 11 08:28:13 GMT+7 2014
+calibre: Upgraded to 1.23.0
+harfbuzz: Removed (part of Slackware)
 filezilla: Upgraded to 3.7.4
+lxml: Upgraded to 3.3.0
+webp -> libwebp
 
 +--------------------------+
 Sat Feb  8 10:56:27 GMT+7 2014

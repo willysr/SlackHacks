@@ -141,10 +141,10 @@ SLACKBUILD SHORT DESCRIPTION:  cairomm (C++ wrapper for the cairo graphics libra
 SLACKBUILD NAME: calibre
 SLACKBUILD LOCATION: ./calibre
 SLACKBUILD FILES: README calibre.SlackBuild calibre.info calibre_noqthack.patch slack-desc
-SLACKBUILD VERSION: 1.8.0
-SLACKBUILD DOWNLOAD: http://download.calibre-ebook.com/1.8.0/calibre-1.8.0.tar.xz
+SLACKBUILD VERSION: 1.23.0
+SLACKBUILD DOWNLOAD: http://download.calibre-ebook.com/1.23.0/calibre-1.23.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 7c13fe58eabe1e98a47cfa5d25bebde7
+SLACKBUILD MD5SUM: 3146ce3cdcc0e626ee7f9b8f0bb1be13
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  calibre (e-book library management application)
 
@@ -748,16 +748,6 @@ SLACKBUILD MD5SUM: 5ca1b9c89d2b9370ee203dcc24efd695
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  guvcview (GTK+ UVC Viewer)
 
-SLACKBUILD NAME: harfbuzz
-SLACKBUILD LOCATION: ./harfbuzz
-SLACKBUILD FILES: README harfbuzz.SlackBuild harfbuzz.info slack-desc
-SLACKBUILD VERSION: 0.9.23
-SLACKBUILD DOWNLOAD: http://www.freedesktop.org/software/harfbuzz/release/harfbuzz-0.9.22.tar.bz2
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: a4a9b548577e2ee22f0887937da5fd6c
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  harfbuzz (OpenType text shaping engine)
-
 SLACKBUILD NAME: httperf
 SLACKBUILD LOCATION: ./httperf
 SLACKBUILD FILES: README httperf.SlackBuild httperf.info slack-desc
@@ -941,10 +931,10 @@ SLACKBUILD SHORT DESCRIPTION:  Lua (a powerful, fast, light-weight, embeddable s
 SLACKBUILD NAME: lxml
 SLACKBUILD LOCATION: ./lxml
 SLACKBUILD FILES: README lxml.SlackBuild lxml.info slack-desc
-SLACKBUILD VERSION: 3.2.3
-SLACKBUILD DOWNLOAD: http://pypi.python.org/packages/source/l/lxml/lxml-3.2.3.tar.gz
+SLACKBUILD VERSION: 3.3.0
+SLACKBUILD DOWNLOAD: http://pypi.python.org/packages/source/l/lxml/lxml-3.3.0.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: fef47bb4ac72ac38ce778518dac42236
+SLACKBUILD MD5SUM: ca2f02fd762f3614a1930c568847052b
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  lxml (Python bindings for the libxml2 and libxslt)
 
