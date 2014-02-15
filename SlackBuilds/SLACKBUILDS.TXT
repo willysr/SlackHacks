@@ -140,7 +140,7 @@ SLACKBUILD SHORT DESCRIPTION:  cairomm (C++ wrapper for the cairo graphics libra
 
 SLACKBUILD NAME: calibre
 SLACKBUILD LOCATION: ./calibre
-SLACKBUILD FILES: README calibre.SlackBuild calibre.info calibre_noqthack.patch slack-desc
+SLACKBUILD FILES: README calibre.SlackBuild calibre.info slack-desc
 SLACKBUILD VERSION: 1.23.0
 SLACKBUILD DOWNLOAD: http://download.calibre-ebook.com/1.23.0/calibre-1.23.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
@@ -191,8 +191,8 @@ SLACKBUILD SHORT DESCRIPTION:  cssutils (CSS parser and builder)
 SLACKBUILD NAME: cups-filters
 SLACKBUILD LOCATION: ./cups-filters
 SLACKBUILD FILES: README cups-filters.SlackBuild cups-filters.info slack-desc use-system-path-max.patch
-SLACKBUILD VERSION: 1.0.43
-SLACKBUILD DOWNLOAD: https://www.openprinting.org/download/cups-filters/cups-filters-1.0.43.tar.xz
+SLACKBUILD VERSION: 1.0.45
+SLACKBUILD DOWNLOAD: https://www.openprinting.org/download/cups-filters/cups-filters-1.0.45.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
 SLACKBUILD MD5SUM: 50f760c4cb7be37544c1174a12b1900e
 SLACKBUILD MD5SUM_x86_64: 
