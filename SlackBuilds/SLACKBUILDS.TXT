@@ -541,10 +541,10 @@ SLACKBUILD SHORT DESCRIPTION:  emotion-generic-players (Video Decoders)
 SLACKBUILD NAME: enlightenment
 SLACKBUILD LOCATION: ./enlightenment
 SLACKBUILD FILES: README doinst.sh enlightenment.SlackBuild enlightenment.info slack-desc xinitrc.enlightenment18
-SLACKBUILD VERSION: 0.18.3
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/enlightenment-0.18.3.tar.gz
+SLACKBUILD VERSION: 0.18.4
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/apps/enlightenment/enlightenment-0.18.4.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 9f6e6c296b88b038ac05415006c678fd
+SLACKBUILD MD5SUM: d3534c765d562524c63852f2f40932c3
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Enlightenment DR18 (a window manager and desktop shell)
 
