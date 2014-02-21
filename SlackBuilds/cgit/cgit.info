@@ -1,9 +1,9 @@
 PRGNAM="cgit"
-VERSION="0.9.2"
+VERSION="0.10"
 HOMEPAGE="http://git.zx2c4.com/cgit/"
-DOWNLOAD="http://git.zx2c4.com/cgit/snapshot/cgit-0.9.2.tar.xz \
-          https://git-core.googlecode.com/files/git-1.8.3.tar.gz"
-MD5SUM="fe11018eff8d79caad112f4fac64b90f \
-        d91b6099fb6763cf92c696977a247060"
+DOWNLOAD="http://git.zx2c4.com/cgit/snapshot/cgit-0.10.tar.xz \
+          https://git-core.googlecode.com/files/git-1.8.4.tar.gz"
+MD5SUM="19944c17ecea1b1d1944718ce8ce6b61 \
+        355768a1c70d0cb4fedf4b598ac1375b"
 DOWNLOAD_x86_64=""
 MD5SUM_x86_64=""
