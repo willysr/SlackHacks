@@ -190,11 +190,11 @@ SLACKBUILD SHORT DESCRIPTION:  cssutils (CSS parser and builder)
 
 SLACKBUILD NAME: cups-filters
 SLACKBUILD LOCATION: ./cups-filters
-SLACKBUILD FILES: README cups-filters.SlackBuild cups-filters.info slack-desc use-system-path-max.patch
-SLACKBUILD VERSION: 1.0.45
-SLACKBUILD DOWNLOAD: https://www.openprinting.org/download/cups-filters/cups-filters-1.0.45.tar.xz
+SLACKBUILD FILES: README cups-filters.SlackBuild cups-filters.info slack-desc
+SLACKBUILD VERSION: 1.0.46
+SLACKBUILD DOWNLOAD: https://www.openprinting.org/download/cups-filters/cups-filters-1.0.46.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 50f760c4cb7be37544c1174a12b1900e
+SLACKBUILD MD5SUM: d4642e5050222cf85a4bf6bd82cf45f8
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  cups-filters (CUPS backend and filters)
 
