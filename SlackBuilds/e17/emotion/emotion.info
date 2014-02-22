@@ -1,8 +1,0 @@
-PRGNAM="emotion"
-VERSION="1.7.9"
-HOMEPAGE="http://www.enlightenment.org/"
-DOWNLOAD="http://download.enlightenment.org/releases/emotion-1.7.9.tar.bz2"
-MD5SUM="85792e42b44e3af5df56c26c802c29b0"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""
-REQUIRES="ecore embryo lua"

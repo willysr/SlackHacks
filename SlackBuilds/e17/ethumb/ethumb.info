@@ -1,8 +1,0 @@
-PRGNAM="ethumb"
-VERSION="1.7.9"
-HOMEPAGE="http://www.enlightenment.org/"
-DOWNLOAD="http://download.enlightenment.org/releases/ethumb-1.7.9.tar.bz2"
-MD5SUM="4a437bc45c891097056c8af09d3c5ec0"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""
-REQUIRES="ecore embryo lua"

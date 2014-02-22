@@ -1,8 +1,0 @@
-PRGNAM="eio"
-VERSION="1.7.9"
-HOMEPAGE="http://www.enlightenment.org/"
-DOWNLOAD="http://download.enlightenment.org/releases/eio-1.7.9.tar.bz2"
-MD5SUM="d4ce4c9c5882538f5e49ccf963de3595"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""
-REQUIRES="ecore"

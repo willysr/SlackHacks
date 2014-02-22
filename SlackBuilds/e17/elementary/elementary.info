@@ -1,8 +1,0 @@
-PRGNAM="elementary"
-VERSION="1.7.9"
-HOMEPAGE="http://www.enlightenment.org/"
-DOWNLOAD="http://download.enlightenment.org/releases/elementary-1.7.9.tar.bz2"
-MD5SUM="f800b2f7c45598d72a83b5c6188eb41a"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""
-REQUIRES="edje e_dbus efreet ethumb eio"

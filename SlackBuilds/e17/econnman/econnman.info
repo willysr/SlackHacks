@@ -1,8 +1,0 @@
-PRGNAM="econnman"
-VERSION="r5e344be"
-HOMEPAGE="http://git.enlightenment.org/apps/econnman.git/"
-DOWNLOAD="https://mega.co.nz/#!d4Zn0KST!LEHPFEMe_CvFVH_ZDd-ksjWMMXov0tggt34hQCGCplE"
-MD5SUM="4d0505d10c1613cb6e6e6c8d7c83d7dc"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""
-REQUIRES="connman python-elementary python-e_dbus"
