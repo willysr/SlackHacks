@@ -241,11 +241,11 @@ SLACKBUILD SHORT DESCRIPTION:  dnspython (Python API for DNS)
 SLACKBUILD NAME: dropbox
 SLACKBUILD LOCATION: ./dropbox
 SLACKBUILD FILES: README doinst.sh dropbox.SlackBuild dropbox.desktop dropbox.info dropbox.png slack-desc terms.txt
-SLACKBUILD VERSION: 2.4.6
-SLACKBUILD DOWNLOAD: http://dl-web.dropbox.com/u/17/dropbox-lnx.x86-2.4.6.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: http://dl-web.dropbox.com/u/17/dropbox-lnx.x86_64-2.4.6.tar.gz
-SLACKBUILD MD5SUM: 129048ff25b2ff2151a1d7624bd2eb92
-SLACKBUILD MD5SUM_x86_64: 7e54239b810f17af85cc5f605778ff85
+SLACKBUILD VERSION: 2.6.15
+SLACKBUILD DOWNLOAD: https://dl.dropboxusercontent.com/u/17/dropbox-lnx.x86-2.6.15.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: http://dl-web.dropbox.com/u/17/dropbox-lnx.x86_64-2.6.15.tar.gz
+SLACKBUILD MD5SUM: 40c309593e0c873c0d289357732a2a76
+SLACKBUILD MD5SUM_x86_64: d09cd1ccc32689cdba8740e341d72b9d
 SLACKBUILD SHORT DESCRIPTION:  dropbox (store, sync and share files online)
 
 SLACKBUILD NAME: EFL
@@ -391,10 +391,10 @@ SLACKBUILD SHORT DESCRIPTION:  ffms2 (a cross-platform wrapper library)
 SLACKBUILD NAME: filezilla
 SLACKBUILD LOCATION: ./filezilla
 SLACKBUILD FILES: README doinst.sh filezilla.SlackBuild filezilla.info slack-desc
-SLACKBUILD VERSION: 3.7.4
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/filezilla/FileZilla_3.7.4_src.tar.bz2
+SLACKBUILD VERSION: 3.7.4.1
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/filezilla/FileZilla_3.7.4.1_src.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 8419418f1f473bf153369d7a834e39e7
+SLACKBUILD MD5SUM: e6c24c4ddc0fe5470fe890b5b2f5b49a
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  filezilla (the free FTP solution)
 
