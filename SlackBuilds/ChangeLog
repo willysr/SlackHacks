@@ -1,4 +1,8 @@
 +--------------------------+
+Sun Feb 23 09:42:57 GMT+7 2014
+cups-filters: Added doinst.sh to handle new config 
+
++--------------------------+
 Sun Feb 23 09:32:22 GMT+7 2014
 qpdf: Upgraded to 5.1.1
 
