@@ -23,7 +23,7 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 PRGNAM=qpdf
-VERSION=${VERSION:-5.0.1}
+VERSION=${VERSION:-5.1.1}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -79,6 +79,7 @@ CXXFLAGS="$SLKCFLAGS" \
   --infodir=/usr/info \
   --docdir=/usr/doc/$PRGNAM-$VERSION \
   --localedir=/usr/share/locale \
+  --disable-static \
   --build=$ARCH-slackware-linux
 
 make

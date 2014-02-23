@@ -821,10 +821,10 @@ SLACKBUILD SHORT DESCRIPTION:  pycrypto (Python Cryptography Toolkit)
 SLACKBUILD NAME: qpdf
 SLACKBUILD LOCATION: ./qpdf
 SLACKBUILD FILES: README qpdf.SlackBuild qpdf.info slack-desc
-SLACKBUILD VERSION: 5.0.1
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/qpdf/qpdf-5.0.1.tar.gz
+SLACKBUILD VERSION: 5.1.1
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/qpdf/qpdf-5.1.1.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 6efd89c18461cb73f77bb60cb2da4bce
+SLACKBUILD MD5SUM: 378bfd1c2ee15d7815f2f4b1a50fa6e0
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  qpdf (Command-line tools and library for transforming PDF files)
 
