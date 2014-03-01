@@ -12,4 +12,6 @@ DISCLAIMER: Every scripts or patches i placed on this repository are tested on M
 If you wanted to use it on your machine which has different architecture or version, use it on your own risk.
 Please read http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib if you are running on 64 bit + multilib machine
 
+Package dependencies not available on this repo should be available through SBo (SlackBuilds) Project.
+
 Willy Sudiarto Raharjo <willysr@slackware-id.org>
