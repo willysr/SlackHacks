@@ -24,7 +24,7 @@
 
 PRGNAM=EFL
 SRCNAM=efl
-VERSION=${VERSION:-1.8.5}
+VERSION=${VERSION:-1.9.0}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -81,10 +81,10 @@ CXXFLAGS="$SLKCFLAGS" \
   --docdir=/usr/doc/$PRGNAM-$VERSION \
   --enable-harfbuzz \
   --enable-fb \
-  --disable-pulseaudio \
   --disable-tslib \
   --disable-static \
   --with-profile=release \
+  --enable-lua-old \
   --build=$ARCH-slackware-linux
 
 make
