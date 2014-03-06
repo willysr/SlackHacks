@@ -24,7 +24,7 @@
 
 PRGNAM=python-EFL
 SRCNAM=python-efl
-VERSION=${VERSION:-1.8.1}
+VERSION=${VERSION:-1.9.0}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
