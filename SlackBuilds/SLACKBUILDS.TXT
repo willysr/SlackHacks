@@ -340,11 +340,11 @@ SLACKBUILD SHORT DESCRIPTION:  python-EFL (Python Binding for EFL)
 
 SLACKBUILD NAME: terminology
 SLACKBUILD LOCATION: ./terminology
-SLACKBUILD FILES: README doinst.sh slack-desc terminology.SlackBuild terminology.info
-SLACKBUILD VERSION: 0.4.0
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/apps/terminology/terminology-0.4.0.tar.gz
+SLACKBUILD FILES: README doinst.sh slack-desc terminology-0.5.0.tar.gz terminology.SlackBuild terminology.info
+SLACKBUILD VERSION: 0.5.0
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/apps/terminology/terminology-0.5.0.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 5a2eee4849d4fa44db4caf743b3beb37
+SLACKBUILD MD5SUM: 605746d3a64ae64ac482cb5b94c1fcd6
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  terminology (terminal emulator)
 
