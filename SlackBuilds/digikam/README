@@ -5,15 +5,6 @@ by directory layout or by custom collections. An easy to use interface
 is provided that enables you to connect to your camera and preview,
 download and/or delete your images.
 
-Requirements
-  - KDE 4.10.x or newer
-  - ffmpeg
-  - QJson
-  - OpenCV
-  - liblqr
-  - lensfun
-  - libdc1394 (optional)
-  - libpgf (optional)
-  - eigen3 (optional)
-  
-Note: I'm using ffmpeg 2.1 to build this package
+eigen3, libpgf, libdc1394, QtGStreamer are optional dependencies.
+
+NOTE: digikam now ships with its own internal version of kipi-plugins.
