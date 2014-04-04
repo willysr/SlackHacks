@@ -251,10 +251,10 @@ SLACKBUILD SHORT DESCRIPTION:  dropbox (store, sync and share files online)
 SLACKBUILD NAME: EFL
 SLACKBUILD LOCATION: ./EFL
 SLACKBUILD FILES: EFL.SlackBuild EFL.info README slack-desc
-SLACKBUILD VERSION: 1.9.1
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/libs/efl/efl-1.9.1.tar.gz
+SLACKBUILD VERSION: 1.9.2
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/libs/efl/efl-1.9.2.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: b092d2e97c42f8a6b69936e6d4e0c8de
+SLACKBUILD MD5SUM: 5520ed809cdccd8b2a3e376f56f9ae61
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  EFL (EFL Core Libraries)
 
@@ -291,10 +291,10 @@ SLACKBUILD SHORT DESCRIPTION:  econnman (E18 ConnMan UI)
 SLACKBUILD NAME: elementary
 SLACKBUILD LOCATION: ./elementary
 SLACKBUILD FILES: README doinst.sh elementary.SlackBuild elementary.info slack-desc
-SLACKBUILD VERSION: 1.9.1
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/libs/elementary/elementary-1.9.1.tar.gz
+SLACKBUILD VERSION: 1.9.2
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/libs/elementary/elementary-1.9.2.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: c14e16a3cff3df874156aa9107a5006d
+SLACKBUILD MD5SUM: 48a4b155ced187db87c503d4f376aa7a
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  elementary (toolkit set)
 
@@ -311,10 +311,10 @@ SLACKBUILD SHORT DESCRIPTION:  emotion-generic-players (Video Decoders)
 SLACKBUILD NAME: enlightenment
 SLACKBUILD LOCATION: ./enlightenment
 SLACKBUILD FILES: README doinst.sh enlightenment.SlackBuild enlightenment.info slack-desc xinitrc.enlightenment18
-SLACKBUILD VERSION: 0.18.5
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/apps/enlightenment/enlightenment-0.18.5.tar.gz
+SLACKBUILD VERSION: 0.18.6
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/apps/enlightenment/enlightenment-0.18.6.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 065c21bbdaac9b4bf29c72c4d2896bfc
+SLACKBUILD MD5SUM: a3a707e32fd72547e0911e3765d112f1
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Enlightenment DR18 (a window manager and desktop shell)
 
