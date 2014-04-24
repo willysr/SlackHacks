@@ -1,0 +1,6 @@
+netcat-cpi is kernel module edition of the Cycles Per Instruction
+(2014) album.
+
+This script will attempt to download the source directly from github.
+As they don't have a released yet, it will use their commit ID as the
+version number.
