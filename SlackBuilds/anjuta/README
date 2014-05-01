@@ -9,4 +9,6 @@ Run-Time Requirements: autogen
 Optional requirements: vala graphviz
 
 Special note: this package requires vte3. This package can be installed 
-alongside with vte that is included in Slackware official package 
+alongside with vte that is included in Slackware official package
+
+vieweing help pages requires yelp (Not available yet in SBo)
