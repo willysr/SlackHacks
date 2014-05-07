@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Copyright 2012 Willy Sudiarto Raharjo <willysr@slackware-id.org>
+# Copyright 2012-2014 Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # All rights reserved.
 #
 # Redistribution and use of this script, with or without modification, is
@@ -23,9 +23,10 @@
 # Changelog
 # June, 8, 2012 : Initial Release
 # July, 10, 2012: Upgraded to 6.12.24
+# May 7: Upgraded to 6.14.12
 
 PKGNAM=libpgf
-VERSION=${VERSION:-6.12.24}
+VERSION=${VERSION:-6.14.12}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -35,8 +36,6 @@ if [ -z "$ARCH" ]; then
        *) export ARCH=$( uname -m ) ;;
   esac
 fi
-
-NUMJOBS=${NUMJOBS:-" -j7 "}
 
 CWD=$(pwd)
 TMP=${TMP:-/tmp/build}
@@ -60,11 +59,12 @@ else
   LIBDIRSUFFIX=""
 fi
 
+rm -rf $PKG
+mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
-rm -rf ${PKGNAM}-${VERSION}
-tar xvf $CWD/${PKGNAM}-$VERSION-src.tar.gz || exit 1
-cd ${PKGNAM} || exit 1
-
+rm -rf $PRGNAM-$VERSION
+tar xvf $CWD/$PRGNAM-src-$VERSION.tar.gz
+cd $PRGNAM
 chown -R root:root .
 find -L . \
  \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
@@ -72,9 +72,8 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-# So strange that i have to add this one line to fix the permission problem
-chmod 755 autogen.sh
-
+fromdos < configure.ac > configure.ac.new
+mv configure.ac.new configure.ac
 ./autogen.sh
 CFLAGS="$SLKCFLAGS" \
 ./configure \
@@ -84,46 +83,21 @@ CFLAGS="$SLKCFLAGS" \
   --disable-static \
   --build=$ARCH-slackware-linux
 
-# Build and install:
-make $NUMJOBS || make || exit 1
-make install DESTDIR=$PKG || exit 1
+make
+make install DESTDIR=$PKG
 
-# Strip binaries:
-find $PKG | xargs file | grep -e "executable" -e "shared object" \
-  | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
+find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
+  | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
 
-# Compress and link manpages, if any:
-if [ -d $PKG/usr/share/man ]; then
-  ( cd $PKG/usr/share/man
-    for manpagedir in $(find . -type d -name "man*") ; do
-      ( cd $manpagedir
-        for eachpage in $( find . -type l -maxdepth 1) ; do
-          ln -s $( readlink $eachpage ).gz $eachpage.gz
-          rm $eachpage
-        done
-        gzip -9 *.?
-      )
-    done
-  )
-fi
+mv $PKG/usr/share/man $PKG/usr/man
+find $PKG/usr/man -type f -exec gzip -9 {} \;
+for i in $( find $PKG/usr/man -type l ) ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
 
-# Compress info files, if any:
-if [ -d $PKG/usr/info ]; then
-  ( cd $PKG/usr/info
-    rm -f dir
-    gzip -9 *
-  )
-fi
-
-# Add a documentation directory:
-mkdir -p $PKG/usr/doc/${PKGNAM}-$VERSION
-cp -a \
-  AUTHORS COPYING INSTALL NEWS README \
-  $PKG/usr/doc/${PKGNAM}-$VERSION
+mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
+cp -a COPYING INSTALL README $PKG/usr/doc/$PRGNAM-$VERSION
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
 cd $TMP/package-${PKGNAM}
-/sbin/makepkg -l y -c n $OUTPUT/${PKGNAM}-$VERSION-$ARCH-$BUILD.txz
-
+/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.${PKGTYPE:-txz}
