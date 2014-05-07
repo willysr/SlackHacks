@@ -28,12 +28,12 @@
 # November 15: Upgraded to 0.18.1
 # June 9: Upgraded to 0.20.1
 # October 29: Upgraded to 0.22.0
+# May 7: Upgraded to 0.24.0
 
 PRGNAM=vala
-VERSION=${VERSION:-0.22.0}
+VERSION=${VERSION:-0.24.0}
 BUILD=${BUILD:-1wsr}
 
-# Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
     i?86) ARCH=i486 ;;
