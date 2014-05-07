@@ -1,4 +1,13 @@
 +--------------------------+
+Wed May  7 18:58:32 WIT 2014
+hub: Upgraded to 1.12.0
+mysql-workbench: Upgraded to 6.1.4
+libpgf: Upgraded to 6.14.12
+lxml: Upgraded to 3.3.4
+vala: Upgraded to 0.24.0
+vte3: Upgraded to 0.36.1
+
++--------------------------+
 Sat Apr 26 22:48:25 WIT 2014
 teamviewer: Upgraded to 9.0.27891
 

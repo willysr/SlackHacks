@@ -61,10 +61,10 @@ SLACKBUILD SHORT DESCRIPTION:  aegisub (General-purpose subtitle editor)
 SLACKBUILD NAME: anjuta
 SLACKBUILD LOCATION: ./anjuta
 SLACKBUILD FILES: README anjuta.SlackBuild anjuta.info doinst.sh slack-desc
-SLACKBUILD VERSION: 3.10.2
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/anjuta/3.10/anjuta-3.10.2.tar.xz
+SLACKBUILD VERSION: 3.12.0
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/anjuta/3.12/anjuta-3.12.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: b88a472987ab692d5aad3949e348bde9
+SLACKBUILD MD5SUM: 9ab0b5d6b005e7ad45049e66f6ee5f75
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  anjuta (GNOME Integrated Development Environment)
 
@@ -401,10 +401,10 @@ SLACKBUILD SHORT DESCRIPTION:  filezilla (the free FTP solution)
 SLACKBUILD NAME: gdl
 SLACKBUILD LOCATION: ./gdl
 SLACKBUILD FILES: README gdl.SlackBuild gdl.info slack-desc
-SLACKBUILD VERSION: 3.8.1
-SLACKBUILD DOWNLOAD: ftp://ftp.gnome.org/pub/gnome/sources/gdl/3.8/gdl-3.8.1.tar.xz
+SLACKBUILD VERSION: 3.12.0
+SLACKBUILD DOWNLOAD: ftp://ftp.gnome.org/pub/gnome/sources/gdl/3.12/gdl-3.12.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: aff3d2e976d055f6dcaf41069630d497
+SLACKBUILD MD5SUM: e36701e5f0f2eeac2504375fe46aa478
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  gdl (GNOME Docking Library)
 
@@ -531,10 +531,10 @@ SLACKBUILD SHORT DESCRIPTION:  httperf (http load generator)
 SLACKBUILD NAME: hub
 SLACKBUILD LOCATION: ./hub
 SLACKBUILD FILES: README hub.SlackBuild hub.info slack-desc
-SLACKBUILD VERSION: 1.11.2
-SLACKBUILD DOWNLOAD: https://rubygems.org/downloads/hub-1.11.2.gem
+SLACKBUILD VERSION: 1.12.0
+SLACKBUILD DOWNLOAD: https://rubygems.org/downloads/hub-1.12.0.gem
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: d002c13f5310d696ed17d44c8366a23a
+SLACKBUILD MD5SUM: 868c3e43268677739fbd922c68d38c55
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  hub (github helper)
 
@@ -641,10 +641,10 @@ SLACKBUILD SHORT DESCRIPTION:  libnet (Packet Construction Library)
 SLACKBUILD NAME: libpgf
 SLACKBUILD LOCATION: ./libpgf
 SLACKBUILD FILES: README libpgf.SlackBuild libpgf.info slack-desc
-SLACKBUILD VERSION: 6.12.24
-SLACKBUILD DOWNLOAD: http://ncu.dl.sourceforge.net/project/libpgf/libpgf/6.12.24-latest/libpgf-6.12.24-src.tar.gz
+SLACKBUILD VERSION: 6.14.12
+SLACKBUILD DOWNLOAD: http://sourceforge.net/projects/libpgf/files/libpgf/6.14.12-latest/libpgf-src-6.14.12.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 49ae25a63804273f0c6875f477b5f6d2
+SLACKBUILD MD5SUM: a2b13832e23ad9026bd249d57b6c26da
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  libpgf (Image file format)
 
@@ -701,10 +701,10 @@ SLACKBUILD SHORT DESCRIPTION:  Lua (a powerful, fast, light-weight, embeddable s
 SLACKBUILD NAME: lxml
 SLACKBUILD LOCATION: ./lxml
 SLACKBUILD FILES: README lxml.SlackBuild lxml.info slack-desc
-SLACKBUILD VERSION: 3.3.0
-SLACKBUILD DOWNLOAD: http://pypi.python.org/packages/source/l/lxml/lxml-3.3.0.tar.gz
+SLACKBUILD VERSION: 3.3.4
+SLACKBUILD DOWNLOAD: http://pypi.python.org/packages/source/l/lxml/lxml-3.3.4.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: ca2f02fd762f3614a1930c568847052b
+SLACKBUILD MD5SUM: 79e7b190563bf280c50ec20087f40dfa
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  lxml (Python bindings for the libxml2 and libxslt)
 
@@ -741,10 +741,10 @@ SLACKBUILD SHORT DESCRIPTION: mysql-connector-c++: mysql-connector-c++ (MySQL Co
 SLACKBUILD NAME: mysql-workbench
 SLACKBUILD LOCATION: ./mysql-workbench
 SLACKBUILD FILES: README config_and_ifconfig_paths.patch doinst.sh mysql-workbench.SlackBuild mysql-workbench.info slack-desc
-SLACKBUILD VERSION: 6.1.1
-SLACKBUILD DOWNLOAD: http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-6.1.1-src.tar.gz
+SLACKBUILD VERSION: 6.1.4
+SLACKBUILD DOWNLOAD: http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-6.1.4-src.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: bc33bce7c9c3c959952ebabe22d3d862
+SLACKBUILD MD5SUM: ba549ab2300373e21a5da2d3b8230f5d
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  mysql-workbench - MySQL Workbench (GUI Tool)
 
@@ -911,10 +911,10 @@ SLACKBUILD SHORT DESCRIPTION:  tlp (advanced power management tool)
 SLACKBUILD NAME: vala
 SLACKBUILD LOCATION: ./vala
 SLACKBUILD FILES: README slack-desc vala.SlackBuild vala.info
-SLACKBUILD VERSION: 0.22.0
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/vala/0.22/vala-0.22.0.tar.xz
+SLACKBUILD VERSION: 0.24.0
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/vala/0.24/vala-0.24.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: a2a98f00efcc97a589d4b960544ed55c
+SLACKBUILD MD5SUM: beddeff9c06d3c278988b237da0e7401
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Vala (Compiler for the GObject type system)
 
@@ -951,10 +951,10 @@ SLACKBUILD SHORT DESCRIPTION: vsqlite++: vsqlite++ (SQLite Wrapper Library)
 SLACKBUILD NAME: vte3
 SLACKBUILD LOCATION: ./vte3
 SLACKBUILD FILES: README fix_meta_alt_keybinding.patch.gz slack-desc vte3.SlackBuild vte3.info
-SLACKBUILD VERSION: 0.34.9
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/vte/0.34/vte-0.34.9.tar.xz
+SLACKBUILD VERSION: 0.36.1
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/vte/0.36/vte-0.36.1.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: cb2f3cd4889581dcb61ab6db40bee542
+SLACKBUILD MD5SUM: e17e7a117819a4dd7641d259d9f0ddfc
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  vte3 (terminal emulator widget)
 
