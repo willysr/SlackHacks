@@ -24,7 +24,7 @@
 
 SRCNAM=vte
 PRGNAM=vte3
-VERSION=${VERSION:-0.34.9}
+VERSION=${VERSION:-0.36.1}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -58,7 +58,7 @@ rm -rf $PKG
 mkdir -p $TMP $PKG
 cd $TMP
 rm -rf $SRCNAM-$VERSION
-tar xvf $CWD/$SRCNAM-$VERSION.tar.?z* || exit 1
+tar xvf $CWD/$SRCNAM-$VERSION.tar.?z*
 cd $SRCNAM-$VERSION
 
 chown -R root:root .
@@ -69,7 +69,7 @@ find -L . \
  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
 # https://bugzilla.gnome.org/show_bug.cgi?id=663779
-zcat $CWD/fix_meta_alt_keybinding.patch.gz | patch -p1 || exit 1
+zcat $CWD/fix_meta_alt_keybinding.patch.gz | patch -p1
 
 # Configure:
 CFLAGS="$SLKCFLAGS" \
@@ -84,20 +84,19 @@ CFLAGS="$SLKCFLAGS" \
   --enable-gnome-pty-helper \
   --with-gtk=3.0 \
   --with-default-emulation=xterm \
-  --build=$ARCH-slackware-linux || exit 1
+  --build=$ARCH-slackware-linux
 
-make $NUMJOBS || make || exit 1
-make install DESTDIR=$PKG || exit 1
+make $NUMJOBS || make
+make install DESTDIR=$PKG
 
 # Remove this, it's included in the stock vte package:
 rm $PKG/usr/libexec/gnome-pty-helper
 
-find $PKG | xargs file | grep -e "executable" -e "shared object" | grep ELF \
-  | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
+find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
+  | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
-cp -a \
-  AUTHORS ChangeLog COPYING* HACKING MAINTAINERS NEWS README* \
+cp -a AUTHORS ChangeLog COPYING* HACKING MAINTAINERS NEWS README* \
   $PKG/usr/doc/$PRGNAM-$VERSION
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 
@@ -106,4 +105,3 @@ cat $CWD/slack-desc > $PKG/install/slack-desc
 
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD.${PKGTYPE:-txz}
-
