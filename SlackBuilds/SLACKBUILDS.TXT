@@ -181,20 +181,20 @@ SLACKBUILD SHORT DESCRIPTION:  cssselect (CSS Selectors for Python)
 SLACKBUILD NAME: cssutils
 SLACKBUILD LOCATION: ./cssutils
 SLACKBUILD FILES: README cssutils.SlackBuild cssutils.info slack-desc
-SLACKBUILD VERSION: 0.9.10
-SLACKBUILD DOWNLOAD: http://pypi.python.org/packages/source/c/cssutils/cssutils-0.9.10.zip
+SLACKBUILD VERSION: 1.0
+SLACKBUILD DOWNLOAD: http://pypi.python.org/packages/source/c/cssutils/cssutils-1.0.zip
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 81b5c0294c54479a54548769eaa236f8
+SLACKBUILD MD5SUM: 0c0b9df329ec1461c732d0f3cba05e93
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  cssutils (CSS parser and builder)
 
 SLACKBUILD NAME: cups-filters
 SLACKBUILD LOCATION: ./cups-filters
 SLACKBUILD FILES: README cups-filters.SlackBuild cups-filters.info doinst.sh slack-desc
-SLACKBUILD VERSION: 1.0.49
-SLACKBUILD DOWNLOAD: https://www.openprinting.org/download/cups-filters/cups-filters-1.0.49.tar.xz
+SLACKBUILD VERSION: 1.0.53
+SLACKBUILD DOWNLOAD: https://www.openprinting.org/download/cups-filters/cups-filters-1.0.53.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 2fa4f6ba7f9459bb60e834e5021a368e
+SLACKBUILD MD5SUM: 85c605f82cddfd9990a17f1ffaf51eec
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  cups-filters (CUPS backend and filters)
 
@@ -351,10 +351,10 @@ SLACKBUILD SHORT DESCRIPTION:  terminology (terminal emulator)
 SLACKBUILD NAME: ecdsa
 SLACKBUILD LOCATION: ./ecdsa
 SLACKBUILD FILES: README ecdsa.SlackBuild ecdsa.info slack-desc
-SLACKBUILD VERSION: 0.10
-SLACKBUILD DOWNLOAD: https://pypi.python.org/packages/source/e/ecdsa/ecdsa-0.10.tar.gz
+SLACKBUILD VERSION: 0.11
+SLACKBUILD DOWNLOAD: https://pypi.python.org/packages/source/e/ecdsa/ecdsa-0.11.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: e95941b3bcbf1726472bb724d7478551
+SLACKBUILD MD5SUM: 8ef586fe4dbb156697d756900cb41d7c
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  ecdsa (ECDSA cryptographic signature library)
 
