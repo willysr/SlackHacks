@@ -1,4 +1,15 @@
 +--------------------------+
+Mon May 26 20:45:51 WIB 2014
+EFL: Upgraded to 1.10.0
+connman: Compress manual pages
+elementary: Upgraded to 1.10.0
+emotion-generic-players: Upgraded to 1.10.0
+enlightenment: Fix VERSION in SlackBuild
+evas-generic-loaders: Upgraded to 1.10.0
+terminology: Upgraded to 0.5.1
+python-EFL is broken at this moment
+
++--------------------------+
 Tue May 20 07:04:31 WIB 2014
 wireshark: Upgraded to 1.11.3
 

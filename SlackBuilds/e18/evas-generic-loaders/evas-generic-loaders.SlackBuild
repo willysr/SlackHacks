@@ -24,7 +24,7 @@
 
 PRGNAM=evas-generic-loaders
 SRCNAM=evas_generic_loaders
-VERSION=${VERSION:-1.9.0}
+VERSION=${VERSION:-1.10.0}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -88,9 +88,7 @@ find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | gr
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
-cp -a \
-  AUTHORS COPYING ChangeLog INSTALL NEWS README TODO\
-  $PKG/usr/doc/$PRGNAM-$VERSION
+cp -a AUTHORS COPYING ChangeLog INSTALL NEWS README TODO $PKG/usr/doc/$PRGNAM-$VERSION
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 
 mkdir -p $PKG/install

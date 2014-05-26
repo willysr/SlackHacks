@@ -251,10 +251,10 @@ SLACKBUILD SHORT DESCRIPTION:  dropbox (store, sync and share files online)
 SLACKBUILD NAME: EFL
 SLACKBUILD LOCATION: ./EFL
 SLACKBUILD FILES: EFL.SlackBuild EFL.info README slack-desc
-SLACKBUILD VERSION: 1.9.4
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/libs/efl/efl-1.9.4.tar.gz
+SLACKBUILD VERSION: 1.10.0
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/libs/efl/efl-1.10.0.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 0fad599e4b11e1e20b79c3a89da24549
+SLACKBUILD MD5SUM: 4dedbbbd03ccd3c8ac227b8682d0d0e4
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  EFL (EFL Core Libraries)
 
@@ -291,20 +291,20 @@ SLACKBUILD SHORT DESCRIPTION:  econnman (E18 ConnMan UI)
 SLACKBUILD NAME: elementary
 SLACKBUILD LOCATION: ./elementary
 SLACKBUILD FILES: README doinst.sh elementary.SlackBuild elementary.info slack-desc
-SLACKBUILD VERSION: 1.9.4
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/libs/elementary/elementary-1.9.4.tar.gz
+SLACKBUILD VERSION: 1.10.0
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/libs/elementary/elementary-1.10.0.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 712c401275087feb62ebba2615da5b90
+SLACKBUILD MD5SUM: 81d4072c728a41518f59f3d115c1556b
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  elementary (toolkit set)
 
 SLACKBUILD NAME: emotion-generic-players
 SLACKBUILD LOCATION: ./emotion-generic-players
 SLACKBUILD FILES: README emotion-generic-players.SlackBuild emotion-generic-players.info slack-desc
-SLACKBUILD VERSION: 1.9.0
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/libs/emotion_generic_players/emotion_generic_players-1.9.0.tar.gz
+SLACKBUILD VERSION: 1.10.0
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/libs/emotion_generic_players/emotion_generic_players-1.10.0.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: dc897ba540560fce0787bbff8455c022
+SLACKBUILD MD5SUM: f73b1f73b38a323e37bd138b103191a5
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  emotion-generic-players (Video Decoders)
 
@@ -321,10 +321,10 @@ SLACKBUILD SHORT DESCRIPTION:  Enlightenment DR18 (a window manager and desktop 
 SLACKBUILD NAME: evas-generic-loaders
 SLACKBUILD LOCATION: ./evas-generic-loaders
 SLACKBUILD FILES: README evas-generic-loaders.SlackBuild evas-generic-loaders.info slack-desc
-SLACKBUILD VERSION: 1.9.0
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/libs/evas_generic_loaders/evas_generic_loaders-1.9.0.tar.gz
+SLACKBUILD VERSION: 1.10.0
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/libs/evas_generic_loaders/evas_generic_loaders-1.10.0.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: bec6d27fc4afd2f5e4829da5aeccdc0b
+SLACKBUILD MD5SUM: ef5ac6a7960528bb12e997f3e304f151
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  evas-generic-loaders (Image Decoders)
 
@@ -340,11 +340,11 @@ SLACKBUILD SHORT DESCRIPTION:  python-EFL (Python Binding for EFL)
 
 SLACKBUILD NAME: terminology
 SLACKBUILD LOCATION: ./terminology
-SLACKBUILD FILES: README doinst.sh slack-desc terminology-0.5.0.tar.gz terminology.SlackBuild terminology.info
-SLACKBUILD VERSION: 0.5.0
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/apps/terminology/terminology-0.5.0.tar.gz
+SLACKBUILD FILES: README doinst.sh slack-desc terminology.SlackBuild terminology.info
+SLACKBUILD VERSION: 0.5.1
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/apps/terminology/terminology-0.5.1.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 605746d3a64ae64ac482cb5b94c1fcd6
+SLACKBUILD MD5SUM: d46cda519cf198cb19970146d31a9e8b
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  terminology (terminal emulator)
 
