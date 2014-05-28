@@ -34,15 +34,16 @@
 # July 29 : Upgraded to 1.6.1
 # August 7 : Rebuilt to remove obsolete options (http://www.cups.org/str.php?L4157)
 #	     Added more upstream patch (http://cups.org/str.php?L4155)
-# November 30: Added patch to support AirPrint 
+# November 30: Added patch to support AirPrint
 # March 19: Upgraded to 1.6.2
 # July, 13: Upgraded to 1.6.3
 # October, 1: Upgraded to 1.6.4
 # October 27: Upgraded to 1.7.0
 # January 9: Upgraded to 1.7.1
 # April 12: Upgraded to 1.7.2
+# May 28: Upgraded to 1.7.3
 
-VERSION=${VERSION:-1.7.2}
+VERSION=${VERSION:-1.7.3}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
