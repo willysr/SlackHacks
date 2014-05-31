@@ -1,4 +1,9 @@
 +--------------------------+
+Sat May 31 21:33:45 WIB 2014
+python-EFL: Upgraded to 1.10.0
+  This enables econnman to be built against python-EFL
+
++--------------------------+
 Wed May 28 17:19:58 WIB 2014
 cups: Upgraded to 1.7.3
 
