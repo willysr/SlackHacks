@@ -1,4 +1,8 @@
 +--------------------------+
+Wed Jun 11 06:50:46 WIB 2014
+connman: Upgraded to 1.24
+
++--------------------------+
 Sat May 31 21:33:45 WIB 2014
 python-EFL: Upgraded to 1.10.0
   This enables econnman to be built against python-EFL
