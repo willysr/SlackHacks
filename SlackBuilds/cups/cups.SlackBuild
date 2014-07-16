@@ -42,8 +42,9 @@
 # January 9: Upgraded to 1.7.1
 # April 12: Upgraded to 1.7.2
 # May 28: Upgraded to 1.7.3
+# July 16: Upgraded to 1.7.4
 
-VERSION=${VERSION:-1.7.3}
+VERSION=${VERSION:-1.7.4}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -207,4 +208,3 @@ zcat $CWD/doinst.sh.gz > $PKG/install/doinst.sh
 # Build the package:
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/cups-$VERSION-$ARCH-$BUILD.txz
-
