@@ -221,10 +221,10 @@ SLACKBUILD SHORT DESCRIPTION:  db5 (Berkeley database library version 5.3.x)
 SLACKBUILD NAME: digikam
 SLACKBUILD LOCATION: ./digikam
 SLACKBUILD FILES: README digikam.SlackBuild digikam.info doinst.sh slack-desc
-SLACKBUILD VERSION: 4.0.0
-SLACKBUILD DOWNLOAD: http://download.kde.org/stable/digikam/digikam-4.0.0.tar.bz2
+SLACKBUILD VERSION: 4.1.0
+SLACKBUILD DOWNLOAD: http://download.kde.org/stable/digikam/digikam-4.1.0.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 03438cc1aeb9a266dcf1f2523ffe983d
+SLACKBUILD MD5SUM: 6a142b3f7dc81e4d0ccde6d834223cdf
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  digiKam (KDE Photo Management Application)
 
@@ -391,10 +391,10 @@ SLACKBUILD SHORT DESCRIPTION:  ffms2 (a cross-platform wrapper library)
 SLACKBUILD NAME: filezilla
 SLACKBUILD LOCATION: ./filezilla
 SLACKBUILD FILES: README doinst.sh filezilla.SlackBuild filezilla.info slack-desc
-SLACKBUILD VERSION: 3.7.4.1
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/filezilla/FileZilla_3.7.4.1_src.tar.bz2
+SLACKBUILD VERSION: 3.8.1
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/filezilla/FileZilla_3.8.1_src.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: e6c24c4ddc0fe5470fe890b5b2f5b49a
+SLACKBUILD MD5SUM: b4bce64b8db97419cfefa04468afc9fb
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  filezilla (the free FTP solution)
 
@@ -511,10 +511,10 @@ SLACKBUILD SHORT DESCRIPTION:  gtksourceview (a GTK+ framework for source code e
 SLACKBUILD NAME: guvcview
 SLACKBUILD LOCATION: ./guvcview
 SLACKBUILD FILES: README doinst.sh guvcview.SlackBuild guvcview.info slack-desc
-SLACKBUILD VERSION: 1.7.1
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/project/guvcview/source/guvcview-src-1.7.1.tar.gz
+SLACKBUILD VERSION: 1.7.3
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/project/guvcview/source/guvcview-src-1.7.3.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 5ca1b9c89d2b9370ee203dcc24efd695
+SLACKBUILD MD5SUM: f9c510ed9908a8d20ca27099aca948a7
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  guvcview (GTK+ UVC Viewer)
 
@@ -760,11 +760,11 @@ SLACKBUILD SHORT DESCRIPTION:  nixnote (Open Source Client for Evernote)
 
 SLACKBUILD NAME: opencv
 SLACKBUILD LOCATION: ./opencv
-SLACKBUILD FILES: README fsh.patch opencv.SlackBuild opencv.info slack-desc
-SLACKBUILD VERSION: 2.4.8
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/opencvlibrary/opencv-2.4.8.zip
+SLACKBUILD FILES: README opencv-2.4.9-fsh.patch opencv-2.4.9-pkgconfig.patch opencv.SlackBuild opencv.info slack-desc
+SLACKBUILD VERSION: 2.4.9
+SLACKBUILD DOWNLOAD: https://github.com/Itseez/opencv/archive/2.4.9.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 50cc1433b3654074206f5b3dbfd49848
+SLACKBUILD MD5SUM: cc0a8307403ff471f554197401ec0eb9
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  OpenCV (Open Source Computer Vision)
 
