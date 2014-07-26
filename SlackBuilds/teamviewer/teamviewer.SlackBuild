@@ -3,7 +3,7 @@
 # Slackware build script for teamviewer
 
 # Copyright 2010-2012  Binh Nguyen <binhvng@gmail.com>
-# Copyright 2013 Willy Sudiarto Raharjo <willysr@slackware-id.org>
+# Copyright 2013-2014 Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # All rights reserved.
 #
 # Redistribution and use of this script, with or without modification, is
@@ -23,22 +23,8 @@
 #  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-# Modified by Willy Sudiarto Raharjo 
-# Changelog
-# January 9, Upgraded to 8.0.16675, added rc.teamviewerd to provide teamviewer daemon
-# January 12, Rebuilt to create symlink in /usr/bin, thanks to Ponce
-# January 17, Rebuilt to change the default behaviour on rc.teamviewerd when no parameter is given
-# February 16: Upgraded to 8.0.17147
-# February 16: Rebuilt to remove duplicate file 
-# February 19: Rebuilt to include Robby Workman's work from SBo
-# February 19: Rebuilt to add more documentation and remove dangling symlinks
-# September 22: Upgraded to 8.0.20931
-# November 5: Upgraded to 9.0.23343
-# December 4: Upgraded to 9.0.24147
-# April 26: Upgraded to 9.0.27891
-
 PRGNAM=teamviewer
-VERSION=${VERSION:-9.0.27891}
+VERSION=${VERSION:-9.0.30203}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -87,7 +73,7 @@ find -L . \
  \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
   -o -perm 511 \) -exec chmod 755 {} \; -o \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
- -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
+  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
 find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
