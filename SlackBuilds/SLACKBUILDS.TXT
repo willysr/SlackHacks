@@ -41,11 +41,11 @@ SLACKBUILD SHORT DESCRIPTION:  QtGStreamer (C++ Bindings for GStreamer)
 SLACKBUILD NAME: TeamSpeak3
 SLACKBUILD LOCATION: ./TeamSpeak3
 SLACKBUILD FILES: README TeamSpeak3.SlackBuild TeamSpeak3.desktop TeamSpeak3.info TeamSpeak3.launcher TeamSpeak3.xpm doinst.sh slack-desc
-SLACKBUILD VERSION: 3.0.13.1
-SLACKBUILD DOWNLOAD: http://dl.4players.de/ts/releases/3.0.13.1/TeamSpeak3-Client-linux_x86-3.0.13.1.run
-SLACKBUILD DOWNLOAD_x86_64: http://dl.4players.de/ts/releases/3.0.13.1/TeamSpeak3-Client-linux_amd64-3.0.13.1.run
-SLACKBUILD MD5SUM: 0ca274f52b0e491cbdce8d4a1767586a
-SLACKBUILD MD5SUM_x86_64: bc3254928298ea1be6e9c2b44ad397c8
+SLACKBUILD VERSION: 3.0.15.1
+SLACKBUILD DOWNLOAD: http://dl.4players.de/ts/releases/3.0.15.1/TeamSpeak3-Client-linux_x86-3.0.15.1.run
+SLACKBUILD DOWNLOAD_x86_64: http://dl.4players.de/ts/releases/3.0.15.1/TeamSpeak3-Client-linux_amd64-3.0.15.1.run
+SLACKBUILD MD5SUM: b5c0616faefff9af2dba1f355747f3f6
+SLACKBUILD MD5SUM_x86_64: 4f177a0bbc04751755b7d35cf1bc445b
 SLACKBUILD SHORT DESCRIPTION:  TeamSpeak3 (Voice Communication)
 
 SLACKBUILD NAME: aegisub
@@ -891,11 +891,11 @@ SLACKBUILD SHORT DESCRIPTION:  Sysprof (Performance Profiler)
 SLACKBUILD NAME: teamviewer
 SLACKBUILD LOCATION: ./teamviewer
 SLACKBUILD FILES: README doinst.sh rc.teamviewerd slack-desc teamviewer.SlackBuild teamviewer.info
-SLACKBUILD VERSION: 9.0.27891
+SLACKBUILD VERSION: 9.0.30203
 SLACKBUILD DOWNLOAD: http://download.teamviewer.com/download/teamviewer_linux.deb
 SLACKBUILD DOWNLOAD_x86_64: http://download.teamviewer.com/download/teamviewer_linux_x64.deb
-SLACKBUILD MD5SUM: 2ecb377b655cebe417c4ccaf2eff1359
-SLACKBUILD MD5SUM_x86_64: 35ba2b46fe7d2669bfc8e67e8243694d
+SLACKBUILD MD5SUM: 377f2d47d11d7c0c664ed8b21dc188a8
+SLACKBUILD MD5SUM_x86_64: decce9d21dbf99d508bb40c9a706e837
 SLACKBUILD SHORT DESCRIPTION:  teamviewer (remote control application)
 
 SLACKBUILD NAME: tlp
@@ -951,10 +951,10 @@ SLACKBUILD SHORT DESCRIPTION: vsqlite++: vsqlite++ (SQLite Wrapper Library)
 SLACKBUILD NAME: vte3
 SLACKBUILD LOCATION: ./vte3
 SLACKBUILD FILES: README fix_meta_alt_keybinding.patch.gz slack-desc vte3.SlackBuild vte3.info
-SLACKBUILD VERSION: 0.36.1
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/vte/0.36/vte-0.36.1.tar.xz
+SLACKBUILD VERSION: 0.36.3
+SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/vte/0.36/vte-0.36.3.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: e17e7a117819a4dd7641d259d9f0ddfc
+SLACKBUILD MD5SUM: 3f9df4c9a67b09bf5c660bf5c3bae109
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  vte3 (terminal emulator widget)
 
@@ -991,10 +991,10 @@ SLACKBUILD SHORT DESCRIPTION:  wxGTK (cross-platform GUI toolkit)
 SLACKBUILD NAME: wxGTK3
 SLACKBUILD LOCATION: ./wxGTK3
 SLACKBUILD FILES: README slack-desc wxGTK3.SlackBuild wxGTK3.info
-SLACKBUILD VERSION: 3.0.0
-SLACKBUILD DOWNLOAD: http://sourceforge.net/projects/wxwindows/files/3.0.0/wxWidgets-3.0.0.tar.bz2
+SLACKBUILD VERSION: 3.0.1
+SLACKBUILD DOWNLOAD: http://sourceforge.net/projects/wxwindows/files/3.0.1/wxWidgets-3.0.1.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 241998efc12205172ed24c18788ea2cd
+SLACKBUILD MD5SUM: dad1f1cd9d4c370cbc22700dc492da31
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  wxGTK3 (cross-platform GUI toolkit)
 
