@@ -191,10 +191,10 @@ SLACKBUILD SHORT DESCRIPTION:  cssutils (CSS parser and builder)
 SLACKBUILD NAME: cups-filters
 SLACKBUILD LOCATION: ./cups-filters
 SLACKBUILD FILES: README cups-filters.SlackBuild cups-filters.info doinst.sh slack-desc
-SLACKBUILD VERSION: 1.0.53
-SLACKBUILD DOWNLOAD: https://www.openprinting.org/download/cups-filters/cups-filters-1.0.53.tar.xz
+SLACKBUILD VERSION: 1.0.54
+SLACKBUILD DOWNLOAD: https://www.openprinting.org/download/cups-filters/cups-filters-1.0.54.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 85c605f82cddfd9990a17f1ffaf51eec
+SLACKBUILD MD5SUM: 181ee0e6c27cfbb05e241f0267363678
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  cups-filters (CUPS backend and filters)
 
@@ -741,10 +741,10 @@ SLACKBUILD SHORT DESCRIPTION: mysql-connector-c++: mysql-connector-c++ (MySQL Co
 SLACKBUILD NAME: mysql-workbench
 SLACKBUILD LOCATION: ./mysql-workbench
 SLACKBUILD FILES: README config_and_ifconfig_paths.patch doinst.sh mysql-workbench.SlackBuild mysql-workbench.info slack-desc
-SLACKBUILD VERSION: 6.1.4
-SLACKBUILD DOWNLOAD: http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-6.1.4-src.tar.gz
+SLACKBUILD VERSION: 6.1.7
+SLACKBUILD DOWNLOAD: http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-6.1.7-src.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: ba549ab2300373e21a5da2d3b8230f5d
+SLACKBUILD MD5SUM: ac059e239869fb77bf5d7a1f5845a8af
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  mysql-workbench - MySQL Workbench (GUI Tool)
 
@@ -821,10 +821,10 @@ SLACKBUILD SHORT DESCRIPTION:  pycrypto (Python Cryptography Toolkit)
 SLACKBUILD NAME: qpdf
 SLACKBUILD LOCATION: ./qpdf
 SLACKBUILD FILES: README qpdf.SlackBuild qpdf.info slack-desc
-SLACKBUILD VERSION: 5.1.1
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/qpdf/qpdf-5.1.1.tar.gz
+SLACKBUILD VERSION: 5.1.2
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/qpdf/qpdf-5.1.2.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 378bfd1c2ee15d7815f2f4b1a50fa6e0
+SLACKBUILD MD5SUM: 0bd15ef5eea5f628951ab456c84e78ec
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  qpdf (Command-line tools and library for transforming PDF files)
 
