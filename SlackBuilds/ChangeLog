@@ -1,3 +1,11 @@
+Mon Jul 28 08:45:34 WIB 2014
+dynalogin: Added
+oath-toolkit: Added
+pam: Added
+pam_unix2: Added
+xmlsec: Added
+
++--------------------------+
 Sat Jul 26 20:42:04 WIB 2014
 digikam: Upgraded to 4.1.0
 filezilla: Upgraded to 3.8.1

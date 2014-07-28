@@ -248,6 +248,16 @@ SLACKBUILD MD5SUM: 40c309593e0c873c0d289357732a2a76
 SLACKBUILD MD5SUM_x86_64: d09cd1ccc32689cdba8740e341d72b9d
 SLACKBUILD SHORT DESCRIPTION:  dropbox (store, sync and share files online)
 
+SLACKBUILD NAME: dynalogin
+SLACKBUILD LOCATION: ./dynalogin
+SLACKBUILD FILES: README dynalogin-1.0.0.tar.gz dynalogin.SlackBuild dynalogin.info slack-desc
+SLACKBUILD VERSION: 1.0.0
+SLACKBUILD DOWNLOAD: http://www.dynalogin.org/sites/www.dynalogin.org/files/dynalogin-1.0.0.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 580b0f3f5827bff06bac8ec8af1b9e50
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  dynalogin (two-factor authentication)
+
 SLACKBUILD NAME: EFL
 SLACKBUILD LOCATION: ./EFL
 SLACKBUILD FILES: EFL.SlackBuild EFL.info README slack-desc
@@ -758,6 +768,16 @@ SLACKBUILD MD5SUM: d79e6dde6ec3acd3f973f8469746df25
 SLACKBUILD MD5SUM_x86_64: d3f98f571cc80155313b13e708f23e48
 SLACKBUILD SHORT DESCRIPTION:  nixnote (Open Source Client for Evernote)
 
+SLACKBUILD NAME: oath-toolkit
+SLACKBUILD LOCATION: ./oath-toolkit
+SLACKBUILD FILES: README oath-toolkit.SlackBuild oath-toolkit.info slack-desc
+SLACKBUILD VERSION: 2.4.1
+SLACKBUILD DOWNLOAD: http://download.savannah.gnu.org/releases/oath-toolkit/oath-toolkit-2.4.1.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 951bafd1d86e6013903c10be3b6623bb
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  oath-toolkit (OTP Authentication System)
+
 SLACKBUILD NAME: opencv
 SLACKBUILD LOCATION: ./opencv
 SLACKBUILD FILES: README opencv-2.4.9-fsh.patch opencv-2.4.9-pkgconfig.patch opencv.SlackBuild opencv.info slack-desc
@@ -767,6 +787,16 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: cc0a8307403ff471f554197401ec0eb9
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  OpenCV (Open Source Computer Vision)
+
+SLACKBUILD NAME: pam
+SLACKBUILD LOCATION: ./pam
+SLACKBUILD FILES: README pam-1.1.8-cve-2013-7041.patch pam-1.1.8-cve-2014-2583.patch pam.SlackBuild pam.info slack-desc
+SLACKBUILD VERSION: 1.1.8
+SLACKBUILD DOWNLOAD: http://www.linux-pam.org/library/Linux-PAM-1.1.8.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 35b6091af95981b1b2cd60d813b5e4ee
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  pam (Pluggable Authentication Modules)
 
 SLACKBUILD NAME: pangomm
 SLACKBUILD LOCATION: ./pangomm
@@ -1007,4 +1037,14 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 486d029bd81071a2d04e7181909b1602
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  xchm (viewer for .chm files)
+
+SLACKBUILD NAME: xmlsec
+SLACKBUILD LOCATION: ./xmlsec
+SLACKBUILD FILES: README slack-desc xmlsec.SlackBuild xmlsec.info
+SLACKBUILD VERSION: 1.2.20
+SLACKBUILD DOWNLOAD: http://www.aleksey.com/xmlsec/download/xmlsec1-1.2.20.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: ce12af00283eb90d9281956524250d6e
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  xmlsec (C library based on LibXML2)
 
