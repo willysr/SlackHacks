@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+         |-----handy-ruler------------------------------------------------------|
+dynalogin: dynalogin (two-factor authentication)
+dynalogin:
+dynalogin: dynalogin is an Open Source two factor authentication suite.
+dynalogin: It aims to enable the wider adoption of two-factor authentication,
+dynalogin: undermine the efforts of keystroke loggers and other trojans, and
+dynalogin: reduce spam, by significantly increasing the effort required to make
+dynalogin: effective phishing attacks
+dynalogin:
+dynalogin: Project URL: http://www.dynalogin.org/
+dynalogin:
+dynalogin:

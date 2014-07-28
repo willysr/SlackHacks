@@ -1,0 +1,5 @@
+dynalogin is an Open Source two factor authentication suite.
+It aims to enable the wider adoption of two-factor authentication,
+undermine the efforts of keystroke loggers and other trojans, and
+reduce spam, by significantly increasing the effort required to make
+effective phishing attacks
