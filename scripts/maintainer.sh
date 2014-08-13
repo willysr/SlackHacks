@@ -34,5 +34,5 @@ do
   VERSION=`cat $list | grep "VERSION" | sed 's/VERSION="//' | sed 's/"//'`
   HOMEPAGE=`cat $list | grep "HOMEPAGE" | sed 's/HOMEPAGE="//' | sed 's/"//'`
   EMAIL=`cat $list | grep "EMAIL" | sed 's/EMAIL="//' | sed 's/"//'`
-  echo $FILENAME - $VERSION - $EMAIL
+  echo $FILENAME - $VERSION - $HOMEPAGE - $EMAIL
 done
