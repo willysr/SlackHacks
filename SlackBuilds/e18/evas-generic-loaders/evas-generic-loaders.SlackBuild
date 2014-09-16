@@ -24,7 +24,7 @@
 
 PRGNAM=evas-generic-loaders
 SRCNAM=evas_generic_loaders
-VERSION=${VERSION:-1.11.0}
+VERSION=${VERSION:-1.11.2}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
