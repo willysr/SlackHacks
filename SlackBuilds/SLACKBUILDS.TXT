@@ -261,10 +261,10 @@ SLACKBUILD SHORT DESCRIPTION:  dynalogin (two-factor authentication)
 SLACKBUILD NAME: EFL
 SLACKBUILD LOCATION: ./EFL
 SLACKBUILD FILES: EFL.SlackBuild EFL.info README slack-desc
-SLACKBUILD VERSION: 1.11.1
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/libs/efl/efl-1.11.1.tar.gz
+SLACKBUILD VERSION: 1.11.2
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/libs/efl/efl-1.11.2.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 7799d269e1929e6845cabc28873c8b2a
+SLACKBUILD MD5SUM: f1b23b9a4e2ae04a4c0f6d2f924093e9
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  EFL (EFL Core Libraries)
 
@@ -301,10 +301,10 @@ SLACKBUILD SHORT DESCRIPTION:  econnman (E18 ConnMan UI)
 SLACKBUILD NAME: elementary
 SLACKBUILD LOCATION: ./elementary
 SLACKBUILD FILES: README doinst.sh elementary.SlackBuild elementary.info slack-desc
-SLACKBUILD VERSION: 1.11.1
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/libs/elementary/elementary-1.11.1.tar.gz
+SLACKBUILD VERSION: 1.11.2
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/libs/elementary/elementary-1.11.2.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 3343a3383c722aabd676a2354adef3f0
+SLACKBUILD MD5SUM: f6939a24ffc50c2e4eac7ed38663f0f3
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  elementary (toolkit set)
 
@@ -320,31 +320,31 @@ SLACKBUILD SHORT DESCRIPTION:  emotion-generic-players (Video Decoders)
 
 SLACKBUILD NAME: enlightenment
 SLACKBUILD LOCATION: ./enlightenment
-SLACKBUILD FILES: README doinst.sh enlightenment.SlackBuild enlightenment.info slack-desc xinitrc.enlightenment18
-SLACKBUILD VERSION: 0.18.8
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/apps/enlightenment/enlightenment-0.18.8.tar.gz
+SLACKBUILD FILES: README doinst.sh enlightenment.SlackBuild enlightenment.info slack-desc xinitrc.enlightenment19
+SLACKBUILD VERSION: 0.19.0
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/apps/enlightenment/enlightenment-0.19.0.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 79c9f524e1d0510061c62c4b038a8ece
+SLACKBUILD MD5SUM: 9571d7e77fdd1ddb877adb063aaf9896
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Enlightenment DR18 (a window manager and desktop shell)
 
 SLACKBUILD NAME: evas-generic-loaders
 SLACKBUILD LOCATION: ./evas-generic-loaders
 SLACKBUILD FILES: README evas-generic-loaders.SlackBuild evas-generic-loaders.info slack-desc
-SLACKBUILD VERSION: 1.11.0
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/libs/evas_generic_loaders/evas_generic_loaders-1.11.0.tar.gz
+SLACKBUILD VERSION: 1.11.2
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/libs/evas_generic_loaders/evas_generic_loaders-1.11.2.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: b99fd8dc1e79efacd4e212374a4f0668
+SLACKBUILD MD5SUM: b7c57c082e6b431ffeabe3803c6546b6
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  evas-generic-loaders (Image Decoders)
 
 SLACKBUILD NAME: python-EFL
 SLACKBUILD LOCATION: ./python-EFL
 SLACKBUILD FILES: README python-EFL.SlackBuild python-EFL.info slack-desc
-SLACKBUILD VERSION: 1.10.1
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/bindings/python/python-efl-1.10.1.tar.gz
+SLACKBUILD VERSION: 1.11.0
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/bindings/python/python-efl-1.11.0.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 1cc68d6cd77d9d20d07c91188d523a9a
+SLACKBUILD MD5SUM: b378f48ae4defbcb7c3e82479d106cfc
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  python-EFL (Python Binding for EFL)
 

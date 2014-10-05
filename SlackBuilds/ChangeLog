@@ -1,3 +1,11 @@
+Tue Sep 16 09:34:00 WIB 2014
+EFL: Upgraded to 1.11.2
+enlightenment: Upgraded to 0.19.0
+elementary: Upgraded to 1.11.2
+evas-generic-loaders: Upgraded to 1.11.2
+python-EFL: Upgraded to 1.11.0
+
++--------------------------+
 Wed Sep  3 23:03:46 WIB 2014
 EFL: Upgraded to 1.11.
 elementary: Upgraded to 1.11.1
