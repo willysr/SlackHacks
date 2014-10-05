@@ -44,7 +44,7 @@
 # May 28: Upgraded to 1.7.3
 # July 16: Upgraded to 1.7.4
 
-VERSION=${VERSION:-1.7.4}
+VERSION=${VERSION:-2.0.0}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -82,7 +82,6 @@ sed -i.orig -e 's#$exec_prefix/lib/cups#$libdir/cups#g' configure
 ./configure \
   --libdir=/usr/lib${LIBDIRSUFFIX} \
   --enable-ssl \
-  --enable-openssl=yes \
   --enable-gnutls=no \
   --enable-cdsassl=no \
   --docdir=/usr/doc \
