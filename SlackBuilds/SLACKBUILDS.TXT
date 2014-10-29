@@ -281,10 +281,10 @@ SLACKBUILD SHORT DESCRIPTION:  connman (Open Source Connection Manager)
 SLACKBUILD NAME: e_dbus
 SLACKBUILD LOCATION: ./e_dbus
 SLACKBUILD FILES: README e_dbus.SlackBuild e_dbus.info slack-desc
-SLACKBUILD VERSION: 1.7.9
-SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/e_dbus-1.7.9.tar.bz2
+SLACKBUILD VERSION: 1.7.10
+SLACKBUILD DOWNLOAD: http://download.enlightenment.org/releases/e_dbus-1.7.10.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 713191ea66a4bdacc720a97046f7d0b7
+SLACKBUILD MD5SUM: f91fed0d720b21310c270ea8b0b80565
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  E_dbus (one of the Enlightenment DR17 foundation libraries)
 
