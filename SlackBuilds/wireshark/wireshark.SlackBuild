@@ -34,9 +34,10 @@
 # December 24: Upgraded to 1.11.2
 # May 20: Upgraded to 1.11.3
 # August 3: Upgraded to 1.12.0
+# January 8: Upgraded to 1.12.3
 
 PRGNAM=wireshark
-VERSION=${VERSION:-1.12.0}
+VERSION=${VERSION:-1.12.3}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -82,6 +83,7 @@ find -L . \
 # systems with 32bit compat libs install. Thanks to Heinz Wiesinger.
 sed -i "s|/lib)|/lib$LIBDIRSUFFIX)|g" configure.ac
 
+autoreconf -f -i
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
 ./configure \
