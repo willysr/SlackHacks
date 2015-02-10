@@ -200,11 +200,11 @@ SLACKBUILD SHORT DESCRIPTION:  cups-filters (CUPS backend and filters)
 
 SLACKBUILD NAME: cups
 SLACKBUILD LOCATION: ./cups
-SLACKBUILD FILES: README airprint-support.patch cups-1.7.4-source.tar.bz2 cups-2.0.0-source.tar.bz2 cups-2.0.1-source.tar.bz2 cups.SlackBuild cups.info doinst.sh.gz slack-desc
-SLACKBUILD VERSION: 2.0.0
-SLACKBUILD DOWNLOAD: http://www.cups.org/software/2.0.0/cups-2.0.0-source.tar.bz2
+SLACKBUILD FILES: README airprint-support.patch cups-2.0.2-source.tar.bz2 cups.SlackBuild cups.info doinst.sh.gz slack-desc
+SLACKBUILD VERSION: 2.0.2
+SLACKBUILD DOWNLOAD: http://www.cups.org/software/2.0.2/cups-2.0.2-source.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 2cdd81fea23e9e29555c24bdfd0d7c89
+SLACKBUILD MD5SUM: 6e0ea72dbafcf5baaa1cf4178e71096d
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  CUPS (Common UNIX Printing System)
 

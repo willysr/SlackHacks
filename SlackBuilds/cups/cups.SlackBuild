@@ -44,7 +44,7 @@
 # May 28: Upgraded to 1.7.3
 # July 16: Upgraded to 1.7.4
 
-VERSION=${VERSION:-2.0.0}
+VERSION=${VERSION:-2.0.2}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
