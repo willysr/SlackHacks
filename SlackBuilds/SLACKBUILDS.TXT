@@ -191,10 +191,10 @@ SLACKBUILD SHORT DESCRIPTION:  cssutils (CSS parser and builder)
 SLACKBUILD NAME: cups-filters
 SLACKBUILD LOCATION: ./cups-filters
 SLACKBUILD FILES: README cups-filters.SlackBuild cups-filters.info doinst.sh slack-desc
-SLACKBUILD VERSION: 1.0.57
-SLACKBUILD DOWNLOAD: https://www.openprinting.org/download/cups-filters/cups-filters-1.0.57.tar.xz
+SLACKBUILD VERSION: 1.0.67
+SLACKBUILD DOWNLOAD: https://www.openprinting.org/download/cups-filters/cups-filters-1.0.67.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: e874e1a12836fc261fe74b0bdda191b4
+SLACKBUILD MD5SUM: 0a5cfab3736120345c5e254dd2efbe64
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  cups-filters (CUPS backend and filters)
 
@@ -340,7 +340,7 @@ SLACKBUILD SHORT DESCRIPTION:  evas-generic-loaders (Image Decoders)
 
 SLACKBUILD NAME: python-EFL
 SLACKBUILD LOCATION: ./python-EFL
-SLACKBUILD FILES: README python-EFL.SlackBuild python-EFL.info python-efl-1.12.0.tar.gz slack-desc
+SLACKBUILD FILES: README python-EFL.SlackBuild python-EFL.info slack-desc
 SLACKBUILD VERSION: 1.12.0
 SLACKBUILD DOWNLOAD: http://download.enlightenment.org/rel/bindings/python/python-efl-1.12.0.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
@@ -1000,7 +1000,7 @@ SLACKBUILD SHORT DESCRIPTION:  Wesnoth (The Battle for Wesnoth)
 
 SLACKBUILD NAME: wireshark
 SLACKBUILD LOCATION: ./wireshark
-SLACKBUILD FILES: README doinst.sh slack-desc wireshark-1.12.3.tar.bz2 wireshark.SlackBuild wireshark.info
+SLACKBUILD FILES: README doinst.sh slack-desc wireshark.SlackBuild wireshark.info
 SLACKBUILD VERSION: 1.12.3
 SLACKBUILD DOWNLOAD: http://wiresharkdownloads.riverbed.com/wireshark/src/wireshark-1.12.3.tar.bz2
 SLACKBUILD DOWNLOAD_x86_64: 
