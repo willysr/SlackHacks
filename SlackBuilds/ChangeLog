@@ -1,3 +1,10 @@
+Sun Apr  5 17:05:20 WIB 2015
+EFL: Upgraded to 1.13.2
+elementary: Upgraded to 1.13.2
+evas-generic-loaders: Upgraded to 1.13.2
+enlightenment: Upgraded to 0.19.4
+
++--------------------------+
 Fri Mar 20 11:07:20 WIB 2015
 cups-filters: Upgraded to 1.0.67
 
