@@ -2,7 +2,7 @@
 
 # Slackware build script for enlightenment
 
-# Copyright 2013-2014 Willy Sudiarto Raharjo <willysr@slackware-id.org>
+# Copyright 2013-2015 Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # All rights reserved.
 #
 # Redistribution and use of this script, with or without modification, is
@@ -23,7 +23,7 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 PRGNAM=enlightenment
-VERSION=${VERSION:-0.19.1}
+VERSION=${VERSION:-0.19.4}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
