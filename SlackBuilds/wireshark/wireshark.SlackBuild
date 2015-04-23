@@ -35,9 +35,10 @@
 # May 20: Upgraded to 1.11.3
 # August 3: Upgraded to 1.12.0
 # January 8: Upgraded to 1.12.3
+# Aprill 23: Upgraded to 1.12.4
 
 PRGNAM=wireshark
-VERSION=${VERSION:-1.12.3}
+VERSION=${VERSION:-1.12.4}
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -77,7 +78,7 @@ find -L . \
  \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
   -o -perm 511 \) -exec chmod 755 {} \; -o \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
- -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
+  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
 # Ammend hardcoded paths to /usr/lib/ which will give a problem when compiling on
 # systems with 32bit compat libs install. Thanks to Heinz Wiesinger.
