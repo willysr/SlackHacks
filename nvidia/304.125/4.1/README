@@ -1,0 +1,16 @@
+HOW TO PATCH
+
+1. Extract NVidia Driver
+   ./NVIDIA-Linux-x86-304.125.run --extract-only
+2. Go to the extracted directory
+   cd NVIDIA-Linux-x86-304.125
+3. Patch it
+   patch -p1 < /path/to/nvidia-3.19.patch
+   patch -p0 < /path/to/nvidia-4.1.patch
+4. Run the nvidia-installer
+   ./nvidia-installer
+5. Have fun :)
+
+
+22 August 2015
+Willy Sudiarto Raharjo
