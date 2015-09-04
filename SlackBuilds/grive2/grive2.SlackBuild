@@ -2,7 +2,7 @@
 
 # SlackBuild script for grive.
 
-# Copyright 2012 Willy Sudiarto Raharjo <willysr@slackware-id.org>
+# Copyright 2012-2015 Willy Sudiarto Raharjo <willysr@slackware-id.org>
 # All  rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -24,8 +24,9 @@
 # (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-PRGNAM=grive
-VERSION=${VERSION:-0.2.0}
+PRGNAM=grive2
+VERSION=${VERSION:-git5dc702}
+SRCVER="5dc7028c8aebb26d35ed31c4b07ac180cc1887c9"
 BUILD=${BUILD:-1wsr}
 
 if [ -z "$ARCH" ]; then
@@ -45,11 +46,10 @@ set -e
 
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
-rm -rf $TMP/$PRGNAM-$VERSION
+rm -rf $TMP/$PRGNAM-$SRCVER
 cd $TMP
-tar xvf $CWD/$PRGNAM-$VERSION.tar.gz
-cd $PRGNAM-$VERSION
-
+unzip $CWD/$SRCVER.zip
+cd $PRGNAM-$SRCVER
 chown -R root:root .
 find -L . \
  \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
@@ -57,31 +57,24 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
+#sed -i "s|json/json.h|json-c/json.h|" cmake/Modules/FindJSONC.cmake
+#sed -i "s|json/|json-c/|" libgrive/src/protocol/Json.cc
 cmake \
  -DCMAKE_BUILD_TYPE=Release \
  -DCMAKE_INSTALL_PREFIX=/usr \
+ -DCMAKE_EXE_LINKER_FLAGS=-ljson-c \
 .
 
 make
 make install DESTDIR=$PKG
 
-if [ -d $PKG/usr/share/man ]; then
-  ( cd $PKG/usr/share/man
-    for manpagedir in $(find . -type d -name "man*") ; do
-      ( cd $manpagedir
-        for eachpage in $( find . -type l -maxdepth 1) ; do
-          ln -s $( readlink $eachpage ).gz $eachpage.gz
-          rm $eachpage
-        done
-        gzip -9 *.*
-      )
-    done
-  )
-fi
+mv $PKG/usr/share/man $PKG/usr/man
+find $PKG/usr/man -type f -exec gzip -9 {} \;
+for i in $( find $PKG/usr/man -type l ) ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
+rm -rf $PKG/usr/share
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
-cp -a COPYING README \
-  $PKG/usr/doc/$PRGNAM-$VERSION
+cp -a COPYING README.md $PKG/usr/doc/$PRGNAM-$VERSION
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 
 mkdir $PKG/install

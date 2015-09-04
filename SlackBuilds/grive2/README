@@ -2,6 +2,10 @@ The purpose of this project is to provide an independent open source
 implementation of Google Drive client for GNU/Linux. It uses the 
 Google Document List API to talk to the servers in Google.
 
+This is the fork of original "Grive" (https://github.com/Grive/grive)
+Google Drive client with the support for the new Drive REST API and
+partial sync.
+
 This requires json-c
 
 Note:

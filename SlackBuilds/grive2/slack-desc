@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+      |-----handy-ruler------------------------------------------------------|
+grive2: grive2 (Google Drive client)
+grive2:
+grive2: The purpose of this project is to provide an independent open source
+grive2: implementation of Google Drive client for GNU/Linux. It uses the
+grive2: Google Document List API to talk to the servers in Google.
+grive2:
+grive2: This is the fork of original "Grive" (https://github.com/Grive/grive)
+grive2: Google Drive client with the support for the new Drive REST API and
+grive2: partial sync.
+grive2: Homepage: http://yourcmc.ru/wiki/Grive2
+grive2:
