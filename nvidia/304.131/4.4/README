@@ -1,0 +1,12 @@
+You need to rebuilt your kernel using this mtrr.patch in order to build NVidia 304.131
+
+go to /usr/src/linux-4.4
+patch -p1 < /path/to/mtrr.patch
+cp /boot/config-generic-smp-4.4-smp .config
+make oldconfig
+make bzImage
+cp arch/x86/boot/bzImage /boot/vmlinuz-generic-smp-4.4-smp
+/sbin/lilo -v
+reboot
+
+After that, you can reinstall NVidia driver again.
