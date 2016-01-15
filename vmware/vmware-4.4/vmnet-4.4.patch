@@ -1,22 +1,19 @@
---- vmnet-only/vmnetInt.h.orig  2016-01-14 09:04:40.248877530 +0700
-+++ vmnet-only/vmnetInt.h       2016-01-14 09:05:26.570307176 +0700
-@@ -78,8 +78,19 @@
+--- vmnet-only/vmnetInt.h.orig	2016-01-15 17:00:26.959692752 +0700
++++ vmnet-only/vmnetInt.h	2016-01-15 17:02:01.131677866 +0700
+@@ -78,10 +78,13 @@
  
  extern struct proto vmnet_proto;
  #ifdef VMW_NETDEV_HAS_NET
+-#   define compat_sk_alloc(_bri, _pri) sk_alloc(&init_net, \
+-                                                PF_NETLINK, _pri, &vmnet_proto)
 +#if LINUX_VERSION_CODE < KERNEL_VERSION(4, 2, 0)
-+
- #   define compat_sk_alloc(_bri, _pri) sk_alloc(&init_net, \
-+
-                                                 PF_NETLINK, _pri, &vmnet_proto)
-+
-+#else
-+
-+#   define compat_sk_alloc(_bri, _pri) sk_alloc(&init_net, \
-+
-+                                                AF_NETLINK, _pri, &vmnet_proto, 1)
-+
-+#endif
++#   define compat_sk_alloc(_bri, _pri) sk_alloc(&init_net, PF_NETLINK, _pri, &vmnet_proto)
  #else
- #   define compat_sk_alloc(_bri, _pri) sk_alloc(PF_NETLINK, _pri, &vmnet_proto, 1)
+-#   define compat_sk_alloc(_bri, _pri) sk_alloc(PF_NETLINK, _pri, &vmnet_proto, 1)
++#   define compat_sk_alloc(_bri, _pri) sk_alloc(&init_net, AF_NETLINK, _pri, &vmnet_proto, 1)
++#endif
++#else
++#   define compat_sk_alloc(_bri, _pri) sk_alloc(AF_NETLINK, _pri, &vmnet_proto, 1)
  #endif
+ 
+ 
