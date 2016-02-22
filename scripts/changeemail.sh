@@ -23,11 +23,11 @@
 SBOPATH="/home/willysr/slackbuilds/"
 
 # Put the email of the maintainer you want to search for
-OLDEMAIL="willysr@gmail.com"
-NEWEMAIL="willysr@slackbuilds.org"
+OLDEMAIL=${OLDEMAIL:-willysr@gmail.com}
+NEWEMAIL=${NEWEMAIL:-willysr@slackbuilds.org}
 
 L=`find $SBOPATH -mindepth 2 -maxdepth 3 -name "*.info" -exec grep -l "$OLDEMAIL" {} +`
-for list in $L 
+for list in $L
 do
   sed -i "s/$OLDEMAIL/$NEWEMAIL/i" $list
 done
