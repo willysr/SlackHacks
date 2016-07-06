@@ -1,7 +1,0 @@
-db4 (Berkeley database library version 5.3.x)
-
-The Berkeley Database (Berkeley DB) library provides embedded database
-support for both traditional and client/server applications.
-
-This package should be installed if compatibility is needed with
-databases created with the Berkeley DB version 5.3.x.

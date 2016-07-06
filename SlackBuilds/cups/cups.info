@@ -1,8 +1,0 @@
-PRGNAM="cups"
-VERSION="2.0.2"
-HOMEPAGE="http://cups.org/"
-DOWNLOAD="http://www.cups.org/software/2.0.2/cups-2.0.2-source.tar.bz2"
-MD5SUM="6e0ea72dbafcf5baaa1cf4178e71096d"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""
-REQUIRES=""

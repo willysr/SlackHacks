@@ -1,3 +1,0 @@
-AVbin is a thin cross-platform wrapper around Libav's video and audio 
-decoding functionality, providing binary compatibility for 
-applications and languages that need it.

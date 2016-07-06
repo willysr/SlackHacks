@@ -1,8 +1,0 @@
-PRGNAM="skype"
-VERSION="4.2.0.11"
-HOMEPAGE="http://www.skype.com"
-DOWNLOAD="http://download.skype.com/linux/skype-4.2.0.11.tar.bz2"
-MD5SUM="6e9553a6368853c647b1c5ad7f3cc99b"
-DOWNLOAD_x86_64="UNSUPPORTED"
-MD5SUM_x86_64=""
-REQUIRES=""

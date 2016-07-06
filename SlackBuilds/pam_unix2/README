@@ -1,6 +1,0 @@
-pam_unix2 is the standard Unix authentication module.
-The authentication component performs the task of checking the 
-users credentials (password).
-
-Credentials information is obtained from the /etc/passwd and the 
-/etc/shadow file as well if shadow is enabled

@@ -1,7 +1,0 @@
-PRGNAM="wxGTK"
-VERSION="2.8.12"
-HOMEPAGE="http://www.wxwidgets.org"
-DOWNLOAD="http://sourceforge.net/projects/wxwindows/files/2.8.12/wxWidgets-2.8.12.tar.bz2"
-MD5SUM="f1348f740a569ce2945512d5b0e70e87"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""

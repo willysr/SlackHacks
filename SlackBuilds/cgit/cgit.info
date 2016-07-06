@@ -1,9 +1,0 @@
-PRGNAM="cgit"
-VERSION="0.10.1"
-HOMEPAGE="http://git.zx2c4.com/cgit/"
-DOWNLOAD="http://git.zx2c4.com/cgit/snapshot/cgit-0.10.1.tar.xz \
-          https://git-core.googlecode.com/files/git-1.8.4.tar.gz"
-MD5SUM="060ef0aa95ebda6ea7daf823214bc4d0 \
-        355768a1c70d0cb4fedf4b598ac1375b"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""

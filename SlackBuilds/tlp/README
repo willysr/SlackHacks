@@ -1,8 +1,0 @@
-TLP is an advanced power management tool for Linux.
-
-TLP is a pure command line tool with automated background tasks. 
-It does not contain a GUI.
-
-Please remove any power saving settings / scripts (e.g.: in /etc/rc.local)
-or laptop-mode-tools prior installing this package or else TLP may not work properly
-

@@ -1,8 +1,0 @@
-PRGNAM="gogglesmm"
-VERSION="0.12.7"
-HOMEPAGE="http://gogglesmm.github.io/"
-DOWNLOAD="http://gogglesmm.googlecode.com/files/gogglesmm-0.12.7.tar.xz"
-MD5SUM="c59f004806bdee8cd8c9353729c82262"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""
-REQUIRES="fox-toolkit"

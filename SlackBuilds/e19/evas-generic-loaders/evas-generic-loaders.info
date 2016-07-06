@@ -1,8 +1,0 @@
-PRGNAM="evas-generic-loaders"
-VERSION="1.13.2"
-HOMEPAGE="http://www.enlightenment.org/"
-DOWNLOAD="https://download.enlightenment.org/rel/libs/evas_generic_loaders/evas_generic_loaders-1.13.2.tar.xz"
-MD5SUM="36587792788b2b04adea0ef3723c7b02"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""
-REQUIRES="EFL"

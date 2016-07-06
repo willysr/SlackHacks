@@ -1,5 +1,0 @@
-PAM = Pluggable Authentication Modules.  Basically, it is a flexible
-mechanism for authenticating users.  PAM provides a way to develop
-programs that are independent of authentication scheme.  However,
-these programs will need "authentication modules" (and libpam) at
-run-time in order to work.

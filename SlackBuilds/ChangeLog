@@ -1,3 +1,92 @@
+Wed Jul  6 18:04:37 WIB 2016
+BeautifulSoup: Removed (Included in SBo)
+OpenAL: Removed (Included in SBo)
+ProjectLibre: Removed (Included in SBo)
+QtGstreamer: Removed (Included in Slackware 14.2)
+TeamSpeak3: Removed (Included in SBo)
+aegisub: Removed (Included in SBo)
+anjuta: Removed (Included in SBo)
+apsw: Removed (Included in SBo)
+atkmm: Removed (Included in Slackware 14.2)
+autogen: Removed (Included in SBo)
+avbin: Removed (Included in SBo)
+bullet: Removed (Included in SBo)
+cairomm: Removed (Included in Slackware 14.2)
+calibre: Removed (Included in SBo)
+cgit: Removed (Included in SBo)
+cssselect: Removed (Included in SBo)
+cssutils: Removed (Included in SBo)
+cups: Removed (Included in Slackware 14.2)
+cups-filters: Removed (Included in Slackware 14.2)
+db53: Removed (Included in SBo)
+digikam: Removed (Included in SBo)
+dnspython: Removed (Included in SBo)
+dropbox: Removed (Included in SBo)
+e19: Removed (Included in SBo)
+ecdsa: Removed (Included in SBo)
+eigen3: Removed (Included in Slackware 14.2)
+ettercap: Removed (Included in SBo)
+ffms2: Removed (Included in SBo)
+filezilla: Removed (Included in SBo)
+gdl: Removed (Included in SBo)
+glibmm: Removed (Included in Slackware 14.2)
+gnugo: Removed (Included in SBo)
+gogglesmm: Removed (Included in SBo)
+google-earth: Removed (Included in SBo)
+gtkmm: Removed (Included in Slackware 14.2)
+gtkmm3: Removed (Included in Slackware 14.2)
+gtkpod: Removed (Included in SBo)
+gtksourceview3: Removed (Included in SBo)
+guvcview: Removed (Included in SBo)
+hub: Removed (Included in SBo)
+insync-kde: Removed (Included in SBo)
+json-c: Removed (Included in SBo)
+laptop-mode-tools: Removed (Included in SBo)
+lensfun: Removed (Included in SBo)
+libdc1394: Removed (Included in SBo)
+libgda: Removed (Included in SBo)
+liblqr: Removed (Included in SBo)
+libmygpo-qt: Removed (Included in SBo)
+libnet: Removed (Included in SBo)
+libpgf: Removed (Included in SBo)
+libsigc++: Removed (Included in Slackware 14.2)
+libtiff: Removed (Included in Slackware 14.2)
+libusbx: Removed (Included in SBo)
+libwebp: Removed (Included in SBo)
+lua: Removed (Included in SBo)
+lxml: Removed (Included in SBo)
+mm-common: Removed (Included in SBo)
+mysql-connector-c++: Removed (Included in SBo)
+mysql-workbench: Removed (Included in SBo)
+oath-toolkit: Removed (Included in SBo)
+opencv: Removed (Included in SBo)
+pam: Removed (Included in CSB)
+pam_unix2: Removed (Included in CSB)
+pangomm: Removed (Included in Slackware 14.2)
+paramiko: Removed (Included in SBo)
+perl-LockFile-Simple: Removed (Included in SBo)
+pexpect: Removed (Included in SBo)
+pycrypto: Removed (Included in SBo)
+qpdf: Removed (Included in Slackware 14.2)
+scratch: Removed (Included in SBo)
+skype: Removed (Included in SBo)
+squeak-vm: Removed (Included in SBo)
+sshblock: Removed (Included in SBo)
+swatch: Removed (Included in SBo)
+teamviewer: Removed (Included in SBo)
+tlp: Removed (Included in SBo)
+vala: Removed (Included in SBo)
+vbindiff: Removed (Included in SBo)
+vcdimager: Removed (Included in SBo)
+vsqlite++: Removed (Included in SBo)
+vte3: Removed (Included in SBo)
+wesnoth: Removed (Included in SBo)
+wireshark: Removed (Included in SBo)
+wxGTK: Removed (Included in SBo)
+wxGTK3: Removed (Included in SBo)
+xchm: Removed (Included in SBo)
+xmlsec: Removed (Included in SBo)
++--------------------------+
 Fri Sep  4 18:56:24 WIB 2015
 grive2: Added
 grive: Removed (no longer build)
@@ -2112,14 +2201,14 @@ Fri May 18 07:20:06 GMT+7 2012
 cnijfilter: Added
   This is a SlackBuild for cnijfilter-3.4.0, Canon Printer Driver for Linux
   This driver supports 
-     mp250
-     mp280
-     mp495
-     mg5100
-     ip4800
-     mg5200
-     mg6100
-     mg8100
+ mp250
+ mp280
+ mp495
+ mg5100
+ ip4800
+ mg5200
+ mg6100
+ mg8100
 
 +--------------------------+
 Fri May 18 06:00:44 GMT+7 2012

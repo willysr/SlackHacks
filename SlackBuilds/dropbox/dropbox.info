@@ -1,8 +1,0 @@
-PRGNAM="dropbox"
-VERSION="2.6.15"
-HOMEPAGE="http://www.dropbox.com"
-DOWNLOAD="https://dl.dropboxusercontent.com/u/17/dropbox-lnx.x86-2.6.15.tar.gz"
-MD5SUM="40c309593e0c873c0d289357732a2a76"
-DOWNLOAD_x86_64="http://dl-web.dropbox.com/u/17/dropbox-lnx.x86_64-2.6.15.tar.gz"
-MD5SUM_x86_64="d09cd1ccc32689cdba8740e341d72b9d"
-REQUIRES=""

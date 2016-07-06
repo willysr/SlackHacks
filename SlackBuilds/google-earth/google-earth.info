@@ -1,8 +1,0 @@
-PRGNAM="google-earth"
-VERSION="7.1.2.2041"
-HOMEPAGE="http://www.google.com/earth/index.html"
-DOWNLOAD="http://dl.google.com/dl/earth/client/current/google-earth-stable_current_i386.deb"
-MD5SUM="c9675d0078d1b188188c9d3b616de6fa"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""
-REQUIRES=""

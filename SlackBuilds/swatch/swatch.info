@@ -1,8 +1,0 @@
-PRGNAM="swatch"
-VERSION="3.2.3"
-HOMEPAGE="http://sourceforge.net/projects/swatch/"
-DOWNLOAD="http://downloads.sourceforge.net/project/swatch/swatch/3.2.3/swatch-3.2.3.tar.gz"
-MD5SUM="1162f1024cf07fc750ed4960d61ac4e8"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""
-REQUIRES="perl-TimeDate perl-Date-Calc perl-Date-Manip perl-File-Tail yaml perl-Sub-Uplevel perl-Test-Exception perl-Carp-Clan perl-Bit-Vector perl-Test-Inter perl-Test-Pod perl-Devel-Symdump perl-Pod-Coverage perl-Test-Pod-Coverage perl-YAML-Syck"

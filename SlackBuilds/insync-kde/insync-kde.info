@@ -1,8 +1,0 @@
-PRGNAM="insync-kde"
-VERSION="0.9.41"
-HOMEPAGE="http://www.insynchq.com/"
-DOWNLOAD="http://s.insynchq.com/builds/insync-beta-kde_0.9.41_i386.deb"
-MD5SUM="d2e6e54b3952d5e3551632a5f27cd79b"
-DOWNLOAD_x86_64="http://s.insynchq.com/builds/insync-beta-kde_0.9.41_amd64.deb"
-MD5SUM_x86_64="0fd0261e9b44c1100684c656d99654f1"
-REQUIRES=""

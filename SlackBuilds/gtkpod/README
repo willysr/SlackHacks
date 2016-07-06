@@ -1,5 +1,0 @@
-gtkpod is a graphical user interface for the Apple iPod for 
-Unix-like systems, written using the GTK+ toolkit.
-
-Compile-Time Requirements: anjuta
-Optional Requirements: faac, faad2, webkit, libmusicbrainz3 libmp4v2

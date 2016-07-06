@@ -1,8 +1,0 @@
-PRGNAM="opencv"
-VERSION="2.4.9"
-HOMEPAGE="http://opencv.willowgarage.com/wiki/"
-DOWNLOAD="https://github.com/Itseez/opencv/archive/2.4.9.tar.gz"
-MD5SUM="cc0a8307403ff471f554197401ec0eb9"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""
-REQUIRES=""

@@ -1,8 +1,0 @@
-PRGNAM="calibre"
-VERSION="1.23.0"
-HOMEPAGE="http://calibre-ebook.com/"
-DOWNLOAD="http://download.calibre-ebook.com/1.23.0/calibre-1.23.0.tar.xz"
-MD5SUM="3146ce3cdcc0e626ee7f9b8f0bb1be13"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""
-REQUIRES="podofo BeautifulSoup dnspython pysetuptools python-cssutils lxml python-dateutil mechanize pycrypto python-netifaces cssselect apsw"
