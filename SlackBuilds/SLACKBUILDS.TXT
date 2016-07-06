@@ -368,6 +368,16 @@ SLACKBUILD MD5SUM: bf8b7224284f5d3f8ad5235c599fe9e7
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kvpnc (VPN Client GUI)
 
+SLACKBUILD NAME: libkipi
+SLACKBUILD LOCATION: ./libkipi
+SLACKBUILD FILES: README doinst.sh libkipi-16.04.2.tar.xz libkipi.SlackBuild libkipi.info slack-desc
+SLACKBUILD VERSION: 16.04.2
+SLACKBUILD DOWNLOAD: http://download.kde.org/stable/applications/16.04.2/src/libkipi-16.04.2.tar.xz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 42b949a6d7b1eb9e884e23db314da181
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  libkipi (kipi-plugins interface)
+
 SLACKBUILD NAME: libmusicbrainz5
 SLACKBUILD LOCATION: ./libmusicbrainz5
 SLACKBUILD FILES: README libmusicbrainz5-build.patch libmusicbrainz5.SlackBuild libmusicbrainz5.info slack-desc
