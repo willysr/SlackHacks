@@ -6,14 +6,14 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
         |-----handy-ruler------------------------------------------------------|
-libkipi: libkipi (kipi-plugins interface)
-libkipi:
-libkipi: This package contains an interface to use kipi-plugins from
-libkipi: a KDE application
-libkipi:
-libkipi:
-libkipi:
-libkipi:
-libkipi:
-libkipi:
-libkipi:
+libkipi5: libkipi5 (kipi-plugins interface)
+libkipi5:
+libkipi5: This package contains an interface to use kipi-plugins from
+libkipi5: a KDE application
+libkipi5:
+libkipi5:
+libkipi5:
+libkipi5:
+libkipi5:
+libkipi5:
+libkipi5:

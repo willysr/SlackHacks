@@ -1,4 +1,4 @@
-PRGNAM="libkipi"
+PRGNAM="libkipi5"
 VERSION="16.04.2"
 HOMEPAGE="https://www.kde.org/applications/graphics/"
 DOWNLOAD="http://download.kde.org/stable/applications/16.04.2/src/libkipi-16.04.2.tar.xz"
