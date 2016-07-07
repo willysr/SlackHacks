@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+        |-----handy-ruler------------------------------------------------------|
+digikam5: digiKam (KDE Photo Management Application)
+digikam5:
+digikam5: digiKam is a simple digital photo management application for KDE,
+digikam5: which makes importing and organizing digital photos a "snap". The
+digikam5: photos can be organized in albums which can be sorted chronologically,
+digikam5: by directory layout or by custom collections. An easy to use interface
+digikam5: is provided that enables you to connect to your camera and preview,
+digikam5: download and/or delete your images.
+digikam5:
+digikam5: Homepage: https://www.digikam.org/
+digikam5:

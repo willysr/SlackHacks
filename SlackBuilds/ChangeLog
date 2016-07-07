@@ -1,3 +1,8 @@
+Thu Jul  7 22:50:47 WIB 2016
+digikam5: Added
+  This is digiKam 5.0.0 release
+  You will need the whole framework5 packages and libkipi
++--------------------------+
 Thu Jul  7 06:32:35 WIB 2016
 libkipi: Added
   This is needed to build digikam5's kipi plugin

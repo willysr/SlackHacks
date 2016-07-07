@@ -18,6 +18,16 @@ SLACKBUILD MD5SUM: 609975a05d6050fcca88f312d3f35c6a
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  cnijfilter (IJ Printer Driver for Linux)
 
+SLACKBUILD NAME: digikam5
+SLACKBUILD LOCATION: ./digikam5
+SLACKBUILD FILES: README digikam-5.0.0.tar.xz digikam5.SlackBuild digikam5.info doinst.sh imgur.patch slack-desc
+SLACKBUILD VERSION: 5.0.0
+SLACKBUILD DOWNLOAD: http://download.kde.org/stable/digikam/digikam-5.0.0.tar.bz2
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 1129b327099f9773854d8408b73d6be3
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  digiKam (KDE Photo Management Application)
+
 SLACKBUILD NAME: dynalogin
 SLACKBUILD LOCATION: ./dynalogin
 SLACKBUILD FILES: README doinst.sh dynalogin.SlackBuild dynalogin.info slack-desc
