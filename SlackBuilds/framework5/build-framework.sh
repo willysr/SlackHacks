@@ -74,6 +74,8 @@ tier3/kio \
 
   # Change to package directory
   cd $F5ROOT/$dir || exit 1
+  . ./${package}.info
+  wget $DOWNLOAD
 
   # Get the version
   version=$(cat ${package}.SlackBuild | grep "VERSION:" | head -n1 | cut -d "-" -f2 | rev | cut -c 2- | rev)
@@ -84,7 +86,7 @@ tier3/kio \
   # The real build starts here
   TMP=$TMP OUTPUT=$OUTPUT sh ${package}.SlackBuild || exit 1
   if [ "$INST" = "1" ]; then
-    PACKAGE=$(ls $OUTPUT/${package}-${version}-*-${build}*.tgz 2>/dev/null)
+    PACKAGE=$(ls $OUTPUT/${package}-${version}-*-${build}*.txz 2>/dev/null)
     if [ -f "$PACKAGE" ]; then
       upgradepkg --install-new --reinstall "$PACKAGE"
     else
