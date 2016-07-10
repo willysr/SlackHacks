@@ -68,6 +68,7 @@ tier3/ktextwidgets \
 tier3/kxmlgui \
 tier3/kbookmarks \
 tier3/kio \
+tier3/knotifyconfig \
   ; do
   # Get the package name
   package=$(echo $dir | cut -f2- -d /)
