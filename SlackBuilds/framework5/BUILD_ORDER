@@ -22,6 +22,7 @@ kdbusaddons
 kcoreaddons
 kimageformats (not provided)
 ki18n
+kdnssd (not provided)
 networkmanager-qt (not provided)
 modemmanager-qt (not provided)
 bluez-qt (not provided)
@@ -29,18 +30,17 @@ kwayland (not provided)
 # Tier 2, depends on Tier 1, Qt5, system libraries:
 kauth
 kcrash
-kglobalaccel
 kjobwidgets
 kcompletion
 kdoctools
 kpackage (not provided)
-kdnssd (not provided)
 kunitconversion (not provided)
 kpty (not provided)
 kfilemetadata5
 # Tier 3, depends on Tier 1 and 2, Qt5, system libraries:
 kconfigwidgets
 kservice
+kglobalaccel
 kiconthemes
 kwallet (not provided)
 kemoticons (not provided)

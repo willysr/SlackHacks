@@ -56,13 +56,13 @@ tier1/kcoreaddons \
 tier1/ki18n \
 tier2/kauth \
 tier2/kcrash \
-tier2/kglobalaccel \
 tier2/kjobwidgets \
 tier2/kcompletion \
 tier2/kdoctools \
 tier2/kfilemetadata5 \
 tier3/kconfigwidgets \
 tier3/kservice \
+tier3/kglobalaccel \
 tier3/kiconthemes \
 tier3/ktextwidgets \
 tier3/kxmlgui \
