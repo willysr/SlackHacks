@@ -76,7 +76,7 @@ tier3/knotifyconfig \
   # Change to package directory
   cd $F5ROOT/$dir || exit 1
   . ./${package}.info
-  wget $DOWNLOAD
+  wget -c $DOWNLOAD
 
   # Get the version
   version=$(cat ${package}.SlackBuild | grep "VERSION:" | head -n1 | cut -d "-" -f2 | rev | cut -c 2- | rev)
