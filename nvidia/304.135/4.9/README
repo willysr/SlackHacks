@@ -1,0 +1,16 @@
+You need to rebuilt your kernel using this mtrr.patch in order to build NVidia 304.135
+
+go to /usr/src/linux-4.9.26
+patch -p1 < /path/to/mtrr.patch
+cp /boot/config-generic-smp-4.9.26-smp .config
+make oldconfig
+make bzImage
+cp arch/x86/boot/bzImage /boot/vmlinuz-generic-smp-4.9.26-smp
+/sbin/lilo -v
+reboot
+
+Patch NVidia Driver
+NVIDIA-Linux-x86-304.135 --extract-only
+cd NVIDIA-Linux-x86-304.135
+patch -p1 < /path/kernel-4.9.patch
+./nvidia-installer
