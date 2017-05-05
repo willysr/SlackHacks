@@ -1,0 +1,13 @@
+vmmon-only/linux/hostif.c, around line 1594, change
+unsigned int anonPages = global_page_state(NR_ANON_PAGES);
+to
+unsigned int anonPages = global_page_state(NR_ANON_MAPPED);
+
+vmnet-only/netif.c
+comment this line:
+dev->trans_start = jiffies;
+
+apply this patch
+https://aur.archlinux.org/cgit/aur.git/tree/vmnet-12.5.2-4.9.patch?h=vmware-patch
+https://aur.archlinux.org/cgit/aur.git/tree/vmmon-12.5.2-4.9.patch?h=vmware-patch
+
