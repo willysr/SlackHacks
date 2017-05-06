@@ -1,0 +1,24 @@
+vmnet-only/userif.c
+Add this line
+#include <linux/sched/signal.h>
+
+vmmon-only/linux/driver.c
+Change
+static int LinuxDriverFault(struct vm_area_struct *vma, struct vm_fault *fault);
+into
+static int LinuxDriverFault(struct vm_fault *fault);
+
+change
+static int LinuxDriverFault(struct vm_area_struct *vma, //IN
+                            struct vm_fault *fault)     //IN/OUT
+into
+static int LinuxDriverFault(struct vm_fault *fault)     //IN/OUT
+
+change
+VMLinux *vmLinux = (VMLinux *) vma->vm_file->private_data;
+into
+VMLinux *vmLinux = (VMLinux *) fault->vma->vm_file->private_data;
+
+vmmon-only/linux/hostif.c
+Add this line
+#include <linux/sched/signal.h>
