@@ -20,7 +20,7 @@ SLACKBUILD SHORT DESCRIPTION:  cnijfilter (IJ Printer Driver for Linux)
 
 SLACKBUILD NAME: digikam5
 SLACKBUILD LOCATION: ./digikam5
-SLACKBUILD FILES: README digikam-5.6.0.tar.xz digikam5.SlackBuild digikam5.info digikam5.patch doinst.sh slack-desc
+SLACKBUILD FILES: 7e00441c.patch README digikam-5.6.0.tar.xz digikam5.SlackBuild digikam5.info digikam5.patch doinst.sh slack-desc
 SLACKBUILD VERSION: 5.6.0
 SLACKBUILD DOWNLOAD: https://download.kde.org/stable/digikam/digikam-5.6.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
