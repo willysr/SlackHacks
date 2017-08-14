@@ -24,7 +24,7 @@
 
 PRGNAM=attica-qt5
 SRCNAM=attica
-VERSION=${VERSION:-5.36.0}
+VERSION=${VERSION:-5.37.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_wsr}
 

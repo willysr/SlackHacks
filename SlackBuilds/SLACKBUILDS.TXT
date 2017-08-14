@@ -40,311 +40,311 @@ SLACKBUILD SHORT DESCRIPTION:  dynalogin (two-factor authentication)
 
 SLACKBUILD NAME: attica-qt5
 SLACKBUILD LOCATION: ./attica-qt5
-SLACKBUILD FILES: README attica-5.36.0.tar.xz attica-qt5.SlackBuild attica-qt5.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/attica-5.36.0.tar.xz
+SLACKBUILD FILES: README attica-5.37.0.tar.xz attica-qt5.SlackBuild attica-qt5.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/attica-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 5b9d45e8a882043e4d4391fb139dac74
+SLACKBUILD MD5SUM: b6c54ce0f87384c070e3dfb5488380c5
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  attica-qt5 (Open Collaboration API)
 
 SLACKBUILD NAME: extra-cmake-modules
 SLACKBUILD LOCATION: ./extra-cmake-modules
-SLACKBUILD FILES: README extra-cmake-modules-5.36.0.tar.xz extra-cmake-modules.SlackBuild extra-cmake-modules.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/extra-cmake-modules-5.36.0.tar.xz
+SLACKBUILD FILES: README extra-cmake-modules-5.37.0.tar.xz extra-cmake-modules.SlackBuild extra-cmake-modules.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/extra-cmake-modules-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 30c63be84a5bbbf38ebda1f666085fb2
+SLACKBUILD MD5SUM: 29883c1580c5b9e4c736a138fc832e1a
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  extra-cmake-modules (extra cmake modules)
 
 SLACKBUILD NAME: karchive
 SLACKBUILD LOCATION: ./karchive
-SLACKBUILD FILES: README karchive-5.36.0.tar.xz karchive.SlackBuild karchive.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/karchive-5.36.0.tar.xz
+SLACKBUILD FILES: README karchive-5.37.0.tar.xz karchive.SlackBuild karchive.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/karchive-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 509d9adf69ed388ab0c618a0ae6e37ee
+SLACKBUILD MD5SUM: 141bf68d72d41056b1d1485da8a47a9e
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  karchive (Qt5 AddOns)
 
 SLACKBUILD NAME: kcodecs
 SLACKBUILD LOCATION: ./kcodecs
-SLACKBUILD FILES: README kcodecs-5.36.0.tar.xz kcodecs.SlackBuild kcodecs.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/kcodecs-5.36.0.tar.xz
+SLACKBUILD FILES: README kcodecs-5.37.0.tar.xz kcodecs.SlackBuild kcodecs.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/kcodecs-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 71e596b9d9a23fe23db586394e029ad9
+SLACKBUILD MD5SUM: 8d85c7e7e8fcafd111ee4926160c60e4
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kcodecs (string manipulation methods)
 
 SLACKBUILD NAME: kconfig
 SLACKBUILD LOCATION: ./kconfig
-SLACKBUILD FILES: README kconfig-5.36.0.tar.xz kconfig.SlackBuild kconfig.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/kconfig-5.36.0.tar.xz
+SLACKBUILD FILES: README kconfig-5.37.0.tar.xz kconfig.SlackBuild kconfig.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/kconfig-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 79352591234d65d2b4c4ceef6a159f81
+SLACKBUILD MD5SUM: b25eebcac5447af9435f2effc2f566ce
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kconfig (configuration system)
 
 SLACKBUILD NAME: kcoreaddons
 SLACKBUILD LOCATION: ./kcoreaddons
-SLACKBUILD FILES: README doinst.sh kcoreaddons-5.36.0.tar.xz kcoreaddons.SlackBuild kcoreaddons.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/kcoreaddons-5.36.0.tar.xz
+SLACKBUILD FILES: README doinst.sh kcoreaddons-5.37.0.tar.xz kcoreaddons.SlackBuild kcoreaddons.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/kcoreaddons-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: bd9aeb46ccee0bea7c5db551ce57880c
+SLACKBUILD MD5SUM: 76bf9525d2eebf95fbc4dde189b7dc74
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kcoreaddons (Qt AddOns)
 
 SLACKBUILD NAME: kdbusaddons
 SLACKBUILD LOCATION: ./kdbusaddons
-SLACKBUILD FILES: README kdbusaddons-5.36.0.tar.xz kdbusaddons.SlackBuild kdbusaddons.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/kdbusaddons-5.36.0.tar.xz
+SLACKBUILD FILES: README kdbusaddons-5.37.0.tar.xz kdbusaddons.SlackBuild kdbusaddons.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/kdbusaddons-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: acf1dfd56ed838a324ec8bd17524cbae
+SLACKBUILD MD5SUM: 2697c6440c566da94341f4bc3bf3164c
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kdbusaddons (QtDBus AddOns)
 
 SLACKBUILD NAME: kguiaddons
 SLACKBUILD LOCATION: ./kguiaddons
-SLACKBUILD FILES: README kguiaddons-5.36.0.tar.xz kguiaddons.SlackBuild kguiaddons.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/kguiaddons-5.36.0.tar.xz
+SLACKBUILD FILES: README kguiaddons-5.37.0.tar.xz kguiaddons.SlackBuild kguiaddons.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/kguiaddons-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: c65ca0ab165e6c01fc2e7a0993526053
+SLACKBUILD MD5SUM: a395b2479d99128cba078c3a1299a566
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kguiaddons (QtGui Addons)
 
 SLACKBUILD NAME: ki18n
 SLACKBUILD LOCATION: ./ki18n
-SLACKBUILD FILES: README ki18n-5.36.0.tar.xz ki18n.SlackBuild ki18n.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/ki18n-5.36.0.tar.xz
+SLACKBUILD FILES: README ki18n-5.37.0.tar.xz ki18n.SlackBuild ki18n.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/ki18n-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: cf50f5b6f1d927148bfd1d456a9426ca
+SLACKBUILD MD5SUM: 97bdebb717431b400add03d60484db72
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  ki18n (Internationalization Framework)
 
 SLACKBUILD NAME: kidletime
 SLACKBUILD LOCATION: ./kidletime
-SLACKBUILD FILES: README kidletime-5.36.0.tar.xz kidletime.SlackBuild kidletime.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/kidletime-5.36.0.tar.xz
+SLACKBUILD FILES: README kidletime-5.37.0.tar.xz kidletime.SlackBuild kidletime.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/kidletime-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: b5f18934e03eb0260d68f2db61654043
+SLACKBUILD MD5SUM: e070c69d7785532d0671a077e3cc370f
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kidletime (User Activity Monitoring)
 
 SLACKBUILD NAME: kitemviews
 SLACKBUILD LOCATION: ./kitemviews
-SLACKBUILD FILES: README kitemviews-5.36.0.tar.xz kitemviews.SlackBuild kitemviews.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/kitemviews-5.36.0.tar.xz
+SLACKBUILD FILES: README kitemviews-5.37.0.tar.xz kitemviews.SlackBuild kitemviews.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/kitemviews-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 04c06d90b5c6d0ba4fcf2de363a9e450
+SLACKBUILD MD5SUM: 062bfca05e8bb81fa8eb360c6944d75f
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kitemviews (Widget AddOns)
 
 SLACKBUILD NAME: kwidgetsaddons
 SLACKBUILD LOCATION: ./kwidgetsaddons
-SLACKBUILD FILES: README kwidgetsaddons-5.36.0.tar.xz kwidgetsaddons.SlackBuild kwidgetsaddons.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/kwidgetsaddons-5.36.0.tar.xz
+SLACKBUILD FILES: README kwidgetsaddons-5.37.0.tar.xz kwidgetsaddons.SlackBuild kwidgetsaddons.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/kwidgetsaddons-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 5b055d6eba258d03064cb7bbf247523c
+SLACKBUILD MD5SUM: 70161280f8e10ac69fc7d334a8531fdd
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kwidgetsaddons (QtWidgets AddOns)
 
 SLACKBUILD NAME: kwindowsystem
 SLACKBUILD LOCATION: ./kwindowsystem
-SLACKBUILD FILES: README kwindowsystem-5.36.0.tar.xz kwindowsystem.SlackBuild kwindowsystem.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/kwindowsystem-5.36.0.tar.xz
+SLACKBUILD FILES: README kwindowsystem-5.37.0.tar.xz kwindowsystem.SlackBuild kwindowsystem.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/kwindowsystem-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 20af029d14d4e897c26223f4352fd2c9
+SLACKBUILD MD5SUM: 05864840b694d3a587590c38e2170df0
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kwindowsystem (windowing system access)
 
 SLACKBUILD NAME: solid
 SLACKBUILD LOCATION: ./solid
-SLACKBUILD FILES: README slack-desc solid-5.36.0.tar.xz solid.SlackBuild solid.info
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/solid-5.36.0.tar.xz
+SLACKBUILD FILES: README slack-desc solid-5.37.0.tar.xz solid.SlackBuild solid.info
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/solid-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 361c1e98bb8c7d60c7bc743d639e7888
+SLACKBUILD MD5SUM: edf069c6ea563318ae710a36d55af35a
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  solid (Hardware Integration)
 
 SLACKBUILD NAME: sonnet
 SLACKBUILD LOCATION: ./sonnet
-SLACKBUILD FILES: README slack-desc sonnet-5.36.0.tar.xz sonnet.SlackBuild sonnet.info
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/sonnet-5.36.0.tar.xz
+SLACKBUILD FILES: README slack-desc sonnet-5.37.0.tar.xz sonnet.SlackBuild sonnet.info
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/sonnet-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 06e49a720e9d8f7e79142638a978580a
+SLACKBUILD MD5SUM: 3e2a53802d204bc73d975fd769cbdae2
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  sonnet (Spelling Framework)
 
 SLACKBUILD NAME: threadweaver
 SLACKBUILD LOCATION: ./threadweaver
-SLACKBUILD FILES: README slack-desc threadweaver-5.36.0.tar.xz threadweaver.SlackBuild threadweaver.info
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/threadweaver-5.36.0.tar.xz
+SLACKBUILD FILES: README slack-desc threadweaver-5.37.0.tar.xz threadweaver.SlackBuild threadweaver.info
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/threadweaver-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 54e569f32cc43a95c0f1ab413c0acac2
+SLACKBUILD MD5SUM: bd38a5cc79c9f2dc8e7f0fcf7df482c9
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  threadweaver (multithreading framework)
 
 SLACKBUILD NAME: kauth
 SLACKBUILD LOCATION: ./kauth
-SLACKBUILD FILES: README kauth-5.36.0.tar.xz kauth.SlackBuild kauth.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/kauth-5.36.0.tar.xz
+SLACKBUILD FILES: README kauth-5.37.0.tar.xz kauth.SlackBuild kauth.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/kauth-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 2b86a68ac78057345a9727f0adf43d24
+SLACKBUILD MD5SUM: ed6136acf490dcdaa145e09f2f517338
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kauth (System Policy and authentication)
 
 SLACKBUILD NAME: kcompletion
 SLACKBUILD LOCATION: ./kcompletion
-SLACKBUILD FILES: README kcompletion-5.36.0.tar.xz kcompletion.SlackBuild kcompletion.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/kcompletion-5.36.0.tar.xz
+SLACKBUILD FILES: README kcompletion-5.37.0.tar.xz kcompletion.SlackBuild kcompletion.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/kcompletion-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: c7c4f35dc45abd3603ab654020f2c1d1
+SLACKBUILD MD5SUM: b0efe7abac21241f3b5933c5b1ddb8ef
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kcompletion (Text Completion Helpers)
 
 SLACKBUILD NAME: kcrash
 SLACKBUILD LOCATION: ./kcrash
-SLACKBUILD FILES: README kcrash-5.36.0.tar.xz kcrash.SlackBuild kcrash.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/kcrash-5.36.0.tar.xz
+SLACKBUILD FILES: README kcrash-5.37.0.tar.xz kcrash.SlackBuild kcrash.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/kcrash-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: bdbe144c7c086e60206f097bfc3703d8
+SLACKBUILD MD5SUM: 34d013abaaae22b45a46956997b0b82c
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kcrash (crash analysis)
 
 SLACKBUILD NAME: kdoctools
 SLACKBUILD LOCATION: ./kdoctools
-SLACKBUILD FILES: README kdoctools-5.36.0.tar.xz kdoctools.SlackBuild kdoctools.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/kdoctools-5.36.0.tar.xz
+SLACKBUILD FILES: README kdoctools-5.37.0.tar.xz kdoctools.SlackBuild kdoctools.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/kdoctools-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 9dc994e1b9e1cf4eac1b3089e993c03d
+SLACKBUILD MD5SUM: fe3f523474c3e65a86884b3e88a18d2a
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kdoctools (documentation generator)
 
 SLACKBUILD NAME: kfilemetadata5
 SLACKBUILD LOCATION: ./kfilemetadata5
-SLACKBUILD FILES: README kfilemetadata-5.36.0.tar.xz kfilemetadata5.SlackBuild kfilemetadata5.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/kfilemetadata-5.36.0.tar.xz
+SLACKBUILD FILES: README kfilemetadata-5.37.0.tar.xz kfilemetadata5.SlackBuild kfilemetadata5.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/kfilemetadata-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: ba71dfba018fa1714963a4db07c99aee
+SLACKBUILD MD5SUM: 438fe87d54d35f99a71a61cf3b8a9944
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kfilemetadata5 (Metadata extracting library)
 
 SLACKBUILD NAME: kjobwidgets
 SLACKBUILD LOCATION: ./kjobwidgets
-SLACKBUILD FILES: README kjobwidgets-5.36.0.tar.xz kjobwidgets.SlackBuild kjobwidgets.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/kjobwidgets-5.36.0.tar.xz
+SLACKBUILD FILES: README kjobwidgets-5.37.0.tar.xz kjobwidgets.SlackBuild kjobwidgets.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/kjobwidgets-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 5c53678ceb2c2c6f868ccd1a93e4ddc9
+SLACKBUILD MD5SUM: 8c5f7d0160aadeb1392e44315bd3c706
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kjobwidgets (KJob Tracking Widget)
 
 SLACKBUILD NAME: kbookmarks
 SLACKBUILD LOCATION: ./kbookmarks
-SLACKBUILD FILES: README kbookmarks-5.36.0.tar.xz kbookmarks.SlackBuild kbookmarks.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/kbookmarks-5.36.0.tar.xz
+SLACKBUILD FILES: README kbookmarks-5.37.0.tar.xz kbookmarks.SlackBuild kbookmarks.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/kbookmarks-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 8ee693c4ae47dce50e513cae00593d75
+SLACKBUILD MD5SUM: da82f6881e3b1de522b0ca6ce80c7634
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kbookmarks (Bookmark Support)
 
 SLACKBUILD NAME: kconfigwidgets
 SLACKBUILD LOCATION: ./kconfigwidgets
-SLACKBUILD FILES: README kconfigwidgets-5.36.0.tar.xz kconfigwidgets.SlackBuild kconfigwidgets.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/kconfigwidgets-5.36.0.tar.xz
+SLACKBUILD FILES: README kconfigwidgets-5.37.0.tar.xz kconfigwidgets.SlackBuild kconfigwidgets.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/kconfigwidgets-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 47f7c6f667b077e19a2154f9ca96a993
+SLACKBUILD MD5SUM: e13440e05800f7187c7e98eb6babfa96
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kconfigwidgets (widgets for KConfig)
 
 SLACKBUILD NAME: kglobalaccel
 SLACKBUILD LOCATION: ./kglobalaccel
-SLACKBUILD FILES: README kglobalaccel-5.36.0.tar.xz kglobalaccel.SlackBuild kglobalaccel.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/kglobalaccel-5.36.0.tar.xz
+SLACKBUILD FILES: README kglobalaccel-5.37.0.tar.xz kglobalaccel.SlackBuild kglobalaccel.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/kglobalaccel-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 2e48a4c3d6db9215e18ba79737e5419b
+SLACKBUILD MD5SUM: 36bf35d34827bb6b78c7b4cb8be3c554
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kglobalaccel (Workspace Shortcuts)
 
 SLACKBUILD NAME: kiconthemes
 SLACKBUILD LOCATION: ./kiconthemes
-SLACKBUILD FILES: README kiconthemes-5.36.0.tar.xz kiconthemes.SlackBuild kiconthemes.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/kiconthemes-5.36.0.tar.xz
+SLACKBUILD FILES: README kiconthemes-5.37.0.tar.xz kiconthemes.SlackBuild kiconthemes.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/kiconthemes-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 2ed7f444fee9475a9c10f55df000828b
+SLACKBUILD MD5SUM: 47babcad619664866c880623fd86ff2f
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kiconthemes (Icon Themes)
 
 SLACKBUILD NAME: kio
 SLACKBUILD LOCATION: ./kio
-SLACKBUILD FILES: README kio-5.36.0.tar.xz kio.SlackBuild kio.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/kio-5.36.0.tar.xz
+SLACKBUILD FILES: README kio-5.37.0.tar.xz kio.SlackBuild kio.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/kio-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: f59187ad0967a046c4e472f9058bd02d
+SLACKBUILD MD5SUM: 6d46bb8e26222e3c68a60611c62cd298
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kio (Resource Abstraction)
 
 SLACKBUILD NAME: knotifyconfig
 SLACKBUILD LOCATION: ./knotifyconfig
-SLACKBUILD FILES: README knotifyconfig-5.36.0.tar.xz knotifyconfig.SlackBuild knotifyconfig.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/knotifyconfig-5.36.0.tar.xz
+SLACKBUILD FILES: README knotifyconfig-5.37.0.tar.xz knotifyconfig.SlackBuild knotifyconfig.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/knotifyconfig-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: a204fa266ddd15e68d745919e005d8ab
+SLACKBUILD MD5SUM: 10db039a62f903c42ddbe762fcef13b1
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  knotifyconfig (Configuration System)
 
 SLACKBUILD NAME: kservice
 SLACKBUILD LOCATION: ./kservice
-SLACKBUILD FILES: README kservice-5.36.0.tar.xz kservice.SlackBuild kservice.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/kservice-5.36.0.tar.xz
+SLACKBUILD FILES: README kservice-5.37.0.tar.xz kservice.SlackBuild kservice.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/kservice-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: c2903ab8cd2d4ecbde8be3a57f1607ad
+SLACKBUILD MD5SUM: d2d343de16c69c7b5d8c492fefa3115f
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kservice (system service)
 
 SLACKBUILD NAME: ktextwidgets
 SLACKBUILD LOCATION: ./ktextwidgets
-SLACKBUILD FILES: README ktextwidgets-5.36.0.tar.xz ktextwidgets.SlackBuild ktextwidgets.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/ktextwidgets-5.36.0.tar.xz
+SLACKBUILD FILES: README ktextwidgets-5.37.0.tar.xz ktextwidgets.SlackBuild ktextwidgets.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/ktextwidgets-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 21ccdcec5a0377defc35360d33fa4b3a
+SLACKBUILD MD5SUM: deda1b1ac51fe9e4859bafb7c0144133
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  ktextwidgets (Advanced Widgets)
 
 SLACKBUILD NAME: kxmlgui
 SLACKBUILD LOCATION: ./kxmlgui
-SLACKBUILD FILES: README kxmlgui-5.36.0.tar.xz kxmlgui.SlackBuild kxmlgui.info slack-desc
-SLACKBUILD VERSION: 5.36.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.36/kxmlgui-5.36.0.tar.xz
+SLACKBUILD FILES: README kxmlgui-5.37.0.tar.xz kxmlgui.SlackBuild kxmlgui.info slack-desc
+SLACKBUILD VERSION: 5.37.0
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.37/kxmlgui-5.37.0.tar.xz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 07eedff202e8180f8b4204f44e424b6c
+SLACKBUILD MD5SUM: ef28a72da7beffaef6dfcaebcb509d30
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kxmlgui (Main Window Configuration)
 
