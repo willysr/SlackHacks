@@ -1,0 +1,7 @@
+You need to patch your NVIdia driver 304.137 with NVIDIA-4.14.patch in order to work with Linux Kernel 4.14.x
+
+Patch NVidia Driver
+NVIDIA-Linux-x86-304.137 --extract-only
+cd NVIDIA-Linux-x86-304.137
+patch -p0 < /path/NVIDIA-4.14.patch
+./nvidia-installer

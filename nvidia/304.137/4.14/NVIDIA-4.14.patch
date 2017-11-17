@@ -1,0 +1,19 @@
+--- kernel/nv-drm.c	2017-09-21 12:58:23.901972670 +0200
++++ kernel/nv-drm.c	2017-09-21 13:07:32.418269409 +0200
+@@ -173,7 +173,7 @@
+ {
+     int ret = 0;
+ #if defined(NV_DRM_AVAILABLE)
+-    ret = drm_pci_init(&nv_drm_driver, pci_driver);
++    ret = drm_legacy_pci_init(&nv_drm_driver, pci_driver);
+ #endif
+     return ret;
+ }
+@@ -183,7 +183,7 @@
+ )
+ {
+ #if defined(NV_DRM_AVAILABLE)
+-    drm_pci_exit(&nv_drm_driver, pci_driver);
++    drm_legacy_pci_exit(&nv_drm_driver, pci_driver);
+ #endif
+ }
