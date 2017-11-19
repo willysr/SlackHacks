@@ -1,0 +1,7 @@
+cd /usr/lib/vmware/modules/source/
+wget https://raw.githubusercontent.com/mkubecek/vmware-host-modules/fadedd9c8a4dd23f74da2b448572df95666dfe12/vmmon-only/linux/hostif.c
+tar xvf vmmon.tar
+mv hostif.c vmmon-only/linux/hostif.c
+tar cvf vmmon.tar vmmon-only
+rm -fr vmmon-only
+vmware-modconfig --console --install-all
