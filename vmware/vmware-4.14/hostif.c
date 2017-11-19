@@ -3338,3 +3338,4 @@ HostIF_SafeRDMSR(unsigned int msr,   // IN
    return err;
 }
 
+
