@@ -1,0 +1,36 @@
+    diff -urN NVIDIA-Linux-x86_64-384.98/kernel/nvidia/nv.c NVIDIA-Linux-x86_64-384.98-new/kernel/nvidia/nv.c
+    --- NVIDIA-Linux-x86_64-384.98/kernel/nvidia/nv.c	2017-10-26 23:19:51.000000000 +0000
+    +++ NVIDIA-Linux-x86_64-384.98-new/kernel/nvidia/nv.c	2018-01-03 11:11:11.642969571 +0000
+    @@ -40,7 +40,7 @@
+     
+     #if (NV_BUILD_MODULE_INSTANCES != 0)
+     #if defined(MODULE_LICENSE)
+    -MODULE_LICENSE("NVIDIA");
+    +MODULE_LICENSE("GPL");
+     #endif
+     #if defined(MODULE_INFO)
+     MODULE_INFO(supported, "external");
+    diff -urN NVIDIA-Linux-x86_64-384.98/kernel/nvidia/nv-frontend.c NVIDIA-Linux-x86_64-384.98-new/kernel/nvidia/nv-frontend.c
+    --- NVIDIA-Linux-x86_64-384.98/kernel/nvidia/nv-frontend.c	2017-10-26 23:19:52.000000000 +0000
+    +++ NVIDIA-Linux-x86_64-384.98-new/kernel/nvidia/nv-frontend.c	2018-01-03 11:11:34.569635270 +0000
+    @@ -15,7 +15,7 @@
+     #include "nv-frontend.h"
+     
+     #if defined(MODULE_LICENSE)
+    -MODULE_LICENSE("NVIDIA");
+    +MODULE_LICENSE("GPL");
+     #endif
+     #if defined(MODULE_INFO)
+     MODULE_INFO(supported, "external");
+    diff -urN NVIDIA-Linux-x86_64-384.98/kernel/nvidia-modeset/nvidia-modeset-linux.c NVIDIA-Linux-x86_64-384.98-new/kernel/nvidia-modeset/nvidia-modeset-linux.c
+    --- NVIDIA-Linux-x86_64-384.98/kernel/nvidia-modeset/nvidia-modeset-linux.c	2017-10-26 23:19:56.000000000 +0000
+    +++ NVIDIA-Linux-x86_64-384.98-new/kernel/nvidia-modeset/nvidia-modeset-linux.c	2018-01-03 11:12:20.209633345 +0000
+    @@ -1309,7 +1309,7 @@
+     module_exit(nvkms_exit);
+     
+     #if defined(MODULE_LICENSE)
+    -  MODULE_LICENSE("NVIDIA");
+    +  MODULE_LICENSE("GPL");
+     #endif
+     #if defined(MODULE_INFO)
+       MODULE_INFO(supported, "external");
