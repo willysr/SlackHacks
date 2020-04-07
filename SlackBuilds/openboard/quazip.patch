@@ -1,6 +1,6 @@
---- OpenBoard-1.5.3/OpenBoard.pro	2019-04-10 09:04:25.000000000 +0200
-+++ OpenBoard-1.5.3-quazip/OpenBoard.pro	2019-04-12 08:54:40.265598779 +0200
-@@ -71,9 +71,7 @@
+--- OpenBoard-1.6.0a/OpenBoard.pro.orig	2020-04-07 08:25:47.015291094 +0700
++++ OpenBoard-1.6.0a/OpenBoard.pro	2020-04-07 08:26:15.093547854 +0700
+@@ -72,9 +72,7 @@
  INCLUDEPATH += plugins/cffadaptor/src
  
  #ThirdParty
@@ -11,9 +11,9 @@
  
  FORMS += resources/forms/mainWindow.ui \
     resources/forms/preferences.ui \
---- OpenBoard-1.5.3/plugins/cffadaptor/UBCFFAdaptor.pro	2019-04-10 09:04:25.000000000 +0200
-+++ OpenBoard-1.5.3-quazip/plugins/cffadaptor/UBCFFAdaptor.pro	2019-04-12 08:53:45.622844493 +0200
-@@ -39,7 +38,7 @@
+--- OpenBoard-1.6.0a/plugins/cffadaptor/UBCFFAdaptor.pro.orig	2020-04-07 08:26:29.240677360 +0700
++++ OpenBoard-1.6.0a/plugins/cffadaptor/UBCFFAdaptor.pro	2020-04-07 08:27:03.695993158 +0700
+@@ -39,7 +39,7 @@
      QMAKE_POST_LINK += bash postScript_mac.sh "$$DESTDIR" "$$SANKORE_DIR/$$BUILD_DIR/product/Open-Sankore.app/Contents/MacOS"
  }
  
@@ -22,14 +22,22 @@
  
  QT       += xml xmlpatterns core
  QT       += gui
-@@ -51,9 +50,7 @@
+@@ -51,10 +51,7 @@
  
  INCLUDEPATH += src
  
 -DEPENDPATH  += $$THIRD_PARTY_PATH/quazip/
 -INCLUDEPATH += $$THIRD_PARTY_PATH/quazip/
 -include($$THIRD_PARTY_PATH/quazip/quazip.pri)
+-
 +INCLUDEPATH += /usr/include/quazip5/
  
- 
  SOURCES += \
+     src/UBCFFAdaptor.cpp
+@@ -66,4 +63,4 @@
+     src/UBCFFConstants.h
+ 
+ RESOURCES += \
+-    resources/resources.qrc
+\ No newline at end of file
++    resources/resources.qrc
