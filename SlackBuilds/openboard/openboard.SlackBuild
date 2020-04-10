@@ -74,6 +74,9 @@ find -L . \
 patch -p1 < $CWD/quazip.patch
 patch -p1 < $CWD/drop_repo.patch
 
+#remove swf-file causing crash from source
+rm resources/library/animations/*.swf
+
 qmake-qt5 OpenBoard.pro -spec linux-g++
 make
 
@@ -87,10 +90,10 @@ cp -rp build/linux/release/product/OpenBoard $PKG/opt/openboard/
 
 install -D -m 644 $CWD/openboard.desktop $PKG/usr/share/applications/openboard.desktop
 (
-  cd $PKG/usr/bin 
+  cd $PKG/usr/bin
   ln -s /opt/openboard/OpenBoard $PKG/usr/bin/openboard
 )
-  
+
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 
