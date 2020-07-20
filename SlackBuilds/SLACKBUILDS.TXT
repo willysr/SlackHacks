@@ -430,11 +430,11 @@ SLACKBUILD SHORT DESCRIPTION:  nixnote (Open Source Client for Evernote)
 
 SLACKBUILD NAME: openboard
 SLACKBUILD LOCATION: ./openboard
-SLACKBUILD FILES: OpenBoard-1.5.4.tar.gz README doinst.sh drop_repo.patch openboard.SlackBuild openboard.desktop openboard.info poppler.patch qchar.patch quazip.patch qwebkit.patch slack-desc
-SLACKBUILD VERSION: 1.5.4
-SLACKBUILD DOWNLOAD: https://github.com/OpenBoard-org/OpenBoard/archive/v1.5.4/OpenBoard-1.5.4.tar.gz
+SLACKBUILD FILES: README doinst.sh drop_repo.patch openboard.SlackBuild openboard.desktop openboard.info quazip.patch slack-desc
+SLACKBUILD VERSION: 1.6.0a3
+SLACKBUILD DOWNLOAD: https://github.com/OpenBoard-org/OpenBoard/archive/v1.6.0a3/OpenBoard-1.6.0a3.tar.gz
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 6eb3a76c7ac58f3f45c879b2f305d4b6
+SLACKBUILD MD5SUM: 01e94648e788a9ff4d35b334b8f333bb
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  openboard (Interactive whiteboard)
 

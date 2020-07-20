@@ -1,16 +1,3 @@
---- OpenBoard-1.6.0a/OpenBoard.pro.orig	2020-04-07 08:25:47.015291094 +0700
-+++ OpenBoard-1.6.0a/OpenBoard.pro	2020-04-07 08:26:15.093547854 +0700
-@@ -72,9 +72,7 @@
- INCLUDEPATH += plugins/cffadaptor/src
- 
- #ThirdParty
--DEPENDPATH += $$THIRD_PARTY_PATH/quazip/
--INCLUDEPATH += $$THIRD_PARTY_PATH/quazip/
--include($$THIRD_PARTY_PATH/quazip/quazip.pri)
-+INCLUDEPATH += /usr/include/quazip5/
- 
- FORMS += resources/forms/mainWindow.ui \
-    resources/forms/preferences.ui \
 --- OpenBoard-1.6.0a/plugins/cffadaptor/UBCFFAdaptor.pro.orig	2020-04-07 08:26:29.240677360 +0700
 +++ OpenBoard-1.6.0a/plugins/cffadaptor/UBCFFAdaptor.pro	2020-04-07 08:27:03.695993158 +0700
 @@ -39,7 +39,7 @@
@@ -41,3 +28,14 @@
 -    resources/resources.qrc
 \ No newline at end of file
 +    resources/resources.qrc
+--- OpenBoard-1.6.0a3/OpenBoard.pro.orig	2020-07-20 08:23:09.859918480 +0700
++++ OpenBoard-1.6.0a3/OpenBoard.pro	2020-07-20 08:23:17.762002419 +0700
+@@ -434,7 +434,7 @@
+     #LIBS += -lprofiler
+     LIBS += -lX11
+     LIBS += -lquazip5
+-    INCLUDEPATH += "/usr/include/quazip"
++    INCLUDEPATH += "/usr/include/quazip5"
+ 
+     LIBS += -lpoppler
+     INCLUDEPATH += "/usr/include/poppler"
