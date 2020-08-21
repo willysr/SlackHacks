@@ -438,6 +438,16 @@ SLACKBUILD MD5SUM: 01e94648e788a9ff4d35b334b8f333bb
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  openboard (Interactive whiteboard)
 
+SLACKBUILD NAME: pulseeffects
+SLACKBUILD LOCATION: ./pulseeffects
+SLACKBUILD FILES: README doinst.sh pulseeffects-4.8.0.tar.gz pulseeffects.SlackBuild pulseeffects.info slack-desc
+SLACKBUILD VERSION: 4.8.0
+SLACKBUILD DOWNLOAD: https://github.com/wwmm/pulseeffects/archive/v4.8.0/pulseeffects-4.8.0.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 5fe6495184b69ad287f48f4ec51213f6
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  pulseeffects (Audio effects for Pulseaudio applications)
+
 SLACKBUILD NAME: sysprof
 SLACKBUILD LOCATION: ./sysprof
 SLACKBUILD FILES: README doinst.sh slack-desc sysprof.SlackBuild sysprof.desktop sysprof.info
