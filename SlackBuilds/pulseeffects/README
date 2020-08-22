@@ -1,1 +1,3 @@
 pulseeffects provides Audio effects for Pulseaudio applications.
+
+NOTE: gst-plugins-bad must be installed/recompiled last to detect all other dependencies.
