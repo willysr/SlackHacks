@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=zamdynamiceq
+GenericName=Dynamic Equalizer
+Comment=A dynamic equalizer that changes its gain based on detecting a narrow band of frequencies.
+Exec=ZamDynamicEQ
+Icon=com.zamaudio.zamdynamiceq
+Terminal=false
+StartupNotify=false
+Categories=Application;

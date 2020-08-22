@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=zamheadx2
+GenericName=HRTF Acoustic Filtering
+Comment=HRTF acoustic filtering plugin for directional sound.
+Exec=ZamHeadX2
+Icon=com.zamaudio.zamheadx2
+Terminal=false
+StartupNotify=false
+Categories=Application;Multimedia;

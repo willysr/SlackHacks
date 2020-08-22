@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=zamcompx2
+GenericName=Stereo Compressor
+Comment=Stereo version of ZamComp with knee slew control
+Exec=ZamCompX2
+Icon=com.zamaudio.zamcompx2
+Terminal=false
+StartupNotify=false
+Categories=Application;

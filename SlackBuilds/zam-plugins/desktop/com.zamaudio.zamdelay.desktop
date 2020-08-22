@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=zamdelay
+GenericName=Delay
+Comment=A simple feedback delay unit with sync-to-host BPM feature and filter.
+Exec=ZamDelay
+Icon=com.zamaudio.zamdelay
+Terminal=false
+StartupNotify=false
+Categories=Application;

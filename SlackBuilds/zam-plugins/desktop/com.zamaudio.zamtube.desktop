@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=zamtube
+GenericName=Tube Amplifier
+Comment=Wave digital filter physical model of a triode tube amplifier stage, with modelled tone stacks from real guitar amplifiers
+Exec=ZamTube
+Icon=com.zamaudio.zamtube
+Terminal=false
+StartupNotify=false
+Categories=Application;

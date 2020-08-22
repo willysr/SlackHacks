@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=zamaximx2
+GenericName=Maximizer and brickwall limiter
+Comment=Acts as a brickwall limiter for mastering in its default state, but can also be tweaked to raise the average level as a stereo maximizer without ever clipping
+Exec=ZaMaximX2
+Icon=com.zamaudio.zamaximx2
+Terminal=false
+StartupNotify=false
+Categories=Application;

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=zamgatex2
+GenericName=Stereo Gate
+Comment=Gate plugin for ducking low gain sounds, stereo version.
+Exec=ZamGateX2
+Icon=com.zamaudio.zamgatex2
+Terminal=false
+StartupNotify=false
+Categories=Application;

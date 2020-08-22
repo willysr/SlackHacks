@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=zamautosat
+GenericName=Automatic Saturation
+Comment=An automatic saturation plugin, has been known to provide smooth levelling to live mic channels.
+Exec=ZamAutoSat
+Icon=com.zamaudio.zamautosat
+Terminal=false
+StartupNotify=false
+Categories=Application;

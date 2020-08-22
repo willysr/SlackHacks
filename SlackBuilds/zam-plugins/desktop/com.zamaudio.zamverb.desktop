@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=zamverb
+GenericName=Reverb
+Comment=Reverb
+Exec=ZamVerb
+Icon=com.zamaudio.zamverb
+Terminal=false
+StartupNotify=false
+Categories=Application;

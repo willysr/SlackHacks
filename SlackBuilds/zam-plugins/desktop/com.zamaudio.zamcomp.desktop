@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=zamcomp
+GenericName=Mono Compressor
+Comment=A powerful mono compressor strip
+Exec=ZamComp
+Icon=com.zamaudio.zamcomp
+Terminal=false
+StartupNotify=false
+Categories=Application;

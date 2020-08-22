@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=zamgrains
+GenericName=Granular Synthesizer
+Comment=Granular Synthesizer
+Exec=ZamGrains
+Icon=com.zamaudio.zamgrains
+Terminal=false
+StartupNotify=false
+Categories=Application;AudioVideo;

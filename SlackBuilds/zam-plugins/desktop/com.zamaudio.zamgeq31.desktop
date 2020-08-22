@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=zamgeq31
+GenericName=31 Band Graphic Equalizer
+Comment=31 band graphic equaliser, good for eq of live spaces, removing unwanted noise from a track etc.
+Exec=ZamGEQ31
+Icon=com.zamaudio.zamgeq31
+Terminal=false
+StartupNotify=false
+Categories=Application;

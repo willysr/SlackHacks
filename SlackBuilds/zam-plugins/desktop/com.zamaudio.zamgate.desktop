@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=zamgate
+GenericName=Mono Gate
+Comment=Gate plugin for ducking low gain sounds.
+Exec=ZamGate
+Icon=com.zamaudio.zamgate
+Terminal=false
+StartupNotify=false
+Categories=Application;

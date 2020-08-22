@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=zamulticomp
+GenericName=Mono Multiband Compressor
+Comment=Mono multiband compressor, with 3 adjustable bands.
+Exec=ZaMultiComp
+Icon=com.zamaudio.zamulticomp
+Terminal=false
+StartupNotify=false
+Categories=Application;

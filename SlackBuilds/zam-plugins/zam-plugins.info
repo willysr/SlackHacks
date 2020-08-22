@@ -1,0 +1,12 @@
+PRGNAM="zam-plugins"
+VERSION="3.13"
+HOMEPAGE="https://github.com/wwmm/pulseeffects"
+DOWNLOAD="https://github.com/zamaudio/zam-plugins/archive/3.13/zam-plugins-3.13.tar.gz \
+	  https://github.com/DISTRHO/DPF/archive/08669d1bc30c6e971fde800eade4ca40104ba8b2/DPF-08669d1bc30c6e971fde800eade4ca40104ba8b2.zip"
+MD5SUM="c5f3fad34265e0b5e28e41737ca39228 \
+	e73bdf1a8bb8217d66e76d2911a82253"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""
+REQUIRES="jack ladspa_sdk liblo zita-convolver lv2"
+MAINTAINER="Willy Sudiarto Raharjo"
+EMAIL="willysr@slackbuilds.org"

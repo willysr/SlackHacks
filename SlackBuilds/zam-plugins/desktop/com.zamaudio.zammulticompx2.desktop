@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=zammulticompx2
+Comment=com.zamaudio.zammulticompx2
+Exec=com.zamaudio.zammulticompx2
+Icon=com.zamaudio.zammulticompx2
+Terminal=false
+StartupNotify=false
+Categories=Application;

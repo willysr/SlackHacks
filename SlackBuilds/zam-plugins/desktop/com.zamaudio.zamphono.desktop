@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=zamphono
+GenericName=Phono Filters
+Comment=A collection of phono filters for restoring vinyl records, or preparing to cut new ones.
+Exec=ZamPhono
+Icon=com.zamaudio.zamphono
+Terminal=false
+StartupNotify=false
+Categories=Application;

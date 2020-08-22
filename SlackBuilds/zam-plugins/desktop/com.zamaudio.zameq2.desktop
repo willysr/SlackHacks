@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=zameq2
+GenericName=2 Band Parametric Equalizer
+Comment=Two band parametric equaliser with high and low shelving circuits.
+Exec=ZamEQ2
+Icon=com.zamaudio.zameq2
+Terminal=false
+StartupNotify=false
+Categories=Application;
