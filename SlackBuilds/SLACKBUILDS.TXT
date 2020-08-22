@@ -408,6 +408,16 @@ SLACKBUILD MD5SUM: a0406b94c341c2b52ec0fe98f57cadf3
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  libmusicbrainz5 (MusicBrainz 5 Library)
 
+SLACKBUILD NAME: lsp-plugins
+SLACKBUILD LOCATION: ./lsp-plugins
+SLACKBUILD FILES: README lsp-plugins-1.1.24.tar.gz lsp-plugins.SlackBuild lsp-plugins.info slack-desc
+SLACKBUILD VERSION: 1.1.24
+SLACKBUILD DOWNLOAD: https://github.com/sadko4u/lsp-plugins/archive/lsp-plugins-1.1.24/lsp-plugins-lsp-plugins-1.1.24.tar.gz
+SLACKBUILD DOWNLOAD_x86_64: 
+SLACKBUILD MD5SUM: 9a8900c028b04458ae63af9abab999f3
+SLACKBUILD MD5SUM_x86_64: 
+SLACKBUILD SHORT DESCRIPTION:  lsp-plugins (Linux Studio plugins)
+
 SLACKBUILD NAME: lzlib
 SLACKBUILD LOCATION: ./lzlib
 SLACKBUILD FILES: README lzlib.SlackBuild lzlib.info slack-desc
