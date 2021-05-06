@@ -18,16 +18,6 @@ SLACKBUILD MD5SUM: 609975a05d6050fcca88f312d3f35c6a
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  cnijfilter (IJ Printer Driver for Linux)
 
-SLACKBUILD NAME: digikam5
-SLACKBUILD LOCATION: ./digikam5
-SLACKBUILD FILES: README digikam5.SlackBuild digikam5.info digikam5.patch doinst.sh slack-desc
-SLACKBUILD VERSION: 5.7.0
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/digikam/digikam-5.7.0.tar.xz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 475e85b052c72763ee1103493956bd68
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  digiKam (KDE Photo Management Application)
-
 SLACKBUILD NAME: dynalogin
 SLACKBUILD LOCATION: ./dynalogin
 SLACKBUILD FILES: README doinst.sh dynalogin.SlackBuild dynalogin.info slack-desc
@@ -388,16 +378,6 @@ SLACKBUILD MD5SUM: bf8b7224284f5d3f8ad5235c599fe9e7
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  kvpnc (VPN Client GUI)
 
-SLACKBUILD NAME: libkipi5
-SLACKBUILD LOCATION: ./libkipi5
-SLACKBUILD FILES: README libkipi5.SlackBuild libkipi5.info slack-desc
-SLACKBUILD VERSION: 16.04.2
-SLACKBUILD DOWNLOAD: http://download.kde.org/stable/applications/16.04.2/src/libkipi-16.04.2.tar.xz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 42b949a6d7b1eb9e884e23db314da181
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  libkipi5 (kipi-plugins interface)
-
 SLACKBUILD NAME: libmusicbrainz5
 SLACKBUILD LOCATION: ./libmusicbrainz5
 SLACKBUILD FILES: README libmusicbrainz5-build.patch libmusicbrainz5.SlackBuild libmusicbrainz5.info slack-desc
@@ -418,16 +398,6 @@ SLACKBUILD MD5SUM: 9a8900c028b04458ae63af9abab999f3
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  lsp-plugins (Linux Studio plugins)
 
-SLACKBUILD NAME: lzlib
-SLACKBUILD LOCATION: ./lzlib
-SLACKBUILD FILES: README lzlib.SlackBuild lzlib.info slack-desc
-SLACKBUILD VERSION: 1.5
-SLACKBUILD DOWNLOAD: http://download.savannah.gnu.org/releases/lzip/lzlib-1.5.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 3fbdae5c5a04f9c244b82edf412b00db
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  lzlib (compression library)
-
 SLACKBUILD NAME: nixnote
 SLACKBUILD LOCATION: ./nixnote
 SLACKBUILD FILES: README doinst.sh nixnote.SlackBuild nixnote.info slack-desc
@@ -437,16 +407,6 @@ SLACKBUILD DOWNLOAD_x86_64: http://sourceforge.net/projects/nevernote/files/NixN
 SLACKBUILD MD5SUM: d79e6dde6ec3acd3f973f8469746df25
 SLACKBUILD MD5SUM_x86_64: d3f98f571cc80155313b13e708f23e48
 SLACKBUILD SHORT DESCRIPTION:  nixnote (Open Source Client for Evernote)
-
-SLACKBUILD NAME: openboard
-SLACKBUILD LOCATION: ./openboard
-SLACKBUILD FILES: README doinst.sh openboard.SlackBuild openboard.desktop openboard.info quazip.patch run-in-a-window.patch slack-desc
-SLACKBUILD VERSION: 1.6.1_1102
-SLACKBUILD DOWNLOAD: https://github.com/OpenBoard-org/OpenBoard/archive/v1.6.1a-1102/OpenBoard-1.6.1a-1102.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 9497212b4cf49f126ebed9dc90fd7266
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  openboard (Interactive whiteboard)
 
 SLACKBUILD NAME: pulseeffects
 SLACKBUILD LOCATION: ./pulseeffects
