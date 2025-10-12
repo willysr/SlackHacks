@@ -1,0 +1,16 @@
+WebKitGTK+ is a full-featured port of the WebKit rendering engine,
+suitable for projects requiring any kind of web integration, from
+hybrid HTML/CSS applications to full-fledged web browsers.
+
+It offers WebKit's full functionality and is useful in a wide range
+of systems from desktop computers to embedded systems like phones,
+tablets, and televisions.
+
+NOTE:
+This package builds the 6.0 WebKit API. If you need 4.0 /4.1 WebKit API,
+use webkit2gtk/webkit2gtk4.1. Don't install all at the same time!!
+
+If your application is not working well after upgrading to this
+version, consider adding this environment variable before running
+the application:
+export WEBKIT_DISABLE_COMPOSITING_MODE=1

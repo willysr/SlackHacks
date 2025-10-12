@@ -8,16 +8,6 @@ SLACKBUILD MD5SUM: 0fdc13a62c376c38c45b2929e517f735
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  Brainworkshop (a Dual N-Back game)
 
-SLACKBUILD NAME: cnijfilter
-SLACKBUILD LOCATION: ./cnijfilter
-SLACKBUILD FILES: README cnijfilter.SlackBuild cnijfilter.info fix.patch fix_mg5200_ppd.patch fix_png.patch slack-desc
-SLACKBUILD VERSION: 3.40-1
-SLACKBUILD DOWNLOAD: http://gdlp01.c-wss.com/gds/0/0100003020/01/cnijfilter-source-3.40-1.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 609975a05d6050fcca88f312d3f35c6a
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  cnijfilter (IJ Printer Driver for Linux)
-
 SLACKBUILD NAME: dynalogin
 SLACKBUILD LOCATION: ./dynalogin
 SLACKBUILD FILES: README doinst.sh dynalogin.SlackBuild dynalogin.info slack-desc
@@ -28,103 +18,13 @@ SLACKBUILD MD5SUM: 580b0f3f5827bff06bac8ec8af1b9e50
 SLACKBUILD MD5SUM_x86_64: 
 SLACKBUILD SHORT DESCRIPTION:  dynalogin (two-factor authentication)
 
-SLACKBUILD NAME: gnote
-SLACKBUILD LOCATION: ./gnote
-SLACKBUILD FILES: doinst.sh gnote.SlackBuild gnote.info slack-desc
-SLACKBUILD VERSION: 3.10.1
-SLACKBUILD DOWNLOAD: http://ftp.gnome.org/pub/GNOME/sources/gnote/3.10/gnote-3.10.1.tar.xz
+SLACKBUILD NAME: webkit2gtk6.0
+SLACKBUILD LOCATION: ./webkit2gtk6.0
+SLACKBUILD FILES: 3d5373575695b293b8559155431d0079a6153aff.patch README javascriptcoregtk-6.0.vapi slack-desc unhide-deprecated-api.patch webkit2gtk6.0.SlackBuild webkit2gtk6.0.info webkitgtk-2.50.1.tar.xz webkitgtk-6.0.vapi webkitgtk-web-extension-6.0.vapi
+SLACKBUILD VERSION: 2.50.1
+SLACKBUILD DOWNLOAD: https://www.webkitgtk.org/releases/webkitgtk-2.50.1.tar.xz https://gitlab.gnome.org/GNOME/vala/-/raw/0.56.18/vapi/webkitgtk-6.0.vapi https://gitlab.gnome.org/GNOME/vala/-/raw/0.56.18/vapi/webkitgtk-web-extension-6.0.vapi https://gitlab.gnome.org/GNOME/vala/-/raw/0.56.18/vapi/javascriptcoregtk-6.0.vapi
 SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 2b054209f304295139a79eb2c84de40a
+SLACKBUILD MD5SUM: 10b5b88ffe8611202c45cfdc10a2bd72 fc1c89b53f6dcca9c68e001743f78950 779ed44d239dba2df9a33e57c9c3ee73 66986fdc8962d0d6118839fdc614fc13
 SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  gnote (Note Taking Application)
-
-SLACKBUILD NAME: grive2
-SLACKBUILD LOCATION: ./grive2
-SLACKBUILD FILES: README grive2.SlackBuild grive2.info slack-desc
-SLACKBUILD VERSION: git5dc702
-SLACKBUILD DOWNLOAD: https://github.com/vitalif/grive2/archive/5dc7028c8aebb26d35ed31c4b07ac180cc1887c9.zip
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: f4e6668e9c4802b6d774fa0eacd3f368
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  grive2 (Google Drive client)
-
-SLACKBUILD NAME: httperf
-SLACKBUILD LOCATION: ./httperf
-SLACKBUILD FILES: README httperf.SlackBuild httperf.info slack-desc
-SLACKBUILD VERSION: 0.9.0
-SLACKBUILD DOWNLOAD: https://httperf.googlecode.com/files/httperf-0.9.0.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 2968c36b9ecf3d98fc1f2c1c9c0d9341
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  httperf (http load generator)
-
-SLACKBUILD NAME: kvpnc
-SLACKBUILD LOCATION: ./kvpnc
-SLACKBUILD FILES: README doinst.sh fix-ftbfs-gcc-4.7-667233.patch kvpnc-version-comparison.patch kvpnc.SlackBuild kvpnc.info slack-desc
-SLACKBUILD VERSION: 0.9.6a
-SLACKBUILD DOWNLOAD: http://download.gna.org/kvpnc/kvpnc-0.9.6a-kde4.tar.bz2
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: bf8b7224284f5d3f8ad5235c599fe9e7
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  kvpnc (VPN Client GUI)
-
-SLACKBUILD NAME: libmusicbrainz5
-SLACKBUILD LOCATION: ./libmusicbrainz5
-SLACKBUILD FILES: README libmusicbrainz5-build.patch libmusicbrainz5.SlackBuild libmusicbrainz5.info slack-desc
-SLACKBUILD VERSION: 5.0.1
-SLACKBUILD DOWNLOAD: http://cloud.github.com/downloads/metabrainz/libmusicbrainz/libmusicbrainz-5.0.1.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: a0406b94c341c2b52ec0fe98f57cadf3
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  libmusicbrainz5 (MusicBrainz 5 Library)
-
-SLACKBUILD NAME: lsp-plugins
-SLACKBUILD LOCATION: ./lsp-plugins
-SLACKBUILD FILES: README lsp-plugins-1.1.24.tar.gz lsp-plugins.SlackBuild lsp-plugins.info slack-desc
-SLACKBUILD VERSION: 1.1.24
-SLACKBUILD DOWNLOAD: https://github.com/sadko4u/lsp-plugins/archive/lsp-plugins-1.1.24/lsp-plugins-lsp-plugins-1.1.24.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 9a8900c028b04458ae63af9abab999f3
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  lsp-plugins (Linux Studio plugins)
-
-SLACKBUILD NAME: nixnote
-SLACKBUILD LOCATION: ./nixnote
-SLACKBUILD FILES: README doinst.sh nixnote.SlackBuild nixnote.info slack-desc
-SLACKBUILD VERSION: 1.6
-SLACKBUILD DOWNLOAD: http://sourceforge.net/projects/nevernote/files/NixNote%201.6/nixnote-1.6_i386.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: http://sourceforge.net/projects/nevernote/files/NixNote%201.6/nixnote-1.6_amd64.tar.gz
-SLACKBUILD MD5SUM: d79e6dde6ec3acd3f973f8469746df25
-SLACKBUILD MD5SUM_x86_64: d3f98f571cc80155313b13e708f23e48
-SLACKBUILD SHORT DESCRIPTION:  nixnote (Open Source Client for Evernote)
-
-SLACKBUILD NAME: pulseeffects
-SLACKBUILD LOCATION: ./pulseeffects
-SLACKBUILD FILES: README doinst.sh pulseeffects-4.8.0.tar.gz pulseeffects.SlackBuild pulseeffects.info slack-desc
-SLACKBUILD VERSION: 4.8.0
-SLACKBUILD DOWNLOAD: https://github.com/wwmm/pulseeffects/archive/v4.8.0/pulseeffects-4.8.0.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: 5fe6495184b69ad287f48f4ec51213f6
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  pulseeffects (Audio effects for Pulseaudio applications)
-
-SLACKBUILD NAME: sysprof
-SLACKBUILD LOCATION: ./sysprof
-SLACKBUILD FILES: README doinst.sh slack-desc sysprof.SlackBuild sysprof.desktop sysprof.info
-SLACKBUILD VERSION: 1.2.0
-SLACKBUILD DOWNLOAD: http://sysprof.com/sysprof-1.2.0.tar.gz
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: a81808d847732f8dafb59d26ec2eebbf
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  Sysprof (Performance Profiler)
-
-SLACKBUILD NAME: zam-plugins
-SLACKBUILD LOCATION: ./zam-plugins
-SLACKBUILD FILES: DPF-08669d1bc30c6e971fde800eade4ca40104ba8b2.zip README desktop/com.zamaudio.zamautosat.desktop desktop/com.zamaudio.zamaximx2.desktop desktop/com.zamaudio.zamcomp.desktop desktop/com.zamaudio.zamcompx2.desktop desktop/com.zamaudio.zamdelay.desktop desktop/com.zamaudio.zamdynamiceq.desktop desktop/com.zamaudio.zameq2.desktop desktop/com.zamaudio.zamgate.desktop desktop/com.zamaudio.zamgatex2.desktop desktop/com.zamaudio.zamgeq31.desktop desktop/com.zamaudio.zamgrains.desktop desktop/com.zamaudio.zamheadx2.desktop desktop/com.zamaudio.zammulticompx2.desktop desktop/com.zamaudio.zamphono.desktop desktop/com.zamaudio.zamtube.desktop desktop/com.zamaudio.zamulticomp.desktop desktop/com.zamaudio.zamverb.desktop slack-desc zam-plugins-3.13.tar.gz zam-plugins.SlackBuild zam-plugins.directory zam-plugins.info zam-plugins.menu
-SLACKBUILD VERSION: 3.13
-SLACKBUILD DOWNLOAD: https://github.com/zamaudio/zam-plugins/archive/3.13/zam-plugins-3.13.tar.gz https://github.com/DISTRHO/DPF/archive/08669d1bc30c6e971fde800eade4ca40104ba8b2/DPF-08669d1bc30c6e971fde800eade4ca40104ba8b2.zip
-SLACKBUILD DOWNLOAD_x86_64: 
-SLACKBUILD MD5SUM: c5f3fad34265e0b5e28e41737ca39228 e73bdf1a8bb8217d66e76d2911a82253
-SLACKBUILD MD5SUM_x86_64: 
-SLACKBUILD SHORT DESCRIPTION:  zam-plugins (Audio Plugins)
+SLACKBUILD SHORT DESCRIPTION:  webkit2gtk6.0 (Web content rendering)
 
